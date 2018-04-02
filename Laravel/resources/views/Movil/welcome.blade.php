@@ -56,7 +56,11 @@
             padding: 6%;
             color: white; 
         }
-        
+        #inicio
+        {
+            background-color: #0280A7;
+            padding-bottom: 0.5%;
+        }
     </style>
     <div id="inicio">
         <div class="conte">
@@ -87,8 +91,6 @@
                 </div>
             </div>
         </div>
-        <div class="conte">
-                <img src="Laravel\Recursos\img\Tratamientos\bio.png" alt="">
-        </div>
+        
     </div>
 @stop   

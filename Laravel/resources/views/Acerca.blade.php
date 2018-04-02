@@ -26,54 +26,25 @@
 <body>
 
 <style>
-    body{
-    background-color: #0280A7;
-    overflow-x: hidden;
-    }
+    
     @font-face {
         font-family: brandon_reg;
         src: url(Laravel/Recursos/BRANDON_REG.otf);
-    }
+    }    
     @font-face {
-        font-family: brandon_bold;
-        src: url(Laravel/Recursos/BRANDON_BLD.otf);
-    }
-    #contentedor{
-        background-color: white;
-        width: 100%;
-    }
-    #tableinicio{
-        width: 20%;
-        margin-left: 10%;
-        margin-top: -100px;
-        margin-bottom: 30px;
-    }
-    #imgiback1{
-        width: 70%;
-        margin-left: 10%;
-    }
-    
-    @media screen and (max-width: 1110px){
-
-    }
-
-
-    @media screen and (max-width: 1000px){
-
+        font-family: brandon_light;
+        src: url(Laravel/Recursos/BRANDON_LIGHT.otf);
     }
     .conte{
             padding-top: 2%;
             text-align: center;
         }
-    .conte h2,.conte p,#final li
-    {
-        font-family: brandon_reg;
-    }
-    .conte h2,#interno h2{
+    .conte h2{
         color: #0280A7;
-        font-size: 1vw;
-        font-style: normal;
+        font-size: 1.5vw;
+        font-weight: normal;
     }
+    
     .conte p,.conte li
     {
         color: gray;
@@ -83,6 +54,7 @@
     {
         background-color: white;
             width: 100%;
+        font-family:brandon_light !important;
     }
     .imagen_text{
         position: relative;
@@ -100,9 +72,9 @@
     }
     #prp4g1
     {
-        top: 5%;
-        width: 25%;
-        right: 10%;
+        top: 8.5%;
+        width: 26%;
+        right: 21%;
     }
     #descripcion1
     {
@@ -122,8 +94,11 @@
         color: white;
     }
     #sin_raton{
-        padding: 20%;
+        margin: auto;
+        margin-top: 12%;
+        line-height: 150%;
         text-align: center;
+        
     }
     #con_raton
     {
@@ -158,18 +133,23 @@
     #final h2
     {
         color: #0280A7;
+
+    }
+    #final  ul>h2
+    {
+        text-align: center;
     }
     #final ul
         {
             text-align: left;
             margin: 2%;
         }
-        #final li
+        #final li,#final h2
         {
-            font-size: 1.5vw;
+            font-size: 1vw;
             line-height: 150%;
         }
-        #final li::before {content: "•"; color:grey}
+        #final li::before {content: "•"; color:grey; font-size: 1.5vw;}
     #final
     {
         padding-bottom: 2%;
@@ -179,6 +159,11 @@
         float: none;
         margin: 0 auto;
        }
+    #banner
+    {
+        padding-top: 0;
+    }
+
 
 </style>
 
@@ -187,9 +172,9 @@
 
 @section('content')
     
-<div id="contenedormaestro" class="container-fluid">
+<div id="contenedormaestro" class="">
         <div class="row">
-            <div class="col-md-12 conte">
+            <div id="banner" class="col-md-12 conte">
                 <div class="imagen_text">
                     <img src="Laravel/recursos/img/AcercaDe/Fondo.png" alt="">
                     <div id="prp4g1" class="text-img">
@@ -207,7 +192,7 @@
                        <div class="imagen_text">
                             <img src="Laravel/recursos/img/AcercaDe/Boton.jpg" alt="" > 
                             <div id="interno" class="text-img">
-                                <h2 id="sin_raton">ESPECUALISTAS EN <br>MEDICINA<br>ANTIENVEJECIMIENTO</h2> 
+                                <h2 id="sin_raton">ESPECIALISTAS EN <br>  MEDICINA<br>ANTIENVEJECIMIENTO</h2> 
                                 <p id="con_raton">
                                         Observamos la salud de foma integral y colaboramos con especialistas en todas las áreas de la medicina para lograr el estado óptimo de cada uno de nuestros pacientes. <br>
                                         En Eterna Medical Center te ayudamos a realentizar el proceso de envejecimiento con la mejor tegnología disponible.
@@ -232,12 +217,12 @@
             </div>
         </div>
         <div id="final" class="row ">
-            <div class="col-md-8 col-center">
+            <div class="col-md-5 col-center">
                 <div class="row">
-                    <div class="col-md-6">
-                        <h2>Trayectoria</h2>
+                    <div id="lista1" class="col-md-6">
                         <p>
                             <ul>
+                                    <h2>Trayectoria</h2>
                                 <li>Miembro de American Acadey of Anti-Agin <br>
                                 Medicine(Estados Unidos).</li>
                                 <li> Miembro del colegio NAcional de Medicina <br>
@@ -246,26 +231,27 @@
                                 <li>
                                     Fellowship en Medicina Antienvejecimiento
                                 </li>
-                                <li>Conferencista en el II y III Congreso Mundial de<br>
+                                <li>Conferencista en el II y III Congreso Mundial de
                                      Medicina Antienjecimiento.</li>
                                 <li>
-                                    profesor de Curso Internacional de <br>
+                                    profesor de Curso Internacional de 
                                      Medicina Antienjecimiento. 
                                 </li>
                                 <li>
                                     Profesor de terapia Neuronal y ARP Articular en 
-                                    <br> Certificacion Antienjecimiento.
+                                     Certificacion Antienjecimiento.
                                 </li>
                                 <li>
                                     Profesor de viscosuplementacion articular
                                 </li>
-                                <li>Certificación Internacional de remodelación facial <br>y corporal con hilos PDO.</li>
+                                <li>Certificación Internacional de remodelación facial y corporal con hilos PDO.</li>
 
                             </ul>
                         </p>
                     </div>
-                    <div class="col-md-6"><h2>Experinecia</h2>
+                    <div id="lista2" class="col-md-6">
                     <ul>
+                            <h2>Experiencia</h2>
                         <li>Antienjecimiento Cerebral</li>
                         <li>Antienjecimiento y Nutricion Ortomolecular</li>
                         <li>Aplicación de Peptonas Antienjecimiento</li>

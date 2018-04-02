@@ -42,6 +42,13 @@
    {
        padding-bottom: 10%;
    }
+   @media(orientation:landscape )
+   {
+       .conte .text
+       {
+           font-size: 2.9vw;
+       }
+   }
 </style>
 <div id="contenedormaestro">
     <div id="titulo" class="row">

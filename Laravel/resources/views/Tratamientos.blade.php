@@ -195,7 +195,7 @@
                                 <div id="biocell" class="text-img">
                                     <h1>Human Ultracell® </h1>
                                     <p>Regeneracion Celular</p>
-                                    <a href="">Ver más</a>
+                                    <a href="{{url('/Biocell')}}">Ver más</a>
                                 </div>
                             </div>
                         </div>
