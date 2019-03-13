@@ -119,7 +119,7 @@
         </div>
 
         <div id="conteneimg" style="margin-left: 20%;margin-top: 3%;">
-            <img id="imgconte" src="../Recursos/img/Mejora-A.png" width="75%">
+            <img id="imgconte" src="../Recursos/img/servicios/Mejora-A.png" width="75%">
         </div>
 
         <div id="conteneimg" style="margin-left: 20%;margin-top: 3%;">
