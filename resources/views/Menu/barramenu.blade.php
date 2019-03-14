@@ -27,14 +27,19 @@
         <link rel="stylesheet" type="text/css" href="../Recursos/vendor/perfect-scrollbar/perfect-scrollbar.css">
         <link rel="stylesheet" type="text/css" href="../Recursos/css/util.css">
         <link rel="stylesheet" type="text/css" href="../Recursos/css/main.css">
+        <link rel="stylesheet" type="text/css" href="../Recursos/BRANDON_REG.otf">
+        <link rel="stylesheet" type="text/css" href="../Recursos/BRANDON_BLD.otf">
         <style>
             html, body {
                 background-color: #0280A7;
-                color: #636b6f;
-                font-family: 'Nunito', sans-serif;
-                font-weight: 200;
-                height: 100vh;
-                margin: 0;
+            }
+            @font-face {
+            font-family: brandon_reg;
+            src: url(../Recursos/BRANDON_REG.otf);
+            }
+            @font-face {
+            font-family: brandon_bold;
+            src: url(../Recursos/BRANDON_BLD.otf);
             }
 
             #fottmobi{
@@ -82,33 +87,28 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
-            @font-face {
-            font-family: bradonitalic;
-            src: url(brandon-regular-italic.otf)format('otf');
-            }
 
             #barramenu{
             width: 100%;
             height: 12%;
             background-color: #0280A7;
-            margin-left: 2.5%;
+            display: inline-block;
             }
             #letrasmenu{
-            font-family: bradonitalic;
+            font-family: brandon_reg;
             color: white;
-            font-size: 15px;
+            font-size: 21px;
             }
-            #letrasmenuEMC{
-            font-family: bradonitalic;
+            #letrasmenuA{
+            font-family: brandon_reg;
             color: white;
-            font-size: 15px;
-            display: none; 
+            font-size: 21px;
             }
-            #letrasmenuEMCV{
-            font-family: bradonitalic;
+            #letrasmenuA2{
+            font-family: brandon_reg;
             color: white;
-            font-size: 15px;
-            display: inline-block; 
+            font-size: 21px;
+            display: none;
             }
             #linea{
             border-bottom:solid 1px white;
@@ -123,76 +123,113 @@
                 color: black;
                 font-weight: bold;
             }
+            #btnfooter{
+                font-family: brandon_reg;
+            }
+            #Linea1{
+            background-color: #0280A7;
+            }
+            #Linea2{
+            width: 3px;
+            height: 270px;
+            background-color: #0280A7;
+            margin-top: -40px;
+            margin-left: 40px;
+            }
+            #sec1{
+                margin-left: 70%;
+            }
+            #sec2{
+                margin-left: 30%;
+            }
 
-            @media screen and (max-width: 1000px){
+            @media screen and (max-width: 1100px){
                 #imglogo{
-                    width: 30px;
-                    height: 30px;
-                }
-                #navmenu{
-                    margin-left: -22%;
-                    padding: -35px;
+                    width: 40px;
+                    height: 40px;
                 }
                 #letrasmenu{
                     font-size: 15px;
                 }
                 #barramenu{
                     height: 5%;
-                    margin-left: -4%;
                 }
-                #letrasmenuEMC{
+                #letrasmenu{
                     display: block;
-                    font-size: 15px;
                 }
-                #letrasmenuEMCV{
+                #letrasmenuA{
                     display: none;
                     font-size: 15px;
                 }
-                #fott{
-                    display: none;
-                }
-                #fottmobi{
+                #letrasmenuA2{
                     display: block;
+                    font-size: 15px;
+                }
+                #navmenu{
+                    margin-left: 2%;
+                }
+                #sec1{
+                    margin-left: 47%;
+                }
+                #sec2{
+                    margin-left: 17%;
+                }
+            }
+            @media screen and (max-width: 800px){
+                #navmenu{
+                    margin-left: -5%;
                 }
             }
             </style>
     </head>
     <body>
 
-    <div id="barramenu">
-        <div class="menu-desktop" id="navmenu">
-            <ul class="main-menu" id="navmenu" style="margin-left: 25%;width: 100%">
-                <a href="{{ url('/') }}"><img src="../Recursos/img/logo.png" id="imglogo" width="100px" height="100px"></a>
-                <li id="activarmenu" style="margin-left: 5%;">
-                    <div id="linea"></div>
-                    <a href="{{ url('/') }}" id="letrasmenu">Inicio</a>
-                </li>
+    <!-- Menu de inicio -->
+    <table border="1px" width="100%">
+        <thead>
+            <tr>
+                <td style="width: 25%;"></td>
+                <td style="width: 80%;">
+                    <div id="barramenu">
+                        <div class="menu-desktop" id="navmenu">
+                            <ul class="main-menu" id="navmenu" style="width: 100%">
+                                <a href="{{ url('/') }}"><img src="../Recursos/img/logo.png" id="imglogo" width="100px" height="100px"></a              >
+                                <li id="activarmenu" style="margin-left: 5%;">
+                                    <div id="linea"></div>
+                                    <a href="{{ url('/') }}" id="letrasmenu">Inicio</a>
+                                </li>
+                
+                                <li id="activarmenu">
+                                    <div id="linea"></div>
+                                    <a href="{{ url('/Servicios') }}" id="letrasmenu">Servicios</a>
+                                </li>
 
-                <li id="activarmenu">
-                    <div id="linea"></div>
-                    <a href="{{ url('/Servicios') }}" id="letrasmenu">Servicios</a>
-                </li>
+                                <li id="activarmenu">
+                                    <div id="linea"></div>
+                                    <a href="{{ url('/Acerca_de_EMC') }}" id="letrasmenuA">Acerca de E.M.C</a>
+                                    <a href="{{ url('/Acerca_de_EMC') }}" id="letrasmenuA2">E.M.C</a>
+                                </li>
+                
+                                <li id="activarmenu">
+                                    <div id="linea"></div>
+                                    <a href="{{ url('/Tratamientos') }}" id="letrasmenu">Tratamientos</a>
+                                </li>
+                
+                                <li id="activarmenu">
+                                    <div id="linea"></div>
+                                    <a href="{{ url('/Contacto') }}" id="letrasmenu">Contacto</a>
+                                </li>
+                
+                            </ul>
+                        </div>
+                    </div>
 
-                <li id="activarmenu">
-                    <div id="linea"></div>
-                    <a href="{{ url('/Acerca_de_EMC') }}" id="letrasmenuEMCV">Acerca de E.M.C</a>
-                    <a href="{{ url('/Acerca_de_EMC') }}" id="letrasmenuEMC">E.M.C</a>
-                </li>
-
-                <li id="activarmenu">
-                    <div id="linea"></div>
-                    <a href="{{ url('/Tratamientos') }}" id="letrasmenu">Tratamientos</a>
-                </li>
-
-                <li id="activarmenu">
-                    <div id="linea"></div>
-                    <a href="{{ url('/Contacto') }}" id="letrasmenu">Contacto</a>
-                </li>
-
-            </ul>
-        </div>
-    </div>
-
+                </td>
+                <td style="background-color: red"></td>
+            </tr>
+        </thead>
+    </table>
+    
 
 
 
@@ -203,143 +240,101 @@
 
 
 
-    <!-- Footer -->
-    <footer class="bg3 p-t-75 p-b-32" id="fott" style="margin-top: 2%;background-color: #FFFFFF;height: 25%;">
-        <div class="container" style="margin-top: -3%;">
-            <div class="row" style="margin-left: 12%">
-                <div class="col-sm-6 col-lg-3 p-b-50">
-                    <h4 style="color: #079EE2;font-weight: bold;margin-left: 45px;font-family: txtbran;"> 
+    <!-- Footer principal -->
+    <footer class="bg3 p-t-75 p-b-32" id="fott" style="margin-top: 15px;background-color: #FFFFFF;height: 25%;">
+       <table width="100%" style="margin-top: -75px">
+           <tbody>
+               <tr>
+                <!-- Sección uno -->
+                 <td style="width: 38%;">
+                    <div id="sec1">
+                    <h4 style="color: #079EE2;margin-left: 45px;font-family: brandon_reg;"> 
                         Citas
                     </h4>
                     <ul>
                         <li>
-                        <font style="font-size: 15px;font-family: txtbran;">+52 (461) 132 4851</font>
+                            <font style="font-size: 15px;font-family: brandon_reg;">+52 (461) 132 4851</font>
                         </li>
+                    <br>
                         <li class="p-b-10">
-                        <font style="font-size: 15px;font-family: txtbran;">+52 (461) 138 6905</font>
+                            <font style="font-size: 15px;font-family: brandon_reg;">+52 (461) 138 6905</font>
                         </li>
-
                     </ul>
-                </div>
+                    </div>
+                 </td>
 
-                <div id="Linea1" style="height: 180px;"></div>
+                <!-- Sección dos linea -->
+                 <td style="width: 2px">
+                    <div id="Linea1" style="height: 180px;"></div> 
+                 </td>
 
-                <div class="col-sm-6 col-lg-3 p-b-50" style="margin-left: 110px;">
-                    <h4 style="color: #079EE2;font-weight: bold;margin-left: 35px;font-family: txtbran;">
+
+                <!-- Sección 3 -->
+                   <td style="width: 23.5%">
+                    <div id="sec2">
+                       <h4 style="color: #079EE2;margin-left: 35px;font-family: brandon_reg;">
                         Horarios
-                    </h4>
-                    <font style="margin-left: 30px;font-size: 15px;font-family: txtbran;">Lunes a viernes</font><br>
-                     <font style="font-size: 15px;font-family: txtbran;margin-left: -10px">9 a.m. a 2 p.m. y 4 p.m. a 7 p.m.</font>
+                        </h4>
+                        <font style="margin-left: 30px;font-size: 15px;font-family: brandon_reg;">Lunes a viernes</font><br>
+                        <font style="font-size: 15px;font-family: brandon_reg;margin-left: -10px">9 a.m. a 2 p.m. y 4 p.m. a 7 p.m.</font>
+                        <br>
 
-                    <p class="stext-107 cl7 size-201">
-                    <font style="margin-left: 48px;font-weight: bold;color: black;font-size: 15px;font-family: txtbran;">Sábados</font><br>
-                    <font style="font-weight: bold;color: black;font-size: 12px;font-family: txtbran;margin-left: 10px">Atendemos con previa cita.</font>
-                    </p>
-                </div>
+                        <p class="stext-107 cl7 size-201">
+                            <br>
+                            <h4 style="color: black;margin-left: 35px;font-family: brandon_reg;">Sábados</h4>
+                            <font style="font-weight: bold;color: black;font-size: 15px;font-family: brandon_reg;">Atendemos con previa cita.</font>
+                        </p>
+                    </div>
+                   </td>
 
 
-                <div id="Linea2" style="height: 180px"></div>
+                   <!-- Sección cuatro linea -->
+                 <td style="width: 3px">
+                    <div id="Linea1" style="height: 180px;"></div> 
+                 </td>
 
 
-                <div class="col-sm-6 col-lg-3 p-b-50" style="margin-left: 20px;">
-                    <form>
+                    <!-- Sección cinco -->
+                   <td style="width: 38%">
+                    <div style="margin-left: 10%;">
+                      <form>
                         <div class="p-t-18">
-                            <font style="font-family: txtbran;"> © 2017 Eterna Medical Center<br> by Crowdsulting V-Solutions</font>
+                            <font style="font-family: brandon_reg;"> © 2017 Eterna Medical Center<br> by Crowdsulting V-Solutions</font>
                         </div>
-                    </form>
-                </div>
-            </div>
+                    </form> 
+                    </div>
+                   </td>
 
-            <div class="p-t-40">
-                <table width="100%" style="margin-left: 16%;margin-top: -3%;">
-                    <thead>
-                        <td>
-                            <button type="button" id="btnfooter" data-toggle="modal" data-target="#exampleModal"><p class="stext-107 cl6 txt-center">
+               </tr>
+
+
+               <tr>
+                   <td style="float: right;">
+                        <button type="button" id="btnfooter" data-toggle="modal" data-target="#exampleModal">
+                            <p class="stext-107 cl6 txt-center">
                             Políticas de privacidad
-                            </p></button>
-                        </td>
-                        <td>
-                            <button type="button" id="btnfooter" data-toggle="modal" data-target="#exampleModal2"><p class="stext-107 cl6 txt-center">
+                            </p>
+                        </button>
+                    </td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td>
+                       <button type="button" id="btnfooter" data-toggle="modal" data-target="#exampleModal2">
+                            <p class="stext-107 cl6 txt-center">
                             Términos y condiciones
-                            </p></button>
-                        </td>
-                    </thead>
-                </table>
-                
-                
-            </div>
-        </div>
+                            </p>
+                        </button>
+                   </td>
+               </tr>
+
+           </tbody>
+       </table>
     </footer>
 
 
 
     <!-- Footer mobile -->
-    <footer class="bg3 p-t-75 p-b-32" id="fottmobi" style="margin-top: 9%;background-color: #FFFFFF;height: 43%;">
-        <div class="container" style="margin-top: 1px;">
-            <div class="row" style="margin-left: 3%">
-                <div>
-
-                    <h4 style="color: #079EE2;font-weight: bold;margin-left: 45px;font-family: txtbran;"> 
-                        Citas
-                    </h4>
-                    <ul>
-                        <li>
-                        <font style="font-size: 15px;font-family: txtbran;">+52 (461) 132 4851</font>
-                        </li>
-                        <li class="p-b-10">
-                        <font style="font-size: 15px;font-family: txtbran;">+52 (461) 138 6905</font>
-                        </li>
-
-                    </ul>
-                </div>
-
-                <div style="margin-left: 25%;">
-                    <h4 style="color: #079EE2;font-weight: bold;margin-left: 35px;font-family: txtbran;">
-                        Horarios
-                    </h4>
-                    <font style="margin-left: 30px;font-size: 15px;font-family: txtbran;">Lunes a viernes</font><br>
-                     <font style="font-size: 15px;font-family: txtbran;margin-left: -10px">9 a.m. a 2 p.m. y 4 p.m. a 7 p.m.</font>
-
-                    <p class="stext-107 cl7 size-201">
-                    <font style="margin-left: 48px;font-weight: bold;color: black;font-size: 15px;font-family: txtbran;">Sábados</font><br>
-                    <font style="font-weight: bold;color: black;font-size: 12px;font-family: txtbran;margin-left: 10px">Atendemos con previa cita.</font>
-                    </p>
-                </div>
-
-
-                <div style="margin-left: 16%;">
-                    <form>
-                        <center>
-                            <br>
-                            <br>
-                        <div class="p-t-18">
-                            <font style="font-family: txtbran;"> © 2017 Eterna Medical Center<br> by Crowdsulting V-Solutions</font>
-                        </div>
-                        </center>
-                    </form>
-                </div>
-            </div>
-
-            <div class="p-t-40">
-                <table width="100%" style="margin-left: 2%;">
-                    <thead>
-                        <td>
-                            <button type="button" id="btnfooter" data-toggle="modal" data-target="#exampleModal"><p class="stext-107 cl6 txt-center">
-                            Políticas de privacidad
-                            </p></button>
-                        </td>
-                        <td>
-                            <button type="button" id="btnfooter" data-toggle="modal" data-target="#exampleModal2"><p class="stext-107 cl6 txt-center">
-                            Términos y condiciones
-                            </p></button>
-                        </td>
-                    </thead>
-                </table>
-                
-                
-            </div>
-        </div>
-    </footer>
 
 
 

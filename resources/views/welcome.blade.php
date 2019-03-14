@@ -22,6 +22,8 @@
         <link rel="stylesheet" type="text/css" href="../Recursos/vendor/perfect-scrollbar/perfect-scrollbar.css">
         <link rel="stylesheet" type="text/css" href="../Recursos/css/util.css">
         <link rel="stylesheet" type="text/css" href="../Recursos/css/main.css">
+        <link rel="stylesheet" type="text/css" href="../Recursos/BRANDON_REG.otf">
+        <link rel="stylesheet" type="text/css" href="../Recursos/BRANDON_BLD.otf">
 </head>
 <body>
 
@@ -31,8 +33,12 @@
     overflow-x: hidden;
     }
     @font-face {
-        font-family: txtbran;
-        src: url(../Recursos/BRANDON_THIN.otf)format('otf');
+        font-family: brandon_reg;
+        src: url(../Recursos/BRANDON_REG.otf);
+    }
+    @font-face {
+        font-family: brandon_bold;
+        src: url(../Recursos/BRANDON_BLD.otf);
     }
     #contenedorcarrousel{
         width: 100%;
@@ -43,14 +49,14 @@
 
     }
     #contenedorbtn{
-        background-image: url("../Recursos/img/btn.jpg");
+        background-image: url("../Recursos/img/Inicio/btn.png");
         background-size: 100%;
         width: 500px;
         height: 90px;
         margin-top: -2%;
     }
     #contenedorbtn:hover{
-        background-image: url("../Recursos/img/btn2.jpg");
+        background-image: url("../Recursos/img/Inicio/btn2.png");
         background-size: 100%;
         width: 500px;
         height: 90px;
@@ -60,50 +66,62 @@
         width: 73%;
         height: 33%;
     }
-    #Linea1{
-        width: 3px;
-        height: 270px;
-        background-color: #0280A7;
-        margin-top: -40px;
-        margin-left: -50px;
-    }
-    #Linea2{
-        width: 3px;
-        height: 270px;
-        background-color: #0280A7;
-        margin-top: -40px;
-        margin-left: 40px;
-    }
+    
     #contenedorbienvenido{
         background-color: white;
         width: 50%;
         margin-left: 25%;
     }
+    #txtbtnconte{
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+        margin-left: 20px;
+    }
 
 
-    @media screen and (max-width: 1000px){
+    @media screen and (max-width: 1100px){
         body{
             overflow-x: visible;
         }
-        #contenedorbtn2{
-        background-image: url("../Recursos/img/btn.jpg");
-        background-size: 100%;
-        width: 320px;
-        height: 60px;
-        margin-top: -2%;
-        margin-left: -10px;
+        #contenedorbtn{
+            width: 350px;
+            height: 70px;
         }
-        #contenedorbtn2:hover{
-        background-image: url("../Recursos/img/btn2.jpg");
+        #txtbtnconte{
+            font-size: 20px;
+            margin-top: -7px;
+            margin-left: -15px;
+        }
+        #contenedorbtn:hover{
+        background-image: url("../Recursos/img/Inicio/btn2.png");
         background-size: 100%;
-        width: 320px;
-        height: 60px;
-        margin-top: -2%;
+        width: 350px;
+        height: 70px;
         }
         #imgbio{
             width: 106%;
             margin-left: -16%;
             margin-top: 3%;
+        }
+    }
+
+    @media screen and (max-width: 800px){
+        #contenedorbtn{
+            width: 250px;
+            height: 40px;
+            margin-left: -10px;
+        }
+        #contenedorbtn:hover{
+        background-image: url("../Recursos/img/Inicio/btn2.png");
+        background-size: 100%;
+        width: 250px;
+        height: 40px;
+        }
+        #txtbtnconte{
+            font-size: 15px;
+            margin-left: -40px;
+            margin-top: -15px;
         }
     }
 </style>
@@ -132,11 +150,11 @@
             </div>
                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
+                    <span class="sr-only">Anterior</span>
                 </a>
                 <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
+                    <span class="sr-only">Siguiente</span>
                 </a>
             </div>
             </div>
@@ -155,25 +173,25 @@
            
            <div id="contenedorbienvenido">
            <br>
-            <center><p style="font-size: 50px;color: #0280A7;font-family:txtbran">B&nbsp;I&nbsp;E&nbsp;N&nbsp;V&nbsp;E&nbsp;N&nbsp;I&nbsp;D&nbsp;O&nbsp;S</p></center>
+            <center><p style="font-size: 50px;color: #0280A7;font-family:brandon_bold">B&nbsp;I&nbsp;E&nbsp;N&nbsp;V&nbsp;E&nbsp;N&nbsp;I&nbsp;D&nbsp;O&nbsp;S</p></center>
 
-            <center><h6 style="font-size: 18px;font-family:txtbran">Mejora tu apariencia física, incrementa la vitalidad de tu piel y elimina dolores crónicos asociados a la vejez.</h6></center><br>
+            <center><h6 style="font-size: 20px;font-family:brandon_reg">Mejora tu apariencia física, incrementa la vitalidad de tu piel y elimina dolores crónicos asociados a la vejez.</h6></center><br>
             <br>
 
             <center>
             <div id="contenedorbtn">
                 <a href="{{ url('/') }}">
-            <div style="position: absolute;margin-top: 30px;margin-left: 100px;font-family:txtbran">
-                <center><h1 style="color: white;font-size: 30px;font-weight: bold;">Eterna Medical Center</h1></center>
+            <div style="position: absolute;margin-top: 30px;margin-left: 100px;font-family:brandon_reg">
+                <center><h1 id="txtbtnconte">Eterna Medical Center</h1></center>
             </div>
                 </a>
             </div>
             </center>
 
             <br>
-            <center><p style="font-size: 18px;font-family:txtbran">Retarda tu reloj fisiológico, te ayudamos a sentirte y lucir mejor.</p></center>
-            <center><p style="font-size: 18px;font-family:txtbran">En Eterna Medical Center estamos para ayudarte.</p></center>
-            <center><p style="font-size: 18px;color: black;font-family:txtbran"><b>Mejora y mantén tu estado físico.</b></center>
+            <center><p style="font-size: 20px;font-family:brandon_reg">Retarda tu reloj fisiológico, te ayudamos a sentirte y lucir mejor.</p></center>
+            <center><p style="font-size: 20px;font-family:brandon_reg">En Eterna Medical Center estamos para ayudarte.</p></center>
+            <center><p style="font-size: 20px;color: black;font-family:brandon_reg"><b>Mejora y mantén tu estado físico.</b></center>
             <br>
             </div>
 
