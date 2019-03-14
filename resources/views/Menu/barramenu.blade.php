@@ -217,7 +217,7 @@
                 
                                 <li id="activarmenu">
                                     <div id="linea"></div>
-                                    <a href="{{ url('/Contacto') }}" id="letrasmenu">Contacto</a>
+                                    <a href="{{ url('/Hormonas') }}" id="letrasmenu">Contacto</a>
                                 </li>
                 
                             </ul>

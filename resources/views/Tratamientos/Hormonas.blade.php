@@ -25,14 +25,18 @@
     </head>
     <body>
         <style>
-                        body{
-                background-color: white;
-                overflow-x: hidden;
-                }
-                @font-face {
-                    font-family: txtbran;
-                    src: url(BRANDON_THIN.otf)format('otf');
-                }
+                 body{
+    background-color: #0280A7;
+    overflow-x: hidden;
+    }
+    @font-face {
+        font-family: brandon_reg;
+        src: url(../Recursos/BRANDON_REG.otf);
+    }
+    @font-face {
+        font-family: brandon_bold;
+        src: url(../Recursos/BRANDON_BLD.otf);
+    }
                 #Linea1{
                     width: 3px;
                     height: 270px;
@@ -50,8 +54,7 @@
                 #contenedormaestro{
                     background-color: white;
                     width: 100%;
-                    height: 240%;
-                }
+                                    }
                 #contenedor1{
                     background-color: white;
                     width: 60%;
@@ -214,28 +217,58 @@
             {
                 width: 100%;
             }
-            .conte h1,.conte h2{
+            .conte h1,#esquinas h2{
                 color: #0280A7;
-
+                font-size: 21px;
+                line-height: 30px;
+                font-weight: bold;
             }
            .thumbnail {
              /*position: relative;*/
-             background: url("../Recursos/img/Tratamientos/Hormonas/Esquinas.png") no-repeat;
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: cover;
-            
-            background-size: 100% auto;
-
             }
-
-            
-            .caption {
-            width: 90%;
+            #esquinas,#esquinas2{
+                background: url("../Recursos/img/Tratamientos/Hormonas/Esquinas.png") no-repeat;
+                background-size: 100% auto;
+                color: black;
+                padding:5%;
+                line-height : 25px;
             }
-            .caption p
+            #esquinas2{
+                background: url("../Recursos/img/Tratamientos/Hormonas/Esquinas-2.png") no-repeat;
+                background-size: 100% auto;
+                color: black;
+                padding:5%;
+                line-height : 25px;
+            }
+            #hormonas2{
+                background: url("../Recursos/img/Tratamientos/Hormonas/Hormonas-2.png") no-repeat;
+                background-size: 100% auto;
+                color: white; 
+                padding:5%;
+                line-height : 25px;
+            }
+            #hormonas2 .caption{
+                padding: 6%;
+            }
+            #hormonas3{
+                background: url("../Recursos/img/Tratamientos/Hormonas/Hormonas-3.png") no-repeat;
+                background-size: 100% auto;
+                background-size: 100% auto;
+                color: white; 
+                padding-top: 10%;
+                padding-bottom: 10%;
+                line-height : 5px;
+                margin-bottom: 5%;
+            }
+            #hormonas2 .caption p,#esquinas .caption p,#esquinas2 .caption p,#hormonas2 h2,#hormonas3 p
             {
-                font-size: 20px;
+                font-size: 21px;
+                line-height: 30px;
+
+            }
+            #hormonas2 h2
+            {
+                font-weight: bold;
             }
 
         </style>
@@ -250,39 +283,90 @@
                     
                 </div>
                 <div class="row">
-                    <div class="col-md-2"></div>
-                    <div id="carrusel_principal" class="col-md-8 conte">
+                    <div class="col-md-3"></div>
+                    <div id="carrusel_principal" class="col-md-6 conte">
                         <img id="Hormonas-1" src="../Recursos/img/Tratamientos/Hormonas/Hormonas-1.jpg"  >
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-2"></div>
-                    <div id="descripcion" class="col-md-8 conte">
-                        <div class="thumbnail">
-                            <div class ="caption">
-                                <h2>�Qu� son las hormonas Bio-id�nticas?</h2>
+                    <div class="col-md-3"></div>
+                    <div  class="col-md-6 conte" >
+                        <div id="esquinas" class="thumbnail">
+                            <div class="caption">
+                                <h2>¿Que son las hormonas Bio-idínticas?</h2>
                                 <p>
-                                Son biol�gicamente id�nticas, tienen una estructura molecular id�ntica a las hormonas que produce el organismo, sin los efectos secundarios de las hormonas sint�ticas.
+                                Son biológicamente idínticas, tienen una estructura molecular idéntica a las hormonas que produce el organismo, sin los efectos secundarios de las hormonas sintéticas.
                                 <p>
+                                <br>
                                 <h2>¿Como funciona?</h2>
                                 <p>
-                                <br>Mejoran la comunicaci�n celular, recuperando el equilibrio y optimizan las funciones del organismo.
-                                <br>Es un procedimiento donde se balancea el requerimiento hormonal donde se pide al paciente acudir con un estudio de sangre llamado Perfil Ov�rico Femenino el cual debe incluir Estradiol, Progesterona, Hormona Fol�culo Estimulante, Hormona Luteinizante y prolactina.
+                                Mejoran la comunicación celular, recuperando el equilibrio y optimizan las funciones del organismo.
+                                Es un procedimiento donde se balancea el requerimiento hormonal donde se pide al paciente acudir con un estudio de sangre llamado Perfil Ovárico Femenino el cual debe incluir Estradiol, Progesterona, Hormona Folículo Estimulante, Hormona Luteinizante y prolactina.
                             </p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-2"></div>
-                    <div id="carrusel_principal" class="col-md-8 conte">
-                        <img id="Hormonas-1" src="../Recursos/img/Tratamientos/Hormonas/Hormonas-2.png"  >
+                    <div class="col-md-3"></div>
+                    <div id="descripcion" class="col-md-6 conte">
+                        <div id="hormonas2" class="thumbnail row">
+                            <div class="col-md-4"></div>
+                            <div class="caption col-md-8" >
+                                <h2>¿Cómo se realiza?</h2>
+                                <p>El estudio debe realizarse 14 días después de la menstruación, en caso de ya no tener menstruación el estudio se realiza en cualquier día.<p>
+                                <br>
+                                <h2>¿De qué manera ajustamos las hormonas bio-idénticas?</h2>
+                                <p>Analizamos las deficiencias y se reponemos las hormonas que están por debajo de lo óptimo y son deficientes.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-2"></div>
-                    <div id="carrusel_principal" class="col-md-8 conte">
-                        <img id="Hormonas-1" src="../Recursos/img/Tratamientos/Hormonas/Hormonas-3.png"  >
+                    <div class="col-md-3"></div>
+                     <div id="descripcion" class="col-md-6 conte">
+                        <div id="esquinas2" class="thumbnail">
+                            <div class="caption">
+                                <h2>¿Qui�n puede usarlo?</h2>
+                            <p>Es una alternativa para las mujeres que enfrentan los cambios de la menopausia, pero tambi�n es una opci�n tanto para hombres y mujeres de distintas edades.</p>
+                            <br>
+                            <h2>�Es un tratamiento para la mesopausa?</h2>
+                            <p>Es una alternativa para aquellas mujeres que sufren los s�ntomas de la menopausia temprana y que buscan poner fin a los bochornos o calores, la sudoraci�n nocturna, la p�rdida de la memoria, los cambios de �nimo, el aumento de peso y la disminuci�n del apetito sexual son pacientes recurrentes en este tratamiento que le ayudar� a terminar con estas molestias.</p>
+                            <br>
+                            <h2>�Beneficios para los hombres?</h2>
+                            <p>A la edad de 80 a�os, el nivel de testosterona de un hombre s�lo puede ser de 20% de lo que fue en su juventud. Esta disminuci�n de la testosterona se produce gradualmente, comenzando ya a mediados de los 30 a�os.
+                            La deficiencia de testosterona tambi�n puede conducir a una serie de s�ntomas molestos, como la p�rdida de resistencia y masa muscular, la reducci�n de la libido, ansiedad, depresi�n y deterioro cognitivo.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3"></div>
+                     <div id="descripcion" class="col-md-6 conte">
+                        <div id="hormonas3" class="thumbnail">
+                            <div class="caption col-md-8">
+                                <h2>�Cu�nto dura?</h2>
+                                <br>
+                                <p>Aproximadamente de 6 a 8 meses.</p>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <h2>�Tiene efectos secundarios?</h2>
+                                <br>
+                                <p>Sin efectos secundarios.</p>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <h2>�Cambios Hormonales?</h2>
+                                <p>Toma el control</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
