@@ -31,124 +31,36 @@
     overflow-x: hidden;
     }
     @font-face {
-        font-family: txtbran;
-        src: url(BRANDON_THIN.otf)format('otf');
+        font-family: brandon_reg;
+        src: url(../Recursos/BRANDON_REG.otf);
     }
-    #Linea1{
-        width: 3px;
-        height: 270px;
-        background-color: #0280A7;
-        margin-top: -40px;
-        margin-left: -50px;
+    @font-face {
+        font-family: brandon_bold;
+        src: url(../Recursos/BRANDON_BLD.otf);
     }
-    #Linea2{
-        width: 3px;
-        height: 270px;
-        background-color: #0280A7;
-        margin-top: -40px;
-        margin-left: 40px;
-    }
-    #imgback{
-        width: 100%;
-        height: 80%;
-        background-image: url('../Recursos/img/Acerca.jpg');
-        background-size: 100%;
-        background-position: center;
-    }
-    #imgback2{
-        width: 100%;
-        height: 60%;
+    #contentedor{
         background-color: white;
-        margin-top: 0%;
-    }
-    #cont1{
-        width: 500px;
-        height: 650px;
-        background-color: white;
-        float: right;
-        margin-right: 15%;
-        margin-top: 3%;
-    }
-    #cont2{
         width: 100%;
-        height: 50%;
-        background-color: white;
+        height: 100%;
     }
-    #cont3btn2{
-        display: none;
+    #tableinicio{
+        width: 20%;
+        margin-left: 10%;
+        margin-top: -100px;
+        margin-bottom: 30px;
     }
-    #cont3btn:hover div{
-        display: block;
-    }
-
-    #cont3btn:hover a{
-        display: none;
-    }
-    #cabeceratxt{
-        margin-left: 37%;
-        margin-top: -4.5%;
-    }
-    #fontespe2{
-        display: none;
-    }
-    #cambiohover{
-        font-size: 22px;
-    }
-    #mobile{
-        display: none;
-    }
-    #derecha{
-        margin-left: 55%;
-        margin-top: -350px;
+    #imgiback1{
+        width: 70%;
+        margin-left: 10%;
     }
 
     @media screen and (max-width: 1110px){
-        #derecha{
-            margin-top: -550px;
-        }
-        #imgback2{
-            height: 80%;
-        }
+
     }
 
+
     @media screen and (max-width: 1000px){
-        #cont1{
-            width: 370px;
-            margin-left: 5%;
-            margin-top: 40px;
-            position: relative;
-            float: left;
-        }
-        #fontespe{
-            display: none;
-        }
-        #fontespe2{
-            display: block;
-            margin-left: 6%;
-        }
-        #cambiohover{
-            font-size: 16px;
-        }
-        #cabecera{
-            margin-left: -40%;
-            margin-bottom: 10%;
-        }
-        #lateral{
-            display: none;
-        }
-        #derecha{
-            display: none;
-        }
-        #mobile{
-            display: block;
-            width: 80%;
-            margin-left:5%;
-            font-size: 18px;
-        }
-        #imgback2{
-            height: 1000px;
-            background-color: white;
-        }
+
     }
 
 
@@ -159,90 +71,28 @@
 
 @section('content')
     
-<div id="imgback">
-    <div id="cont1">
-        <div id="cont2">
-            <br>
-            <font style="margin-top: -50%;color: #0280A7;font-size: 30px;margin-left: 28%;font-family: txtbran;">Acerca de Eterna<br> </font>
-            <font style="margin-top: -50%;color: #0280A7;font-size: 30px;margin-left: 30%;font-family: txtbran;">Medical Center<br> </font>
-            <br>
-            <center><font style="margin-left: -4%;font-size: 20px;font-family: txtbran;">​En Eterna Medical Center estamos 100%</font><br>
-            <font style="margin-left: -4%;font-size: 20px;font-family: txtbran;">​comprometidos con nuestros pacientes, donde el</font><br>
-            <font style="margin-left: -4%;font-size: 20px;font-family: txtbran;">​servicio a sus necesidades y atención de excelencia</font><br>
-            <font style="margin-left: -4%;font-size: 20px;font-family: txtbran;">​son las cualidades que procuramos en todo</font><br>
-            <font style="margin-left: -4%;font-size: 20px;font-family: txtbran;">​momento.</font></center>
-        </div>
-        <div id="cont3">
-        <img src="../Recursos/img/Boton.jpg" width="100%" height="50%">
-        <div id="cont3btn" style="margin-top: -50%;margin-left: 10%;">
-            <a>
-                <font id="fontespe" style="margin-top: -50%;color: white;font-size: 34px;font-family: txtbran;">&nbsp;&nbsp;ESPECIALISTAS EN<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MEDICINA<br> ANTIENVEJECIMIENTO</font>
-                <font id="fontespe2" style="margin-top: -50%;color: white;font-size: 24px;font-family: txtbran;">&nbsp;&nbsp;ESPECIALISTAS EN<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MEDICINA<br> ANTIENVEJECIMIENTO</font>
-            </a>
 
-            <div id="cont3btn2" style="margin-top: -60%;margin-left: 5%;">
-                 <font id="cambiohover" style="margin-top: -70%;color: white;text-align: center;font-family: txtbran;">Observamos la salud de froma integral y <br> colaboramos con especialistas en todas las<br> áreas de la medicina para lograr el estado<br>óptimo de cada uno de nuestros pacientes.<br>En Eterna Medical Center te ayudamos a<br> ralentizar el proceso de envejecimiento con<br>la mejor tecnología disponible.</font>
-            </div>
-        </div>
+<div style="height: 100%;">
 
-        
-        </div>
-    </div>
-</div>
-
-<div id="imgback2">
-
-    <div id="cabecera">
-        <img src="../Recursos/img/Logo2.png" width="5%" height="5%" style="margin-left: 30%;;margin-top: 3%;">
-        <div id="cabeceratxt">
-            <font style="color: #0280A7;font-size: 25px;font-weight: bold; font-family: txtbran;">DR. TORIBIO MARTÍNEZ RIVEIRA</font><br>
-            <font style="margin-left: 3%;font-family: txtbran;font-size: 16px">Céd. Prof: 8551800 - Reg. SSG 12540</font><br>
-            <font style="font-size: 16px;color: #0280A7;margin-left: -2%;font-family: txtbran;">Médico Cirujano Partero, Egresado del Instituto Politécnico Nacional</font>
-        </div>
+    <div style="position: absolute; z-index: 1; width: 100%">
+        <img src="../recursos/img/AcercaDe/Fondo.png" width="100%">
     </div>
 
-    <div id="lateral" style="margin-left: 25%;;margin-top: 2%;width: 25%;">
-        <font style="font-size: 17px;color: #0280A7;font-weight: bold;font-family: txtbran;"><center>Trayectoria</center></font>
-        <font style="font-size: 17px;color: black;font-family: txtbran;">&bull;Miembro de American Academy of Anti-Aging Medicine (Estados Unidos).</font><br>
-        <font style="font-size: 17px;color: black;font-family: txtbran;">&bull;Miembro del Colegio Nacional de Medicina Antienvejecimiento (México).</font><br>
-        <font style="font-size: 17px;color: black;font-family: txtbran;">&bull;Fellowship en Medicina Antienvejecimiento.</font><br>
-        <font style="font-size: 17px;color: black;font-family: txtbran;">&bull;Conferencista en el II y III Congreso Mundial de Medicina Antienvejecimiento.</font><br>
-        <font style="font-size: 17px;color: black;font-family: txtbran;">&bull;Profesor de Curso Internacional de Medicina Antienvejecimiento.</font><br>
-        <font style="font-size: 17px;color: black;font-family: txtbran;">&bull;Profesor de Terapia Neural y PRP Articular en Certificación Antienvejecimiento.</font><br>
-        <font style="font-size: 17px;color: black;font-family: txtbran;">&bull;Profesor de viscosuplementación articular.</font><br>
-        <font style="font-size: 17px;color: black;font-family: txtbran;">&bull;Certificación Internacional de remodelación facial y corporal con hilos PDO.</font><br>
-    </div>
-
-    <div id="derecha" style="width: 25%;">
-        <font style="font-size: 17px;color: #0280A7;font-weight: bold;font-family: txtbran;">Experiencia</font>
+    <div style="position: absolute; z-index: 2; margin-left: 54%;margin-top: 40px;background-color: white;width: 21%;height: 24%;">
+        <center><font style="font-family: brandon_reg;"><br><h4 style="color: #0280A7">Acerca de Eterna
+        <br>Medical Center<br></h4></center>
         <br>
-        <font style="font-size: 17px;color: black;font-family: txtbran;">&bull;Antienvejecimiento Cerebral.</font><br>
-        <font style="font-size: 17px;color: black;font-family: txtbran;">&bull;Antienvejecimiento y Nutricion Ortomolecular.</font><br>
-        <font style="font-size: 17px;color: black;font-family: txtbran;">&bull;Plasma Rico en Plaquetas de Cuarta Generación (PRP 4G).</font><br>
-        <font style="font-size: 17px;color: black;font-family: txtbran;">&bull;Terapia Neural.</font><br>
-        <font style="font-size: 17px;color: black;font-family: txtbran;">&bull;Nutrición Antienvejecimiento.</font><br>
-        
+        <center>En Eterna Medical Center estamos 100%
+        <br>comprometidos con nuestros pacientes, donde el
+        <br>servicio a sus necesidades y atención de excelencia
+        <br>son las cualidades que procuramos en todo
+        <br>momento.</font></center>
     </div>
+     
 
-    <div id="mobile">
-        <font style="color: #0280A7;font-weight: bold;font-family: txtbran;"><center>Trayectoria</center></font>
-        <font style="color: black;font-family: txtbran;">&bull;Miembro de American Academy of Anti-Aging Medicine (Estados Unidos).</font><br>
-        <font style="color: black;font-family: txtbran;">&bull;Miembro del Colegio Nacional de Medicina Antienvejecimiento (México).</font><br>
-        <font style="color: black;font-family: txtbran;">&bull;Fellowship en Medicina Antienvejecimiento.</font><br>
-        <font style="color: black;font-family: txtbran;">&bull;Conferencista en el II y III Congreso Mundial de Medicina Antienvejecimiento.</font><br>
-        <font style="color: black;font-family: txtbran;">&bull;Profesor de Curso Internacional de Medicina Antienvejecimiento.</font><br>
-        <font style="color: black;font-family: txtbran;">&bull;Profesor de Terapia Neural y PRP Articular en Certificación Antienvejecimiento.</font><br>
-        <font style="color: black;font-family: txtbran;">&bull;Profesor de viscosuplementación articular.</font><br>
-        <font style="color: black;font-family: txtbran;">&bull;Certificación Internacional de remodelación facial y corporal con hilos PDO.</font><br>
-        <br>
-        <font style="color: #0280A7;font-weight: bold;font-family: txtbran;">Experiencia</font>
-        <br>
-        <font style="color: black;font-family: txtbran;">&bull;Antienvejecimiento Cerebral.</font><br>
-        <font style="color: black;font-family: txtbran;">&bull;Antienvejecimiento y Nutricion Ortomolecular.</font><br>
-        <font style="color: black;font-family: txtbran;">&bull;Plasma Rico en Plaquetas de Cuarta Generación (PRP 4G).</font><br>
-        <font style="color: black;font-family: txtbran;">&bull;Terapia Neural.</font><br>
-        <font style="color: black;font-family: txtbran;">&bull;Nutrición Antienvejecimiento.</font><br>
-    </div>
+    <div style="position: absolute; z-index: 3; margin-left: 51%;margin-top: 270px;width: 30%">
+        <img id="imgiback1" src="../recursos/img/AcercaDe/Boton.jpg">
+    </div>                  
 
 </div>
 

@@ -31,22 +31,12 @@
     overflow-x: hidden;
     }
     @font-face {
-        font-family: txtbran;
-        src: url(BRANDON_THIN.otf)format('otf');
+        font-family: brandon_reg;
+        src: url(../Recursos/BRANDON_REG.otf);
     }
-    #Linea1{
-        width: 3px;
-        height: 270px;
-        background-color: #0280A7;
-        margin-top: -40px;
-        margin-left: -50px;
-    }
-    #Linea2{
-        width: 3px;
-        height: 270px;
-        background-color: #0280A7;
-        margin-top: -40px;
-        margin-left: 40px;
+    @font-face {
+        font-family: brandon_bold;
+        src: url(../Recursos/BRANDON_BLD.otf);
     }
     #imgback{
         width: 100%;
@@ -88,6 +78,12 @@
         margin-left: 37%;
         margin-top: -4.5%;
     }
+    #contentimg{
+        width: 100%;
+    }
+    #contenedor{
+        margin-top: 50px;
+    }
 
 
     @media screen and (max-width: 1000px){
@@ -111,23 +107,41 @@
     <div id="contenedormaster" style="background-color: white;margin-bottom: 0%;width: 100%;">
         <div id="contetxt" style="width: 60%;margin-left: 20%">
             <br>
-            <font style="font-weight: bold;color: #0280A7; font-family: txtbran;"><center><font style="font-size: 40px;margin-left: -1%;">Servicios</font></center></font><br>
-            <font style="font-family: txtbran;font-size: 20px">En Eterna Medical Center, contamos con servicios para sentirte y verte más joven. Mediante tratamientos preventivos y correctivos con la tecnología más avanzada, diseñamos todos nuestros servicios completamente a las necesidades de tu cuerpo.</font>
-        </div>
-        <div id="conteneimg" style="margin-left: 20%;margin-top: 3%;">
-            <img id="imgconte" src="../Recursos/img/Servicios/Elimina-C.png" width="75%">
+            <font style="color: #0280A7; font-family: brandon_bold;"><center><font style="font-size: 40px;margin-left: -1%;">Servicios</font></center></font><br>
+            <font style="font-family: brandon_reg;font-size: 20px">En Eterna Medical Center, contamos con servicios para sentirte y verte más joven. Mediante tratamientos preventivos y correctivos con la tecnología más avanzada, diseñamos todos nuestros servicios completamente a las necesidades de tu cuerpo.</font>
         </div>
 
-        <div id="conteneimg" style="margin-left: 20%;margin-top: 3%;">
-            <img id="imgconte" src="../Recursos/img/servicios/Mejora-A.png" width="75%">
+
+        <!-- imagen 1 -->
+        <div class="row" id="contenedor">
+            <div class="col-md-3"></div>
+                <div class="col-md-6 conte">
+                    <img id="contentimg" src="../Recursos/img/Servicios/Elimina-C.png">
+                </div>
         </div>
 
-        <div id="conteneimg" style="margin-left: 20%;margin-top: 3%;">
-            <img id="imgconte" src="../Recursos/img/Elimina--C.png" width="75%">
+
+        <!-- imagen 2 -->
+        <div class="row" id="contenedor">
+            <div class="col-md-3"></div>
+                <div class="col-md-6 conte">
+                    <img id="contentimg" src="../Recursos/img/Servicios/Mejora-A.png">
+                </div>
         </div>
+
+
+        <!-- imagen 3 -->
+        <div class="row" id="contenedor">
+            <div class="col-md-3"></div>
+                <div class="col-md-6 conte">
+                    <img id="contentimg" src="../Recursos/img/Servicios/Elimina--C.png">
+                </div>
+        </div>
+
+        <br>
+        <br>
     </div>
     
-
 
 @stop
 

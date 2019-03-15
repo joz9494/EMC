@@ -285,7 +285,7 @@
                 <div class="row">
                     <div class="col-md-3"></div>
                     <div id="carrusel_principal" class="col-md-6 conte">
-                        <img id="Hormonas-1" src="../Recursos/img/Tratamientos/Hormonas/Hormonas-1.jpg"  >
+                        <img id="Hormonas-1" src="../Recursos/img/Tratamientos/Hormonas/Hormonas-1.jpg">
                     </div>
                 </div>
                 <div class="row">

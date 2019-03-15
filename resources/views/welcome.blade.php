@@ -75,7 +75,6 @@
     #txtbtnconte{
         color: white;
         font-size: 30px;
-        font-weight: bold;
         margin-left: 20px;
     }
 
@@ -173,7 +172,7 @@
            
            <div id="contenedorbienvenido">
            <br>
-            <center><p style="font-size: 50px;color: #0280A7;font-family:brandon_bold">B&nbsp;I&nbsp;E&nbsp;N&nbsp;V&nbsp;E&nbsp;N&nbsp;I&nbsp;D&nbsp;O&nbsp;S</p></center>
+            <center><p style="font-size: 50px;color: #0280A7;font-family:brandon_reg">B&nbsp;I&nbsp;E&nbsp;N&nbsp;V&nbsp;E&nbsp;N&nbsp;I&nbsp;D&nbsp;O&nbsp;S</p></center>
 
             <center><h6 style="font-size: 20px;font-family:brandon_reg">Mejora tu apariencia física, incrementa la vitalidad de tu piel y elimina dolores crónicos asociados a la vejez.</h6></center><br>
             <br>
