@@ -25,32 +25,20 @@
     </head>
     <body>
         <style>
-                 body{
-    background-color: #0280A7;
-    overflow-x: hidden;
-    }
-    @font-face {
-        font-family: brandon_reg;
-        src: url(../Recursos/BRANDON_REG.otf);
-    }
-    @font-face {
-        font-family: brandon_bold;
-        src: url(../Recursos/BRANDON_BLD.otf);
-    }
-                #Linea1{
-                    width: 3px;
-                    height: 270px;
-                    background-color: #0280A7;
-                    margin-top: -40px;
-                    margin-left: -50px;
-                }
-                #Linea2{
-                    width: 3px;
-                    height: 270px;
-                    background-color: #0280A7;
-                    margin-top: -40px;
-                    margin-left: 40px;
-                }
+        @font-face {
+            font-family: brandon_reg;
+            src: url(../Recursos/BRANDON_REG.otf);
+        }
+        @font-face {
+            font-family: brandon_bold;
+            src: url(../Recursos/BRANDON_BLD.otf);
+        }
+        body{
+            background-color: #0280A7;
+            overflow-x: hidden;
+        }
+    
+               
                 #contenedormaestro{
                     background-color: white;
                     width: 100%;
@@ -209,7 +197,7 @@
 
             /*  */
             .conte{
-                padding-top: 1%;
+                padding-top: 2%;
                 text-align: center;
 
             }
@@ -217,14 +205,28 @@
             {
                 width: 100%;
             }
-            .conte h1,#esquinas h2{
+            h1,h2,p
+            {
+                font-family: brandon_reg;
+            }
+            #txt_hormonas1
+            {
+                width: 100%;
+                background-color:rgb(236,236,236);
+                padding: 2%;
+
+
+            }
+            #txt_hormonas1 p
+            {
+                font-size: 2em;
+                color: black;
+            }
+            .conte h1,#esquinas h2,#esquinas2 h2{
                 color: #0280A7;
                 font-size: 21px;
                 line-height: 30px;
                 font-weight: bold;
-            }
-           .thumbnail {
-             /*position: relative;*/
             }
             #esquinas,#esquinas2{
                 background: url("../Recursos/img/Tratamientos/Hormonas/Esquinas.png") no-repeat;
@@ -237,7 +239,7 @@
                 background: url("../Recursos/img/Tratamientos/Hormonas/Esquinas-2.png") no-repeat;
                 background-size: 100% auto;
                 color: black;
-                padding:5%;
+                padding:5% 5% 15% 5%;
                 line-height : 25px;
             }
             #hormonas2{
@@ -245,6 +247,7 @@
                 background-size: 100% auto;
                 color: white; 
                 padding:5%;
+
                 line-height : 25px;
             }
             #hormonas2 .caption{
@@ -253,22 +256,23 @@
             #hormonas3{
                 background: url("../Recursos/img/Tratamientos/Hormonas/Hormonas-3.png") no-repeat;
                 background-size: 100% auto;
-                background-size: 100% auto;
                 color: white; 
                 padding-top: 10%;
                 padding-bottom: 10%;
                 line-height : 5px;
-                margin-bottom: 5%;
+                margin-bottom: 10%;
+
             }
             #hormonas2 .caption p,#esquinas .caption p,#esquinas2 .caption p,#hormonas2 h2,#hormonas3 p
             {
                 font-size: 21px;
-                line-height: 30px;
+                line-height: 35px;
 
             }
             #hormonas2 h2
             {
                 font-weight: bold;
+
             }
 
         </style>
@@ -285,7 +289,15 @@
                 <div class="row">
                     <div class="col-md-3"></div>
                     <div id="carrusel_principal" class="col-md-6 conte">
+
                         <img id="Hormonas-1" src="../Recursos/img/Tratamientos/Hormonas/Hormonas-1.jpg">
+
+                        <img id="Hormonas-1" src="../Recursos/img/Tratamientos/Hormonas/Hormonas-1.jpg"  >
+                        <div id="txt_hormonas1">
+                            <p>Puedes tener síntomas que aparentan</p>
+                            <p style="font-weight: bold;">"Estar fuera de control".</p>
+                        </div>
+
                     </div>
                 </div>
                 <div class="row">
@@ -327,15 +339,15 @@
                      <div id="descripcion" class="col-md-6 conte">
                         <div id="esquinas2" class="thumbnail">
                             <div class="caption">
-                                <h2>¿Qui�n puede usarlo?</h2>
-                            <p>Es una alternativa para las mujeres que enfrentan los cambios de la menopausia, pero tambi�n es una opci�n tanto para hombres y mujeres de distintas edades.</p>
+                                <h2>¿Quién puede usarlo?</h2>
+                            <p>Es una alternativa para las mujeres que enfrentan los cambios de la menopausia, pero también es una opción tanto para hombres y mujeres de distintas edades.</p>
                             <br>
-                            <h2>�Es un tratamiento para la mesopausa?</h2>
-                            <p>Es una alternativa para aquellas mujeres que sufren los s�ntomas de la menopausia temprana y que buscan poner fin a los bochornos o calores, la sudoraci�n nocturna, la p�rdida de la memoria, los cambios de �nimo, el aumento de peso y la disminuci�n del apetito sexual son pacientes recurrentes en este tratamiento que le ayudar� a terminar con estas molestias.</p>
+                            <h2>¿Es un tratamiento para la mesopausa?</h2>
+                            <p>Es una alternativa para aquellas mujeres que sufren los síntomas de la menopausia temprana y que buscan poner fin a los bochornos o calores, la sudoración nocturna, la pérdida de la memoria, los cambios de ánimo, el aumento de peso y la disminución del apetito sexual son pacientes recurrentes en este tratamiento que le ayudará a terminar con estas molestias.</p>
                             <br>
-                            <h2>�Beneficios para los hombres?</h2>
-                            <p>A la edad de 80 a�os, el nivel de testosterona de un hombre s�lo puede ser de 20% de lo que fue en su juventud. Esta disminuci�n de la testosterona se produce gradualmente, comenzando ya a mediados de los 30 a�os.
-                            La deficiencia de testosterona tambi�n puede conducir a una serie de s�ntomas molestos, como la p�rdida de resistencia y masa muscular, la reducci�n de la libido, ansiedad, depresi�n y deterioro cognitivo.</p>
+                            <h2>¿Beneficios para los hombres?</h2>
+                            <p>A la edad de 80 años, el nivel de testosterona de un hombre sólo puede ser de 20% de lo que fue en su juventud. Esta disminución de la testosterona se produce gradualmente, comenzando ya a mediados de los 30 años.
+                            La deficiencia de testosterona también puede conducir a una serie de síntomas molestos, como la pérdida de resistencia y masa muscular, la reducciún de la libido, ansiedad, depresión y deterioro cognitivo.</p>
                             </div>
                         </div>
                     </div>
@@ -345,7 +357,7 @@
                      <div id="descripcion" class="col-md-6 conte">
                         <div id="hormonas3" class="thumbnail">
                             <div class="caption col-md-8">
-                                <h2>�Cu�nto dura?</h2>
+                                <h2>¿Cuánto dura?</h2>
                                 <br>
                                 <p>Aproximadamente de 6 a 8 meses.</p>
                                 <br>
@@ -354,7 +366,7 @@
                                 <br>
                                 <br>
                                 <br>
-                                <h2>�Tiene efectos secundarios?</h2>
+                                <h2>¿Tiene efectos secundarios?</h2>
                                 <br>
                                 <p>Sin efectos secundarios.</p>
                                 <br>
@@ -363,7 +375,7 @@
                                 <br>
                                 <br>
                                 <br>
-                                <h2>�Cambios Hormonales?</h2>
+                                <h2>¿Cambios Hormonales?</h2>
                                 <p>Toma el control</p>
                             </div>
                         </div>
