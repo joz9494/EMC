@@ -28,7 +28,7 @@ Route::get('/Servicios',function(){
 });
 
 Route::get('/Tratamientos',function(){
-	return view('Tratamientos');
+	return view('Tratamientos/Tratamientos');
 });
 
 Route::get('Biocell',function(){
@@ -40,5 +40,5 @@ Route::get('/Opera_tratamiento_antiaging',function(){
 });
 
 Route::get('/Hormonas',function(){
-	return view('/Tratamientos/Hormonas');
+	return view('/Tratamientos/Hormonas2');
 });
