@@ -7,21 +7,21 @@
         <!-- Styles -->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">  
-        <link rel="icon" type="image/png" href="../Recursos/images/icons/favicon.png"/>
-        <link rel="stylesheet" type="text/css" href="../Recursos/vendor/bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="../Recursos/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" type="text/css" href="../Recursos/fonts/iconic/css/material-design-iconic-font.min.css">
-        <link rel="stylesheet" type="text/css" href="../Recursos/fonts/linearicons-v1.0.0/icon-font.min.css">
-        <link rel="stylesheet" type="text/css" href="../Recursos/vendor/animate/animate.css">  
-        <link rel="stylesheet" type="text/css" href="../Recursos/vendor/css-hamburgers/hamburgers.min.css">
-        <link rel="stylesheet" type="text/css" href="../Recursos/vendor/animsition/css/animsition.min.css">
-        <link rel="stylesheet" type="text/css" href="../Recursos/vendor/select2/select2.min.css">  
-        <link rel="stylesheet" type="text/css" href="../Recursos/vendor/daterangepicker/daterangepicker.css">
-        <link rel="stylesheet" type="text/css" href="../Recursos/vendor/slick/slick.css">
-        <link rel="stylesheet" type="text/css" href="../Recursos/vendor/MagnificPopup/magnific-popup.css">
-        <link rel="stylesheet" type="text/css" href="../Recursos/vendor/perfect-scrollbar/perfect-scrollbar.css">
-        <link rel="stylesheet" type="text/css" href="../Recursos/css/util.css">
-        <link rel="stylesheet" type="text/css" href="../Recursos/css/main.css">
+        <link rel="icon" type="image/png" href="Laravel/Recursos/images/icons/favicon.png"/>
+        <link rel="stylesheet" type="text/css" href="Laravel/Recursos/vendor/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="Laravel/Recursos/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="Laravel/Recursos/fonts/iconic/css/material-design-iconic-font.min.css">
+        <link rel="stylesheet" type="text/css" href="Laravel/Recursos/fonts/linearicons-v1.0.0/icon-font.min.css">
+        <link rel="stylesheet" type="text/css" href="Laravel/Recursos/vendor/animate/animate.css">  
+        <link rel="stylesheet" type="text/css" href="Laravel/Recursos/vendor/css-hamburgers/hamburgers.min.css">
+        <link rel="stylesheet" type="text/css" href="Laravel/Recursos/vendor/animsition/css/animsition.min.css">
+        <link rel="stylesheet" type="text/css" href="Laravel/Recursos/vendor/select2/select2.min.css">  
+        <link rel="stylesheet" type="text/css" href="Laravel/Recursos/vendor/daterangepicker/daterangepicker.css">
+        <link rel="stylesheet" type="text/css" href="Laravel/Recursos/vendor/slick/slick.css">
+        <link rel="stylesheet" type="text/css" href="Laravel/Recursos/vendor/MagnificPopup/magnific-popup.css">
+        <link rel="stylesheet" type="text/css" href="Laravel/Recursos/vendor/perfect-scrollbar/perfect-scrollbar.css">
+        <link rel="stylesheet" type="text/css" href="Laravel/Recursos/css/util.css">
+        <link rel="stylesheet" type="text/css" href="Laravel/Recursos/css/main.css">
 </head>
 <body>
 
@@ -36,14 +36,14 @@
     }
     #Linea1{
         width: 3px;
-        height: 270px;
+        height: 250px;
         background-color: #0280A7;
-        margin-top: -40px;
+        margin-top: 0px;
         margin-left: -50px;
     }
     #Linea2{
         width: 3px;
-        height: 270px;
+        height: 250px;
         background-color: #0280A7;
         margin-top: -40px;
         margin-left: 40px;
@@ -51,7 +51,7 @@
     #contenedormaestro{
         background-color: white;
         width: 100%;
-        height: 240%;
+        height: 280%;
     }
     #contenedor1{
         background-color: white;
@@ -117,7 +117,7 @@
         width: 310px;
         height: 410px;
         margin-left: 7%;
-        background-image: url('../Recursos/img/cuadro-gris2.png');
+        background-image: url('Laravel/Recursos/img/Tratamientos/Opera/cuadro-gris2.png');
         background-size: 100%;
     }
     #cardcambio div div div{
@@ -130,7 +130,7 @@
         display: none;
     }
     #cardcambio:hover{
-        background-image: url('../Recursos/img/azul2.png');
+        background-image: url('Laravel/Recursos/img/Tratamientos/Opera/azul2.png');
     }
     #cardcambio:hover div img{
         display: none;
@@ -230,7 +230,7 @@
 
 
 <div id="contenedor2">
-    <img src="../Recursos/img/Opera-thalia.png" width="90%" style="margin-left: 5%;">
+    <img src="Laravel/Recursos/img/Tratamientos/Opera/Opera-thalia.png" width="90%" style="margin-left: 5%;">
 </div>
 
 
@@ -260,7 +260,7 @@
         </font>
     </div>
     <div id="conte4-2">
-        <img src="../Recursos/img/masks.jpg" width="80%" style="margin-left: 3%;">
+        <img src="Laravel/Recursos/img/Tratamientos/Opera/masks.jpg" width="80%" style="margin-left: 3%;">
     </div>
 </div>
 
@@ -271,9 +271,9 @@
     <div class="row">
             <div id="cardcambio">
                 <div>
-                    <img src="../Recursos/img/mascaraazul1.png" width="70px" style="margin-left: 37%;margin-top: 3%;margin-bottom: 2%;">
+                    <img src="Laravel/Recursos/img/Tratamientos/Opera/mascaraazul1.png" width="70px" style="margin-left: 37%;margin-top: 3%;margin-bottom: 2%;">
                     <div>
-                        <img src="../Recursos/img/morada1.png" width="70px" style="margin-left: 37%;margin-top: 3%;margin-bottom: 2%;">
+                        <img src="Laravel/Recursos/img/Tratamientos/Opera/morada1.png" width="70px" style="margin-left: 37%;margin-top: 3%;margin-bottom: 2%;">
                     </div>
                     <font style="margin-left: 39%;font-size: 12px;font-weight: bold;font-family:txtbran">Post Care</font><br>
                     <font style="margin-left: 29%;font-size: 12px;font-weight: bold;font-family:txtbran">con LED Foto-Terapia</font><br>
@@ -294,9 +294,9 @@
 
             <div id="cardcambio">
                 <div>
-                    <img src="../Recursos/img/mascaraazul1.png" width="70px" style="margin-left: 37%;margin-top: 3%;margin-bottom: 2%;">
+                    <img src="Laravel/Recursos/img/Tratamientos/Opera/mascaraazul1.png" width="70px" style="margin-left: 37%;margin-top: 3%;margin-bottom: 2%;">
                     <div>
-                        <img src="../Recursos/img/rojo1.png" width="70px" style="margin-left: 37%;margin-top: 3%;margin-bottom: 2%;">
+                        <img src="Laravel/Recursos/img/Tratamientos/Opera/rojo1.png" width="70px" style="margin-left: 37%;margin-top: 3%;margin-bottom: 2%;">
                     </div>
                     <font style="margin-left: 18%;font-size: 12px;font-weight: bold;font-family:txtbran">Rejuvenecimiento de piel con LED</font><br>
                     <font style="margin-left: 36%;font-size: 12px;font-weight: bold;font-family:txtbran">Foto-Terapia</font><br>
@@ -337,9 +337,9 @@
     <div class="row">
             <div id="cardcambio">
                 <div>
-                    <img src="../Recursos/img/mascaraazul1.png" width="70px" style="margin-left: 37%;margin-top: 3%;margin-bottom: 2%;">
+                    <img src="Laravel/Recursos/img/Tratamientos/Opera/mascaraazul1.png" width="70px" style="margin-left: 37%;margin-top: 3%;margin-bottom: 2%;">
                     <div>
-                        <img src="../Recursos/img/azul-oscuro1.png" width="70px" style="margin-left: 37%;margin-top: 3%;margin-bottom: 2%;">
+                        <img src="Laravel/Recursos/img/Tratamientos/Opera/azul-oscuro1.png" width="70px" style="margin-left: 37%;margin-top: 3%;margin-bottom: 2%;">
                     </div>
                     <font style="margin-left: 19%;font-size: 12px;font-weight: bold;font-family:txtbran">Tratamiento contra el acné con</font><br>
                     <font style="margin-left: 34%;font-size: 12px;font-weight: bold;font-family:txtbran">LED Foto-Terapia</font><br>
@@ -360,9 +360,9 @@
 
             <div id="cardcambio">
                 <div>
-                    <img src="../Recursos/img/mascaraazul1.png" width="70px" style="margin-left: 37%;margin-top: 3%;margin-bottom: 2%;">
+                    <img src="Laravel/Recursos/img/Tratamientos/Opera/mascaraazul1.png" width="70px" style="margin-left: 37%;margin-top: 3%;margin-bottom: 2%;">
                     <div>
-                        <img src="../Recursos/img/verde1.png" width="70px" style="margin-left: 37%;margin-top: 3%;margin-bottom: 2%;">
+                        <img src="Laravel/Recursos/img/Tratamientos/Opera/verde1.png" width="70px" style="margin-left: 37%;margin-top: 3%;margin-bottom: 2%;">
                     </div>
                     <font style="margin-left: 25.5%;font-size: 12px;font-weight: bold;font-family:txtbran">Corriente galvánica utilizado</font><br>
                     <font style="margin-left: 28%;font-size: 12px;font-weight: bold;font-family:txtbran">con máscaras de hidrogel</font><br>
@@ -409,9 +409,9 @@
 <div id="adaptacionMovil">
 <div class="container" style="margin-left: 15%;margin-top: 2%;position: absolute;">
     <div class="row">
-            <div style="width: 310px;height: 340px;background-image: url('../Recursos/img/cuadro-gris.png');background-size: 100%;">
+            <div style="width: 310px;height: 340px;background-image: url('Laravel/Recursos/img/Tratamientos/Opera/cuadro-gris.png');background-size: 100%;">
                 <div>
-                    <img src="../Recursos/img/mascaraazul1.png" style="margin-left: 35%;margin-top: 3%;">
+                    <img src="Laravel/Recursos/img/Tratamientos/Opera/mascaraazul1.png" style="margin-left: 35%;margin-top: 3%;">
                     <br>
                     <font style="margin-left: 43%;font-size: 12px;font-weight: bold;">Post Care</font><br>
                     <font style="margin-left: 33%;font-size: 12px;font-weight: bold;">con LED Foto-Terapia</font><br>
@@ -431,9 +431,9 @@
 
     <div class="container" style="margin-left: 15%;margin-top: 90%;position: absolute;">
     <div class="row">
-            <div style="width: 310px;height: 340px;background-image: url('../Recursos/img/cuadro-gris.png');background-size: 100%;">
+            <div style="width: 310px;height: 340px;background-image: url('Laravel/Recursos/img/Tratamientos/Opera/cuadro-gris.png');background-size: 100%;">
                 <div>
-                    <img src="../Recursos/img/mascaraazul1.png" style="margin-left: 35%;margin-top: 3%;">
+                    <img src="Laravel/Recursos/img/Tratamientos/Opera/mascaraazul1.png" style="margin-left: 35%;margin-top: 3%;">
                     <br>
                     <font style="margin-left: 43%;font-size: 12px;font-weight: bold;">Post Care</font><br>
                     <font style="margin-left: 33%;font-size: 12px;font-weight: bold;">con LED Foto-Terapia</font><br>
@@ -454,9 +454,9 @@
 
     <div class="container" style="margin-left: 15%;margin-top: 180%;position: absolute;">
     <div class="row">
-            <div style="width: 310px;height: 340px;background-image: url('../Recursos/img/cuadro-gris.png');background-size: 100%;">
+            <div style="width: 310px;height: 340px;background-image: url('Laravel/Recursos/img/Tratamientos/Opera/cuadro-gris.png');background-size: 100%;">
                 <div>
-                    <img src="../Recursos/img/mascaraazul1.png" style="margin-left: 35%;margin-top: 3%;">
+                    <img src="Laravel/Recursos/img/Tratamientos/Opera/mascaraazul1.png" style="margin-left: 35%;margin-top: 3%;">
                     <br>
                     <font style="margin-left: 43%;font-size: 12px;font-weight: bold;">Post Care</font><br>
                     <font style="margin-left: 33%;font-size: 12px;font-weight: bold;">con LED Foto-Terapia</font><br>
@@ -477,9 +477,9 @@
 
     <div class="container" style="margin-left: 15%;margin-top: 270%;position: absolute;">
     <div class="row">
-            <div style="width: 310px;height: 340px;background-image: url('../Recursos/img/cuadro-gris.png');background-size: 100%;">
+            <div style="width: 310px;height: 340px;background-image: url('Laravel/Recursos/img/Tratamientos/Opera/cuadro-gris.png');background-size: 100%;">
                 <div>
-                    <img src="../Recursos/img/mascaraazul1.png" style="margin-left: 35%;margin-top: 3%;">
+                    <img src="Laravel/Recursos/img/Tratamientos/Opera/mascaraazul1.png" style="margin-left: 35%;margin-top: 3%;">
                     <br>
                     <font style="margin-left: 43%;font-size: 12px;font-weight: bold;">Post Care</font><br>
                     <font style="margin-left: 33%;font-size: 12px;font-weight: bold;">con LED Foto-Terapia</font><br>

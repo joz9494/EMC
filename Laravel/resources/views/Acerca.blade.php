@@ -7,21 +7,21 @@
         <!-- Styles -->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">  
-        <link rel="icon" type="image/png" href="../Recursos/images/icons/favicon.png"/>
-        <link rel="stylesheet" type="text/css" href="../Recursos/vendor/bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="../Recursos/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" type="text/css" href="../Recursos/fonts/iconic/css/material-design-iconic-font.min.css">
-        <link rel="stylesheet" type="text/css" href="../Recursos/fonts/linearicons-v1.0.0/icon-font.min.css">
-        <link rel="stylesheet" type="text/css" href="../Recursos/vendor/animate/animate.css">  
-        <link rel="stylesheet" type="text/css" href="../Recursos/vendor/css-hamburgers/hamburgers.min.css">
-        <link rel="stylesheet" type="text/css" href="../Recursos/vendor/animsition/css/animsition.min.css">
-        <link rel="stylesheet" type="text/css" href="../Recursos/vendor/select2/select2.min.css">  
-        <link rel="stylesheet" type="text/css" href="../Recursos/vendor/daterangepicker/daterangepicker.css">
-        <link rel="stylesheet" type="text/css" href="../Recursos/vendor/slick/slick.css">
-        <link rel="stylesheet" type="text/css" href="../Recursos/vendor/MagnificPopup/magnific-popup.css">
-        <link rel="stylesheet" type="text/css" href="../Recursos/vendor/perfect-scrollbar/perfect-scrollbar.css">
-        <link rel="stylesheet" type="text/css" href="../Recursos/css/util.css">
-        <link rel="stylesheet" type="text/css" href="../Recursos/css/main.css">
+        <link rel="icon" type="image/png" href="Laravel/Recursos/images/icons/favicon.png"/>
+        <link rel="stylesheet" type="text/css" href="Laravel/Recursos/vendor/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="Laravel/Recursos/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="Laravel/Recursos/fonts/iconic/css/material-design-iconic-font.min.css">
+        <link rel="stylesheet" type="text/css" href="Laravel/Recursos/fonts/linearicons-v1.0.0/icon-font.min.css">
+        <link rel="stylesheet" type="text/css" href="Laravel/Recursos/vendor/animate/animate.css">  
+        <link rel="stylesheet" type="text/css" href="Laravel/Recursos/vendor/css-hamburgers/hamburgers.min.css">
+        <link rel="stylesheet" type="text/css" href="Laravel/Recursos/vendor/animsition/css/animsition.min.css">
+        <link rel="stylesheet" type="text/css" href="Laravel/Recursos/vendor/select2/select2.min.css">  
+        <link rel="stylesheet" type="text/css" href="Laravel/Recursos/vendor/daterangepicker/daterangepicker.css">
+        <link rel="stylesheet" type="text/css" href="Laravel/Recursos/vendor/slick/slick.css">
+        <link rel="stylesheet" type="text/css" href="Laravel/Recursos/vendor/MagnificPopup/magnific-popup.css">
+        <link rel="stylesheet" type="text/css" href="Laravel/Recursos/vendor/perfect-scrollbar/perfect-scrollbar.css">
+        <link rel="stylesheet" type="text/css" href="Laravel/Recursos/css/util.css">
+        <link rel="stylesheet" type="text/css" href="Laravel/Recursos/css/main.css">
 </head>
 <body>
 
@@ -32,11 +32,11 @@
     }
     @font-face {
         font-family: brandon_reg;
-        src: url(../Recursos/BRANDON_REG.otf);
+        src: url(Laravel/Recursos/BRANDON_REG.otf);
     }
     @font-face {
         font-family: brandon_bold;
-        src: url(../Recursos/BRANDON_BLD.otf);
+        src: url(Laravel/Recursos/BRANDON_BLD.otf);
     }
     #contentedor{
         background-color: white;
@@ -75,7 +75,7 @@
 <div style="height: 100%;">
 
     <div style="position: absolute; z-index: 1; width: 100%">
-        <img src="../recursos/img/AcercaDe/Fondo.png" width="100%">
+        <img src="Laravel/recursos/img/AcercaDe/Fondo.png" width="100%">
     </div>
 
     <div style="position: absolute; z-index: 2; margin-left: 54%;margin-top: 40px;background-color: white;width: 21%;height: 24%;">
@@ -91,7 +91,7 @@
      
 
     <div style="position: absolute; z-index: 3; margin-left: 51%;margin-top: 270px;width: 30%">
-        <img id="imgiback1" src="../recursos/img/AcercaDe/Boton.jpg">
+        <img id="imgiback1" src="Laravel/recursos/img/AcercaDe/Boton.jpg">
     </div>                  
 
 </div>

@@ -7,30 +7,30 @@
             <!-- Styles -->
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1">  
-            <link rel="icon" type="image/png" href="../Recursos/images/icons/favicon.png"/>
-            <link rel="stylesheet" type="text/css" href="../Recursos/vendor/bootstrap/css/bootstrap.min.css">
-            <link rel="stylesheet" type="text/css" href="../Recursos/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-            <link rel="stylesheet" type="text/css" href="../Recursos/fonts/iconic/css/material-design-iconic-font.min.css">
-            <link rel="stylesheet" type="text/css" href="../Recursos/fonts/linearicons-v1.0.0/icon-font.min.css">
-            <link rel="stylesheet" type="text/css" href="../Recursos/vendor/animate/animate.css">  
-            <link rel="stylesheet" type="text/css" href="../Recursos/vendor/css-hamburgers/hamburgers.min.css">
-            <link rel="stylesheet" type="text/css" href="../Recursos/vendor/animsition/css/animsition.min.css">
-            <link rel="stylesheet" type="text/css" href="../Recursos/vendor/select2/select2.min.css">  
-            <link rel="stylesheet" type="text/css" href="../Recursos/vendor/daterangepicker/daterangepicker.css">
-            <link rel="stylesheet" type="text/css" href="../Recursos/vendor/slick/slick.css">
-            <link rel="stylesheet" type="text/css" href="../Recursos/vendor/MagnificPopup/magnific-popup.css">
-            <link rel="stylesheet" type="text/css" href="../Recursos/vendor/perfect-scrollbar/perfect-scrollbar.css">
-            <link rel="stylesheet" type="text/css" href="../Recursos/css/util.css">
-            <link rel="stylesheet" type="text/css" href="../Recursos/css/main.css">
+            <link rel="icon" type="image/png" href="Laravel/Recursos/images/icons/favicon.png"/>
+            <link rel="stylesheet" type="text/css" href="Laravel/Recursos/vendor/bootstrap/css/bootstrap.min.css">
+            <link rel="stylesheet" type="text/css" href="Laravel/Recursos/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" type="text/css" href="Laravel/Recursos/fonts/iconic/css/material-design-iconic-font.min.css">
+            <link rel="stylesheet" type="text/css" href="Laravel/Recursos/fonts/linearicons-v1.0.0/icon-font.min.css">
+            <link rel="stylesheet" type="text/css" href="Laravel/Recursos/vendor/animate/animate.css">  
+            <link rel="stylesheet" type="text/css" href="Laravel/Recursos/vendor/css-hamburgers/hamburgers.min.css">
+            <link rel="stylesheet" type="text/css" href="Laravel/Recursos/vendor/animsition/css/animsition.min.css">
+            <link rel="stylesheet" type="text/css" href="Laravel/Recursos/vendor/select2/select2.min.css">  
+            <link rel="stylesheet" type="text/css" href="Laravel/Recursos/vendor/daterangepicker/daterangepicker.css">
+            <link rel="stylesheet" type="text/css" href="Laravel/Recursos/vendor/slick/slick.css">
+            <link rel="stylesheet" type="text/css" href="Laravel/Recursos/vendor/MagnificPopup/magnific-popup.css">
+            <link rel="stylesheet" type="text/css" href="Laravel/Recursos/vendor/perfect-scrollbar/perfect-scrollbar.css">
+            <link rel="stylesheet" type="text/css" href="Laravel/Recursos/css/util.css">
+            <link rel="stylesheet" type="text/css" href="Laravel/Recursos/css/main.css">
     </head>
     <style type="text/css">
         @font-face {
             font-family: brandon_reg;
-            src: url(-"../Recursos/BRANDON_REG.otf");
+            src: url(-"Laravel/Recursos/BRANDON_REG.otf");
         }
         @font-face {
             font-family: brandon_bold;
-            src: url("../Recursos/BRANDON_BLD.otf");
+            src: url("Laravel/Recursos/BRANDON_BLD.otf");
         }
         body{
             background-color: #0280A7;
@@ -157,7 +157,7 @@
             <div class="row">
                 <div class="col-md-3"></div>
                 <div id="carrusel_principal" class="col-md-6 conte">
-                    <img id="Hormonas-1" src="../Recursos/img/Tratamientos/Hormonas/Hormonas-1.jpg" >
+                    <img id="Hormonas-1" src="Laravel/Recursos/img/Tratamientos/Hormonas/Hormonas-1.jpg" >
                     <div id="txt_hormonas1">
                         <p>Puedes tener síntomas que aparentan</p>
                         <p style="font-weight: bold;">"Estar fuera de control".</p>
@@ -168,7 +168,7 @@
                 <div class="col-md-3"></div>
                 <div class="col-md-6 conte">
                     <div class="imagen_text">
-                        <img src="../Recursos/img/Tratamientos/Hormonas/Esquinas.png" alt="">
+                        <img src="Laravel/Recursos/img/Tratamientos/Hormonas/Esquinas.png" alt="">
                         <div class="text-img " >
                                 <h2>¿Que son las hormonas Bio-idínticas?</h2>
                                 <p>
@@ -188,7 +188,7 @@
                 <div class="col-md-3"></div>
                 <div class="col-md-6 conte">
                     <div class="imagen_text">
-                        <img src="../Recursos/img/Tratamientos/Hormonas/Hormonas-2.png" alt="">
+                        <img src="Laravel/Recursos/img/Tratamientos/Hormonas/Hormonas-2.png" alt="">
                         <div id="hormonas2" class="text-img">
                                 <h2>¿Cómo se realiza?</h2>
                                 <p>El estudio debe realizarse 14 días después de la Menstruación, en caso de ya no tener menstruación el estudio se realiza en cualquier día.</p>
@@ -203,7 +203,7 @@
                 <div class="col-md-3"></div>
                 <div class="col-md-6 conte">
                     <div class="imagen_text">
-                        <img src="../Recursos/img/Tratamientos/Hormonas/Esquinas-2.png" alt="">
+                        <img src="Laravel/Recursos/img/Tratamientos/Hormonas/Esquinas-2.png" alt="">
                         <div id="esquinas2" class="text-img">
                             <h2>¿Quién puede usarlo?</h2>
                             <p>Es una alternativa para las mujeres que enfrentan los cambios de la menopausia, pero también es una opción tanto para hombres y mujeres de distintas edades.</p>
@@ -222,7 +222,7 @@
                 <div class="col-md-3"></div>
                 <div id="final" class="col-md-6 conte">
                     <div class="imagen_text">
-                        <img src="../Recursos/img/Tratamientos/Hormonas/Hormonas-3.png" alt="">
+                        <img src="Laravel/Recursos/img/Tratamientos/Hormonas/Hormonas-3.png" alt="">
                         <div id="hormonas3" class="text-img">
                                 <h2>¿Cuánto dura?</h2>
                                 <p>Aproximadamente de 6 a 8 meses.</p>
