@@ -131,7 +131,7 @@
 @section(@content)
 
 
-<table width="100%" border="1px" style="background-color: #ed9caa; font-size: 20px;margin-top: -10px;">
+<table width="100%" border="1px">
     <thead>
         <tr><th>
         <div id="contenedorcarrousel" style="width: 100%;">
