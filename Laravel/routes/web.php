@@ -42,3 +42,6 @@ Route::get('/Opera_tratamiento_antiaging',function(){
 Route::get('/Hormonas',function(){
 	return view('/Tratamientos/Hormonas2');
 });
+Route::get('/Peptonas',function(){
+	return view('/Tratamientos/Peptonas');
+});

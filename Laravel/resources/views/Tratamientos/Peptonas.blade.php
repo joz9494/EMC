@@ -56,11 +56,11 @@
         {
             width: 100%;
         }
-        h1,h2,p
+        h1,h2,p,li
         {
             font-family: brandon_reg;
         }
-        #titulo h1,.text-img h2
+        #titulo h1,#peptonas h2
         {
             color: #0280A7;
             font-size: 21px;
@@ -71,8 +71,6 @@
             width: 100%;
             background-color:rgb(236,236,236);
             padding: 2%;
-
-
         }
         #txt_hormonas1 p
         {
@@ -91,54 +89,69 @@
         .text-img{
             position: absolute;
             top: 0;
-            padding: 5%;
+            padding: 2%;
             color: black;
         }
-        #hormonas2
+        .peptonas
         {
             top: 5%;
-            width: 75%;
-            left: 25%;
+            width: 60%;
+            left: 40%;
         }
+        .peptonas h2, .peptonas p,#hormonas3 h2
+        {
+            color: #0280A7;
+        }
+        .peptonas h2,#hormonas3 h2 
+        {font-weight: bold;}
+
         #hormonas3
         {
             top: 10% ;
             width: 75%;
             right:  25%;
         }
-
-        #hormonas2 p,#hormonas2 h2,#hormonas3 p,#hormonas3 h2
+        #hormonas3 ul
         {
-            color: white;
+            text-align: left;
+            margin: 2%;
         }
+        #hormonas3 li
+        {
+            line-height: 100%;
+        }
+        #hormonas3 li::before {content: "•"; color:#0280A7}
         @media  (orientation: portrait) {
             .text-img h2, .imagen_text p
             {
                 font-size: 2.5vw;
             }
-            #hormonas2 h2,#hormonas2 p
+            .peptonas h2,.peptonas p,#hormonas3 h2,#hormonas3 p,#hormonas3 li
             {
                 font-size: 2.6vw;
             }
-            #hormonas3 h2,#hormonas3 p
+            #preguntas3 h2,#preguntas3 p
             {
                 font-size: 2.8vw;
             }
+        }
+        #preguntas3{
+            margin-top: 5%;
         }
         @media  (orientation: landscape) {
             .text-img h2, .imagen_text p
             {
                 font-size: 1.2vw;
             }
-            #hormonas2 h2,#hormonas2 p
+            .peptonas h2,.peptonas p #hormonas3 h2,#hormonas3 p,#hormonas3 li
             {
                 font-size: 1.4vw;
             }
-            #hormonas3 h2,#hormonas3 p
+            
+            #preguntas3
             {
                 font-size: 1.8vw;
             }
-            
         }
         
     </style>
@@ -152,34 +165,24 @@
             <div id="titulo" class="row">
                 <div class="col-md-2"></div>
                 <div class="col-md-8 conte">
-                    <h1>Hormonas Bio-Idénticas</h1>    
+                    <h1>Peptonas</h1>    
                 </div> 
-            </div>
-            <div class="row">
-                <div class="col-md-3"></div>
-                <div id="carrusel_principal" class="col-md-6 conte">
-                    <img id="Hormonas-1" src="Laravel/Recursos/img/Tratamientos/Hormonas/Hormonas-1.jpg" >
-                    <div id="txt_hormonas1">
-                        <p>Puedes tener síntomas que aparentan</p>
-                        <p style="font-weight: bold;">"Estar fuera de control".</p>
-                    </div>
-                </div>
             </div>
             <div class=" row">
                 <div class="col-md-3"></div>
                 <div class="col-md-6 conte">
                     <div class="imagen_text">
-                        <img src="Laravel/Recursos/img/Tratamientos/Hormonas/Esquinas.png" alt="">
-                        <div class="text-img " >
-                                <h2>¿Que son las hormonas Bio-idínticas?</h2>
-                                <p>
-                                Son biológicamente idínticas, tienen una estructura molecular idéntica a las hormonas que produce el organismo, sin los efectos secundarios de las hormonas sintéticas.
-                                <p>
-                                <br>
-                                <h2>¿Como funciona?</h2>
-                                <p>
-                                Mejoran la comunicación celular, recuperando el equilibrio y optimizan las funciones del organismo.
-                                Es un procedimiento donde se balancea el requerimiento hormonal donde se pide al paciente acudir con un estudio de sangre llamado Perfil Ovárico Femenino el cual debe incluir Estradiol, Progesterona, Hormona Folículo Estimulante, Hormona Luteinizante y prolactina.
+                        <img src="Laravel/Recursos/img/Tratamientos/Peptonas/Peptonas1.jpg" alt="">
+                        <div id="" class="text-img peptonas">
+                            <h2>¿Qué es?</h2>
+                            <p>Las peptonas son sustancias de la proteína
+                                espesificas a cada tejido, se aplican en puntos espesificos según cada paciente
+                                , logrando logrando una piel mas tuergente y firme. 
+                            </p>
+                            <br>
+                            <h2>¿Cómo funciona?</h2>
+                            <p>Estimulan la produccion de nuevos sustratos en la piel
+                                como colageno y elastina, haciendo piel de apariencia mas joven.
                             </p>
                         </div>
                     </div>
@@ -189,32 +192,23 @@
                 <div class="col-md-3"></div>
                 <div class="col-md-6 conte">
                     <div class="imagen_text">
-                        <img src="Laravel/Recursos/img/Tratamientos/Hormonas/Hormonas-2.png" alt="">
-                        <div id="hormonas2" class="text-img">
-                                <h2>¿Cómo se realiza?</h2>
-                                <p>El estudio debe realizarse 14 días después de la Menstruación, en caso de ya no tener menstruación el estudio se realiza en cualquier día.</p>
-                                <br>
-                                <h2>¿De qué manera ajustamos las hormonas bio-idénticas?</h2>
-                                <p>Analizamos las deficiencias y se reponemos las hormonas que están por debajo de lo óptimo y son deficientes.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class=" row">
-                <div class="col-md-3"></div>
-                <div class="col-md-6 conte">
-                    <div class="imagen_text">
-                        <img src="Laravel/Recursos/img/Tratamientos/Hormonas/Esquinas-2.png" alt="">
-                        <div id="esquinas2" class="text-img">
-                            <h2>¿Quién puede usarlo?</h2>
-                            <p>Es una alternativa para las mujeres que enfrentan los cambios de la menopausia, pero también es una opción tanto para hombres y mujeres de distintas edades.</p>
+                        <img src="Laravel/Recursos/img/Tratamientos/Peptonas/Peptonas2.png" alt="">
+                        <div id="hormonas3" class="text-img">
+                            <h2>¿Qué beneficios obtines?</h2>
+                            <p>
+                                <ul>
+                                    <li>Restaurar la vitalidad cutanea</li>
+                                    <li>Aumenta su grosor</li>
+                                    <li>Recupera la consistencia elástica</li>
+                                    <li>Mejora la afluencia vascular</li>
+                                    <li>Estimulando las secreciones e incrementando la testura y apariencia de la piel</li>
+                                </ul>
+                            </p>
                             <br>
-                            <h2>¿Es un tratamiento para la mesopausa?</h2>
-                            <p style="text-align : justify;">Es una alternativa para aquellas mujeres que sufren los síntomas de la menopausia temprana y que buscan poner fin a los bochornos o calores, la sudoración nocturna, la pérdida de la memoria, los cambios de ánimo, el aumento de peso y la disminución del apetito sexual son pacientes recurrentes en este tratamiento que le ayudará a terminar con estas molestias.</p>
-                            <br>
-                            <h2>¿Beneficios para los hombres?</h2>
-                            <p style="text-align : justify;">A la edad de 80 años, el nivel de testosterona de un hombre sólo puede ser de 20% de lo que fue en su juventud. Esta disminución de la testosterona se produce gradualmente, comenzando ya a mediados de los 30 años.
-                            La deficiencia de testosterona también puede conducir a una serie de síntomas molestos, como la pérdida de resistencia y masa muscular, la reducciún de la libido, ansiedad, depresión y deterioro cognitivo.</p>
+                            <h2>¿Cuantas secciones necesito?</h2>
+                            <p>Generalmente, son 2-3 sesiones cada 8 dias. Luego, se realiza
+                                un mantenimiento de 1-2 seción cada 6 meses obteniendo así resultados visibles y duraderos
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -223,20 +217,22 @@
                 <div class="col-md-3"></div>
                 <div id="final" class="col-md-6 conte">
                     <div class="imagen_text">
-                        <img src="Laravel/Recursos/img/Tratamientos/Hormonas/Hormonas-3.png" alt="">
-                        <div id="hormonas3" class="text-img">
-                                <h2>¿Cuánto dura?</h2>
-                                <p>Aproximadamente de 6 a 8 meses.</p>
-                                <br>
-                                <h2>¿Tiene efectos secundarios?</h2>
-                                <p>Sin efectos secundarios.</p>
-                                <br>
-                                <h2>¿Cambios Hormonales?</h2>
-                                <p>Toma el control</p>
+                        <img src="Laravel/Recursos/img/Tratamientos/Peptonas/Peptonas3.jpg" alt="">
+                        <div id="preguntas3" class="text-img peptonas">
+                            <h2>¿Cuánto duran los efectos?</h2>
+                            <p>Duran de 8 mesese a 1 año.</p>
+                            <br>
+                            <h2>¿Encuánto tiempo veo los resultados?</h2>
+                            <p>Si.</p>
+                            <br>
+                            <h2>¿Cuánto tiempo dura el proceso?</h2>
+                            <p>1 hora máximo</p>
+
                         </div>
                     </div>
                 </div>
             </div>
+            
         </div>
         @stop
     </body>

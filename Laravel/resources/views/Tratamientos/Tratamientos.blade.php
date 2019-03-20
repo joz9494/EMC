@@ -205,7 +205,7 @@
                                     <div class="nombre">Peptonas <br><br></div>
                                     <p class="descripcion">Estimula la produccion colageno y elastina del rostro <br><br></p> 
                                 </div>    
-                                <a href="http://" class="btn btn-primary">leer mas</a>
+                            <a href="{{url('/Peptonas')}}" class="btn btn-primary">leer mas</a>
                             </div>
                             <div class="col-md-2 col-sm-5 tratamiento">
                                 <div class="tratamiento-cuerpo">
