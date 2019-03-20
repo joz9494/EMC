@@ -219,7 +219,7 @@
             }
             #txt_hormonas1 p
             {
-                font-size: 2em;
+                font-size: 3vh;
                 color: black;
             }
             .conte h1,#esquinas h2,#esquinas2 h2{
@@ -289,10 +289,8 @@
                 <div class="row">
                     <div class="col-md-3"></div>
                     <div id="carrusel_principal" class="col-md-6 conte">
-
-                        <img id="Hormonas-1" src="../Recursos/img/Tratamientos/Hormonas/Hormonas-1.jpg">
-
-                        <img id="Hormonas-1" src="../Recursos/img/Tratamientos/Hormonas/Hormonas-1.jpg"  >
+                            
+                        <img id="Hormonas-1" src="../Recursos/img/Tratamientos/Hormonas/Hormonas-1.jpg" >
                         <div id="txt_hormonas1">
                             <p>Puedes tener síntomas que aparentan</p>
                             <p style="font-weight: bold;">"Estar fuera de control".</p>
