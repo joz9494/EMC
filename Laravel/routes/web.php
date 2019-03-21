@@ -45,3 +45,6 @@ Route::get('/Hormonas',function(){
 Route::get('/Peptonas',function(){
 	return view('/Tratamientos/Peptonas');
 });
+Route::get('/lift-biologico',function(){
+	return view('/Tratamientos/lift-biologico');
+});
