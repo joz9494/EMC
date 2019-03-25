@@ -60,7 +60,7 @@
         {
             font-family: brandon_reg;
         }
-        #titulo h1,#peptonas h2
+        #titulo h1,.text-img h2
         {
             color: #0280A7;
             font-size: 21px;
@@ -71,6 +71,8 @@
             width: 100%;
             background-color:rgb(236,236,236);
             padding: 2%;
+
+
         }
         #txt_hormonas1 p
         {
@@ -89,76 +91,78 @@
         .text-img{
             position: absolute;
             top: 0;
-            padding: 2%;
+            padding: 5%;
             color: black;
         }
-        .peptonas
+        #prp4g1
+        {
+            top: 5%;
+            width: 75%;
+            right: 25%;
+        }
+        #prp4g3
         {
             top: 5%;
             width: 60%;
-            left: 40%;
+            right: 40%;
         }
-        .peptonas h2, .peptonas p,#hormonas3 h2
-        {
-            color: #0280A7;
-        }
-        .peptonas h2,#hormonas3 h2 
-        {font-weight: bold;}
-
-        #hormonas3
-        {
-            top: 10% ;
-            width: 75%;
-            right:  25%;
-        }
-        #hormonas3 ul
+        #prp4g3 ul
         {
             text-align: left;
             margin: 2%;
         }
-        #hormonas3 li
+        #prp4g3 li
         {
             line-height: 100%;
         }
-        #hormonas3 li::before {content: "•"; color:#0280A7}
-        @media  (orientation: portrait){
+        #prp4g3 li::before {content: "•"; color:grey}
+        #prp4g1 h2,#hormonas3 p,#prp4g3 h2
+        {
+            color: black;
+        }
+        #hormonas3 h2
+        {
+            color: #0280A7;
+        }
+        #hormonas3
+        {
+            top: 2% ;
+            width: 70%;
+            left:  30%;
+        }
+
+        #prp4g1 p,#prp4g3 li
+        {
+            color: gray;
+        }
+        @media  (orientation: portrait) {
             .text-img h2, .imagen_text p
             {
                 font-size: 2.5vw;
             }
-            .peptonas h2,.peptonas p,#hormonas3 h2,#hormonas3 p,#hormonas3 li
+            #prp4g1 h2,#prp4g1 p,#prp4g3 h2,#prp4g3 li
             {
                 font-size: 2.6vw;
             }
-            #preguntas3 h2,#preguntas3 p
+            #hormonas3 h2,#hormonas3 p
             {
-                font-size: 2.8vw;
+                font-size: 2.5vw;
             }
-            
-        }
-        $grid-breakpoints: (
-            xs: 0,
-            sm: 600px,
-            md: 768px,
-            lg: 1024px
-        );
-        #preguntas3{
-            margin-top: 5%;
         }
         @media  (orientation: landscape) {
             .text-img h2, .imagen_text p
             {
-                font-size: 1.2vw;
+                font-size: 1.6vw;
             }
-            .peptonas h2,.peptonas p #hormonas3 h2,#hormonas3 p,#hormonas3 li
-            {
-                font-size: 1.4vw;
-            }
-            
-            #preguntas3
+            #prp4g1 h2,#prp4g1 p,#prp4g3 h2,#prp4g3 li
             {
                 font-size: 1.8vw;
             }
+            #hormonas3 h2,#hormonas3 p
+            {
+                font-size: 1.8vw;
+            }
+            
         }
         
     </style>
@@ -172,74 +176,96 @@
             <div id="titulo" class="row">
                 <div class="col-md-2"></div>
                 <div class="col-md-8 conte">
-                    <h1>Peptonas</h1>    
+                    <h1>Hormonas Bio-Idénticas</h1>    
                 </div> 
             </div>
             <div class=" row">
-                <div class="col-md-3"></div>
-                <div class="col-md-6 conte">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 conte">
                     <div class="imagen_text">
-                        <img src="Laravel/Recursos/img/Tratamientos/Peptonas/Peptonas1.jpg" alt="">
-                        <div id="" class="text-img peptonas">
+                        <img src="Laravel\Recursos\img\Tratamientos\PRP\PRP1.jpg" alt="">
+                        <div id="prp4g1" class="text-img">
                             <h2>¿Qué es?</h2>
-                            <p>Las peptonas son sustancias de la proteína
-                                espesificas a cada tejido, se aplican en puntos espesificos según cada paciente
-                                , logrando logrando una piel mas tuergente y firme. 
+                            <p>
+                                Es una sustancia que se obtines centrifugando tu sangre para seguir una fracción de plasma con una alta consetración de plaquetas.
+                                <br>
+                                Al ser utilizando mediante micropunciones dérmicas en las zonas a tratar, el Plasma Rico en Plaquetas estimula la producción de colageno, elastina y tejido epidérmico, lo que se traduce en una piel joven, tersa y de mejor calidad.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 conte">
+                    <div class="imagen_text">
+                        <img src="Laravel\Recursos\img\Tratamientos\PRP\PRP2.png" alt="">
+                        <div id="hormonas3" class="text-img">
+                            <h2>¿Qué tipo de tratamiento es?</h2>
+                            <p>
+                                Suele utilizarse como tratamiento preventivo y regenerador, se recomienda su utilización cuando comienzan a aprecer signos del envejecimiento cutáneo.
                             </p>
                             <br>
                             <h2>¿Cómo funciona?</h2>
-                            <p>Estimulan la produccion de nuevos sustratos en la piel
-                                como colageno y elastina, haciendo piel de apariencia mas joven.
+                            <p>
+                                Consiste en inyecciones en puntos espesificos según cada caso para mejorar notablemente el aspecto de la piel.
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class=" row">
-                <div class="col-md-3"></div>
-                <div class="col-md-6 conte">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 conte">
                     <div class="imagen_text">
-                        <img src="Laravel/Recursos/img/Tratamientos/Peptonas/Peptonas2.png" alt="">
-                        <div id="hormonas3" class="text-img">
+                        <img src="Laravel/Recursos/img/Tratamientos/Hormonas/Esquinas.png" alt="">
+                        <div class="text-img " >
+                                <h2>¿Cuasa efecctos secundarios?</h2> 
+                                <p>
+                                no posee efectos secundarios. es un procedimineto libre de riesgos de
+                                reacciones de algún tipo ya que es uuna sustancia de proviene
+                                de la sangre 
+                                <p>
+                                <br>
+                                <h2>¿Cuánto timepo dura el procedimeinto?</h2>
+                                <p>
+                                En promedio dura de 6 a 12 meses dependiendo de cada paciente
+                                </p>
+                                <br>
+                                <h2>¿Como se realiza?</h2>
+                                <p>
+                                    Es un procedimiento en el cual se toma una muestra de sanngre y se presesa para
+                                    tomar la parte rica en plaquetas y se activa para tener un mejor resutado del plasma
+                                </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 conte">
+                    <div id="final" class="imagen_text">
+                        <img src="Laravel\Recursos\img\Tratamientos\PRP\PRP3.jpg" alt="">
+                        <div id="prp4g3" class="text-img">
+                            <h2>¿Cuándo se recomienda?</h2>
+                            <p>Se sugiere cuando los signos de envejecimiento sean visiblesSe pude aplicar a los 20 años, pero depende de cada paciente.
+                            </p>
+                            <br>
+                            <br>
                             <h2>¿Qué beneficios obtines?</h2>
                             <p>
                                 <ul>
-                                    <li>Restaurar la vitalidad cutanea</li>
-                                    <li>Aumenta su grosor</li>
-                                    <li>Recupera la consistencia elástica</li>
-                                    <li>Mejora la afluencia vascular</li>
-                                    <li>Estimulando las secreciones e incrementando la testura y apariencia de la piel</li>
+                                    <li>Aumento de la tensión de la piel.</li>
+                                    <li>Aumento voluétrico de populo.</li>
+                                    <li>Aspecto saludable de la piel.<br> 
+                                    (brillo, color, testura, suavidad).</li>
+                                    <li>Disminucion de arrugas y flacidez.</li>
                                 </ul>
                             </p>
-                            <br>
-                            <h2>¿Cuantas secciones necesito?</h2>
-                            <p>Generalmente, son 2-3 sesiones cada 8 dias. Luego, se realiza
-                                un mantenimiento de 1-2 seción cada 6 meses obteniendo así resultados visibles y duraderos
-                            </p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class=" row">
-                <div class="col-md-3"></div>
-                <div id="final" class="col-md-6 conte">
-                    <div class="imagen_text">
-                        <img src="Laravel/Recursos/img/Tratamientos/Peptonas/Peptonas3.jpg" alt="">
-                        <div id="preguntas3" class="text-img peptonas">
-                            <h2>¿Cuánto duran los efectos?</h2>
-                            <p>Duran de 8 mesese a 1 año.</p>
-                            <br>
-                            <h2>¿Encuánto tiempo veo los resultados?</h2>
-                            <p>Si.</p>
-                            <br>
-                            <h2>¿Cuánto tiempo dura el proceso?</h2>
-                            <p>1 hora máximo</p>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
         </div>
         @stop
     </body>

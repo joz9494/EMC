@@ -48,3 +48,6 @@ Route::get('/Peptonas',function(){
 Route::get('/lift-biologico',function(){
 	return view('/Tratamientos/lift-biologico');
 });
+Route::get('/PRP4G',function(){
+	return view('/Tratamientos/PRP4G');
+});

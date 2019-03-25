@@ -213,7 +213,7 @@
                                     <div class="nombre">PRP4G<br><p>(Plasma Rico en Plaquetas)</p></div>
                                     <p class="descripcion">Ten una piel mas fuerte yy joven <br><br><br></p> 
                                 </div>
-                                <a href="http://" class="btn btn-primary">leer mas</a>
+                                <a href="{{url('/PRP4G')}}" class="btn btn-primary">leer mas</a>
                             </div> 
                         </div>
                         <div class="row justify-content-center">
