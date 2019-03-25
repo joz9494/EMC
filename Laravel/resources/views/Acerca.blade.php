@@ -41,7 +41,6 @@
     #contentedor{
         background-color: white;
         width: 100%;
-        height: 100%;
     }
     #tableinicio{
         width: 20%;
@@ -53,7 +52,7 @@
         width: 70%;
         margin-left: 10%;
     }
-
+    
     @media screen and (max-width: 1110px){
 
     }
@@ -62,7 +61,92 @@
     @media screen and (max-width: 1000px){
 
     }
-
+    .conte{
+            padding-top: 2%;
+            text-align: center;
+        }
+    .conte h2,.conte p,#final li
+    {
+        font-family: brandon_reg;
+    }
+    .conte h2,#interno h2{
+        color: #0280A7;
+        font-size: 1vw;
+        font-style: normal;
+    }
+    .conte p,.conte li
+    {
+        color: gray;
+        font-size: 1vw;
+    }
+    #contenedormaestro
+    {
+        background-color: white;
+            width: 100%;
+    }
+    .imagen_text{
+        position: relative;
+        text-align: center;
+    }
+    .text-img{
+        position: absolute;
+        top: 0;
+        padding: 1%;
+        color: black;
+    }
+    .conte img
+    {
+        width: 100%;
+    }
+    #prp4g1
+    {
+        top: 5%;
+        width: 25%;
+        right: 10%;
+    }
+    #descripcion1
+    {
+        padding: 10% 5% 5% 5%;
+        background-color: white;
+        width: 100%;
+    }
+    #interno
+    {
+        padding-top: 25%;
+        left: 25%;
+    }
+    #interno h2
+    {
+        color: white;
+    }
+    #indo_dr{
+        text-align: left;
+        
+    }
+    #info_dr_txt
+    {
+        text-align: center;
+        padding-left: 10%;
+    }
+    #final h2
+    {
+        color: #0280A7;
+    }
+    #final ul
+        {
+            text-align: left;
+            margin: 2%;
+        }
+        #final li
+        {
+            font-size: 1.5vw;
+            line-height: 150%;
+        }
+        #final li::before {content: "•"; color:grey}
+    #final
+    {
+        padding-bottom: 2%;
+    }
 
 </style>
 
@@ -71,29 +155,94 @@
 
 @section('content')
     
+<div id="contenedormaestro" class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 conte">
+                <div class="imagen_text">
+                    <img src="Laravel/recursos/img/AcercaDe/Fondo.png" alt="">
+                    <div id="prp4g1" class="text-img">
+                       <div id="descripcion1" >
+                            <h2>Acerca de Eterna <br>
+                            Medical Center<br></h2>
+                            <p>
+                                En Eterna Medical Center estamos 100%
+                                <br>comprometidos con nuestros pacientes, donde el
+                                <br>servicio a sus necesidades y atención de excelencia
+                                <br>son las cualidades que procuramos en todo
+                                <br>momento.
+                            </p>
+                       </div>
+                       <div class="imagen_text">
+                            <img src="Laravel/recursos/img/AcercaDe/Boton.jpg" alt="" > 
+                            <div id="interno" class="text-img">
+                                <h2>ESPECUALISTAS EN <br>MEDICINA<br>ANTIENVEJECIMIENTO</h2> 
+                            </div> 
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="conte col-md-6">
+                <div id="indo_dr" class="imagen_text">
+                    <img id="" src="Laravel/recursos/img/AcercaDe/Logo2.png" alt=""   style="width: 15% ">
+                    <div id="info_dr_txt" class="text-img">
+                            <h2>DR. TORIBIO MARTÍNEZ RIVERA</h2>
+                            <P>Céd. Prof:85511800 - Reg. SSG 12540</P>
+                            <p style="color:#0280A7">Medico Cirujano Partero, Egresado del instituto Politecnico Nacinonal</p> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="final" class="row ">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 ">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2>Trayectoria</h2>
+                        <p>
+                            <ul>
+                                <li>Miembro de American Acadey of Anti-Agin <br>
+                                Medicine(Estados Unidos).</li>
+                                <li> Miembro del colegio NAcional de Medicina <br>
+                                     Antienjecimiento(Mexico).
+                                </li>
+                                <li>
+                                    Fellowship en Medicina Antienvejecimiento
+                                </li>
+                                <li>Conferencista en el II y III Congreso Mundial de<br>
+                                     Medicina Antienjecimiento.</li>
+                                <li>
+                                    profesor de Curso Internacional de <br>
+                                     Medicina Antienjecimiento. 
+                                </li>
+                                <li>
+                                    Profesor de terapia Neuronal y ARP Articular en 
+                                    <br> Certificacion Antienjecimiento.
+                                </li>
+                                <li>
+                                    Profesor de viscosuplementacion articular
+                                </li>
+                                <li>Certificación Internacional de remodelación facial <br>y corporal con hilos PDO.</li>
 
-<div style="height: 100%;">
+                            </ul>
+                        </p>
+                    </div>
+                    <div class="col-md-6"><h2>Experinecia</h2>
+                    <ul>
+                        <li>Antienjecimiento Cerebral</li>
+                        <li>Antienjecimiento y Nutricion Ortomolecular</li>
+                        <li>Aplicación de Peptonas Antienjecimiento</li>
+                        <li>Plasma Rico en Plaquetas de Cuarta
+                            <br>Generacion (PRP4G)</li>
+                        <li>Terapia Neuronal</li>
+                        <li>Nutrición Antienjecimiento</li>
+                    </ul></div>
+                </div>
+            </div>
 
-    <div style="position: absolute; z-index: 1; width: 100%">
-        <img src="Laravel/recursos/img/AcercaDe/Fondo.png" width="100%">
-    </div>
-
-    <div style="position: absolute; z-index: 2; margin-left: 54%;margin-top: 40px;background-color: white;width: 21%;height: 24%;">
-        <center><font style="font-family: brandon_reg;"><br><h4 style="color: #0280A7">Acerca de Eterna
-        <br>Medical Center<br></h4></center>
-        <br>
-        <center>En Eterna Medical Center estamos 100%
-        <br>comprometidos con nuestros pacientes, donde el
-        <br>servicio a sus necesidades y atención de excelencia
-        <br>son las cualidades que procuramos en todo
-        <br>momento.</font></center>
-    </div>
-     
-
-    <div style="position: absolute; z-index: 3; margin-left: 51%;margin-top: 270px;width: 30%">
-        <img id="imgiback1" src="Laravel/recursos/img/AcercaDe/Boton.jpg">
-    </div>                  
-
+        </div>
 </div>
 
 @stop
