@@ -112,12 +112,38 @@
     }
     #interno
     {
-        padding-top: 25%;
-        left: 25%;
+        width: 100%;
+        height: 100%;
+        padding:10%;
+        text-align: justify;
     }
-    #interno h2
+    #interno h2,#interno p
     {
         color: white;
+    }
+    #sin_raton{
+        padding: 20%;
+        text-align: center;
+    }
+    #con_raton
+    {
+
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0s, opacity .7s linear;
+    }
+    #interno:hover #con_raton
+    {   
+        visibility: visible;
+        opacity: 1;
+       
+    }
+    #interno:hover #sin_raton
+    {
+        display: none;
+        opacity: 0; 
+        
+        
     }
     #indo_dr{
         text-align: left;
@@ -175,7 +201,11 @@
                        <div class="imagen_text">
                             <img src="Laravel/recursos/img/AcercaDe/Boton.jpg" alt="" > 
                             <div id="interno" class="text-img">
-                                <h2>ESPECUALISTAS EN <br>MEDICINA<br>ANTIENVEJECIMIENTO</h2> 
+                                <h2 id="sin_raton">ESPECUALISTAS EN <br>MEDICINA<br>ANTIENVEJECIMIENTO</h2> 
+                                <p id="con_raton">
+                                        Observamos la salud de foma integral y colaboramos con especialistas en todas las áreas de la medicina para lograr el estado óptimo de cada uno de nuestros pacientes. <br>
+                                        En Eterna Medical Center te ayudamos a realentizar el proceso de envejecimiento con la mejor tegnología disponible.
+                                </p>
                             </div> 
                        </div>
                     </div>
