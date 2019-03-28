@@ -146,6 +146,7 @@
         
     }
     #indo_dr{
+        padding-left: 10%;
         text-align: left;
         
     }
@@ -173,6 +174,11 @@
     {
         padding-bottom: 2%;
     }
+    .col-center
+       {
+        float: none;
+        margin: 0 auto;
+       }
 
 </style>
 
@@ -213,21 +219,20 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-3"></div>
-            <div class="conte col-md-6">
+            
+            <div class="conte col-md-6 col-center">
                 <div id="indo_dr" class="imagen_text">
                     <img id="" src="Laravel/recursos/img/AcercaDe/Logo2.png" alt=""   style="width: 15% ">
                     <div id="info_dr_txt" class="text-img">
                             <h2>DR. TORIBIO MARTÍNEZ RIVERA</h2>
                             <P>Céd. Prof:85511800 - Reg. SSG 12540</P>
-                            <p style="color:#0280A7">Medico Cirujano Partero, Egresado del instituto Politecnico Nacinonal</p> 
+                            <p style="color:#0280A7">Medico Cirujano Partero, Egresado del <br> instituto Politecnico Nacinonal</p> 
                     </div>
                 </div>
             </div>
         </div>
         <div id="final" class="row ">
-            <div class="col-md-2"></div>
-            <div class="col-md-8 ">
+            <div class="col-md-8 col-center">
                 <div class="row">
                     <div class="col-md-6">
                         <h2>Trayectoria</h2>
