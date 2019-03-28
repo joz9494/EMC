@@ -1,5 +1,6 @@
 <?php
 
+use Jenssegers\Agent\Agent;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -11,8 +12,13 @@
 |
 */
 
+
 Route::get('/', function () {
-    return view('welcome');
+	$agent = new Agent();
+	if($agent->isMobile())
+		return view('/Movil/welcome');
+	else
+    	return view('welcome');
 });
 
 Route::get('/Contacto',function(){
@@ -24,11 +30,19 @@ Route::get('/Acerca_de_EMC',function(){
 });
 
 Route::get('/Servicios',function(){
-	return view('Servicios');
+	$agent = new Agent();
+	if($agent->isMobile())
+		return view('Movil/Servicios');
+	else
+		return view('Servicios');
 });
 
 Route::get('/Tratamientos',function(){
-	return view('Tratamientos/Tratamientos');
+	$agent = new Agent();
+	if($agent->isMobile())
+		return view('Movil/Tratamientos');
+	else
+		return view('Tratamientos/Tratamientos');
 });
 
 Route::get('Biocell',function(){
