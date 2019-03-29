@@ -42,7 +42,7 @@ Route::get('/Tratamientos',function(){
 	if($agent->isMobile())
 		return view('Movil/Tratamientos');
 	else
-		return view('Tratamientos/Tratamientos');
+		return view('Tratamientos');
 });
 
 Route::get('Biocell',function(){

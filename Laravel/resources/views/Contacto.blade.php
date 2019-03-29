@@ -70,20 +70,6 @@
         width: 73%;
         height: 33%;
     }
-    #Linea1{
-        width: 3px;
-        height: 290px;
-        background-color: #0280A7;
-        margin-top: -40px;
-        margin-left: -50px;
-    }
-    #Linea2{
-        width: 3px;
-        height: 290px;
-        background-color: #0280A7;
-        margin-top: -40px;
-        margin-left: 40px;
-    }
     #imgback{
         width: 100%;
         height: 60%;

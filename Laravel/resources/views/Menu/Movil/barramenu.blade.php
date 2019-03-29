@@ -154,7 +154,19 @@
                     </div>
                 </nav>
         </header>
+
+
+
+
+
+
                 @yield('content')
+
+
+
+
+
+                
         <footer class="container">
             
             <div id="menu_footer" class="row">
