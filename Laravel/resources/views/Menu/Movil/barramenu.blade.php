@@ -32,7 +32,7 @@
         <style>
             @font-face {
             font-family: brandon_reg;
-                src: url(-"Laravel/Recursos/BRANDON_REG.otf");
+                src: url("Laravel/Recursos/BRANDON_REG.otf");
             }
             @font-face {
                 font-family: brandon_bold;
@@ -41,11 +41,8 @@
              body{
                 background-color: #0280A7;
                 overflow-x: hidden;
+                font-family: brandon_reg !important
                 
-            }
-            p, h2, h1,h6,h3,a
-            {
-                font-family: brandon_reg;
             }
             #menu a,.opciones,#info_horario span{
                 color:#0280A7; 
@@ -64,62 +61,39 @@
             footer
             {
                 background-color: white;
-                padding-bottom: 5%;
                 
-            }
-            .opciones{
-                color: #0280A7;
-                border-width: 1px;
-                text-align: center;
-                border-style: solid;
-                border-color: #0280A7;
-            }
-            .opciones:hover
-            {
-                background-color: #0280A7;
-                color: white;
-            }
-            #info_citas,#info_horario,#info_direccion
-            {
-                display: none;
-                color: gray;
-            }
-            #informacion
-            {
-                text-align: center;
-                padding-top: 5%;
-                padding-bottom: 5%;
-                display: none;
-            }
-            .opciones:hover ~ #informacion
-            {
-                display: block
-            }
-            #citas:hover ~ #informacion> #info_citas
-            {
-                display: block;
-                visibility: visible;
-            }
-            #horario:hover ~ #informacion> #info_horario
-            {
-                display: block;
-                visibility: visible;
-            }
-            #direccion:hover ~ #informacion> #info_direccion
-            {
-                display: block;
-                visibility: visible;
-            }
-            .info 
-            {
-                width: 100%;
-                padding: 5%;
-                text-align: center;
             }
             .nav-item
             {
                 text-align: center;
             }
+            .conte{
+        width: 100%;
+       text-align: center;
+   }
+   
+
+#tabs{
+    color: #0280A7;
+}
+#tabs h6.section-title{
+    color: #0280A7;
+}
+
+#tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: white !important;
+    background-color: #0280A7 !important;
+    font-size: 20px;
+    
+}
+#tabs .nav-tabs .nav-link {
+    border-color:#0280A7;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    color: #0280A7;
+    font-size: 20px;
+}
+
         </style>
     </head>
     <body>
@@ -182,22 +156,48 @@
                             <div class="col-9">
                                 <h4>+52 (461) 132 48 51</h4>
                                 <h4>+52 (461) 138 69 05</h4>
+
+        <footer class="">
+            <section id="tabs">
+                <div class="container">
+                    <div class="row content-center">
+                        <div class="conte">
+                            <nav>
+                                <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                                    <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Citas</a>
+                                    <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Direccion</a>
+                                    <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">horario</a>
+                                </div>
+                            </nav>
+                            <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+                                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                                    <div class="row">
+                                        <div class="col-3" style="text-align:right;">
+                                            <img src="Laravel\Recursos\img\Tratamientos\5.png" alt="" style="width:60px;">
+                                        </div>
+                                        <div class="col-9">
+                                            <h4>+52 (461) 132 48 51</h4>
+                                            <h4>+52 (461) 138 69 05</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                    <h4>
+                                    Álvaro Obregòn #312 Int.36B.
+                                    </h4>
+                                    <h4>
+                                     Celaya, Guanajuato, Mexico
+                                    </h4>
+                                </div>
+                                <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                                    <h4>Lunes a viernes</h4>
+                                    <h4>9 a.m. a 2 p.m. <span style="color:#0280A7; font-size:32px">·</span> 4 p.m a 7p.m.</h4>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div id="info_direccion" class="info">
-                        <h4>Álvaro Obregòn #312 Int.36B.</h4>
-                        <h4>Celaya, Guanajuato, Mexico</h4>
-                    </div>
-                    <div id="info_horario" class="info">
-                        <h4>Lunes a viernes</h4>
-                        <h4>9 a.m. a 2 p.m. <span style="color:#0280A7; font-size:32px">·</span> 4 p.m a 7p.m.</h4>
-                        
-                    </div>
                 </div>
-            </div>
-            
-            
+            </section>    
         </footer>
     </body>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

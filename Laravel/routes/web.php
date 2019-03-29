@@ -26,7 +26,12 @@ Route::get('/Contacto',function(){
 });
 
 Route::get('/Acerca_de_EMC',function(){
-	return view("Acerca");
+	
+	$agent = new Agent();
+	if($agent->isMobile())
+		return view('Movil/Acerca');
+	else
+		return view("Acerca");
 });
 
 Route::get('/Servicios',function(){
