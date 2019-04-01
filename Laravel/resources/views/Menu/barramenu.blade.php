@@ -31,7 +31,7 @@
         <link rel="stylesheet" type="text/css" href="Laravel/Recursos/BRANDON_BLD.otf">
         <style>
             html, body {
-                background-color: #0280A7;
+                background-color: #1197c0;
             }
             @font-face {
             font-family: brandon_reg;
@@ -95,7 +95,7 @@
             #barramenu{
             width: 100%;
             height: 12%;
-            background-color: #0280A7;
+            background-color: #1197c0;
             display: inline-block;
             }
             #letrasmenu{
@@ -142,20 +142,20 @@
                 font-family: brandon_reg;
             }
             #Linea1{
-            background-color: #0280A7;
+            background-color: #1197c0;
             }
             #Linea2{
             width: 3px;
             height: 270px;
-            background-color: #0280A7;
+            background-color: #1197c0;
             margin-top: -40px;
             margin-left: 40px;
             }
             #sec1{
-                margin-left: 70%;
+                margin-left: 50%;
             }
             #sec2{
-                margin-left: 30%;
+                margin-left: 25%;
             }
 
             @media screen and (max-width: 1800px){
@@ -322,16 +322,32 @@
                 <!-- Sección uno -->
                  <td style="width: 38%;">
                     <div id="sec1">
-                    <h4 style="color: #079EE2;margin-left: 45px;font-family: brandon_reg;"> 
+                    <h4 style="color: #079EE2;margin-left: 45px;font-family: brandon_reg;margin-top: 5px"> 
                         Citas
                     </h4>
                     <ul>
-                        <li>
-                            <font style="font-size: 15px;font-family: brandon_reg;">+52 (461) 132 4851</font>
-                        </li>
-                    <br>
-                        <li class="p-b-10">
-                            <font style="font-size: 15px;font-family: brandon_reg;">+52 (461) 138 6905</font>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td><img src="Laravel/Recursos/img/BaseMenu/Whatsp.png" width="35px"></td>
+                                    <td style="margin-left: 30px;">
+                                        <li>
+                                         <font style="font-size: 15px;font-family: brandon_reg;">+52 (461) 132 4851</font>
+                                        </li>
+                                        <li class="p-b-10">
+                                        <font style="font-size: 15px;font-family: brandon_reg;">+52 (461) 138 6905</font>
+                                        </li>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                            </thead>     
+                        </table>
+                        <li style="margin-top: 30px;">
+                            <button type="button" id="btnfooter" data-toggle="modal" data-target="#exampleModal">
+                            <p class="stext-107 cl6 txt-center" style="color: #0081a9">
+                            Términos y condiciones
+                            </p>
+                        </button>
                         </li>
                     </ul>
                     </div>
@@ -363,7 +379,7 @@
 
 
                    <!-- Sección cuatro linea -->
-                 <td style="width: 3px">
+                 <td style="width: 2px">
                     <div id="Linea1" style="height: 180px;"></div> 
                  </td>
 
@@ -380,35 +396,30 @@
                             <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v3.2"></script>
                             <div class="fb-like" data-href="https://www.eterna-medical.com/" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
                         </div>
+                        <br>
+                        <button type="button" id="btnfooter" data-toggle="modal" data-target="#exampleModal2">
+                            <p class="stext-107 cl6 txt-center" style="color: #0081a9">
+                            Políticas de privacidad
+                            </p>
+                        </button>
                     </form> 
                     </div>
                    </td>
 
                </tr>
-
-
-               <tr>
-                   <td style="float: right;">
-                        <button type="button" id="btnfooter" data-toggle="modal" data-target="#exampleModal">
-                            <p class="stext-107 cl6 txt-center">
-                            Términos y condiciones
-                            </p>
-                        </button>
-                    </td>
-                   <td></td>
-                   <td></td>
-                   <td></td>
-                   <td>
-                       <button type="button" id="btnfooter" data-toggle="modal" data-target="#exampleModal2">
-                            <p class="stext-107 cl6 txt-center">
-                            Políticas de privacidad
-                            </p>
-                        </button>
-                   </td>
-               </tr>
+                
+            </div>
 
            </tbody>
        </table>
+
+       <td style="width: 2px;">
+            <div id="Linea1" style="height: 80px;">
+                <center><font style="color: white;font-size: 25px;font-family: brandon_reg">Dirección</font></center>
+                <center><font style="color: white;font-size: 20px;font-family: brandon_light">Álvaro Obregón #312 Int.36B. Celaya, Guanajuato, México</font></center>
+            </div> 
+        </td>
+
     </footer>
 
 
