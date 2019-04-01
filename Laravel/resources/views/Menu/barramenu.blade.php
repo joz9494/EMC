@@ -344,7 +344,7 @@
                         </table>
                         <li style="margin-top: 30px;">
                             <button type="button" id="btnfooter" data-toggle="modal" data-target="#exampleModal">
-                            <p class="stext-107 cl6 txt-center" style="color: #0081a9">
+                            <p class="stext-107 cl6 txt-center" style="color: #0081a9;font-size: 16px;font-family: brandon_reg;">
                             Términos y condiciones
                             </p>
                         </button>
@@ -371,8 +371,8 @@
 
                         <p class="stext-107 cl7 size-201">
                             <br>
-                            <h4 style="color: black;margin-left: 35px;font-family: brandon_reg;">Sábados</h4>
-                            <font style="font-weight: bold;color: black;font-size: 15px;font-family: brandon_reg;">Atendemos con previa cita.</font>
+                            <h4 style="color: black;margin-left: 35px;font-family: brandon_reg;color: #5E5D5D">Sábados</h4>
+                            <font style="font-weight: bold;color: #5E5D5D;font-size: 15px;font-family: brandon_reg;">Atendemos con previa cita.</font>
                         </p>
                     </div>
                    </td>
@@ -389,16 +389,16 @@
                     <div style="margin-left: 10%;">
                       <form>
                         <div class="p-t-18">
-                            <font style="font-family: brandon_reg;"> © 2017 Eterna Medical Center<br> by Crowdsulting V-Solutions</font>
+                            <font style="font-family: brandon_reg;font-size: 15px;"> © 2019 Eterna Medical Center<br> by <a style="color: #5E5D5D" href="{{ url('http://crowdsulting.com/') }}">Crowdsulting V-Solutions</a></font>
                         </div>
-                        <div style="margin-top: 10px;">
+                        <div style="margin-top: 5px;margin-left: -40px;">
                             <div id="fb-root"></div>
-                            <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v3.2"></script>
-                            <div class="fb-like" data-href="https://www.eterna-medical.com/" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+                            <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v3.2"></script>
+                            <div class="fb-like" data-href="https://www.eterna-medical.com/" data-width="300" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
                         </div>
                         <br>
                         <button type="button" id="btnfooter" data-toggle="modal" data-target="#exampleModal2">
-                            <p class="stext-107 cl6 txt-center" style="color: #0081a9">
+                            <p class="stext-107 cl6 txt-center" style="color: #0081a9;font-size: 16px;font-family: brandon_reg;">
                             Políticas de privacidad
                             </p>
                         </button>
