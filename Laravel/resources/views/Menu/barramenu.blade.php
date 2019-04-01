@@ -121,6 +121,12 @@
             height:1px;
             background-color: white;
             }
+            #lineaEMC{
+            border-bottom:solid 1px white;
+            width:100%;
+            height:1px;
+            background-color: white;
+            }
 
             #lineaActiva{
             border-bottom:solid 1px white;
@@ -132,6 +138,9 @@
                 height: 5px;
             }
             #activarmenuL:hover #linea{
+                height: 5px;
+            }
+            #activarmenu:hover #lineaEMC{
                 height: 5px;
             }
             #btnfooter:hover{
@@ -162,7 +171,10 @@
             #letrasmenuA2{
             display: block;
             position: relative;
-            margin-top: 5px;
+            margin-top: 5px !important;
+            }
+            #lineaEMC{
+                margin-top: 12px;
             } 
             #letrasmenuA{
             display: none;
@@ -266,9 +278,9 @@
                                     @if ($url == '/EMC/Acerca_de_EMC')
                                     <div id="lineaActiva"></div>
                                     @else
-                                    <div id="linea"></div>
+                                    <div id="lineaEMC"></div>
                                     @endif
-                                    <div style="margin-top: 5px;position: absolute;"></div>
+                                    <div style="margin-top: 5px;"></div>
                                     <a href="{{ url('/Acerca_de_EMC') }}" id="letrasmenuA">
                                     Acerca de E.M.C</a>
                                     <a href="{{ url('/Acerca_de_EMC') }}" id="letrasmenuA2">E.M.C</a>
