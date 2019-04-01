@@ -98,6 +98,7 @@
             height: 300px;
             width: 400px;
             margin-left: -70px;
+            
         }
 
     }
@@ -108,12 +109,15 @@
 
 @section('content')
 
-    <div id="contenedormaster" style="background-color: white;margin-bottom: 0%;width: 100%;">
-        <div id="contetxt" style="width: 60%;margin-left: 20%">
-            <br>
-            <font style="color: #019ADD; font-family: brandon_reg;"><center><font style="font-size: 30px;margin-left: -1%;">Servicios</font></center></font>
-            <font style="font-family: brandon_reg;font-size: 20px">En Eterna Medical Center, contamos con servicios para sentirte y verte más joven. Mediante tratamientos preventivos y correctivos con la tecnología más avanzada, diseñamos todos nuestros servicios completamente a las necesidades de tu cuerpo.</font>
-        </div>
+    <div id="contenedormaster" style="background-color: white;margin-bottom: 0%;width: 100%; text-align: center;">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div id="contetxt" class="col-md-6" style="">
+                <br>
+                <font style="color: #019ADD; font-family: brandon_reg;"><center><font style="font-size: 30px;margin-left: -1%;">Servicios</font></center></font>
+                <font style="font-family: brandon_reg;font-size: 21px; ">En Eterna Medical Center, contamos con servicios para sentirte y verte más joven. Mediante tratamientos preventivos y correctivos con la tecnología más avanzada, diseñamos todos nuestros servicios completamente a las necesidades de tu cuerpo.</font>
+            </div>
+        </div>  
 
 
         <!-- imagen 1 -->

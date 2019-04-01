@@ -62,9 +62,9 @@
         }
         #titulo h1,.text-img h2
         {
-            color: #0280A7;
-            font-size: 21px;
-            font-weight: bold;
+            color: #1197C0;
+            font-size: 32px;
+            font-weight: normal;
         }
         #txt_hormonas1
         {
@@ -176,7 +176,10 @@
             <div id="titulo" class="row">
                 <div class="col-md-2"></div>
                 <div class="col-md-8 conte">
-                    <h1>Hormonas Bio-Idénticas</h1>    
+                    <a href="{{ url('/Tratamientos') }}">
+                        <h1><span><img src="Laravel\Recursos\img\Tratamientos\flecha160x160.png" alt="" style="width:60px;">
+                        </span> &nbsp;PRP4G</h1>
+                    </a>    
                 </div> 
             </div>
             <div class=" row">
