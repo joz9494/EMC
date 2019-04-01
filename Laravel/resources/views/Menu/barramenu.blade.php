@@ -152,10 +152,10 @@
             margin-left: 40px;
             }
             #sec1{
-                margin-left: 50%;
+                margin-left: 70%;
             }
             #sec2{
-                margin-left: 25%;
+                margin-left: 35%;
             }
 
             @media screen and (max-width: 1800px){
@@ -172,6 +172,12 @@
             @media screen and (max-width: 1600px){
                 #activarmenuL{
                     margin-left: 6% !important;
+                }
+                #sec1{
+                margin-left: 60%;
+                }
+                #sec2{
+                margin-left: 27%;
                 }
             }
 
@@ -262,7 +268,7 @@
                                     @else
                                     <div id="linea"></div>
                                     @endif
-                                    <div style="margin-top: 5px;"></div>
+                                    <div style="margin-top: 5px;position: absolute;"></div>
                                     <a href="{{ url('/Acerca_de_EMC') }}" id="letrasmenuA">
                                     Acerca de E.M.C</a>
                                     <a href="{{ url('/Acerca_de_EMC') }}" id="letrasmenuA2">E.M.C</a>
@@ -322,14 +328,14 @@
                 <!-- Sección uno -->
                  <td style="width: 38%;">
                     <div id="sec1">
-                    <h4 style="color: #079EE2;margin-left: 45px;font-family: brandon_reg;margin-top: 5px"> 
+                    <h4 style="color: #079EE2;margin-left: 65px;font-family: brandon_reg;margin-top: 5px"> 
                         Citas
                     </h4>
                     <ul>
                         <table>
                             <thead>
                                 <tr>
-                                    <td><img src="Laravel/Recursos/img/BaseMenu/Whatsp.png" width="35px"></td>
+                                    <td><img src="Laravel/Recursos/img/BaseMenu/Whatsp.png" width="30px" style="margin-top: -13px"></td>
                                     <td style="margin-left: 30px;">
                                         <li>
                                          <font style="font-size: 15px;font-family: brandon_reg;">+52 (461) 132 4851</font>
