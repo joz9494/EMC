@@ -41,6 +41,10 @@
             font-family: brandon_bold;
             src: url(Laravel/Recursos/BRANDON_BLD.otf);
             }
+            @font-face {
+            font-family: brandon_light;
+            src: url(Laravel/Recursos/BRANDON_LIGHT.otf);
+            }
 
             #fottmobi{
                 display: none;
@@ -95,17 +99,18 @@
             display: inline-block;
             }
             #letrasmenu{
-            font-family: brandon_reg;
+            font-family: brandon_light;
             color: white;
             font-size: 21px;
+            margin-top: 10px;
             }
             #letrasmenuA{
-            font-family: brandon_reg;
+            font-family: brandon_light;
             color: white;
             font-size: 21px;
             }
             #letrasmenuA2{
-            font-family: brandon_reg;
+            font-family: brandon_light;
             color: white;
             font-size: 21px;
             display: none;
@@ -116,7 +121,17 @@
             height:1px;
             background-color: white;
             }
+
+            #lineaActiva{
+            border-bottom:solid 1px white;
+            width:100%;
+            height:5px;
+            background-color: white;
+            }
             #activarmenu:hover #linea{
+                height: 5px;
+            }
+            #activarmenuL:hover #linea{
                 height: 5px;
             }
             #btnfooter:hover{
@@ -141,6 +156,23 @@
             }
             #sec2{
                 margin-left: 30%;
+            }
+
+            @media screen and (max-width: 1800px){
+            #letrasmenuA2{
+            display: block;
+            position: relative;
+            margin-top: 5px;
+            } 
+            #letrasmenuA{
+            display: none;
+            } 
+            }
+
+            @media screen and (max-width: 1600px){
+                #activarmenuL{
+                    margin-left: 6% !important;
+                }
             }
 
             @media screen and (max-width: 1100px){
@@ -185,38 +217,80 @@
     <body>
 
     <!-- Menu de inicio -->
-    <table border="1px" width="100%">
+    <table width="100%">
         <thead>
             <tr>
                 <td style="width: 25%;"></td>
-                <td style="width: 80%;">
+                <td style="width: 50%;">
                     <div id="barramenu">
                         <div class="menu-desktop" id="navmenu">
                             <ul class="main-menu" id="navmenu" style="width: 100%">
-                                <a href="{{ url('/') }}"><img src="Laravel/Recursos/img/BaseMenu/logo.png" id="imglogo" width="100px" height="100px"></a              >
-                                <li id="activarmenu" style="margin-left: 5%;">
+                                <a href="{{ url('/') }}"><img src="Laravel/Recursos/img/BaseMenu/logo.png" id="imglogo" width="100px" height="100px" style="margin-top: 10px;margin-bottom: 10px;margin-left: -5%;"></a              >
+                                <li id="activarmenuL" style="margin-left: 15%;">
+                                    <?php
+                                    $url= $_SERVER["REQUEST_URI"];
+                                    ?>
+                                    @if ($url == '/EMC/')
+                                    <div id="lineaActiva"></div>
+                                    @else
                                     <div id="linea"></div>
+                                    @endif
+                                    <div style="margin-top: 5px;">
+                                    </div>
                                     <a href="{{ url('/') }}" id="letrasmenu">Inicio</a>
                                 </li>
                 
-                                <li id="activarmenu">
+                                <li id="activarmenu" style="margin-left: 4%;">
+                                    <?php
+                                    $url= $_SERVER["REQUEST_URI"];
+                                    ?>
+                                    @if ($url == '/EMC/Servicios')
+                                    <div id="lineaActiva"></div>
+                                    @else
                                     <div id="linea"></div>
+                                    @endif
+                                    <div style="margin-top: 5px;"></div>
                                     <a href="{{ url('/Servicios') }}" id="letrasmenu">Servicios</a>
                                 </li>
 
-                                <li id="activarmenu">
+                                <li id="activarmenu" style="margin-left: 4%;">
+                                    <?php
+                                    $url= $_SERVER["REQUEST_URI"];
+                                    ?>
+                                    @if ($url == '/EMC/Acerca_de_EMC')
+                                    <div id="lineaActiva"></div>
+                                    @else
                                     <div id="linea"></div>
-                                    <a href="{{ url('/Acerca_de_EMC') }}" id="letrasmenuA">Acerca de E.M.C</a>
+                                    @endif
+                                    <div style="margin-top: 5px;"></div>
+                                    <a href="{{ url('/Acerca_de_EMC') }}" id="letrasmenuA">
+                                    Acerca de E.M.C</a>
                                     <a href="{{ url('/Acerca_de_EMC') }}" id="letrasmenuA2">E.M.C</a>
                                 </li>
                 
-                                <li id="activarmenu">
+                                <li id="activarmenu" style="margin-left: 4%;">
+                                    <?php
+                                    $url= $_SERVER["REQUEST_URI"];
+                                    ?>
+                                    @if ($url == '/EMC/Tratamientos')
+                                    <div id="lineaActiva"></div>
+                                    @else
                                     <div id="linea"></div>
+                                    @endif
+                                    <div style="margin-top: 5px;"></div>
                                     <a href="{{ url('/Tratamientos') }}" id="letrasmenu">Tratamientos</a>
                                 </li>
                 
-                                <li id="activarmenu">
+                                <li id="activarmenu" style="margin-left: 4%;">
+                                    <?php
+                                    $url= $_SERVER["REQUEST_URI"];
+                                    ?>
+                                    @if ($url == '/EMC/Contacto')
+                                    <div id="lineaActiva"></div>
+                                    @else
                                     <div id="linea"></div>
+                                    @endif
+                                    <div style="margin-top: 5px;"></div>
                                     <a href="{{ url('/Contacto') }}" id="letrasmenu">Contacto</a>
                                 </li>
                 
@@ -225,7 +299,7 @@
                     </div>
 
                 </td>
-                <td style="background-color: red"></td>
+                <td style="width: 25%;"></td>
             </tr>
         </thead>
     </table>
@@ -301,6 +375,11 @@
                         <div class="p-t-18">
                             <font style="font-family: brandon_reg;"> © 2017 Eterna Medical Center<br> by Crowdsulting V-Solutions</font>
                         </div>
+                        <div style="margin-top: 10px;">
+                            <div id="fb-root"></div>
+                            <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v3.2"></script>
+                            <div class="fb-like" data-href="https://www.eterna-medical.com/" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+                        </div>
                     </form> 
                     </div>
                    </td>
@@ -312,7 +391,7 @@
                    <td style="float: right;">
                         <button type="button" id="btnfooter" data-toggle="modal" data-target="#exampleModal">
                             <p class="stext-107 cl6 txt-center">
-                            Políticas de privacidad
+                            Términos y condiciones
                             </p>
                         </button>
                     </td>
@@ -322,7 +401,7 @@
                    <td>
                        <button type="button" id="btnfooter" data-toggle="modal" data-target="#exampleModal2">
                             <p class="stext-107 cl6 txt-center">
-                            Términos y condiciones
+                            Políticas de privacidad
                             </p>
                         </button>
                    </td>

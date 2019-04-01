@@ -34,21 +34,6 @@
         font-family: txtbran;
         src: url(BRANDON_THIN.otf)format('otf');
     }
-
-    #Linea1{
-        width: 3px;
-        height: 290px;
-        background-color: #0280A7;
-        margin-top: -40px;
-        margin-left: -50px;
-    }
-    #Linea2{
-        width: 3px;
-        height: 290px;
-        background-color: #0280A7;
-        margin-top: -40px;
-        margin-left: 40px;
-    }
     #contenedormaster{
         width: 100%;
         height: 200%;
@@ -65,13 +50,13 @@
         height: 20%;
         margin-top: 5%;
         margin-left: 20%;
-        background-image: url('../Recursos/img/inicio.png');
+        background-image: url('Laravel/Recursos/img/Biocel/inicio.png');
     }
     #imgbannercambio div div font{
         display: none;
     }
     #imgbannercambio:hover {
-        background-image: url('../Recursos/img/inicio-2.png');
+        background-image: url('Laravel/Recursos/img/Biocel/inicio-2.png');
     }
     #imgbannercambio:hover div div font{
         display: block;
@@ -157,7 +142,7 @@
         </div>
 
         <div id="imagen2">
-            <img id="imgbanner" src="../Recursos/img/BANNER1.png">
+            <img id="imgbanner" src="Laravel/Recursos/img/Biocel/BANNER1.png">
         </div>
 
         <div id="linea2">
@@ -165,7 +150,7 @@
         </div>
 
         <div id="imagen3">
-            <img id="imgbanner" src="../Recursos/img/BANNER2.png">
+            <img id="imgbanner" src="Laravel/Recursos/img/Biocel/BANNER2.png">
         </div>
 
 

@@ -131,7 +131,7 @@
 @section(@content)
 
 
-<table width="100%" border="1px">
+<table width="100%">
     <thead>
         <tr><th>
         <div id="contenedorcarrousel" style="width: 100%;">
@@ -174,11 +174,9 @@
            <br>
             <center><p style="font-size: 50px;color: #0280A7;font-family:brandon_reg">B&nbsp;I&nbsp;E&nbsp;N&nbsp;V&nbsp;E&nbsp;N&nbsp;I&nbsp;D&nbsp;O&nbsp;S</p></center>
 
-            <center><h6 style="font-size: 20px;font-family:brandon_reg">Mejora tu apariencia física, incrementa la vitalidad de tu piel y elimina dolores crónicos asociados a la vejez.</h6></center><br>
-            <br>
-
+            <center><h6 style="font-size: 20px;font-family:brandon_reg">Mejora tu apariencia física, incrementa la vitalidad de tu piel y elimina dolores crónicos asociados a la vejez.</h6></center>
             <center>
-            <div id="contenedorbtn">
+            <div id="contenedorbtn" style="margin-top: 5px;margin-bottom: 5px;">
                 <a href="{{ url('/') }}">
             <div style="position: absolute;margin-top: 30px;margin-left: 100px;font-family:brandon_reg">
                 <center><h1 id="txtbtnconte">Eterna Medical Center</h1></center>
@@ -186,8 +184,6 @@
                 </a>
             </div>
             </center>
-
-            <br>
             <center><p style="font-size: 20px;font-family:brandon_reg">Retarda tu reloj fisiológico, te ayudamos a sentirte y lucir mejor.</p></center>
             <center><p style="font-size: 20px;font-family:brandon_reg">En Eterna Medical Center estamos para ayudarte.</p></center>
             <center><p style="font-size: 20px;color: black;font-family:brandon_reg"><b>Mejora y mantén tu estado físico.</b></center>
@@ -201,7 +197,9 @@
         </td></tr>
 
         <tr><td style="background-color: white">
-            <img src="Laravel/Recursos/img/Inicio/bio.png" width="50%" style="margin-left: 25%;">
+            <a href="{{ url('Biocell') }}">
+            <img src="Laravel/Recursos/img/Inicio/bio.png" re width="50%" style="margin-left: 25%;">
+            </a>
         </td></tr>
 
 

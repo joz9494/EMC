@@ -38,6 +38,10 @@
         font-family: brandon_bold;
         src: url(Laravel/Recursos/BRANDON_BLD.otf);
     }
+    @font-face {
+            font-family: brandon_light;
+            src: url(Laravel/Recursos/BRANDON_LIGHT.otf);
+            }
     #contentedor{
         background-color: white;
         width: 100%;
@@ -51,6 +55,10 @@
     #imgiback1{
         width: 70%;
         margin-left: 10%;
+    }
+    #txtinfo{
+        font-size: 18px !important;
+        font-family: brandon_light !important;
     }
     
     @media screen and (max-width: 1110px){
@@ -220,59 +228,61 @@
         </div>
         <div class="row">
             
-            <div class="conte col-md-6 col-center">
+            <div class="conte col-md-5 col-center">
                 <div id="indo_dr" class="imagen_text">
-                    <img id="" src="Laravel/recursos/img/AcercaDe/Logo2.png" alt=""   style="width: 15% ">
-                    <div id="info_dr_txt" class="text-img">
-                            <h2>DR. TORIBIO MARTÍNEZ RIVERA</h2>
-                            <P>Céd. Prof:85511800 - Reg. SSG 12540</P>
-                            <p style="color:#0280A7">Medico Cirujano Partero, Egresado del <br> instituto Politecnico Nacinonal</p> 
-                    </div>
+                    <table>
+                        <tr>
+                            <td width="15%">
+                               <img id="" src="Laravel/recursos/img/AcercaDe/Logo2.png" alt=""   style="width: 100%;"> 
+                            </td>
+                            <td style="margin-left: -60%;width: 130%;">
+                            <font style="font-size: 26px;font-family: brandon_reg;color: #0280A7"> DR. TORIBIO MARTÍNEZ RIVERA </font><br>
+                            <font style="font-size: 20px;font-family: brandon_light;color: black;">Céd. Prof:85511800 - Reg. SSG 12540</font><br>
+                            <font style="font-size: 15px;font-family: brandon_light;color: #0280A7;">Medico Cirujano Partero, Egresado del instituto Politecnico Nacinonal</font>
+                            </td>
+                        </tr>
+                    </table>                                 
                 </div>
             </div>
         </div>
         <div id="final" class="row ">
-            <div class="col-md-8 col-center">
+            <div class="col-md-5 col-center">
                 <div class="row">
                     <div class="col-md-6">
-                        <h2>Trayectoria</h2>
+                        <center><h3 style="font-family: brandon_light;color: #0280A7;">Trayectoria</h3></center>
                         <p>
                             <ul>
-                                <li>Miembro de American Acadey of Anti-Agin <br>
+                                <li id="txtinfo">Miembro de American Acadey of Anti-Agin <br>
                                 Medicine(Estados Unidos).</li>
-                                <li> Miembro del colegio NAcional de Medicina <br>
+                                <li id="txtinfo">Miembro del colegio NAcional de Medicina <br>
                                      Antienjecimiento(Mexico).
                                 </li>
-                                <li>
-                                    Fellowship en Medicina Antienvejecimiento
+                                <li id="txtinfo">Fellowship en Medicina Antienvejecimiento
                                 </li>
-                                <li>Conferencista en el II y III Congreso Mundial de<br>
+                                <li id="txtinfo">Conferencista en el II y III Congreso Mundial de<br>
                                      Medicina Antienjecimiento.</li>
-                                <li>
-                                    profesor de Curso Internacional de <br>
+                                <li id="txtinfo">profesor de Curso Internacional de <br>
                                      Medicina Antienjecimiento. 
                                 </li>
-                                <li>
-                                    Profesor de terapia Neuronal y ARP Articular en 
+                                <li id="txtinfo">Profesor de terapia Neuronal y ARP Articular en 
                                     <br> Certificacion Antienjecimiento.
                                 </li>
-                                <li>
-                                    Profesor de viscosuplementacion articular
+                                <li id="txtinfo">Profesor de viscosuplementacion articular
                                 </li>
-                                <li>Certificación Internacional de remodelación facial <br>y corporal con hilos PDO.</li>
+                                <li id="txtinfo">Certificación Internacional de remodelación facial <br>y corporal con hilos PDO.</li>
 
                             </ul>
                         </p>
                     </div>
-                    <div class="col-md-6"><h2>Experinecia</h2>
+                    <div class="col-md-6"><center><h3 style="font-family: brandon_light;color: #0280A7;">Experiencia</h3></center>
                     <ul>
-                        <li>Antienjecimiento Cerebral</li>
-                        <li>Antienjecimiento y Nutricion Ortomolecular</li>
-                        <li>Aplicación de Peptonas Antienjecimiento</li>
-                        <li>Plasma Rico en Plaquetas de Cuarta
+                        <li id="txtinfo">Antienjecimiento Cerebral</li>
+                        <li id="txtinfo">Antienjecimiento y Nutricion Ortomolecular</li>
+                        <li id="txtinfo">Aplicación de Peptonas Antienjecimiento</li>
+                        <li id="txtinfo">Plasma Rico en Plaquetas de Cuarta
                             <br>Generacion (PRP4G)</li>
-                        <li>Terapia Neuronal</li>
-                        <li>Nutrición Antienjecimiento</li>
+                        <li id="txtinfo">Terapia Neuronal</li>
+                        <li id="txtinfo">Nutrición Antienjecimiento</li>
                     </ul></div>
                 </div>
             </div>

@@ -14,15 +14,20 @@ use Jenssegers\Agent\Agent;
 
 
 Route::get('/', function () {
+	$menuvale=1;
 	$agent = new Agent();
 	if($agent->isMobile())
 		return view('/Movil/welcome');
 	else
-    	return view('welcome');
+    	return view('welcome',compact($menuvale));
 });
 
 Route::get('/Contacto',function(){
 	return view('Contacto');
+});
+
+Route::get('/Biocell',function(){
+	return view('Biocell');
 });
 
 Route::get('/Acerca_de_EMC',function(){
@@ -39,7 +44,8 @@ Route::get('/Servicios',function(){
 	if($agent->isMobile())
 		return view('Movil/Servicios');
 	else
-		return view('Servicios');
+		$menuvale=2;
+		return view('Servicios',compact($menuvale));
 });
 
 Route::get('/Tratamientos',function(){

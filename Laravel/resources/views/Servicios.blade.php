@@ -38,6 +38,10 @@
         font-family: brandon_bold;
         src: url(Laravel/Recursos/BRANDON_BLD.otf);
     }
+    @font-face {
+            font-family: brandon_light;
+            src: url(Laravel/Recursos/BRANDON_LIGHT.otf);
+            }
     #imgback{
         width: 100%;
         height: 80%;
@@ -82,7 +86,7 @@
         width: 100%;
     }
     #contenedor{
-        margin-top: 50px;
+        margin-top: 20px;
     }
 
 
@@ -107,7 +111,7 @@
     <div id="contenedormaster" style="background-color: white;margin-bottom: 0%;width: 100%;">
         <div id="contetxt" style="width: 60%;margin-left: 20%">
             <br>
-            <font style="color: #0280A7; font-family: brandon_bold;"><center><font style="font-size: 40px;margin-left: -1%;">Servicios</font></center></font><br>
+            <font style="color: #019ADD; font-family: brandon_reg;"><center><font style="font-size: 30px;margin-left: -1%;">Servicios</font></center></font>
             <font style="font-family: brandon_reg;font-size: 20px">En Eterna Medical Center, contamos con servicios para sentirte y verte más joven. Mediante tratamientos preventivos y correctivos con la tecnología más avanzada, diseñamos todos nuestros servicios completamente a las necesidades de tu cuerpo.</font>
         </div>
 
