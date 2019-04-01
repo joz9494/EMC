@@ -219,7 +219,12 @@
 
 <div id="contenedor1">
     <br>
-    <center><font style="color: #0280A7;font-size: 35px;font-weight: bold;font-family:txtbran">Opera tratamiento Antiaging</font></center>
+    <center><font style="color: #0280A7;font-size: 35px;font-weight: bold;font-family:txtbran">
+            <a href="{{ url('/Tratamientos') }}">
+                <span><img src="Laravel\Recursos\img\Tratamientos\flecha160x160.png" alt="" style="width:60px;">
+                </span> &nbsp;Opera tratamiento Antiaging
+            </a>
+    </font></center>
     <br>
     <center><font style="font-family:txtbran;font-size: 18px">Estimula la vitalidad celular y luce radiante como Thalía. Mejora el aspecto de tu piel con el tratamiento Antiaging.</font><br></center>
     <center><font style="font-weight: bold;font-family:txtbran;font-size: 18px">Tonifica e Hidrata tu piel</font><br></center>

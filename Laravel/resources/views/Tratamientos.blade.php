@@ -11,7 +11,7 @@
         body{
             background-color: #0280A7;
             overflow-x: hidden;
-            font-family: brandon_reg;
+            font-family: brandon_reg !important;
         }
         h1,h2
         {
@@ -95,8 +95,48 @@
         {
             background-color: #E9F8FF;
         }
+        .imagen_text{
+            position: relative;
+            text-align: center;
+        }
+        .imagen_text img
+        {
+            width: 100%;
+        }
+ 
+        .text-img{
+            position: absolute;
+            top: 0;
+            padding: 5%;
+            color: black;
+        }
+        #biocell
+        {
+            top: 30%;
+            width: 30%;
+            right:4%;
+            color: #CA5D6D;
+            
+        }
+        #biocell h1,#biocell a
+        {
+            /*font-weight: bold;*/
+            color:#C44548;
+        }
+        #biocell a:hover
+        {
+            color: #4BD1A0;
+        }
         @media (orientation:landscape)
         {
+            #biocell h1,#biocell a
+            {
+                font-size: 1.9vw;   
+            }
+            #biocell
+            {
+                font-size: 1.5vw;   
+            }
             .tratamiento-cuerpo .nombre
             {font-size: 2.5vh;}
             .tratamiento-cuerpo .nombre>p{
@@ -108,11 +148,19 @@
             }
             .tratamiento > a
             { 
-                {font-size: 2.5vh;}  
+                font-size: 2.5vh;  
             }
         }
         @media (orientation:portrait)
         {
+            #biocell h1,#biocell a
+            {
+                font-size: 1.9vw;   
+            }
+            #biocell
+            {
+                font-size: 1.5vw;   
+            }
             .tratamiento-cuerpo .nombre
             {font-size: 2vh;}
             .tratamiento-cuerpo .nombre>p{
@@ -124,7 +172,7 @@
             }
             .tratamiento > a
             { 
-                {font-size: 1.5vh;}  
+                font-size: 1.5vh;  
             }
         }
         
@@ -137,14 +185,18 @@
                     <div id="titulo" class="row">
                         <div class="col-md-2 col-sm-5"></div>
                         <div class="col-md-8 conte">
-                            <font style="color: #019ADD; font-family: brandon_reg;"><center><font style="font-size: 30px;margin-left: -1%;">Tratamientos</font></center></font> 
+                            <font style="color: #019ADD;"><center><font style="font-size: 30px;margin-left: -1%;">Tratamientos</font></center></font> 
                         </div>
                     </div>
                     <div id="banner" class="row conte">
                         <div class="col-md-12">
-                            <img src="Laravel/Recursos/img/Tratamientos/Biomas.png" style="margin-left: -5%;">
-                            <div>
-                                <button>Ver más</button>
+                            <div class="imagen_text">
+                                <img src="Laravel/Recursos/img/Tratamientos/Biomas.png" style="margin-left: -5%;">
+                                <div id="biocell" class="text-img">
+                                    <h1>Human Ultracell® </h1>
+                                    <p>Regeneracion Celular</p>
+                                    <a href="">Ver más</a>
+                                </div>
                             </div>
                         </div>
                     </div> 
