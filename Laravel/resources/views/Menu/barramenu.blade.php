@@ -343,7 +343,7 @@
                             </thead>     
                         </table>
                         <li style="margin-top: 30px;">
-                            <button type="button" id="btnfooter" data-toggle="modal" data-target="#exampleModal">
+                            <button type="button" id="btnfooter" data-toggle="modal" data-target="#exampleModal2">
                             <p class="stext-107 cl6 txt-center" style="color: #0081a9;font-size: 16px;font-family: brandon_reg;">
                             Términos y condiciones
                             </p>
@@ -394,10 +394,10 @@
                         <div style="margin-top: 5px;margin-left: -40px;">
                             <div id="fb-root"></div>
                             <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v3.2"></script>
-                            <div class="fb-like" data-href="https://www.eterna-medical.com/" data-width="300" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+                            <div class="fb-like" data-href="https://www.eterna-medical.com/" data-width="200" data-layout="standard" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
                         </div>
                         <br>
-                        <button type="button" id="btnfooter" data-toggle="modal" data-target="#exampleModal2">
+                        <button type="button" id="btnfooter" data-toggle="modal" data-target="#exampleModal">
                             <p class="stext-107 cl6 txt-center" style="color: #0081a9;font-size: 16px;font-family: brandon_reg;">
                             Políticas de privacidad
                             </p>
@@ -433,7 +433,7 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content" style="width: 200%;margin-left: -40%;">
       <div class="modal-header">
-        <font style="font-size: 25px;color: #079EE2;font-weight: bold;margin-left: 32%;"> POLÍTICAS DE PRIVACIDAD </font>
+        <font style="font-size: 25px;color: #0081a9;font-family:brandon_light;margin-left: 33%;"> POLÍTICAS DE PRIVACIDAD </font>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -442,14 +442,14 @@
         <font style="color: black;font-style: oblique;"> 
             
 
-        <center><font style="color: black;width: bold;">REGISTRO DE DATOS DE CARÁCTER PERSONAL</font><br></center>
+        <center><font style="color: black;width: bold;font-family:brandon_light">REGISTRO DE DATOS DE CARÁCTER PERSONAL</font><br></center>
         <br>
 
         El envío de datos de carácter personal es obligatorio para contactar, comentar y realizar operaciones comerciales con el responsable. También debes saber que él no facilitar los datos personales solicitados en los diferentes formularios de contacto o el no aceptar la presente política de privacidad supone la imposibilidad de procesar las solicitudes que realices en este web. Toda la información que el usuario proporcione durante el proceso de contacto, suscripción o contratación de servicios será almacenada por el responsable y gestor de esta web.<br>
         <br>
         
 
-        <center><font style="color: black;width: bold;">SISTEMAS DE CAPTURA DE INFORMACIÓN PERSONAL</font><br>
+        <center><font style="color: black;width: bold;font-family:brandon_light">SISTEMAS DE CAPTURA DE INFORMACIÓN PERSONAL</font><br>
         <br></center>
 
         Esta web puede requerir información personal en los siguientes casos:<br>
@@ -475,7 +475,7 @@
         &bull;Información sobre las páginas visitadas y el orden de dichas páginas, y el tiempo que el usuario pasa en páginas específicas.<br>
         <br>
 ​
-        <center><font style="color: black;width: bold;">FINALIDADES CON LAS QUE SE UTILIZAN LOS DATOS PERSONALES EN ESTA WEB</font><br>
+        <center><font style="color: black;width: bold;font-family:brandon_light">FINALIDADES CON LAS QUE SE UTILIZAN LOS DATOS PERSONALES EN ESTA WEB</font><br>
         <br></center>
         
 
@@ -496,7 +496,7 @@
         &bull;Fines Estadísticos: Podrán utilizarse únicamente estadísticas y datos genéricos para fines publicitarios, JAMÁS se compartirán datos sensibles que permitan identificar a los usuarios a estas empresas o terceras personas. Arganelix.com no venderá ninguna información a ningún tercero que pueda permitirle identificar las condiciones médicas de una persona. Aceitedearganweb.com no cederá los datos personales de los usuarios a terceros sin solicitar previamente su consentimiento informando del receptor de esos datos y la finalidad de esa posible cesión.<br>
         <br>
 ​
-        <center><font style="color: black;width: bold;">SERVICIOS DE TERCEROS</font><br>
+        <center><font style="color: black;width: bold;font-family:brandon_light">SERVICIOS DE TERCEROS</font><br>
         <br></center>
         
 
@@ -505,14 +505,14 @@
         Para prestan servicios estrictamente necesarios para el desarrollo de su actividad, El responsable comparte datos con los siguientes prestadores bajo sus correspondientes condiciones de privacidad. -Hosting: pendiente -Google Analytics: un servicio analítico de web prestado por Google, Inc., una compañía de Delaware cuya oficina principal está en 1600 Amphitheatre Parkway, Mountain View (California), CA 94043, Estados Unidos (“Google”). Google Analytics utiliza “cookies”, que son archivos de texto ubicados en tu ordenador, para ayudar al aceitedearganweb.com a analizar el uso que hacen los usuarios del sitio web. La información que genera la cookie acerca de su uso del aceitedearganweb.com (incluyendo tu dirección IP) será directamente transmitida y archivada por Google en los servidores de Estados Unidos. Google usará esta información por cuenta nuestra con el propósito de seguir la pista de su uso de esta web, recopilando informes de la actividad y prestando otros servicios relacionados con la actividad de aceitedearganweb.com y el uso de Internet. Google podrá transmitir dicha información a terceros cuando así se lo requiera la legislación, o cuando dichos terceros procesen la información por cuenta de Google. Google no asociará tu dirección IP con ningún otro dato del que disponga Google. Puedes rechazar el tratamiento de los datos o la información rechazando el uso de cookies mediante la selección de la configuración apropiada de tu navegador, sin embargo, debes saber que, si lo haces, puede ser que no pueda usar la plena funcionabilidad de aceitedearganweb.com. Al utilizar este aceitedearganweb.com, consientes el tratamiento de tu información por Google en la forma y para los fines indicados. -Google Adsense: Google, como proveedor asociado, utiliza cookies para publicar anuncios en este sitio web. Los usuarios pueden inhabilitar el uso de la cookie de DART a través del anuncio de Google y accediendo a la política de privacidad de la red de contenido. Google utiliza empresas publicitarias asociadas para publicar anuncios cuando visitas nuestro sitio web. Es posible que estas empresas usen la información que obtienen de sus visitas a este y otros sitios web (sin incluir tu nombre, dirección, dirección de correo electrónico o número de teléfono) para ofrecerte anuncios sobre productos y servicios relacionados con tus intereses. Si deseas obtener más información sobre esta práctica y conocer sus opciones para impedir que estas empresas usen esta información, haz clic aquí. -Servicio de afiliados: Amazon Utilizamos las funciones de Amazon para a añadir productos que recomendamos fácilmente a la cesta en Amazon.es. Creamos algunos enlaces con los que los clientes pueden añadir productos de vendedores terceros en sus cestas. Amazon muestra publicidad basada en los intereses del usuario generada a partir de la información que el usuario pone a su disposición cuando interactúa con sitios web, contenidos o servicios. La publicidad basada en los intereses del usuario, se generan y se le muestran a partir de la información recogida en sitios webs que incluyen contenido o anuncios de Amazon, como es nuestro caso.<br>
         <br>
 ​
-        <center><font style="color: black;width: bold;">EJERCICIO DE LOS DERECHOS DE ACCESO, RECTIFICACIÓN, CANCELACIÓN U OPOSICIÓN</font><br>
+        <center><font style="color: black;width: bold;font-family:brandon_light">EJERCICIO DE LOS DERECHOS DE ACCESO, RECTIFICACIÓN, CANCELACIÓN U OPOSICIÓN</font><br>
         <br></center>
         
 
         La legislación vigente en materia de Protección de Datos reconoce una serie de derechos a los ciudadanos, como son el derecho de acceso, rectificación, cancelación y oposición sobre sus datos personales. Este web no tengas dudas que se respetan estos derechos y que podrás ejercitarlos siempre que quieras y que sabré responder de manera diligente a tu requerimiento. El ejercicio de estos derechos es personal, y debe, por tanto, ser ejercido directamente por el interesado ante cada uno de los responsables/titulares de los ficheros. El usuario podrá dirigir sus comunicaciones y ejercitar los derechos de acceso, rectificación, cancelación y oposición a través de correo postal o el mail mencionados arriba junto con prueba válida en derecho, como fotocopia del D.N.I. o equivalente, indicando en el asunto “PROTECCIÓN DE DATOS”.<br>
         <br>
  
-        <center><font style="color: black;width: bold;">ACEPTACIÓN Y CONSENTIMIENTO</font><br>
+        <center><font style="color: black;width: bold;font-family:brandon_light">ACEPTACIÓN Y CONSENTIMIENTO</font><br>
         <br></center>
         
 
@@ -521,7 +521,7 @@
         Al navegar en esta web, el usuario confirma haber leído y estar conforme con estas condiciones sobre la protección de datos de carácter personal, aceptando y consintiendo el tratamiento de los mismos por parte del responsable en la forma y para las finalidades indicadas en esta política y en el aviso legal<br>.
 
         <br>
-        <center><font style="color: black;width: bold;">CAMBIOS EN LA PRESENTE POLÍTICA DE PRIVACIDAD</font><br>
+        <center><font style="color: black;width: bold;font-family:brandon_light">CAMBIOS EN LA PRESENTE POLÍTICA DE PRIVACIDAD</font><br>
         <br></center>
         
 
@@ -530,7 +530,7 @@
         Como responsable de esta web, me reservo el derecho a modificar la presente política para adaptarla a novedades legislativas o jurisprudenciales, así como a prácticas de la industria. En dichos supuestos, anunciaremos en esta página los cambios introducidos con razonable antelación a su puesta en práctica.<br>
 
         <br>
-        <center><font style="color: black;width: bold;">CORREOS COMERCIALES</font><br>
+        <center><font style="color: black;width: bold;font-family:brandon_light">CORREOS COMERCIALES</font><br>
         <br></center>
         
 
@@ -553,7 +553,7 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content" style="width: 200%;margin-left: -40%;">
       <div class="modal-header">
-        <font style="font-size: 25px;color: #079EE2;font-weight: bold;margin-left: 32%;"> TÉRMINOS Y CONDICIONES</font>
+        <font style="font-size: 25px;color: #0081a9;margin-left: 32%;font-family:brandon_light"> TÉRMINOS Y CONDICIONES</font>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -563,40 +563,40 @@
             
  
 
-        <center><font style="color: black;width: bold;">REGISTRO DE DATOS DE CARÁCTER PERSONAL CONDICIONES DE USO</font><br></center>
+        <center><font style="color: black;width: bold;font-family:brandon_light">REGISTRO DE DATOS DE CARÁCTER PERSONAL CONDICIONES DE USO</font><br></center>
         <br>
 
         Sírvase leer cuidadosamente estas condiciones de uso antes de usar este sitio electrónico. El uso de este sitio electrónico significa que está de acuerdo con estas condiciones de uso. Si no acepta estas condiciones de uso, absténgase de usar este sitio electrónico.<br>
         <br>
         
 
-        <center><font style="color: black;width: bold;">RESTRICCIONES SOBRE EL USO DE MATERIALES</font><br>
+        <center><font style="color: black;width: bold;font-family:brandon_light">RESTRICCIONES SOBRE EL USO DE MATERIALES</font><br>
         <br></center>
 
         El derecho de autor o copyright de todos los materiales provistos en este Sitio Electrónico (“Sitio”) lo tiene Eterna Medical Center. Con excepción de lo aquí indicado, ningún material del Sitio o de cualquier otro sitio de propiedad u operado, con licencia o controlado por Eterna Medical Center puede copiarse, reproducirse, volverse a publicar, transmitirse o distribuirse de ninguna manera. Cualquier uso no autorizado de cualquier material contenido en este Sitio podría violar las leyes de derechos de autor, las leyes de registro de marcas y otras leyes.<br>
         <br>
 ​
 ​
-        <center><font style="color: black;width: bold;">LEYES CORRESPONDIENTES</font><br>
+        <center><font style="color: black;width: bold;font-family:brandon_light">LEYES CORRESPONDIENTES</font><br>
         <br></center>
         
 
         Este Sitio está controlado y operado por Eterna Medical Center no se hace representación alguna de que los materiales en este Sitio son apropiados o que están disponibles para su uso fuera de Estados Unidos. Aquellas personas que opten por obtener acceso a este Sitio desde otros lugares lo harán por iniciativa propia y son responsables de cumplir con las leyes locales correspondientes. Cualquier reclamo relacionado y el uso de este Sitio se rigen por las leyes del Estados Unidos Mexicanos, sin dar efecto a ningún principio de conflictos legales.
         <br>
 ​
-        <center><font style="color: black;width: bold;">MARCAS REGISTRADAS</font><br>
+        <center><font style="color: black;width: bold;font-family:brandon_light">MARCAS REGISTRADAS</font><br>
         <br></center>
         
         Las marcas registradas, las marcas de servicio y los logotipos (las “Marcas Registradas”) utilizadas y exhibidas en este Sitio son marcas registradas y no registradas de Eterna Medical Center, a menos que se indique lo contrario. Nada en este Sitio debe interpretarse como concesión de licencia, ya sea implícita, por impedimento, u otro, o como derecho a usar cualquier marca registrada exhibida en este Sitio.<br>
         <br>
 ​
-        <center><font style="color: black;width: bold;">CONTENIDO DE ETERNA MEDICAL CENTER.COM Y SUS ENLACES</font><br>
+        <center><font style="color: black;width: bold;font-family:brandon_light">CONTENIDO DE ETERNA MEDICAL CENTER.COM Y SUS ENLACES</font><br>
         <br></center>
         
         Eterna Medical Center no es responsable del mal uso que se realice de los contenidos de nuestra página web, siendo exclusiva responsabilidad de la persona que accede a ellos o los utiliza. No asumimos ninguna responsabilidad por la información contenida en las páginas web de terceros o links recomendados por o hacia Eterna Medical Center. No asumimos ninguna responsabilidad derivada de problemas técnicos o fallos en los equipos informáticos, no imputables a nuestra empresa, que se produzcan durante la conexión a la red de Internet, así como de daños que pudieran ser causados por terceras personas mediante intromisiones ilegítimas fuera de nuestro control. Los contenidos e información de las páginas de Internet Eterna Medical Center.com están elaboradas por profesionales de la salud y belleza. Sin embargo, los contenidos e información no vinculan a ETERNA MEDICAL CENTER ni constituyen opiniones ni consejos de ningún tipo pues se trata meramente de un servicio ofrecido con carácter informativo y divulgativo. Debido a la falta de armonización legislativa en la Unión Europea y en otros países, algunos de nuestros productos pueden estar catalogados como cosméticos en algunos países y en otros como plantas medicinales. El objetivo de esta Web es promocionar únicamente y producto de cosmética natural. Nos reservamos el derecho a actualizar, modificar o eliminar alguna información contenida en nuestra web, y la configuración o presentación de la misma, en cualquier momento, sin previo aviso, y sin asumir responsabilidad alguna por ello.<br>
         <br>
  
-        <center><font style="color: black;width: bold;">TRATAMIENTO DE DATOS DEL USUARIO</font><br>
+        <center><font style="color: black;width: bold;font-family:brandon_light">TRATAMIENTO DE DATOS DEL USUARIO</font><br>
         <br></center>
         
 
@@ -608,7 +608,7 @@
         El acceso y/o uso de este portal de Eterna Medical Center atribuye la condición de USUARIO, que acepta, desde dicho acceso y/o uso, las Condiciones Generales de Uso aquí reflejadas. Las citadas Condiciones serán de aplicación independientemente de las Condiciones Generales de Contratación que en su caso resulten de obligado cumplimiento.<br>
         <br>
 
-        <center><font style="color: black;width: bold;">PROCESO DE COMPRA</font><br>
+        <center><font style="color: black;width: bold;font-family:brandon_light">PROCESO DE COMPRA</font><br>
         <br></center>
         
 
@@ -621,21 +621,21 @@
         <br>
 
         <br>
-        <center><font style="color: black;width: bold;">PRODUCTOS</font><br>
+        <center><font style="color: black;width: bold;font-family:brandon_light">PRODUCTOS</font><br>
         <br></center>
 
         Todos los productos de Eterna Medical Center son de marcas originales, nuevos, presentados en su envase o caja individual, según el producto. Los colores de los productos pueden sufrir variaciones respecto a la realidad debido a los diferentes ajustes de cada monitor.<br>
         <br>
 
 
-        <center><font style="color: black;width: bold;">PRODUCTOS AGOTADOS </font><br>
+        <center><font style="color: black;width: bold;font-family:brandon_light">PRODUCTOS AGOTADOS </font><br>
         <br></center>
 
         Los productos agotados se podrán comprar igualmente. Normalmente el pedido se demorará entre 5 y 7 días adicionales al tiempo de los productos en stock, siempre y cuando el producto siga en catálogo en la marca.<br>
         <br>
 
 
-        <center><font style="color: black;width: bold;">FORMAS DE PAGO, PRECIOS Y PROMOCIONES </font><br>
+        <center><font style="color: black;width: bold;font-family:brandon_light">FORMAS DE PAGO, PRECIOS Y PROMOCIONES </font><br>
         <br></center>
 
        EternaMedicalCenter.com ofrece los siguientes métodos de pago:<br>
