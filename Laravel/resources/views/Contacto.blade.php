@@ -42,42 +42,7 @@
             font-family: brandon_reg;
             src: url(Laravel/Recursos/BRANDON_REG.otf);
             }
-    #contenedorcarrousel{
-        width: 100%;
-        height: 30%;
-    }
-    #imgcarrousel{
-        width: 100%;
-        height: 500px;%;
-    }
-    #bienvenidos{
-        width: 55%;
-        height: 33%;
-        background-color: white;
-        margin-left: 25%;
-        margin-top: 230px;
-    }
-    #contenedorbtn{
-        background-image: url("Laravel/Recursos/img/btn.jpg");
-        background-size: 100%;
-        width: 500px;
-        height: 90px;
-        margin-top: -2%;
-    }
-    #bienvenidos2{
-            display: none;
-        }
-    #contenedorbtn:hover{
-        background-image: url("Laravel/Recursos/img/btn2.jpg");
-        background-size: 100%;
-        width: 500px;
-        height: 90px;
-        margin-top: -2%;
-    }
-    #imgbio{
-        width: 73%;
-        height: 33%;
-    }
+
     #imgback{
         width: 100%;
         height: 60%;
@@ -107,10 +72,6 @@
         margin-right: 15%;
         margin-top: 30px;
     }
-
-    ::placeholder { color: #0280A7; }
-
-
 
 
     @media screen and (max-width: 1600px){

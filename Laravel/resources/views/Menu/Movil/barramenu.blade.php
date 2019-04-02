@@ -39,7 +39,7 @@
                 src: url("Laravel/Recursos/BRANDON_BLD.otf");
             }
              body{
-                background-color: #0280A7;
+                
                 overflow-x: hidden;
                 font-family: brandon_reg !important
                 
@@ -61,16 +61,15 @@
             footer
             {
                 background-color: white;
-                
             }
             .nav-item
             {
                 text-align: center;
             }
             .conte{
-        width: 100%;
-       text-align: center;
-   }
+                    width: 100%;
+                text-align: center;
+            }
    
 
 #tabs{
@@ -85,6 +84,10 @@
     background-color: #0280A7 !important;
     font-size: 20px;
     
+}
+#me 
+{
+    border-radius: 10% !important;
 }
 #tabs .nav-tabs .nav-link {
     border-color:#0280A7;
@@ -105,7 +108,7 @@
                         Eterna Medical Center
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                        <span  class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
@@ -141,25 +144,12 @@
 
 
                 
-        <footer class="container">
             
-            <div id="menu_footer" class="row">
-                <div id="citas" class="col-4 opciones">Citas</div>
-                <div id="direccion" class="col-4 opciones">Direccion</div>
-                <div id="horario" class="col-4 opciones">Horario</div>
-                <div id="informacion" class="">
-                    <div id="info_citas" class="info">
-                        <div class="row  justify-content-center">    
-                            <div class="col-3">
-                                <img src="Laravel\Recursos\img\Tratamientos\5.png" alt="" style="width:100%;">
-                            </div>
-                            <div class="col-9">
-                                <h4>+52 (461) 132 48 51</h4>
-                                <h4>+52 (461) 138 69 05</h4>
+            
 
         <footer class="">
             <section id="tabs">
-                <div class="container">
+                <div class="">
                     <div class="row content-center">
                         <div class="conte">
                             <nav>
@@ -172,12 +162,11 @@
                             <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
                                 <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                                     <div class="row">
-                                        <div class="col-3" style="text-align:right;">
-                                            <img src="Laravel\Recursos\img\Tratamientos\5.png" alt="" style="width:60px;">
+                                        <div class="col-4" style="text-align:right; padding-top:2%;">
+                                            <img src="Laravel/Recursos/img/BaseMenu/Whatsp.png" alt="" style="width:30px;">
                                         </div>
-                                        <div class="col-9">
-                                            <h4>+52 (461) 132 48 51</h4>
-                                            <h4>+52 (461) 138 69 05</h4>
+                                        <div class="col-8" style="text-align:left;">
+                                            <h4>+52 (461) 132 48 51 <br>+52 (461) 138 69 05 </h4>
                                         </div>
                                     </div>
                                 </div>
