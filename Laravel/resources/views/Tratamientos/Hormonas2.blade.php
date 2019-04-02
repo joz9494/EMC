@@ -173,7 +173,7 @@
                 <div class="col-md-8 conte">
                     <a href="{{ url('/Tratamientos') }}">
                         <h1><span style="padding-right: 2%;"><img src="Laravel\Recursos\img\Tratamientos\flecha160x160.png" alt="" style="width:40px;">
-                        </span>Hormonas Bio-Idénticas</h1>
+                        </span>Hormonas Bio-Idénticas 2</h1>
                     </a>    
                 </div> 
             </div>
