@@ -58,6 +58,7 @@
     #formulario{
         float: right;
         margin-right: 300px;
+        margin-top: 62px;
     }
     #pinfet{
         float: right;
@@ -69,28 +70,27 @@
     }
     #psupt{
         float: right;
-        margin-right: 15%;
+        margin-right: 39%;
         margin-top: 30px;
     }
 
+    ::placeholder { 
+        color: #0280A7;
+        padding: 5px;
+     }
 
     @media screen and (max-width: 1600px){
         body{
             overflow-x: visible;
         }
         #formulario{
-            margin-left: 50%;
-            float: left;
+            position: absolute;
+            margin-left: 62%;
         }
         #psupt{
-            margin-top: 15%;
-            margin-left: 10%;
+            width: 100%;
         }
-        #pinfet{
-            margin-left: -11%;
-            float: left;
-            margin-top: 10%;
-        }
+
     }
 
 </style>
@@ -102,20 +102,20 @@
 
 <div id="imgback">
     <div id="formulario">
-        <table id="psupt" width="100%">
+        <table id="psupt" width="44%">
             <thead>
                 <tr><td><center><font style="font-size: 25px;color: #0280A7;font-family:txtbran;font-family: brandon_reg">Contáctanos</font></center></td></tr>
-                <tr><td><center><font style="font-size: 20px;color: black;font-family:txtbran;font-family: brandon_light;">Estamos disponibles para contestar tus<br>dudas, deja tus datos y te responderemos a la <br>brevedad.</font></center></td></tr>
+                <tr><td><center><font style="font-size: 16.5px;color: black;font-family:txtbran;font-family: brandon_light;">Estamos disponibles para contestar tus<br>dudas, deja tus datos y te responderemos a la brevedad.</font></center></td></tr>
             </thead>
         </table>
 
-        <table id="pinfet" style="color: #0280A7;margin-top: 3%;margin-right: 40%;">
+        <table id="pinfet" style="color: #0280A7;margin-top: 3%;margin-right: 37%;">
             <thead>
                 <tr><td style="border: #0280A7 1px solid;background-color: white;font-family:brandon_light"><input style="background-color: white;" type="text" name="name" placeholder="Nombre *"></td></tr>
                 <tr><td style="border: #0280A7 1px solid;background-color: white;font-family:brandon_light"><input style="background-color: white;" type="text" name="name" placeholder="Apellidos *"></td></tr>
                 <tr><td style="border: #0280A7 1px solid;background-color: white;font-family:brandon_light"><input style="background-color: white;" type="text" name="name" placeholder="Email *"></td></tr>
                 <tr><td style="border: #0280A7 1px solid;background-color: white;font-family:brandon_light"><input style="background-color: white;" type="text" name="name" placeholder="Teléfono *"></td></tr>
-                <tr><td style="border: #0280A7 1px solid;background-color: white;font-family:brandon_light"><textarea id="mensaje" placeholder="Mensaje *" rows="5" cols="55"></textarea></td></tr>
+                <tr><td style="border: #0280A7 1px solid;background-color: white;font-family:brandon_light"><textarea id="mensaje" placeholder="Mensaje *" rows="5" cols="45"></textarea></td></tr>
                 <tr><td style="float: right;"><center><button type="button" id="btnenviar" class="btn btn-default btn-sm" style="color: white;font-weight: bold;">Enviar</button></center></td></tr>
             </thead>
         </table>
