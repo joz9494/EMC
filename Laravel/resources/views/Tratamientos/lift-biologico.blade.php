@@ -45,7 +45,7 @@
             width: 100%;
         }
         .conte{
-            padding-top: 2%;
+            padding-top: 1%;
             text-align: center;
         }
         #final
@@ -169,10 +169,14 @@
             <div id="titulo" class="row">
                 <div class="col-md-2"></div>
                 <div class="col-md-8 conte">
+
+                    <font style="color: #019ADD; font-family: brandon_reg;"><center><img src="Laravel\Recursos\img\Tratamientos\flecha160x160.png" alt="" style="width:60px;margin-top: -15px"><font style="font-size: 30px;margin-left: 1%;">Lift Biológico</font></center></font>
+
                     <a href="{{ url('/Tratamientos') }}">
                         <h1><span style="padding-right: 3%;"><img src="Laravel\Recursos\img\Tratamientos\flecha160x160.png" alt="" style="width:60px;">
                         </span>Lift-bíologico</h1>    
                     </a>
+
                 </div> 
             </div>
             <div class=" row" >
