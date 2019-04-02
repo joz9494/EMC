@@ -212,8 +212,8 @@
                             <div class="col-md-2 col-sm-5 tratamiento">
                                 <div class="tratamiento-cuerpo">
                                     <img src="Laravel/Recursos/img/Tratamientos/1.png" alt="">
-                                    <div class="nombre">Hormonas<br>Bio-Indénticas</div>
-                                    <p class="descripcion" style="font-family: brandon_light">Balancea los niveles<br> hormonales, sin efectos<br> secundarios.</p>     
+                                    <div class="nombre">Hormonas<br>Bio-Idénticas</div>
+                                    <p class="descripcion" style="font-family: brandon_light;margin-top: 30px;px;">Balancea los niveles<br> hormonales, sin efectos<br> secundarios.</p>     
                                 </div>
                                 <a href="{{url('/Hormonas')}}" class="btn btn-primary" style="background-color: #1197c0;border-color: #1197c0">Leer más</a>
                             </div>
@@ -221,15 +221,15 @@
                                 <div class="tratamiento-cuerpo">
                                     <img src="Laravel/Recursos/img/Tratamientos/2.png" alt="">
                                     <div class="nombre">Lift Biológico <br><br></div>
-                                    <p class="descripcion" style="font-family: brandon_light">Desacelera<br> notablemente el<br> envejecimiento.</p> 
+                                    <p class="descripcion" style="font-family: brandon_light;margin-top: 30px;">Desacelera<br> notablemente el<br> envejecimiento.</p> 
                                 </div>
                                 <a href="{{url('/lift-biologico')}}" class="btn btn-primary" style="background-color: #1197c0;border-color: #1197c0">Leer más</a>
                             </div>
                             <div class="col-md-2 col-sm-5 tratamiento">
                                 <div class="tratamiento-cuerpo">
                                     <img src="Laravel/Recursos/img/Tratamientos/3.png" alt="">
-                                    <div class="nombre">Opera Tratamiento<br>Antiaging</div>
-                                    <p class="descripcion" style="font-family: brandon_light">¡Estimula la vitalidad<br> celular y luce <br> radiante como <br>#thalía!</p>
+                                    <div class="nombre">Opera tratamiento<br>Antiaging</div>
+                                    <p class="descripcion" style="font-family: brandon_light;margin-top: 30px;">¡Estimula la vitalidad<br> celular y luce <br> radiante como <br>#Thalía!</p>
                                     <p class="descripcion"></p> 
                                 </div>
                                 <a href="{{url('/Opera_tratamiento_antiaging')}}" class="btn btn-primary" style="background-color: #1197c0;border-color: #1197c0">Leer más</a>
@@ -238,25 +238,27 @@
                                 <div class="tratamiento-cuerpo">
                                     <img src="Laravel/Recursos/img/Tratamientos/4.png" alt="">
                                     <div class="nombre">Peptonas <br><br></div>
-                                    <p class="descripcion" style="font-family: brandon_light">Estimula la producción de <br> colágeno y elastina del rostro.</p> 
+                                    <p class="descripcion" style="font-family: brandon_light;margin-top: 30px;">Estimula la producción de <br> colágeno y elastina del rostro.</p> 
                                 </div>    
                             <a href="{{url('/Peptonas')}}" class="btn btn-primary" style="background-color: #1197c0;border-color: #1197c0">Leer más</a>
                             </div>
                             <div class="col-md-2 col-sm-5 tratamiento">
                                 <div class="tratamiento-cuerpo">
                                     <img src="Laravel/Recursos/img/Tratamientos/5.png" alt="">
-                                    <div class="nombre">PRP4G<br><p>(Plasma Rico en Plaquetas)</p></div>
-                                    <p class="descripcion" style="font-family: brandon_light">Ten una piel más fuerte y joven.<br></p> 
+                                    <div class="nombre">PRP 4G<br><p>(Plasma Rico en Plaquetas)</p></div>
+                                    <p class="descripcion" style="font-family: brandon_light;margin-top: 30px;">Ten una piel más fuerte y joven.<br></p> 
                                 </div>
                                 <a href="{{url('/PRP4G')}}" class="btn btn-primary" style="background-color: #1197c0;border-color: #1197c0">Leer más</a>
                             </div> 
                         </div>
-                        <div class="row justify-content-center row-eq-height">
+                        <div class="row justify-content-center row-eq-height" style="margin-top: -30px;">
                             <div class="col-md-2 col-sm-5 tratamiento">
                                 <div class="tratamiento-cuerpo">
                                     <img src="Laravel/Recursos/img/Tratamientos/6.png" alt="">
                                     <div class="nombre">Rinomodelación<br><p></p></div>
-                                    <p class="descripcion" style="font-family: brandon_light">Modifica la forma de tu <br> nariz sin cirugía.<br></p> 
+                                    <br>
+                                    <br>
+                                    <p class="descripcion" style="font-family: brandon_light;margin-top: 8px;">Modifica la forma de tu <br> nariz sin cirugía.<br></p> 
                                 </div>
                                 <a href="http://" class="btn btn-primary" style="background-color: #1197c0;border-color: #1197c0">Leer más</a>
                             </div>
@@ -264,7 +266,9 @@
                                 <div class="tratamiento-cuerpo">
                                     <img src="Laravel/Recursos/img/Tratamientos/7.png" alt="">
                                     <div class="nombre">Silicio plus + DMAE </div>
-                                    <p class="descripcion" style="font-family: brandon_light">Reafirmante y antiestrías.<br></p> 
+                                    <br>
+                                    <br>
+                                    <p class="descripcion" style="font-family: brandon_light;margin-top: 35px;">Reafirmante y antiestrías.<br></p> 
                                 </div>
                                 <a href="http://" class="btn btn-primary" style="background-color: #1197c0;border-color: #1197c0">Leer más</a>
                             </div>
@@ -272,7 +276,9 @@
                                 <div class="tratamiento-cuerpo">
                                     <img src="Laravel/Recursos/img/Tratamientos/8.png" alt="">
                                     <div class="nombre">Scultur Refort</div>
-                                    <p class="descripcion" style="font-family: brandon_light">Re-estructura y estimula <br> la formación de fibras <br> de colágeno y elastina.</p> 
+                                    <br>
+                                    <br>
+                                    <p class="descripcion" style="font-family: brandon_light;margin-top: 35px;">Re-estructura y estimula <br> la formación de fibras <br> de colágeno y elastina.</p> 
                                 </div>
                                 <a href="http://" class="btn btn-primary" style="background-color: #1197c0;border-color: #1197c0">Leer más</a>
                             </div>
@@ -280,15 +286,19 @@
                                 <div class="tratamiento-cuerpo">
                                     <img src="Laravel/Recursos/img/Tratamientos/9.png" alt="">
                                     <div class="nombre">Terapia Neural</div>
-                                    <p class="descripcion" style="font-family: brandon_light">Tratamiento para enfermedades <br>causadas por <br>trastorno en el sistema<br>eléctrico del cuerpo.</p> 
+                                    <br>
+                                    <br>
+                                    <p class="descripcion" style="font-family: brandon_light;margin-top: 35px;">Tratamiento para enfermedades <br>causadas por <br>trastorno en el sistema<br>eléctrico del cuerpo.</p> 
                                 </div>
                                 <a href="http://" class="btn btn-primary" style="background-color: #1197c0;border-color: #1197c0">Leer más</a>
                             </div>
                             <div class="col-md-2 col-sm-5 tratamiento"> 
                                 <div class="tratamiento-cuerpo">
                                     <img src="Laravel/Recursos/img/Tratamientos/10.png" alt="">
-                                    <div class="nombre" style="margin-top: -9px;">Tratamiento <br>Progresivo de Ojos</p></div>
-                                    <p class="descripcion" style="font-family: brandon_light">Eliminación biológica de<br>líneas profundas,sin<br>cirugía.</p> 
+                                    <div class="nombre" style="margin-top: 32px;">Tratamiento <br>Progresivo de Ojos</p></div>
+                                    <br>
+                                    <br>
+                                    <p class="descripcion" style="font-family: brandon_light;margin-top: -35px;">Eliminación biológica de<br>líneas profundas,sin<br>cirugía.</p> 
                                 </div>
                                 <a href="http://" class="btn btn-primary" style="background-color: #1197c0;border-color: #1197c0">Leer más</a>
                             </div>
