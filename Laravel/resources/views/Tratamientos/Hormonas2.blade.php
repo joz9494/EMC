@@ -32,10 +32,19 @@
             font-family: brandon_bold;
             src: url("Laravel/Recursos/BRANDON_BLD.otf");
         }
+        @font-face {
+            font-family: brandon_light;
+            src: url(Laravel/Recursos/BRANDON_LIGHT.otf);
+        }
         body{
             background-color: #0280A7;
             overflow-x: hidden;
-            font-family: brandon_reg;
+        }
+        p{
+            font-family: brandon_light !important;
+        }
+        h1,h2{
+            font-family: brandon_reg !important;
         }
     
                
@@ -43,6 +52,7 @@
         { 
             background-color: white;
             width: 100%;
+            text-align: center;
         }
         .conte{
             padding-top: 2%;
@@ -63,7 +73,7 @@
         #titulo h1,.text-img h2
         {
             color: #1197C0;
-            font-size: 32px;
+            font-size: 20px;
             font-weight: normal;
         }
         #txt_hormonas1
@@ -74,7 +84,7 @@
 
 
         }
-        #txt_hormonas1 p
+        #txt_hormonas1 p,#txt_hormonas1 h2
         {
             font-size: 3vh;
             color: black;
@@ -87,18 +97,19 @@
         {
             width: 100%;
         }
- 
+        
         .text-img{
             position: absolute;
             top: 0;
-            padding: 5%;
+            padding: 4%;
+            padding-top: 3%;
             color: black;
         }
         #hormonas2
         {
             top: 5%;
-            width: 75%;
-            left: 25%;
+            width: 70%;
+            left: 30%;
         }
         #hormonas3
         {
@@ -110,6 +121,10 @@
         #hormonas2 p,#hormonas2 h2,#hormonas3 p,#hormonas3 h2
         {
             color: white;
+        }
+         h2
+        {
+            font-weight: 500 !important;
         }
         @media  (orientation: portrait) {
             .text-img h2, .imagen_text p
@@ -126,9 +141,13 @@
             }
         }
         @media  (orientation: landscape) {
-            .text-img h2, .imagen_text p
+            .text-img h2
             {
-                font-size: 1.2vw;
+                font-size: 1.3vw;
+            }
+            .imagen_text p
+            {
+                font-size: 1.3vw;
             }
             #hormonas2 h2,#hormonas2 p
             {
@@ -153,18 +172,18 @@
                 <div class="col-md-2"></div>
                 <div class="col-md-8 conte">
                     <a href="{{ url('/Tratamientos') }}">
-                        <h1><span><img src="Laravel\Recursos\img\Tratamientos\flecha160x160.png" alt="" style="width:60px;">
-                        </span> &nbsp; Hormonas Bio-Idénticas</h1>
+                        <h1><span style="padding-right: 2%;"><img src="Laravel\Recursos\img\Tratamientos\flecha160x160.png" alt="" style="width:40px;">
+                        </span>Hormonas Bio-Idénticas</h1>
                     </a>    
                 </div> 
             </div>
             <div class="row">
                 <div class="col-md-3"></div>
-                <div id="carrusel_principal" class="col-md-6 conte">
-                    <img id="Hormonas-1" src="Laravel/Recursos/img/Tratamientos/Hormonas/Hormonas-1.jpg" >
+                <div id="carrusel_principal" class="col-md-6 ">
+                    <img id="Hormonas-1" src="Laravel/Recursos/img/Tratamientos/Hormonas/Hormonas-1.jpg" width="100%;" >
                     <div id="txt_hormonas1">
                         <p>Puedes tener síntomas que aparentan</p>
-                        <p style="font-weight: bold;">"Estar fuera de control".</p>
+                        <h2 style="font-f">"Estar fuera de control".</h2>
                     </div>
                 </div>
             </div>
@@ -175,12 +194,12 @@
                         <img src="Laravel/Recursos/img/Tratamientos/Hormonas/Esquinas.png" alt="">
                         <div class="text-img " >
                                 <h2>¿Que son las hormonas Bio-idínticas?</h2>
-                                <p>
+                                <p style="text-align : justify;">
                                 Son biológicamente idínticas, tienen una estructura molecular idéntica a las hormonas que produce el organismo, sin los efectos secundarios de las hormonas sintéticas.
                                 <p>
                                 <br>
                                 <h2>¿Como funciona?</h2>
-                                <p>
+                                <p style="text-align : justify;">
                                 Mejoran la comunicación celular, recuperando el equilibrio y optimizan las funciones del organismo.
                                 Es un procedimiento donde se balancea el requerimiento hormonal donde se pide al paciente acudir con un estudio de sangre llamado Perfil Ovárico Femenino el cual debe incluir Estradiol, Progesterona, Hormona Folículo Estimulante, Hormona Luteinizante y prolactina.
                             </p>
@@ -195,9 +214,9 @@
                         <img src="Laravel/Recursos/img/Tratamientos/Hormonas/Hormonas-2.png" alt="">
                         <div id="hormonas2" class="text-img">
                                 <h2>¿Cómo se realiza?</h2>
-                                <p>El estudio debe realizarse 14 días después de la Menstruación, en caso de ya no tener menstruación el estudio se realiza en cualquier día.</p>
+                                <p>El estudio debe realizarse 14 días después de la menstruación, en caso de ya no tener menstruación el estudio se realiza en cualquier día.</p>
                                 <br>
-                                <h2>¿De qué manera ajustamos las hormonas bio-idénticas?</h2>
+                                <h2>¿De qué manera ajustamos las<br>hormonas bio-idénticas?</h2>
                                 <p>Analizamos las deficiencias y se reponemos las hormonas que están por debajo de lo óptimo y son deficientes.</p>
                         </div>
                     </div>
@@ -211,13 +230,11 @@
                         <div id="esquinas2" class="text-img">
                             <h2>¿Quién puede usarlo?</h2>
                             <p>Es una alternativa para las mujeres que enfrentan los cambios de la menopausia, pero también es una opción tanto para hombres y mujeres de distintas edades.</p>
-                            <br>
                             <h2>¿Es un tratamiento para la mesopausa?</h2>
                             <p style="text-align : justify;">Es una alternativa para aquellas mujeres que sufren los síntomas de la menopausia temprana y que buscan poner fin a los bochornos o calores, la sudoración nocturna, la pérdida de la memoria, los cambios de ánimo, el aumento de peso y la disminución del apetito sexual son pacientes recurrentes en este tratamiento que le ayudará a terminar con estas molestias.</p>
-                            <br>
                             <h2>¿Beneficios para los hombres?</h2>
                             <p style="text-align : justify;">A la edad de 80 años, el nivel de testosterona de un hombre sólo puede ser de 20% de lo que fue en su juventud. Esta disminución de la testosterona se produce gradualmente, comenzando ya a mediados de los 30 años.
-                            La deficiencia de testosterona también puede conducir a una serie de síntomas molestos, como la pérdida de resistencia y masa muscular, la reducciún de la libido, ansiedad, depresión y deterioro cognitivo.</p>
+                            La deficiencia de testosterona también puede conducir a una serie de síntomas molestos, como la pérdida de resistencia y masa muscular, la reducciún de la libido, ansiedad, depresión y deterioro cognitivo. La deficiencia de testosterona puede ser revertida mediante el tratamiento de hormonas bioidénticas.</p>
                         </div>
                     </div>
                 </div>

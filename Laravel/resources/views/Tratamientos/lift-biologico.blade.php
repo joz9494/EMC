@@ -37,10 +37,6 @@
             overflow-x: hidden;
             font-family: brandon_reg;
         }
-        @font-face {
-            font-family: brandon_light;
-            src: url(Laravel/Recursos/BRANDON_LIGHT.otf);
-            }
     
                
         #contenedormaestro
@@ -67,7 +63,7 @@
         #titulo h1,#peptonas h2
         {
             color: #1197C0;
-            font-size: 32px;
+            font-size: 26px;
             font-weight: normal;
         }
         #txt_hormonas1
@@ -100,19 +96,6 @@
             top: 5%;
             width: 100%;
             
-        }
-        #txtarriba{
-            position: absolute;
-            margin-top: -350px;
-            font-family:brandon_light;
-            color:#0280A7;
-            font-size: 25px;  
-        }
-        #txtbajo{
-            font-family:brandon_light;
-            color:#0280A7;
-            font-size: 25px;
-            text-align: left;
         }
         
         .peptonas h2, .peptonas p,#beneficios h2
@@ -186,11 +169,18 @@
             <div id="titulo" class="row">
                 <div class="col-md-2"></div>
                 <div class="col-md-8 conte">
+
                     <font style="color: #019ADD; font-family: brandon_reg;"><center><img src="Laravel\Recursos\img\Tratamientos\flecha160x160.png" alt="" style="width:60px;margin-top: -15px"><font style="font-size: 30px;margin-left: 1%;">Lift Biológico</font></center></font>
+
+                    <a href="{{ url('/Tratamientos') }}">
+                        <h1><span style="padding-right: 3%;"><img src="Laravel\Recursos\img\Tratamientos\flecha160x160.png" alt="" style="width:60px;">
+                        </span>Lift-bíologico</h1>    
+                    </a>
+
                 </div> 
             </div>
-            <div class=" row">
-                <div class="col-md conte">
+            <div class=" row" >
+                <div class="col-md">
                         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
@@ -216,16 +206,17 @@
                         </div>
                 </div>
             </div>
-
-            <div class="row" style="margin-top: 30px;">
-                <div class="col-md conte">
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 conte">
                         <div class="imagen_text">
                             <img src="Laravel\Recursos\img\LiftBiologico\Mesa de trabajo 5.jpg" alt="">
                         </div>
                 </div>    
             </div>
-            <div class="row" style="margin-top: 30px;">
-                <div class="col-md conte">
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 conte">
                     <div class="imagen_text">
                         <div id="" class="text-img peptonas">
                             <h2>¿Cómo funciona? <br></h2>
@@ -243,37 +234,38 @@
                     </div>
                 </div>    
             </div>
-            <div class="row" style="margin-top: 30px">
-                <div class="col-md conte">
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 conte">
                         <div class="imagen_text">
                             <img src="Laravel\Recursos\img\LiftBiologico\Mesa de trabajo 6.jpg" alt="">
                         </div>
                 </div>    
             </div>
-            <div class="row" style="margin-top: 30px">
-                <div class="col-md conte">
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 conte">
                     <div class="imagen_text">
                         <img src="Laravel\Recursos\img\LiftBiologico\Mesa de trabajo 7.jpg" alt="">
                     </div>
                 </div>    
             </div>
-            <div class="row" style="margin-top: 30px">
-                <div class="col-md conte">
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 conte">
                     <div class="imagen_text">
                         <img src="Laravel\Recursos\img\LiftBiologico\Mesa de trabajo 8.jpg" alt="">
                     </div>
                 </div>    
             </div>
-            <div class="row" style="margin-top: 30px;margin-left: 30px;">
-                <div class="col-md conte">
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 conte">
                     <div class="imagen_text">
-                        <div id="txtbajo">
-                            <font style="font-size: 35px;font-family: brandon_reg">Beneficios</font>
+                        <div id="beneficios" class="text-img peptonas">
+                            <h2>Beneficios <br></h2>
                             <p>
-                                <font style="font-family: brandon_light;font-size: 25px;">
-                                    Lifting de frente.
-                                </font>
-                                <ul style="font-family: brandon_ligth">
+                                <ul>
                                     <li>Lifting de frente.</li>
                                     <li>Estira y retira el exceso de piel.</li>
                                     <li>Elevacion pómulos</li>
@@ -285,14 +277,6 @@
                                     </li>
                                 </ul>
                             </p>
-                        </div>
-
-                        <div>
-                            <font id="txtarriba">
-                                Regularmente para personas a partir <br>
-                                de 35 años que quieren prevenir, reparar <br>
-                                y/o mejorar la flacidez.
-                            </font>
                         </div>
                     </div>
                 </div>    

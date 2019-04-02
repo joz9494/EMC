@@ -221,8 +221,8 @@
     <br>
     <center><font style="color: #0280A7;font-size: 35px;font-weight: bold;font-family:txtbran">
             <a href="{{ url('/Tratamientos') }}">
-                <span><img src="Laravel\Recursos\img\Tratamientos\flecha160x160.png" alt="" style="width:60px;">
-                </span> &nbsp;Opera tratamiento Antiaging
+                <span style="padding-right: 3%;"><img src="Laravel\Recursos\img\Tratamientos\flecha160x160.png" alt="" style="width:60px;">
+                </span>Opera tratamiento Antiaging
             </a>
     </font></center>
     <br>
