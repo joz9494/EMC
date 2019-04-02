@@ -170,11 +170,11 @@
                 <div class="col-md-2"></div>
                 <div class="col-md-8 conte">
 
-                    <font style="color: #019ADD; font-family: brandon_reg;"><center><img src="Laravel\Recursos\img\Tratamientos\flecha160x160.png" alt="" style="width:60px;margin-top: -15px"><font style="font-size: 30px;margin-left: 1%;">Lift Biológico</font></center></font>
+                    <font style="color: #019ADD; font-family: brandon_reg;"><center><a href="{{ url('/Tratamientos') }}"><img src="Laravel\Recursos\img\Tratamientos\flecha160x160.png" alt="" style="width:60px;margin-top: -10px"><font style="font-size: 30px;margin-left: 1%;">Lift Biológico</font></a></center></font>
 
                 </div> 
             </div>
-            <div class=" row" >
+            <div class=" row" style="margin-top: 5px;">
                 <div class="col-md">
                         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner">
