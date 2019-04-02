@@ -72,7 +72,7 @@
     }
     #prp4g1
     {
-        top: 8.5%;
+        top: 6.5%;
         width: 26%;
         right: 21%;
     }
@@ -148,8 +148,8 @@
         {
             font-size: 1vw;
             line-height: 150%;
-        }
-        #final li::before {content: "•"; color:grey; font-size: 1.5vw;}
+        } 
+        #final li::before { content: "•"; color:grey; font-size: 2vw; padding-right: 3%;}
     #final
     {
         padding-bottom: 2%;
@@ -211,40 +211,39 @@
                     <div id="info_dr_txt" class="text-img">
                             <h2>DR. TORIBIO MARTÍNEZ RIVERA</h2>
                             <P>Céd. Prof:85511800 - Reg. SSG 12540</P>
-                            <p style="color:#0280A7">Medico Cirujano Partero, Egresado del instituto Politecnico Nacinonal</p> 
+                            <p style="color:#0280A7">Medico Cirujano Partero, Egresado del instituto Politécnico Nacinonal</p> 
                     </div>
                 </div>
             </div>
         </div>
         <div id="final" class="row ">
-            <div class="col-md-5 col-center">
+            <div class="col-md-6 col-center">
                 <div class="row">
-                    <div id="lista1" class="col-md-6">
+                    <div id="lista1" class="col-md">
                         <p>
                             <ul>
                                     <h2>Trayectoria</h2>
-                                <li>Miembro de American Acadey of Anti-Agin <br>
-                                Medicine(Estados Unidos).</li>
-                                <li> Miembro del colegio NAcional de Medicina <br>
-                                     Antienjecimiento(Mexico).
-                                </li>
-                                <li>
-                                    Fellowship en Medicina Antienvejecimiento
-                                </li>
-                                <li>Conferencista en el II y III Congreso Mundial de
-                                     Medicina Antienjecimiento.</li>
-                                <li>
-                                    profesor de Curso Internacional de 
-                                     Medicina Antienjecimiento. 
-                                </li>
-                                <li>
-                                    Profesor de terapia Neuronal y ARP Articular en 
-                                     Certificacion Antienjecimiento.
-                                </li>
-                                <li>
-                                    Profesor de viscosuplementacion articular
-                                </li>
-                                <li>Certificación Internacional de remodelación facial y corporal con hilos PDO.</li>
+                                    <li>Miembro de American Academy of Anti-Aging<br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp; Medicine (Estados Unidos).</li>
+
+                                    <li  >Miembro del Colegio Nacional de Medicina<br>
+                                        &nbsp; Antienvejecimiento (México).</li>
+                                    
+                                    <li >Fellowship en Medicina Antienvejecimiento.</li>
+                                    
+                                    <li >Conferencista en el II y III Congreso Mundial de<br> 
+                                        &nbsp; Medicina Antienvejecimiento.</li>
+                                    
+                                    <li >Profesor de Curso Internacional de Medicina<br>
+                                        &nbsp; Antienvejecimiento.</li>
+                                    
+                                    <li >Profesor de Terapia Neural y PRP Articular en
+                                         <br>   Certificación Antienvejecimiento.</li>
+                                    
+                                    <li > de viscosuplementación articular.</li>
+                                    
+                                    <li >Certificación Internacional de remodelación facial<br>
+                                        &nbsp; y corporal con hilos PDO.</li>
 
                             </ul>
                         </p>
@@ -252,13 +251,13 @@
                     <div id="lista2" class="col-md-6">
                     <ul>
                             <h2>Experiencia</h2>
-                        <li>Antienjecimiento Cerebral</li>
-                        <li>Antienjecimiento y Nutricion Ortomolecular</li>
-                        <li>Aplicación de Peptonas Antienjecimiento</li>
+                        <li>Antienvejecimiento Cerebral</li>
+                        <li>Antienvejecimiento y Nutrición Ortomolecular</li>
+                        <li>Aplicación de Peptonas Antienvejecimiento</li>
                         <li>Plasma Rico en Plaquetas de Cuarta
-                            <br>Generacion (PRP4G)</li>
+                            <br>Generación (PRP 4G)</li>
                         <li>Terapia Neuronal</li>
-                        <li>Nutrición Antienjecimiento</li>
+                        <li>Nutrición Antienvejecimiento</li>
                     </ul></div>
                 </div>
             </div>
