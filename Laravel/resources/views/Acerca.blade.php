@@ -223,7 +223,7 @@
                         <p>
                             <ul>
                                     <h2>Trayectoria</h2>
-                                    <li><font>Miembro de American Academy of Anti-Aging<br></font><font style="margin-left: 25px;"> Medicine (Estados Unidos).</font> </li>
+                                    <li><font>Miembro de American Academy of Anti-Aging<br></font><font style="margin-left: 6.5%;"> Medicine (Estados Unidos).</font> </li>
 
                                     <li  >Miembro del Colegio Nacional de Medicina<br>
                                         &nbsp; Antienvejecimiento (México).</li>
