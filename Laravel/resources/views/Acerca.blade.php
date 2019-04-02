@@ -150,6 +150,10 @@
             line-height: 150%;
         } 
         #final li::before { content: "•"; color:grey; font-size: 2vw; padding-right: 3%;}
+        .salto_linea
+        {
+            margin-left: 6.5%;
+        }
     #final
     {
         padding-bottom: 2%;
@@ -210,53 +214,53 @@
                     <img id="" src="Laravel/recursos/img/AcercaDe/Logo2.png" alt=""   style="width: 15% ">
                     <div id="info_dr_txt" class="text-img">
                             <h2>DR. TORIBIO MARTÍNEZ RIVERA</h2>
-                            <P>Céd. Prof:85511800 - Reg. SSG 12540</P>
-                            <p style="color:#0280A7">Medico Cirujano Partero, Egresado del instituto Politécnico Nacinonal</p> 
+                            <P>Céd. Prof:8551800  - Reg. SSG 12540</P>
+                            <p style="color:#0280A7">Médico Cirujano Partero, Egresado del Instituto Politécnico Nacinonal</p> 
                     </div>
                 </div>
             </div>
         </div>
         <div id="final" class="row ">
-            <div class="col-md-6 col-center">
+            <div class="col-6 col-center">
                 <div class="row">
-                    <div id="lista1" class="col-md">
+                    <div id="lista1" class="col">
                         <p>
                             <ul>
                                     <h2>Trayectoria</h2>
-                                    <li><font>Miembro de American Academy of Anti-Aging<br></font><font style="margin-left: 6.5%;"> Medicine (Estados Unidos).</font> </li>
+                                    <li>Miembro de American Academy of Anti-Aging<br><div class="salto_linea"> Medicine (Estados Unidos).</div> </li>
 
                                     <li  >Miembro del Colegio Nacional de Medicina<br>
-                                        &nbsp; Antienvejecimiento (México).</li>
+                                        <div class="salto_linea">Antienvejecimiento (México).</div></li>
                                     
                                     <li >Fellowship en Medicina Antienvejecimiento.</li>
                                     
                                     <li >Conferencista en el II y III Congreso Mundial de<br> 
-                                        &nbsp; Medicina Antienvejecimiento.</li>
+                                        <div class="salto_linea"> Medicina Antienvejecimiento.</div></li>
                                     
                                     <li >Profesor de Curso Internacional de Medicina<br>
-                                        &nbsp; Antienvejecimiento.</li>
+                                        <div class="salto_linea">Antienvejecimiento.</div></li>
                                     
                                     <li >Profesor de Terapia Neural y PRP Articular en
-                                         <br>   Certificación Antienvejecimiento.</li>
+                                         <br>  <div class="salto_linea"> Certificación Antienvejecimiento.</div></li>
                                     
-                                    <li > de viscosuplementación articular.</li>
+                                    <li >Profesor de viscosuplementación articular.</li>
                                     
                                     <li >Certificación Internacional de remodelación facial<br>
-                                        &nbsp; y corporal con hilos PDO.</li>
+                                        <div class="salto_linea"> y corporal con hilos PDO.</div></li>
 
                             </ul>
                         </p>
                     </div>
-                    <div id="lista2" class="col-md-6">
+                    <div id="lista2" class="col">
                     <ul>
                             <h2>Experiencia</h2>
-                        <li>Antienvejecimiento Cerebral</li>
-                        <li>Antienvejecimiento y Nutrición Ortomolecular</li>
-                        <li>Aplicación de Peptonas Antienvejecimiento</li>
+                        <li>Antienvejecimiento Cerebral.</li>
+                        <li>Antienvejecimiento y Nutrición Ortomolecular.</li>
+                        <li>Aplicación de Peptonas Antienvejecimiento.</li>
                         <li>Plasma Rico en Plaquetas de Cuarta
-                            <br>Generación (PRP 4G)</li>
-                        <li>Terapia Neuronal</li>
-                        <li>Nutrición Antienvejecimiento</li>
+                            <br><div class="salto_linea">Generación (PRP 4G).</div></li>
+                        <li>Terapia Neuronal.</li>
+                        <li>Nutrición Antienvejecimiento.</li>
                     </ul></div>
                 </div>
             </div>

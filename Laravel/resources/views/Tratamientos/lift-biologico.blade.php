@@ -63,7 +63,7 @@
         #titulo h1,#peptonas h2
         {
             color: #1197C0;
-            font-size: 32px;
+            font-size: 26px;
             font-weight: normal;
         }
         #txt_hormonas1
@@ -170,14 +170,13 @@
                 <div class="col-md-2"></div>
                 <div class="col-md-8 conte">
                     <a href="{{ url('/Tratamientos') }}">
-                        <h1><span><img src="Laravel\Recursos\img\Tratamientos\flecha160x160.png" alt="" style="width:60px;">
-                        </span> &nbsp;Lift-bíologico</h1>    
+                        <h1><span style="padding-right: 3%;"><img src="Laravel\Recursos\img\Tratamientos\flecha160x160.png" alt="" style="width:60px;">
+                        </span>Lift-bíologico</h1>    
                     </a>
                 </div> 
             </div>
-            <div class=" row">
-                <div class="col-md-1"></div>
-                <div class="col-md-10 conte">
+            <div class=" row" >
+                <div class="col-md">
                         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
