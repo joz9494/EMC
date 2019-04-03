@@ -32,8 +32,13 @@
             font-family: brandon_bold;
             src: url("Laravel/Recursos/BRANDON_BLD.otf");
         }
+        @font-face {
+            font-family: brandon_light;
+            src: url(Laravel/Recursos/BRANDON_LIGHT.otf);
+            }
+
         body{
-            background-color: #0280A7;
+            background-color: #1197c0;
             overflow-x: hidden;
             font-family: brandon_reg;
         }
@@ -157,6 +162,17 @@
                 font-size: 1.8vw;
             }
         }
+
+        #TxtTitulo{
+            font-family: brandon_reg;
+            color: #1197c0;
+            font-size: 1.37vw;
+        }
+        #TxtParrafo{
+            font-family: brandon_light;
+            color: #1197c0;
+            font-size: 1.27vw;
+        }
         
     </style>
 
@@ -170,17 +186,17 @@
                 <div class="col-md-2"></div>
                 <div class="col-md-8 conte">
 
-                    <font style="font-family: brandon_reg"><center><a style="color: #0280A7" href="{{ url('/Tratamientos') }}"><img src="Laravel\Recursos\img\Tratamientos\flecha160x160.png" alt="" style="width:60px;margin-top: -10px"><font style="font-size: 30px;margin-left: 1%;">Lift Biológico</font></a></center></font>
+                    <font style="font-family: brandon_reg"><center><a style="color: #1197c0" href="{{ url('/Tratamientos') }}"><img src="Laravel\Recursos\img\Tratamientos\flecha160x160.png" alt="" style="width:60px;margin-top: -10px"><font style="font-size: 30px;margin-left: 1%;">Lift Biológico</font></a></center></font>
 
                 </div> 
             </div>
-            <div class=" row" style="margin-top: 5px;">
-                <div class="col-md">
+            <div style="margin-top: 5px;">
+                <div>
                         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
                                 <div class="imagen_text">
-                                    <img class="d-block w-100" src="Laravel\Recursos\img\LiftBiologico\Mesa de trabajo 1.jpg" alt="First slide">
+                                    <img class="d-block w-100" src="Laravel\Recursos\img\LiftBiologico\Mesa de trabajo 4.jpg" alt="First slide">
                                 </div>
                                 </div>
                                 <div class="carousel-item">
@@ -202,73 +218,62 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-2"></div>
-                <div class="col-md-8 conte">
-                        <div class="imagen_text">
-                            <img src="Laravel\Recursos\img\LiftBiologico\Mesa de trabajo 5.jpg" alt="">
-                        </div>
-                </div>    
-            </div>
-            <div class="row">
-                <div class="col-md-2"></div>
-                <div class="col-md-8 conte">
+                <div class="col-md-3"></div>
+                <div class="col-md-6 conte">
                     <div class="imagen_text">
-                        <div id="" class="text-img peptonas">
-                            <h2>¿Cómo funciona? <br></h2>
-                            <p>
-                            Es un tratamiento rápido, cómodo y seguro. <br>   
-                            La técnica es totalmente individualizada para cada paciente dependiendo de la edad, la fisonomía y el grado de flacidez, pero en una sesión estándar se suelen insertar entre 10 y 20 hilos.
-                            <br>
-                            <br>
-                            se implantan en la dermis con una aguja guía, activando los fibroblastos, para generar cológeno y elastina, provocando un efecto lifting inmediato y aportando a los pacientes un moldeado natural al rostro y al cuerpo.
-                            <br>
-                            <br>
-                            Su implantación es sencilla y rápida, permitiendo el desarrollo normal de la actividad cotidiana, no produce cortes, marcas ni cicatrices.
-                            </p>
+                        <div id="" class="text-img peptonas" style="margin-left: -3%">
+                            <font id="TxtTitulo">¿Cómo funciona?</font><br>
+                            <font id="TxtParrafo">
+                            Es un tratamiento rápido, cómodo y seguro.<br>   
+                            La técnica es totalmente individualizada para cada paciente dependiendo de la edad, la fisonomía y el grado de flacidez, pero en una sesión estándar se suelen insertar entre 10 y 20 hilos.<br>
+                            Se implantan en la dermis con una aguja guía, activando los fibroblastos, para generar cológeno y elastina, provocando un efecto lifting inmediato y aportando a los pacientes un moldeado natural al rostro y al cuerpo.
+
+                            Su implantación es sencilla y rápida, permitiendo el desarrollo normal de la actividad cotidiana, no produce cortes, marcas ni cicatrices. 
+                            </font>
                         </div>
                     </div>
                 </div>    
             </div>
+            
             <div class="row">
-                <div class="col-md-2"></div>
-                <div class="col-md-8 conte">
+                <div class="col-md-3"></div>
+                <div class="col-md-6 conte">
                         <div class="imagen_text">
                             <img src="Laravel\Recursos\img\LiftBiologico\Mesa de trabajo 6.jpg" alt="">
                         </div>
                 </div>    
             </div>
             <div class="row">
-                <div class="col-md-2"></div>
-                <div class="col-md-8 conte">
+                <div class="col-md-3"></div>
+                <div class="col-md-6 conte">
                     <div class="imagen_text">
                         <img src="Laravel\Recursos\img\LiftBiologico\Mesa de trabajo 7.jpg" alt="">
                     </div>
                 </div>    
             </div>
             <div class="row">
-                <div class="col-md-2"></div>
-                <div class="col-md-8 conte">
+                <div class="col-md-3"></div>
+                <div class="col-md-6 conte">
                     <div class="imagen_text">
                         <img src="Laravel\Recursos\img\LiftBiologico\Mesa de trabajo 8.jpg" alt="">
                     </div>
                 </div>    
             </div>
             <div class="row">
-                <div class="col-md-2"></div>
-                <div class="col-md-8 conte">
+                <div class="col-md-3"></div>
+                <div class="col-md-6 conte">
                     <div class="imagen_text">
                         <div id="beneficios" class="text-img peptonas">
                             <h2>Beneficios <br></h2>
                             <p>
                                 <ul>
                                     <li>Lifting de frente.</li>
-                                    <li>Estira y retira el exceso de piel.</li>
-                                    <li>Elevacion pómulos</li>
-                                    <li>Aspecto mas joven y narural</li>
+                                    <li>Estirar y retira el exceso de piel.</li>
+                                    <li>Elevación pómulos</li>
+                                    <li>Aspecto más joven y natural</li>
                                     <li>Surcos Nasogenianos o arrugas de amargura</li>
                                     <li>Se denominan "surcos nasogenianos" o "pliegues nasolabiales"
-                                        a las arrugas que se producen desde el final de la nariz y que descienden oblicuamente
-                                        hasta ambos extremos de la boca
+                                        a las arrugas que se producen desde el final de la nariz y que descienden oblicuamente hasta ambos extremos de la boca
                                     </li>
                                 </ul>
                             </p>

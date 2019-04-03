@@ -190,7 +190,7 @@
                 <div class="col-md-2"></div>
                 <div class="col-md-8 conte" style="margin-top: 10px;">
 
-                    <font style="color: #019ADD; font-family: brandon_reg;"><center><font style="font-size: 30px;margin-left: 1%;">Tratamientos</font></center></font>
+                    <font style="color: #1197c0; font-family: brandon_reg;"><center><font style="font-size: 30px;margin-left: 1%;">Tratamientos</font></center></font>
 
                 </div> 
             </div>
