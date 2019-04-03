@@ -130,7 +130,7 @@
         {
             font-weight: 500 !important;
         }
-        @media  (orientation: portrait) {
+        @media  (max-width:768px) {
             .text-img h2, .imagen_text p
             {
                 font-size: 2.5vw;
@@ -145,7 +145,7 @@
                 font-size: 2.8vw;
             }
         }
-        @media  (orientation: landscape){
+        @media  (orientation: landscape)and (min-width:768px){
             .text-img h2
             {
                 font-size: 1.37vw;
@@ -165,26 +165,7 @@
                 font-size: 1.4vw;
             }
         }
-        @media  (orientation: portrait) and (min-width:576px){
-            .text-img h2
-            {
-                font-size: 1.37vw;
-            }
-            .imagen_text p
-            {
-                font-size: 1.27vw;
-                padding-bottom: 1.8%;
-            }
-            #hormonas2 h2,#hormonas2 p
-            {
-                font-size: 1.4vw;
-                line-height:150%;
-            }
-            #hormonas3 h2,#hormonas3 p
-            {
-                font-size: 1.4vw;
-            }
-        }
+        
         #esquinas1
         {
             padding-top: 3%;
