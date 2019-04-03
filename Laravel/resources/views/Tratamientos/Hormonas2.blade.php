@@ -102,7 +102,7 @@
             position: absolute;
             top: 0;
             padding: 4%;
-            padding-top: 3%;
+            padding-top: 2%;
             color: black;
         }
         #hormonas2
@@ -110,6 +110,7 @@
             top: 5%;
             width: 70%;
             left: 30%;
+            
         }
         #hormonas3
         {
@@ -134,6 +135,7 @@
             #hormonas2 h2,#hormonas2 p
             {
                 font-size: 2.6vw;
+                
             }
             #hormonas3 h2,#hormonas3 p
             {
@@ -143,15 +145,17 @@
         @media  (orientation: landscape) {
             .text-img h2
             {
-                font-size: 1.3vw;
+                font-size: 1.28vw;
             }
             .imagen_text p
             {
-                font-size: 1.3vw;
+                font-size: 1.28vw;
+                padding-bottom: 1.7%;
             }
             #hormonas2 h2,#hormonas2 p
             {
                 font-size: 1.4vw;
+                line-height:150%;
             }
             #hormonas3 h2,#hormonas3 p
             {
@@ -197,7 +201,6 @@
                                 <p style="text-align : justify;">
                                 Son biológicamente idínticas, tienen una estructura molecular idéntica a las hormonas que produce el organismo, sin los efectos secundarios de las hormonas sintéticas.
                                 <p>
-                                <br>
                                 <h2>¿Como funciona?</h2>
                                 <p style="text-align : justify;">
                                 Mejoran la comunicación celular, recuperando el equilibrio y optimizan las funciones del organismo.
@@ -229,7 +232,7 @@
                         <img src="Laravel/Recursos/img/Tratamientos/Hormonas/Esquinas-2.png" alt="">
                         <div id="esquinas2" class="text-img">
                             <h2>¿Quién puede usarlo?</h2>
-                            <p>Es una alternativa para las mujeres que enfrentan los cambios de la menopausia, pero también es una opción tanto para hombres y mujeres de distintas edades.</p>
+                            <p>Es una alternativa para las mujeres que enfrentan los cambios de la menopausia, pero también es una opción tanto para hombres y mujeres de distintas edades. <br></p>
                             <h2>¿Es un tratamiento para la mesopausa?</h2>
                             <p style="text-align : justify;">Es una alternativa para aquellas mujeres que sufren los síntomas de la menopausia temprana y que buscan poner fin a los bochornos o calores, la sudoración nocturna, la pérdida de la memoria, los cambios de ánimo, el aumento de peso y la disminución del apetito sexual son pacientes recurrentes en este tratamiento que le ayudará a terminar con estas molestias.</p>
                             <h2>¿Beneficios para los hombres?</h2>
