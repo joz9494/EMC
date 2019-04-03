@@ -29,16 +29,19 @@
             src: url(-"Laravel/Recursos/BRANDON_REG.otf");
         }
         @font-face {
-            font-family: brandon_bold;
-            src: url("Laravel/Recursos/BRANDON_BLD.otf");
+            font-family: brandon_light;
+            src: url(Laravel/Recursos/BRANDON_LIGHT.otf);
         }
         body{
             background-color: #0280A7;
             overflow-x: hidden;
-            font-family: brandon_reg;
         }
-    
-               
+        p,li{
+            font-family: brandon_light !important;
+        }
+        h2{
+            font-family: brandon_reg !important;
+        }       
         #contenedormaestro
         { 
             background-color: white;
@@ -55,10 +58,6 @@
         .conte img
         {
             width: 100%;
-        }
-        h1,h2,p,li
-        {
-            font-family: brandon_reg;
         }
         #titulo h1,#peptonas h2
         {

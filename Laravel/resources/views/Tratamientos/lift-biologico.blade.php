@@ -61,9 +61,9 @@
         {
             width: 100%;
         }
-        h1,h2,p,li
+        p,li
         {
-            font-family: brandon_reg;
+            font-family: brandon_light !important;
         }
         #titulo h1,#peptonas h2
         {
@@ -123,7 +123,7 @@
         }
         #beneficios li
         {
-            color: #0280A7;
+            color:#0280A7;
             line-height: 125%;
         }
         #beneficios li::before {content: "•"; color:#0280A7}
