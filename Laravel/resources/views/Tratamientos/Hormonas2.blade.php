@@ -70,6 +70,10 @@
         {
             font-family: brandon_reg;
         }
+        #titulo
+        {
+            margin-left: 1%;
+        }
         #titulo h1,.text-img h2
         {
             color: #1197C0;
@@ -102,19 +106,18 @@
             position: absolute;
             top: 0;
             padding: 4%;
-            padding-top: 2%;
             color: black;
         }
         #hormonas2
         {
-            top: 5%;
+            top: 3%;
             width: 70%;
             left: 30%;
             
         }
         #hormonas3
         {
-            top: 10% ;
+            top: 8% ;
             width: 75%;
             right:  25%;
         }
@@ -134,7 +137,7 @@
             }
             #hormonas2 h2,#hormonas2 p
             {
-                font-size: 2.6vw;
+                font-size: 2.8vw;
                 
             }
             #hormonas3 h2,#hormonas3 p
@@ -142,15 +145,15 @@
                 font-size: 2.8vw;
             }
         }
-        @media  (orientation: landscape) {
+        @media  (orientation: landscape){
             .text-img h2
             {
-                font-size: 1.28vw;
+                font-size: 1.37vw;
             }
             .imagen_text p
             {
-                font-size: 1.28vw;
-                padding-bottom: 1.7%;
+                font-size: 1.27vw;
+                padding-bottom: 1.8%;
             }
             #hormonas2 h2,#hormonas2 p
             {
@@ -159,11 +162,37 @@
             }
             #hormonas3 h2,#hormonas3 p
             {
-                font-size: 1.8vw;
+                font-size: 1.4vw;
             }
-            
         }
-        
+        @media  (orientation: portrait) and (min-width:576px){
+            .text-img h2
+            {
+                font-size: 1.37vw;
+            }
+            .imagen_text p
+            {
+                font-size: 1.27vw;
+                padding-bottom: 1.8%;
+            }
+            #hormonas2 h2,#hormonas2 p
+            {
+                font-size: 1.4vw;
+                line-height:150%;
+            }
+            #hormonas3 h2,#hormonas3 p
+            {
+                font-size: 1.4vw;
+            }
+        }
+        #esquinas1
+        {
+            padding-top: 3%;
+        }
+        #esquinas2
+        {
+            padding-top: 4.5%;
+        }
     </style>
 
     <body>
@@ -176,7 +205,7 @@
                 <div class="col-md-2"></div>
                 <div class="col-md-8 conte" style="margin-top: -8px;">
 
-                    <font style="font-family: brandon_reg"><center><a style="color: #0280A7" href="{{ url('/Tratamientos') }}"><img src="Laravel\Recursos\img\Tratamientos\flecha160x160.png" alt="" style="width:60px;margin-top: -10px"><font style="font-size: 30px;margin-left: 1%;">Hormonas Bio-Idénticas</font></a></center></font>
+                    <font style="font-family: brandon_reg"><center><a style="color: #0280A7" href="{{ url('/Tratamientos') }}"><img src="Laravel\Recursos\img\Tratamientos\flecha160x160.png" alt="" style="width:60px;margin-top: -10px"><font style="font-size: 30px;">Hormonas Bio-Idénticas</font></a></center></font>
 
                 </div> 
             </div>
@@ -195,13 +224,13 @@
                 <div class="col-md-6 conte">
                     <div class="imagen_text">
                         <img src="Laravel/Recursos/img/Tratamientos/Hormonas/Esquinas.png">
-                        <div class="text-img " style="margin-top: 0px;">
-                                <font style="color:#0280A7;font-family: brandon_reg;font-size: 25px;">¿Que son las hormonas Bio-idénticas?</font>
-                                <p style="text-align : justify;font-size: 22px;">
+                        <div id="esquinas1"  class="text-img ">
+                               <h2> ¿Que son las hormonas Bio-idénticas?</h2>
+                                <p style="text-align : justify;">
                                 Son biológicamente idénticas, tienen una estructura molecular idéntica a las hormonas que produce el organismo, sin los efectos secundarios de las hormonas sintéticas.
                                 <p>
-                                <font style="color:#0280A7;font-family: brandon_reg;font-size: 25px;">¿Como funciona?</font>
-                                <p style="text-align : justify;margin-top: -17px;font-size: 22px">
+                                <h2>¿Como funciona?</h2>
+                                <p style="text-align : justify;">
                                 Mejoran la comunicación celular, recuperando el equilibrio y optimizan las funciones del organismo.
                                 Es un procedimiento donde se balancea el requerimiento hormonal donde se pide al paciente acudir con un estudio de sangre llamado Perfil Ovárico Femenino el cual debe incluir Estradiol, Progesterona, Hormona Folículo Estimulante, Hormona Luteinizante y prolactina.
                             </p>
@@ -245,7 +274,7 @@
                 <div class="col-md-3"></div>
                 <div id="final" class="col-md-6 conte">
                     <div class="imagen_text">
-                        <img src="Laravel/Recursos/img/Tratamientos/Hormonas/Hormonas-3.png" alt="">
+                        <img src="Laravel/Recursos/img/Tratamientos/Hormonas/Hormonas.png" alt="">
                         <div id="hormonas3" class="text-img">
                                 <h2>¿Cuánto dura?</h2>
                                 <p>Aproximadamente de 6 a 8 meses.</p>
@@ -254,7 +283,7 @@
                                 <p>Sin efectos secundarios.</p>
                                 <br>
                                 <h2>¿Cambios Hormonales?</h2>
-                                <p>Toma el control</p>
+                                <p>Toma el control.</p>
                         </div>
                     </div>
                 </div>
