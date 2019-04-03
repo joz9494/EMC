@@ -41,6 +41,7 @@
         }
         h2{
             font-family: brandon_reg !important;
+            font-weight: normal !important;
         }       
         #contenedormaestro
         { 
@@ -106,7 +107,7 @@
 
         #hormonas3
         {
-            top: 10% ;
+            top: 5% ;
             width: 75%;
             right:  25%;
         }
@@ -117,9 +118,9 @@
         }
         #hormonas3 li
         {
-            line-height: 100%;
+            line-height: 125%;
         }
-        #hormonas3 li::before {content: "•"; color:#0280A7}
+        #hormonas3 li::before {content: "•"; color:#0280A7;font-size: 2vw; padding-right: 1.5%;}
         @media  (orientation: portrait){
             .text-img h2, .imagen_text p
             {
@@ -135,31 +136,41 @@
             }
             
         }
-        $grid-breakpoints: (
-            xs: 0,
-            sm: 600px,
-            md: 768px,
-            lg: 1024px
-        );
         #preguntas3{
-            margin-top: 5%;
+            
+            top: 4.5%;
+            width: 70%;
+            left: 30%;
+        }
+        #preguntas1
+        {
+            top: 8.5%;
         }
         @media  (orientation: landscape) {
             .text-img h2, .imagen_text p
             {
-                font-size: 1.2vw;
+                font-size: 1.4vw;
+                line-height: 125%;
             }
-            .peptonas h2,.peptonas p #hormonas3 h2,#hormonas3 p,#hormonas3 li
+            .peptonas h2,.peptonas p #hormonas3 h2,#hormonas3 p,#hormonas3 li,#preguntas3,#preguntas3 h2
             {
                 font-size: 1.4vw;
+                line-height: 125%;
             }
             
-            #preguntas3
-            {
-                font-size: 1.8vw;
-            }
         }
-        
+        .sombra
+        {
+            box-shadow: -17px 13px 11px -2px rgba(216,216,216,1);
+        }
+        #titulo
+        {
+            margin-left: 1%;
+        }
+        .salto_linea
+        {
+            margin-left: 3.8%;
+        }
     </style>
 
     <body>
@@ -170,28 +181,25 @@
         <div id="contenedormaestro">
             <div id="titulo" class="row">
                 <div class="col-md-2"></div>
-                <div class="col-md-8 conte">
-                    <a href="{{ url('/Tratamientos') }}">
-                        <h1><span style="padding-right: 3%;"><img src="Laravel\Recursos\img\Tratamientos\flecha160x160.png" alt="" style="width:60px;">
-                        </span>Peptonas</h1>    
-                    </a>
+                <div class="col-md-8 conte" style="margin-top: -8px;">
+                    <font style="font-family: brandon_reg"><center><a style="color: #0280A7" href="{{ url('/Tratamientos') }}"><img src="Laravel\Recursos\img\Tratamientos\flecha160x160.png" alt="" style="width:60px;margin-top: -10px"><font style="font-size: 30px;">Peptonas</font></a></center></font>
                 </div> 
             </div>
             <div class=" row">
                 <div class="col-md-3"></div>
-                <div class="col-md-6 conte">
+                <div class="col-md-6">
                     <div class="imagen_text">
                         <img src="Laravel/Recursos/img/Tratamientos/Peptonas/Peptonas1.jpg" alt="">
-                        <div id="" class="text-img peptonas">
+                        <div id="preguntas1" class="text-img peptonas">
                             <h2>¿Qué es?</h2>
                             <p>Las peptonas son sustancias de la proteína
-                                espesificas a cada tejido, se aplican en puntos espesificos según cada paciente
-                                , logrando logrando una piel mas tuergente y firme. 
+                                especificas a cada tejido, se aplican en puntos específicos  según cada paciente,
+                                logrando una piel más tuergente y firme. 
                             </p>
                             <br>
                             <h2>¿Cómo funciona?</h2>
-                            <p>Estimulan la produccion de nuevos sustratos en la piel
-                                como colageno y elastina, haciendo piel de apariencia mas joven.
+                            <p>Estimulan la producción de nuevos sustratos en la piel
+                                como colágeno y elastina, haciendo piel de apariencia mas joven.
                             </p>
                         </div>
                     </div>
@@ -200,23 +208,23 @@
             <div class=" row">
                 <div class="col-md-3"></div>
                 <div class="col-md-6 conte">
-                    <div class="imagen_text">
-                        <img src="Laravel/Recursos/img/Tratamientos/Peptonas/Peptonas2.png" alt="">
+                    <div class="imagen_text sombra">
+                        <img src="Laravel/Recursos/img/Tratamientos/Peptonas/Peptonas2c.png" alt="">
                         <div id="hormonas3" class="text-img">
-                            <h2>¿Qué beneficios obtines?</h2>
+                            <h2>¿Qué beneficios obtienes?</h2>
                             <p>
                                 <ul>
-                                    <li>Restaurar la vitalidad cutanea</li>
-                                    <li>Aumenta su grosor</li>
-                                    <li>Recupera la consistencia elástica</li>
-                                    <li>Mejora la afluencia vascular</li>
-                                    <li>Estimulando las secreciones e incrementando la testura y apariencia de la piel</li>
-                                </ul>
+                                    <li>Restaurar la vitalidad cutánea.</li>
+                                    <li>Aumenta su grosor.</li>
+                                    <li>Recupera la consistencia elástica.</li>
+                                    <li>Mejora la afluencia vascular.</li>
+                                    <li>Estimulando las secreciones e incrementando <br>
+                                        <div class="salto_linea">la textura y apariencia de la piel.</div></li>
+                                </ul> 
                             </p>
-                            <br>
                             <h2>¿Cuantas secciones necesito?</h2>
-                            <p>Generalmente, son 2-3 sesiones cada 8 dias. Luego, se realiza
-                                un mantenimiento de 1-2 seción cada 6 meses obteniendo así resultados visibles y duraderos
+                            <p>Generalmente, son 2-3 sesiones cada 8 días. Luego, se realiza
+                                un mantenimiento de 1-2 sesión cada 6 meses obteniendo así resultados visibles y duraderos
                             </p>
                         </div>
                     </div>
@@ -229,13 +237,16 @@
                         <img src="Laravel/Recursos/img/Tratamientos/Peptonas/Peptonas3.jpg" alt="">
                         <div id="preguntas3" class="text-img peptonas">
                             <h2>¿Cuánto duran los efectos?</h2>
-                            <p>Duran de 8 mesese a 1 año.</p>
+                            <p>Duran de 8 meses a 1 año.</p>
                             <br>
-                            <h2>¿Encuánto tiempo veo los resultados?</h2>
+                            <h2>¿En cuánto tiempo veo los resultados?</h2>
+                            <p>Los resultados puedes verlos desde el primer instante.</p>
+                            <br>
+                            <h2>¿Requiere anestesia?</h2>
                             <p>Si.</p>
                             <br>
                             <h2>¿Cuánto tiempo dura el proceso?</h2>
-                            <p>1 hora máximo</p>
+                            <p>1 hora máximo.</p>
 
                         </div>
                     </div>
