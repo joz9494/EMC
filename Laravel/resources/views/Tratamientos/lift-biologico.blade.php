@@ -172,6 +172,10 @@
             font-family: brandon_light;
             color: #1197c0;
             font-size: 1.27vw;
+            font-weight: normal !important;
+        }
+        .txtleft{
+            text-align: left;
         }
         
     </style>
@@ -263,9 +267,11 @@
                 <div class="col-md-3"></div>
                 <div class="col-md-6 conte">
                     <div class="imagen_text">
-                        <div id="beneficios" class="text-img peptonas">
-                            <h2>Beneficios <br></h2>
-                            <p>
+                        <div>
+                            <font id="TxtTitulo" style="float: left;">Beneficios</font>
+                            <br>
+                            <br>
+                            <font id="TxtParrafo" class="txtleft">
                                 <ul>
                                     <li>Lifting de frente.</li>
                                     <li>Estirar y retira el exceso de piel.</li>
@@ -276,7 +282,7 @@
                                         a las arrugas que se producen desde el final de la nariz y que descienden oblicuamente hasta ambos extremos de la boca
                                     </li>
                                 </ul>
-                            </p>
+                            </font>
                         </div>
                     </div>
                 </div>    
