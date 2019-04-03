@@ -36,9 +36,8 @@
             font-family: brandon_light;
             src: url(Laravel/Recursos/BRANDON_LIGHT.otf);
             }
-
         body{
-            background-color: #1197c0;
+            background-color: #0280A7;
             overflow-x: hidden;
             font-family: brandon_reg;
         }
@@ -61,9 +60,19 @@
         {
             width: 100%;
         }
-        p,li
+        h1,h2
         {
-            font-family: brandon_light !important;
+            font-family: brandon_reg;
+            font-size: 1.37vw !important;
+        }
+        p,li{
+            font-family: brandon_light;
+            font-size: 1.27vw !important;  
+        }
+        .titletxt{
+            color: #1197C0;
+            font-family: brandon_reg;
+            font-size: 1.37vw !important;
         }
         #titulo h1,#peptonas h2
         {
@@ -123,10 +132,10 @@
         }
         #beneficios li
         {
-            color:#0280A7;
+            color: #0280A7;
             line-height: 125%;
         }
-        #beneficios li::before {content: "•"; color:#0280A7}
+        #beneficios li::before {content: "•"; color:#0280A7;font-size: 40px;margin-left: -30px;}
         @media  (orientation: portrait) {
             .text-img h2, .imagen_text p
             {
@@ -162,20 +171,6 @@
                 font-size: 1.8vw;
             }
         }
-
-        #TxtTitulo{
-            font-family: brandon_reg;
-            color: #1197c0;
-            font-size: 1.37vw;
-        }
-        #TxtParrafo{
-            font-family: brandon_light;
-            color: #1197c0;
-            font-size: 1.27vw;
-        }
-        .txtleft{
-            text-align: left;
-        }
         
     </style>
 
@@ -193,20 +188,20 @@
 
                 </div> 
             </div>
-            <div style="margin-top: 5px;">
-                <div>
+            <div class=" row" style="margin-top: 5px;">
+                <div class="col-md">
                         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
                                 <div class="imagen_text">
-                                    <img class="d-block w-100" src="Laravel\Recursos\img\LiftBiologico\Mesa de trabajo 4.jpg" alt="First slide">
+                                    <img class="d-block w-100" src="Laravel\Recursos\img\LiftBiologico\C1.png" alt="First slide">
                                 </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="Laravel\Recursos\img\LiftBiologico\Mesa de trabajo 4.jpg" alt="Second slide">
+                                    <img class="d-block w-100" src="Laravel\Recursos\img\LiftBiologico\C3.png" alt="Second slide">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="Laravel\Recursos\img\LiftBiologico\Mesa de trabajo 3.jpg" alt="Third slide">
+                                    <img class="d-block w-100" src="Laravel\Recursos\img\LiftBiologico\C2.png" alt="Third slide">
                                 </div>
                             </div>
                             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -225,16 +220,27 @@
                 <div class="col-md-6 conte">
                     <div class="imagen_text">
                         <div id="" class="text-img peptonas" style="margin-left: -3%">
-                            <font id="TxtTitulo">¿Cómo funciona?</font><br>
-                            <font id="TxtParrafo">
+                            <font class="titletxt">¿Cómo funciona?</font><br>
+                            <p>
                             Es un tratamiento rápido, cómodo y seguro.<br>   
-                            La técnica es totalmente individualizada para cada paciente dependiendo de la edad, la fisonomía y el grado de flacidez, pero en una sesión estándar se suelen insertar entre 10 y 20 hilos.<br>
-                            Se implantan en la dermis con una aguja guía, activando los fibroblastos, para generar cológeno y elastina, provocando un efecto lifting inmediato y aportando a los pacientes un moldeado natural al rostro y al cuerpo.
-
-                            Su implantación es sencilla y rápida, permitiendo el desarrollo normal de la actividad cotidiana, no produce cortes, marcas ni cicatrices. 
-                            </font>
+                            La técnica es totalmente individualizada para cada paciente dependiendo de la edad, la fisonomía y el grado de flacidez, pero en una sesión estándar se suelen insertar entre 10 y 20 hilos.
+                            <br>
+                            <br>
+                            se implantan en la dermis con una aguja guía, activando los fibroblastos, para generar cológeno y elastina, provocando un efecto lifting inmediato y aportando a los pacientes un moldeado natural al rostro y al cuerpo.
+                            <br>
+                            <br>
+                            Su implantación es sencilla y rápida, permitiendo el desarrollo normal de la actividad cotidiana, no produce cortes, marcas ni cicatrices.
+                            </p>
                         </div>
                     </div>
+                </div>    
+            </div>
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6 conte">
+                        <div class="imagen_text">
+                            <img src="Laravel\Recursos\img\LiftBiologico\Mesa de trabajo 5.jpg" alt="">
+                        </div>
                 </div>    
             </div>
             
@@ -266,11 +272,9 @@
                 <div class="col-md-3"></div>
                 <div class="col-md-6 conte">
                     <div class="imagen_text">
-                        <div>
-                            <font id="TxtTitulo" style="float: left;">Beneficios</font>
-                            <br>
-                            <br>
-                            <font id="TxtParrafo" class="txtleft">
+                        <div id="beneficios" class="text-img peptonas">
+                            <font class="titletxt">Beneficios</font><br>
+                            <p>
                                 <ul>
                                     <li>Lifting de frente.</li>
                                     <li>Estirar y retira el exceso de piel.</li>
@@ -281,7 +285,7 @@
                                         a las arrugas que se producen desde el final de la nariz y que descienden oblicuamente hasta ambos extremos de la boca
                                     </li>
                                 </ul>
-                            </font>
+                            </p>
                         </div>
                     </div>
                 </div>    
