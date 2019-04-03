@@ -173,11 +173,11 @@
                 <div class="col-md-8 conte">
                     <a href="{{ url('/Tratamientos') }}">
                         <h1><span style="padding-right: 2%;"><img src="Laravel\Recursos\img\Tratamientos\flecha160x160.png" alt="" style="width:40px;">
-                        </span>Hormonas Bio-Idénticas 2</h1>
+                        </span>Hormonas Bio-Idénticas</h1>
                     </a>    
                 </div> 
             </div>
-            <div class="row">
+            <div class="row" style="margin-top: 5px;">
                 <div class="col-md-3"></div>
                 <div id="carrusel_principal" class="col-md-6 ">
                     <img id="Hormonas-1" src="Laravel/Recursos/img/Tratamientos/Hormonas/Hormonas-1.jpg" width="100%;" >
