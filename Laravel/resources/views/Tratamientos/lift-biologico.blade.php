@@ -172,7 +172,6 @@
             font-family: brandon_light;
             color: #1197c0;
             font-size: 1.27vw;
-            font-weight: normal !important;
         }
         .txtleft{
             text-align: left;
