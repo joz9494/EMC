@@ -29,10 +29,6 @@
             src: url(-"Laravel/Recursos/BRANDON_REG.otf");
         }
         @font-face {
-            font-family: brandon_bold;
-            src: url("Laravel/Recursos/BRANDON_BLD.otf");
-        }
-        @font-face {
             font-family: brandon_light;
             src: url(Laravel/Recursos/BRANDON_LIGHT.otf);
         }
@@ -126,10 +122,7 @@
         {
             color: white;
         }
-         h2
-        {
-            font-weight: 500 !important;
-        }
+         
         @media  (max-width:768px) {
             .text-img h2, .imagen_text p
             {
