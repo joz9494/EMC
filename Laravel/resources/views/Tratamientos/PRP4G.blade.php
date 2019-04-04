@@ -29,13 +29,12 @@
             src: url(-"Laravel/Recursos/BRANDON_REG.otf");
         }
         @font-face {
-            font-family: brandon_bold;
-            src: url("Laravel/Recursos/BRANDON_BLD.otf");
+            font-family: brandon_light;
+            src: url(Laravel/Recursos/BRANDON_LIGHT.otf);
         }
         body{
             background-color: #0280A7;
             overflow-x: hidden;
-            font-family: brandon_reg;
         }
     
                
@@ -56,9 +55,13 @@
         {
             width: 100%;
         }
-        h1,h2,p,li
+        h1,h2
         {
-            font-family: brandon_reg;
+            font-family: brandon_reg !important;
+        }
+        p,li
+        {
+            font-family: brandon_light !important;
         }
         #titulo h1,.text-img h2
         {
@@ -96,13 +99,13 @@
         }
         #prp4g1
         {
-            top: 5%;
-            width: 75%;
-            right: 25%;
+            top: 2%;
+            width: 70%;
+            right: 30%;
         }
         #prp4g3
         {
-            top: 5%;
+            
             width: 60%;
             right: 40%;
         }
@@ -115,7 +118,11 @@
         {
             line-height: 100%;
         }
-        #prp4g3 li::before {content: "•"; color:grey}
+        #prp4g3 li::before {content: "•"; color:gray;font-size: 2vw; padding-right: 1.5%;}
+        .salto_linea
+        {
+            margin-left: 3.8%;
+        }
         #prp4g1 h2,#hormonas3 p,#prp4g3 h2
         {
             color: black;
@@ -126,9 +133,9 @@
         }
         #hormonas3
         {
-            top: 2% ;
-            width: 70%;
-            left:  30%;
+            top: 6% ;
+            width: 60%;
+            left:  35%;
         }
 
         #prp4g1 p,#prp4g3 li
@@ -136,31 +143,36 @@
             color: gray;
         }
         @media  (orientation: portrait) {
-            .text-img h2, .imagen_text p
+            .text-img h2,#hormonas3 h2{
+                font-size: 1.37vw;
+                line-height: 125%;
+            }
+            .imagen_text p,#hormonas3 p
             {
-                font-size: 2.5vw;
+                font-size: 1.27vw;
+                line-height: 125%;
             }
             #prp4g1 h2,#prp4g1 p,#prp4g3 h2,#prp4g3 li
             {
-                font-size: 2.6vw;
+                font-size: 1.4vw;
+                line-height: 125%;
             }
-            #hormonas3 h2,#hormonas3 p
-            {
-                font-size: 2.5vw;
-            }
+
         }
         @media  (orientation: landscape) {
-            .text-img h2, .imagen_text p
-            {
-                font-size: 1.6vw;
+            .text-img h2{
+                font-size: 1.37vw;
+                line-height: 125%;
             }
-            #prp4g1 h2,#prp4g1 p,#prp4g3 h2,#prp4g3 li
+            .imagen_text p
             {
-                font-size: 1.8vw;
+                font-size: 1.27vw;
+                line-height: 125%;
             }
-            #hormonas3 h2,#hormonas3 p
+            #prp4g1 h2,#prp4g1 p,#prp4g3 h2,#prp4g3 li,#hormonas3 h2,#hormonas3 p
             {
-                font-size: 1.8vw;
+                font-size: 1.4vw;
+                line-height: 125%;
             }
             
         }
@@ -175,94 +187,92 @@
         <div id="contenedormaestro">
             <div id="titulo" class="row">
                 <div class="col-md-2"></div>
-                <div class="col-md-8 conte">
-                    <a href="{{ url('/Tratamientos') }}">
-                        <h1><span style="padding-right: 3%;"><img src="Laravel\Recursos\img\Tratamientos\flecha160x160.png" alt="" style="width:60px;">
-                        </span>PRP4G</h1>
-                    </a>    
-                </div> 
+                <div class="col-md-8 conte" style="margin-top: -8px;">
+                    <font style="font-family: brandon_reg"><center><a style="color: #0280A7" href="{{ url('/Tratamientos') }}"><img src="Laravel\Recursos\img\Tratamientos\flecha160x160.png" alt="" style="width:60px;margin-top: -10px"><font style="font-size: 30px;">  PRP 4G (Plasma Rico en Plaquetas)</font></a></center></font>
+                </div>  
             </div>
             <div class=" row">
-                <div class="col-md-2"></div>
-                <div class="col-md-8 conte">
+                <div class="col-md-3"></div>
+                <div class="col-md-6 ">
                     <div class="imagen_text">
                         <img src="Laravel\Recursos\img\Tratamientos\PRP\PRP1.jpg" alt="">
                         <div id="prp4g1" class="text-img">
                             <h2>¿Qué es?</h2>
                             <p>
-                                Es una sustancia que se obtines centrifugando tu sangre para seguir una fracción de plasma con una alta consetración de plaquetas.
+                                Es una sustancia que se obtiene centrifugando tu sangre para seguir una fracción de plasma con una alta concetración de plaquetas.
                                 <br>
-                                Al ser utilizando mediante micropunciones dérmicas en las zonas a tratar, el Plasma Rico en Plaquetas estimula la producción de colageno, elastina y tejido epidérmico, lo que se traduce en una piel joven, tersa y de mejor calidad.
+                                <br>
+                                Al ser aplicado mediante micro punciones dérmicas en las zonas a tratar, el Plasma Rico en Plaquetas estimula la producción de colágeno, elastina y tejido epidérmico, lo que se traduce en una piel joven, tersa y de mejor calidad.
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class=" row">
-                <div class="col-md-2"></div>
-                <div class="col-md-8 conte">
+                <div class="col-md-3"></div>
+                <div class="col-md-6 conte">
                     <div class="imagen_text">
                         <img src="Laravel\Recursos\img\Tratamientos\PRP\PRP2.png" alt="">
                         <div id="hormonas3" class="text-img">
                             <h2>¿Qué tipo de tratamiento es?</h2>
                             <p>
-                                Suele utilizarse como tratamiento preventivo y regenerador, se recomienda su utilización cuando comienzan a aprecer signos del envejecimiento cutáneo.
+                                Suele utilizarse como tratamiento preventivo y regenerador, se recomienda su utilización cuando comienzan a aparecer signos del envejecimiento cutáneo.
                             </p>
                             <br>
                             <h2>¿Cómo funciona?</h2>
                             <p>
-                                Consiste en inyecciones en puntos espesificos según cada caso para mejorar notablemente el aspecto de la piel.
+                                Consiste en inyecciones en puntos específicos según cada caso para mejorar notablemente el aspecto de la piel.
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class=" row">
-                <div class="col-md-2"></div>
-                <div class="col-md-8 conte">
+                <div class="col-md-3"></div>
+                <div class="col-md-6 conte">
                     <div class="imagen_text">
                         <img src="Laravel/Recursos/img/Tratamientos/Hormonas/Esquinas.png" alt="">
                         <div class="text-img " >
-                                <h2>¿Cuasa efecctos secundarios?</h2> 
+                                <h2>¿Causa efectos secundarios?</h2> 
                                 <p>
-                                no posee efectos secundarios. es un procedimineto libre de riesgos de
-                                reacciones de algún tipo ya que es uuna sustancia de proviene
-                                de la sangre 
+                                No posee efectos secundarios. es un procedimiento libre de riesgos y de
+                                reacciones de algún tipo ya que es una sustancia que proviene
+                                de la sangre del paciente. 
                                 <p>
                                 <br>
-                                <h2>¿Cuánto timepo dura el procedimeinto?</h2>
+                                <h2>¿Cuánto tiempo dura el procedimiento?</h2>
                                 <p>
-                                En promedio dura de 6 a 12 meses dependiendo de cada paciente
+                                En promedio dura de 6 a 12 meses dependiendo de cada paciente.
                                 </p>
                                 <br>
-                                <h2>¿Como se realiza?</h2>
+                                <h2>¿Cómo se realiza?</h2>
                                 <p>
-                                    Es un procedimiento en el cual se toma una muestra de sanngre y se presesa para
-                                    tomar la parte rica en plaquetas y se activa para tener un mejor resutado del plasma
+                                    Es un procedimiento en el cual se toma una muestra de sangre y se procesa para
+                                    tomar la parte rica en plaquetas y se activa para tener un mejor resultado del plasma.
                                 </p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class=" row">
-                <div class="col-md-2"></div>
-                <div class="col-md-8 conte">
+                <div class="col-md-3"></div>
+                <div class="col-md-6 conte">
                     <div id="final" class="imagen_text">
                         <img src="Laravel\Recursos\img\Tratamientos\PRP\PRP3.jpg" alt="">
                         <div id="prp4g3" class="text-img">
                             <h2>¿Cuándo se recomienda?</h2>
-                            <p>Se sugiere cuando los signos de envejecimiento sean visiblesSe pude aplicar a los 20 años, pero depende de cada paciente.
+                            <p>Se sugiere cuando los signos de envejecimiento sean visibles. Se pude aplicar a los 20 años, pero depende de cada paciente.
                             </p>
                             <br>
                             <br>
-                            <h2>¿Qué beneficios obtines?</h2>
+                            <h2>¿Qué beneficios obtienes?</h2>
                             <p>
                                 <ul>
                                     <li>Aumento de la tensión de la piel.</li>
-                                    <li>Aumento voluétrico de populo.</li>
+                                    <li>Aumento volumétrico de pómulo.</li>
                                     <li>Aspecto saludable de la piel.<br> 
-                                    (brillo, color, testura, suavidad).</li>
-                                    <li>Disminucion de arrugas y flacidez.</li>
+                                    <div class="salto_linea">(brillo, color, tersura, suavidad).</div></li>
+                                    <li>Disminución de arrugas y flacidez.</li>
                                 </ul>
                             </p>
                         </div>

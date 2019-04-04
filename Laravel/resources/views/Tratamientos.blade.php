@@ -187,12 +187,14 @@
             @section('content')
                 <div id="contenedormaestro" class="container-fluid">
                     <div id="titulo" class="row">
-                        <div class="col-md-2 col-sm-5"></div>
-                        <div class="col-md-8 conte" style="margin-top: 20px;">
-                            <font style="color: #019ADD;"><center><font style="font-size: 30px;margin-left: -1%;margin-top: -50px !important;">Tratamientos</font></center></font> 
-                        </div>
-                    </div>
-                    <div id="banner" class="row conte">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 conte" style="margin-top: 10px;">
+
+                    <font style="color: #1197c0; font-family: brandon_reg;"><center><font style="font-size: 30px;margin-left: 1%;">Tratamientos</font></center></font>
+
+                </div> 
+            </div>
+                    <div id="banner" class="row conte" style="margin-top: 30px;">
                         <div class="col-md-12">
                             <div class="imagen_text">
                                 <img src="Laravel/Recursos/img/Tratamientos/Biomas.png" style="margin-left: -5%;margin-top: -20px;">

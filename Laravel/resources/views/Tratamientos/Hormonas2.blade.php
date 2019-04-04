@@ -29,10 +29,6 @@
             src: url(-"Laravel/Recursos/BRANDON_REG.otf");
         }
         @font-face {
-            font-family: brandon_bold;
-            src: url("Laravel/Recursos/BRANDON_BLD.otf");
-        }
-        @font-face {
             font-family: brandon_light;
             src: url(Laravel/Recursos/BRANDON_LIGHT.otf);
         }
@@ -66,9 +62,13 @@
         {
             width: 100%;
         }
-        h1,h2,p
+        h1,h2
         {
             font-family: brandon_reg;
+        }
+        #titulo
+        {
+            margin-left: 1%;
         }
         #titulo h1,.text-img h2
         {
@@ -102,18 +102,18 @@
             position: absolute;
             top: 0;
             padding: 4%;
-            padding-top: 3%;
             color: black;
         }
         #hormonas2
         {
-            top: 5%;
+            top: 3%;
             width: 70%;
             left: 30%;
+            
         }
         #hormonas3
         {
-            top: 10% ;
+            top: 8% ;
             width: 75%;
             right:  25%;
         }
@@ -122,44 +122,51 @@
         {
             color: white;
         }
-         h2
-        {
-            font-weight: 500 !important;
-        }
-        @media  (orientation: portrait) {
+         
+        @media  (max-width:768px) {
             .text-img h2, .imagen_text p
             {
                 font-size: 2.5vw;
             }
             #hormonas2 h2,#hormonas2 p
             {
-                font-size: 2.6vw;
+                font-size: 2.8vw;
+                
             }
             #hormonas3 h2,#hormonas3 p
             {
                 font-size: 2.8vw;
             }
         }
-        @media  (orientation: landscape) {
+        @media  (orientation: landscape)and (min-width:768px){
             .text-img h2
             {
-                font-size: 1.3vw;
+                font-size: 1.37vw;
             }
             .imagen_text p
             {
-                font-size: 1.3vw;
+                font-size: 1.27vw;
+                padding-bottom: 1.8%;
             }
             #hormonas2 h2,#hormonas2 p
             {
                 font-size: 1.4vw;
+                line-height:150%;
             }
             #hormonas3 h2,#hormonas3 p
             {
-                font-size: 1.8vw;
+                font-size: 1.4vw;
             }
-            
         }
         
+        #esquinas1
+        {
+            padding-top: 3%;
+        }
+        #esquinas2
+        {
+            padding-top: 4.5%;
+        }
     </style>
 
     <body>
@@ -170,20 +177,19 @@
         <div id="contenedormaestro">
             <div id="titulo" class="row">
                 <div class="col-md-2"></div>
-                <div class="col-md-8 conte">
-                    <a href="{{ url('/Tratamientos') }}">
-                        <h1><span style="padding-right: 2%;"><img src="Laravel\Recursos\img\Tratamientos\flecha160x160.png" alt="" style="width:40px;">
-                        </span>Hormonas Bio-Idénticas 2</h1>
-                    </a>    
+                <div class="col-md-8 conte" style="margin-top: -8px;">
+
+                    <font style="font-family: brandon_reg"><center><a style="color: #0280A7" href="{{ url('/Tratamientos') }}"><img src="Laravel\Recursos\img\Tratamientos\flecha160x160.png" alt="" style="width:60px;margin-top: -10px"><font style="font-size: 30px;">Hormonas Bio-Idénticas</font></a></center></font>
+
                 </div> 
             </div>
-            <div class="row">
+            <div class="row" style="margin-top: 5px;">
                 <div class="col-md-3"></div>
                 <div id="carrusel_principal" class="col-md-6 ">
                     <img id="Hormonas-1" src="Laravel/Recursos/img/Tratamientos/Hormonas/Hormonas-1.jpg" width="100%;" >
                     <div id="txt_hormonas1">
                         <p>Puedes tener síntomas que aparentan</p>
-                        <h2 style="font-f">"Estar fuera de control".</h2>
+                        <h2>"Estar fuera de control".</h2>
                     </div>
                 </div>
             </div>
@@ -191,13 +197,12 @@
                 <div class="col-md-3"></div>
                 <div class="col-md-6 conte">
                     <div class="imagen_text">
-                        <img src="Laravel/Recursos/img/Tratamientos/Hormonas/Esquinas.png" alt="">
-                        <div class="text-img " >
-                                <h2>¿Que son las hormonas Bio-idínticas?</h2>
+                        <img src="Laravel/Recursos/img/Tratamientos/Hormonas/Esquinas.png">
+                        <div id="esquinas1"  class="text-img ">
+                               <h2> ¿Que son las hormonas Bio-idénticas?</h2>
                                 <p style="text-align : justify;">
-                                Son biológicamente idínticas, tienen una estructura molecular idéntica a las hormonas que produce el organismo, sin los efectos secundarios de las hormonas sintéticas.
+                                Son biológicamente idénticas, tienen una estructura molecular idéntica a las hormonas que produce el organismo, sin los efectos secundarios de las hormonas sintéticas.
                                 <p>
-                                <br>
                                 <h2>¿Como funciona?</h2>
                                 <p style="text-align : justify;">
                                 Mejoran la comunicación celular, recuperando el equilibrio y optimizan las funciones del organismo.
@@ -229,7 +234,7 @@
                         <img src="Laravel/Recursos/img/Tratamientos/Hormonas/Esquinas-2.png" alt="">
                         <div id="esquinas2" class="text-img">
                             <h2>¿Quién puede usarlo?</h2>
-                            <p>Es una alternativa para las mujeres que enfrentan los cambios de la menopausia, pero también es una opción tanto para hombres y mujeres de distintas edades.</p>
+                            <p>Es una alternativa para las mujeres que enfrentan los cambios de la menopausia, pero también es una opción tanto para hombres y mujeres de distintas edades. <br></p>
                             <h2>¿Es un tratamiento para la mesopausa?</h2>
                             <p style="text-align : justify;">Es una alternativa para aquellas mujeres que sufren los síntomas de la menopausia temprana y que buscan poner fin a los bochornos o calores, la sudoración nocturna, la pérdida de la memoria, los cambios de ánimo, el aumento de peso y la disminución del apetito sexual son pacientes recurrentes en este tratamiento que le ayudará a terminar con estas molestias.</p>
                             <h2>¿Beneficios para los hombres?</h2>
@@ -243,7 +248,7 @@
                 <div class="col-md-3"></div>
                 <div id="final" class="col-md-6 conte">
                     <div class="imagen_text">
-                        <img src="Laravel/Recursos/img/Tratamientos/Hormonas/Hormonas-3.png" alt="">
+                        <img src="Laravel/Recursos/img/Tratamientos/Hormonas/Hormonas.png" alt="">
                         <div id="hormonas3" class="text-img">
                                 <h2>¿Cuánto dura?</h2>
                                 <p>Aproximadamente de 6 a 8 meses.</p>
@@ -252,7 +257,7 @@
                                 <p>Sin efectos secundarios.</p>
                                 <br>
                                 <h2>¿Cambios Hormonales?</h2>
-                                <p>Toma el control</p>
+                                <p>Toma el control.</p>
                         </div>
                     </div>
                 </div>

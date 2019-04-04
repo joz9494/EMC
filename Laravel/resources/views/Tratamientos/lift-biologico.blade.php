@@ -32,6 +32,10 @@
             font-family: brandon_bold;
             src: url("Laravel/Recursos/BRANDON_BLD.otf");
         }
+        @font-face {
+            font-family: brandon_light;
+            src: url(Laravel/Recursos/BRANDON_LIGHT.otf);
+            }
         body{
             background-color: #0280A7;
             overflow-x: hidden;
@@ -56,14 +60,32 @@
         {
             width: 100%;
         }
-        h1,h2,p,li
+        h2
         {
+            font-family: brandon_reg !important;
+            font-size: 1.37vw !important;
+            color: #1197C0 !important;
+        }
+        p,li{
+            font-family: brandon_light;
+            font-size: 1.27vw !important;
+            line-height: -100px; 
+        }
+        .titletxt{
+            color: #1197C0;
             font-family: brandon_reg;
+            font-size: 22px !important;
+        }
+        .titletxt2{
+            color: #1197C0;
+            font-family: brandon_reg;
+            font-size: 2.47vw !important;
+            margin-left: -10px;
         }
         #titulo h1,#peptonas h2
         {
             color: #1197C0;
-            font-size: 26px;
+            font-size: 20px;
             font-weight: normal;
         }
         #txt_hormonas1
@@ -113,7 +135,7 @@
         }
         #beneficios ul
         {
-            text-align: left;
+            text-align: left !important;
             margin: 2%;
         }
         #beneficios li
@@ -121,7 +143,7 @@
             color: #0280A7;
             line-height: 125%;
         }
-        #beneficios li::before {content: "•"; color:#0280A7}
+        #beneficios li::before {content: "•"; color:#0280A7;font-size: 40px;margin-left: -40px;}
         @media  (orientation: portrait) {
             .text-img h2, .imagen_text p
             {
@@ -157,7 +179,25 @@
                 font-size: 1.8vw;
             }
         }
-        
+        .espacio{
+            margin-top: 50px;
+        }
+        .espacio2{
+           margin-top: -15px; 
+        }
+        .espacio3{
+           margin-top: -60px; 
+        }
+        #txtParrafo{
+            font-size: 1.27vw;
+            font-family: brandon_light;
+            color: #1197C0;
+        }
+        #txtcf{
+            font-size: 1.27vw;
+            font-family: brandon_light;
+            color: #1197C0;
+        }
     </style>
 
     <body>
@@ -170,29 +210,24 @@
                 <div class="col-md-2"></div>
                 <div class="col-md-8 conte">
 
-                    <font style="color: #019ADD; font-family: brandon_reg;"><center><img src="Laravel\Recursos\img\Tratamientos\flecha160x160.png" alt="" style="width:60px;margin-top: -15px"><font style="font-size: 30px;margin-left: 1%;">Lift Biológico</font></center></font>
-
-                    <a href="{{ url('/Tratamientos') }}">
-                        <h1><span style="padding-right: 3%;"><img src="Laravel\Recursos\img\Tratamientos\flecha160x160.png" alt="" style="width:60px;">
-                        </span>Lift-bíologico</h1>    
-                    </a>
+                    <font style="font-family: brandon_reg"><center><a style="color: #1197c0" href="{{ url('/Tratamientos') }}"><img src="Laravel\Recursos\img\Tratamientos\flecha160x160.png" alt="" style="width:60px;margin-top: -10px"><font style="font-size: 30px;margin-left: 1%;">Lift Biológico</font></a></center></font>
 
                 </div> 
             </div>
-            <div class=" row" >
+            <div class=" row" style="margin-top: 5px;">
                 <div class="col-md">
                         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
                                 <div class="imagen_text">
-                                    <img class="d-block w-100" src="Laravel\Recursos\img\LiftBiologico\Mesa de trabajo 1.jpg" alt="First slide">
+                                    <img class="d-block w-100" src="Laravel\Recursos\img\LiftBiologico\C1.png" alt="First slide">
                                 </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="Laravel\Recursos\img\LiftBiologico\Mesa de trabajo 4.jpg" alt="Second slide">
+                                    <img class="d-block w-100" src="Laravel\Recursos\img\LiftBiologico\C3.png" alt="Second slide">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="Laravel\Recursos\img\LiftBiologico\Mesa de trabajo 3.jpg" alt="Third slide">
+                                    <img class="d-block w-100" src="Laravel\Recursos\img\LiftBiologico\C2.png" alt="Third slide">
                                 </div>
                             </div>
                             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -206,81 +241,98 @@
                         </div>
                 </div>
             </div>
+
+            <div class="espacio"></div>
+
             <div class="row">
-                <div class="col-md-2"></div>
-                <div class="col-md-8 conte">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                    <center>
+                        <font id="txtParrafo">
+                        Revolucionaria técnica de rejuvenecimiento facial que estimula los tejidos<br> internos para reafirmar la piel y corregir la flacidez.
+                        </font>
+                    </center>
+                </div>
+            </div>
+
+            <div class="espacio2" style="margin-top: -20px;"></div>
+
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6 conte">
                         <div class="imagen_text">
-                            <img src="Laravel\Recursos\img\LiftBiologico\Mesa de trabajo 5.jpg" alt="">
+                            <img src="Laravel\Recursos\img\LiftBiologico\T32.png" alt="">
                         </div>
                 </div>    
             </div>
+
+            <div class="espacio"></div>
+
             <div class="row">
-                <div class="col-md-2"></div>
-                <div class="col-md-8 conte">
+                <div class="col-md-3"></div>
+                <div class="col-md-6 conte">
                     <div class="imagen_text">
-                        <div id="" class="text-img peptonas">
-                            <h2>¿Cómo funciona? <br></h2>
-                            <p>
-                            Es un tratamiento rápido, cómodo y seguro. <br>   
-                            La técnica es totalmente individualizada para cada paciente dependiendo de la edad, la fisonomía y el grado de flacidez, pero en una sesión estándar se suelen insertar entre 10 y 20 hilos.
+                        <div style="margin-left: 0%;margin-top: -12px;">
+                            <h2>¿Cómo funciona?</h2>
+                            <font id="txtcf">
+                            Es un tratamiento rápido, cómodo y seguro.<br>   
+                            La técnica es totalmente individualizada para cada paciente dependiendo de la edad, la fisonomía y el grado de flacidez, pero en una sesión estándar se suelen insertar entre 10 y 20 hilos.<br>
                             <br>
+                            Se implantan en la dermis con una aguja guía, activando los fibroblastos, para generar colágeno y elastina, provocando un efecto lifting inmediato y aportando a los pacientes un moldeado natural al rostro y al cuerpo.<br>
                             <br>
-                            se implantan en la dermis con una aguja guía, activando los fibroblastos, para generar cológeno y elastina, provocando un efecto lifting inmediato y aportando a los pacientes un moldeado natural al rostro y al cuerpo.
-                            <br>
-                            <br>
-                            Su implantación es sencilla y rápida, permitiendo el desarrollo normal de la actividad cotidiana, no produce cortes, marcas ni cicatrices.
-                            </p>
+                            Su implantación es sencilla y rápida, permitiendo el desarrollo normal de la actividad cotidiana,<font style="font-family: brandon_reg">no produce cortes, marcas ni cicatrices.</font>
                         </div>
                     </div>
                 </div>    
             </div>
+
+            <div class="espacio3" style="margin-top: -20px;"></div>
+
             <div class="row">
-                <div class="col-md-2"></div>
-                <div class="col-md-8 conte">
-                        <div class="imagen_text">
-                            <img src="Laravel\Recursos\img\LiftBiologico\Mesa de trabajo 6.jpg" alt="">
-                        </div>
-                </div>    
-            </div>
-            <div class="row">
-                <div class="col-md-2"></div>
-                <div class="col-md-8 conte">
+                <div class="col-md-3"></div>
+                <div class="col-md-6 conte">
                     <div class="imagen_text">
-                        <img src="Laravel\Recursos\img\LiftBiologico\Mesa de trabajo 7.jpg" alt="">
+                        <img src="Laravel\Recursos\img\LiftBiologico\T33.png" alt="">
                     </div>
                 </div>    
             </div>
+
+            <div class="espacio3" style="margin-top: 2px;"></div>
+
             <div class="row">
-                <div class="col-md-2"></div>
-                <div class="col-md-8 conte">
+                <div class="col-md-3"></div>
+                <div class="col-md-6 conte">
                     <div class="imagen_text">
-                        <img src="Laravel\Recursos\img\LiftBiologico\Mesa de trabajo 8.jpg" alt="">
+                        <img src="Laravel\Recursos\img\LiftBiologico\T31.png" alt="">
                     </div>
                 </div>    
             </div>
+
+            <div class="espacio2" style="margin-top: 3px;"></div>
+
+            
             <div class="row">
-                <div class="col-md-2"></div>
-                <div class="col-md-8 conte">
+                <div class="col-md-3"></div>
+                <div class="col-md-6 conte">
                     <div class="imagen_text">
                         <div id="beneficios" class="text-img peptonas">
-                            <h2>Beneficios <br></h2>
+                            <font class="titletxt2" style="margin-left: -20px;">Beneficios</font><br>
                             <p>
                                 <ul>
                                     <li>Lifting de frente.</li>
-                                    <li>Estira y retira el exceso de piel.</li>
-                                    <li>Elevacion pómulos</li>
-                                    <li>Aspecto mas joven y narural</li>
-                                    <li>Surcos Nasogenianos o arrugas de amargura</li>
-                                    <li>Se denominan "surcos nasogenianos" o "pliegues nasolabiales"
-                                        a las arrugas que se producen desde el final de la nariz y que descienden oblicuamente
-                                        hasta ambos extremos de la boca
-                                    </li>
+                                    <li>Estirar y retira el exceso de piel.</li>
+                                    <li>Elevación de pómulos.</li>
+                                    <li>Aspecto más joven y natural.</li>
+                                    <li>Surcos Nasogenianos o arrugas de amargura.</li>
+                                    <li>Se denominan "surcos nasogenianos" o "pliegues nasolabiales" a las arrugas que se producen desde el final de la nariz y que descienden oblicuamente hasta ambos extremos de la boca.</li>
                                 </ul>
                             </p>
                         </div>
                     </div>
                 </div>    
             </div>
+
+            <div class="espacio2" style="height: 50px;"></div>
         </div>
         @stop
     </body>
