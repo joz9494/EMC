@@ -62,7 +62,7 @@
         {
             width: 100%;
         }
-        h1,h2,p
+        h1,h2
         {
             font-family: brandon_reg;
         }
