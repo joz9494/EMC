@@ -107,7 +107,7 @@
 
         #hormonas3
         {
-            top: 5% ;
+            top: 4% ;
             width: 75%;
             right:  25%;
         }
@@ -182,8 +182,8 @@
             <div id="titulo" class="row">
                 <div class="col-md-2"></div>
                 <div class="col-md-8 conte" style="margin-top: -8px;">
-                    <font style="font-family: brandon_reg"><center><a style="color: #0280A7" href="{{ url('/Tratamientos') }}"><img src="Laravel\Recursos\img\Tratamientos\flecha160x160.png" alt="" style="width:60px;margin-top: -10px"><font style="font-size: 30px;">Peptonas</font></a></center></font>
-                </div> 
+                    <font style="font-family: brandon_reg"><center><a style="color: #0280A7" href="{{ url('/Tratamientos') }}"><img src="Laravel\Recursos\img\Tratamientos\flecha160x160.png" alt="" style="width:60px;margin-top: -10px"><font style="font-size: 30px;">  Peptonas</font></a></center></font>
+                </div>  
             </div>
             <div class=" row">
                 <div class="col-md-3"></div>
@@ -209,11 +209,12 @@
                 <div class="col-md-3"></div>
                 <div class="col-md-6 conte">
                     <div class="imagen_text sombra">
-                        <img src="Laravel/Recursos/img/Tratamientos/Peptonas/Peptonas2c.png" alt="">
+                        <img src="Laravel/Recursos/img/Tratamientos/Peptonas/Peptonas2d.png" alt="">
                         <div id="hormonas3" class="text-img">
-                            <h2>¿Qué beneficios obtienes?</h2>
+                            
                             <p>
                                 <ul>
+                                <h2 style="text-align:center;">¿Qué beneficios obtienes?</h2>  
                                     <li>Restaurar la vitalidad cutánea.</li>
                                     <li>Aumenta su grosor.</li>
                                     <li>Recupera la consistencia elástica.</li>
@@ -222,6 +223,7 @@
                                         <div class="salto_linea">la textura y apariencia de la piel.</div></li>
                                 </ul> 
                             </p>
+                            <br>
                             <h2>¿Cuantas secciones necesito?</h2>
                             <p>Generalmente, son 2-3 sesiones cada 8 días. Luego, se realiza
                                 un mantenimiento de 1-2 sesión cada 6 meses obteniendo así resultados visibles y duraderos
@@ -243,8 +245,7 @@
                             <p>Los resultados puedes verlos desde el primer instante.</p>
                             <br>
                             <h2>¿Requiere anestesia?</h2>
-                            <p>Si.</p>
-                            <br>
+                            <p style="padding-bottom:4%">Si.</p>
                             <h2>¿Cuánto tiempo dura el proceso?</h2>
                             <p>1 hora máximo.</p>
 
