@@ -67,12 +67,18 @@
         }
         p,li{
             font-family: brandon_light;
-            font-size: 1.27vw !important;  
+            font-size: 1.17vw !important;  
         }
         .titletxt{
             color: #1197C0;
             font-family: brandon_reg;
-            font-size: 1.37vw !important;
+            font-size: 1.27vw !important;
+        }
+        .titletxt2{
+            color: #1197C0;
+            font-family: brandon_reg;
+            font-size: 2.47vw !important;
+            margin-left: -3px;
         }
         #titulo h1,#peptonas h2
         {
@@ -171,7 +177,20 @@
                 font-size: 1.8vw;
             }
         }
-        
+        .espacio{
+            margin-top: 50px;
+        }
+        .espacio2{
+           margin-top: 5px; 
+        }
+        .espacio3{
+           margin-top: -10px; 
+        }
+        #txtParrafo{
+            font-size: 1.27vw;
+            font-family: brandon_light;
+            color: #1197C0;
+        }
     </style>
 
     <body>
@@ -215,35 +234,22 @@
                         </div>
                 </div>
             </div>
+
+            <div class="espacio"></div>
+
             <div class="row">
                 <div class="col-md-3"></div>
-                <div class="col-md-6 conte">
-                    <div class="imagen_text">
-                        <div id="" class="text-img peptonas" style="margin-left: -3%">
-                            <font class="titletxt">¿Cómo funciona?</font><br>
-                            <p>
-                            Es un tratamiento rápido, cómodo y seguro.<br>   
-                            La técnica es totalmente individualizada para cada paciente dependiendo de la edad, la fisonomía y el grado de flacidez, pero en una sesión estándar se suelen insertar entre 10 y 20 hilos.
-                            <br>
-                            <br>
-                            se implantan en la dermis con una aguja guía, activando los fibroblastos, para generar cológeno y elastina, provocando un efecto lifting inmediato y aportando a los pacientes un moldeado natural al rostro y al cuerpo.
-                            <br>
-                            <br>
-                            Su implantación es sencilla y rápida, permitiendo el desarrollo normal de la actividad cotidiana, no produce cortes, marcas ni cicatrices.
-                            </p>
-                        </div>
-                    </div>
-                </div>    
+                <div class="col-md-6">
+                    <center>
+                        <font id="txtParrafo">
+                        Revolucionaria técnica de rejuvenecimiento facial que estimula los tejidos<br> internos para reafirmar la piel y corregir la flacidez.
+                        </font>
+                    </center>
+                </div>
             </div>
-            <div class="row">
-                <div class="col-md-3"></div>
-                <div class="col-md-6 conte">
-                        <div class="imagen_text">
-                            <img src="Laravel\Recursos\img\LiftBiologico\Mesa de trabajo 5.jpg" alt="">
-                        </div>
-                </div>    
-            </div>
-            
+
+            <div class="espacio2"></div>
+
             <div class="row">
                 <div class="col-md-3"></div>
                 <div class="col-md-6 conte">
@@ -252,6 +258,32 @@
                         </div>
                 </div>    
             </div>
+
+            <div class="espacio2"></div>
+
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6 conte">
+                    <div class="imagen_text">
+                        <div id="" class="text-img peptonas" style="margin-left: -3%">
+                            <font class="titletxt">¿Cómo funciona?</font><br>
+                            <p>
+                            <font style="font-size: 1.07vw">
+                            Es un tratamiento rápido, cómodo y seguro.<br>   
+                            La técnica es totalmente individualizada para cada paciente dependiendo de la edad, la fisonomía y el grado de flacidez, pero en una sesión estándar se suelen insertar entre 10 y 20 hilos.<br>
+                            <br>
+                            Se implantan en la dermis con una aguja guía, activando los fibroblastos, para generar cológeno y elastina, provocando un efecto lifting inmediato y aportando a los pacientes un moldeado natural al rostro y al cuerpo.<br>
+                            <br>
+                            </font>
+                            Su implantación es sencilla y rápida, permitiendo el desarrollo normal de la actividad cotidiana, <font style="font-family: brandon_reg">no produce cortes, marcas ni cicatrices.</font>
+                            </p>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+
+            <div class="espacio3"></div>
+
             <div class="row">
                 <div class="col-md-3"></div>
                 <div class="col-md-6 conte">
@@ -260,6 +292,9 @@
                     </div>
                 </div>    
             </div>
+
+            <div class="espacio"></div>
+
             <div class="row">
                 <div class="col-md-3"></div>
                 <div class="col-md-6 conte">
@@ -268,21 +303,25 @@
                     </div>
                 </div>    
             </div>
+
+            <div class="espacio2"></div>
+
+            
             <div class="row">
                 <div class="col-md-3"></div>
                 <div class="col-md-6 conte">
                     <div class="imagen_text">
                         <div id="beneficios" class="text-img peptonas">
-                            <font class="titletxt">Beneficios</font><br>
+                            <font class="titletxt2">Beneficios</font><br>
                             <p>
-                                <ul>
-                                    <li>Lifting de frente.</li>
-                                    <li>Estirar y retira el exceso de piel.</li>
-                                    <li>Elevación pómulos</li>
-                                    <li>Aspecto más joven y natural</li>
-                                    <li>Surcos Nasogenianos o arrugas de amargura</li>
-                                    <li>Se denominan "surcos nasogenianos" o "pliegues nasolabiales"
-                                        a las arrugas que se producen desde el final de la nariz y que descienden oblicuamente hasta ambos extremos de la boca
+                                <ul style="margin-left: -2px;">
+                                    <li><font style="margin-left: 15px;">Lifting de frente.</font></li>
+                                    <li><font style="margin-left: 15px;">Estirar y retira el exceso de piel.</font></li>
+                                    <li><font style="margin-left: 15px;">Elevación de pómulos.</font></li>
+                                    <li><font style="margin-left: 15px;">Aspecto más joven y natural.</font></li>
+                                    <li><font style="margin-left: 15px;">Surcos Nasogenianos o arrugas de amargura.</font></li>
+                                    <li><font style="margin-left: 15px;">Se denominan "surcos nasogenianos" o "pliegues nasolabiales"
+                                        a las arrugas que se producen desde el final de la nariz y que descienden oblicuamente hasta ambos extremos de la boca.</font>
                                     </li>
                                 </ul>
                             </p>
@@ -290,6 +329,8 @@
                     </div>
                 </div>    
             </div>
+
+            <div class="espacio2" style="height: 50px;"></div>
         </div>
         @stop
     </body>
