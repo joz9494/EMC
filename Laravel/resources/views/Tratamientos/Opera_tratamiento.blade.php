@@ -44,8 +44,6 @@
             }
     #contenedormaestro{
         background-color: white;
-        width: 100%;
-        height: 280%;
     }
 
 .txtparrafo{
@@ -428,10 +426,15 @@
 </div>
 
 
-
+<div id="espacio" style="margin-top: 10%;">
+    &nbsp;
+</div>
 
 
 </div>
+
+
+
 
 
 @stop
