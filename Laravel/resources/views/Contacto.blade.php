@@ -39,10 +39,10 @@
             src: url(Laravel/Recursos/BRANDON_LIGHT.otf);
             }
     @font-face {
-            font-family: brandon_reg;
-            src: url(Laravel/Recursos/BRANDON_REG.otf);
-            }
-
+        font-family: brandon_reg;
+        src: url(Laravel/Recursos/BRANDON_REG.otf);
+        }
+    
     #imgback{
         width: 100%;
         height: 60%;
@@ -55,73 +55,112 @@
         background: #079EE2;
     }
 
-    #formulario{
-        float: right;
-        margin-right: 300px;
-        margin-top: 62px;
-    }
     #pinfet{
-        float: right;
-        margin-right: -210px;
-        margin-top: 200px;
+        width: 100%;
+        text-align: center;
         border-collapse: separate;
         border-spacing: 5px;
-        width: 200px !important;
     }
-    #psupt{
-        float: right;
-        margin-right: 39%;
-        margin-top: 30px;
-    }
-
     ::placeholder { 
         color: #0280A7;
         padding: 5px;
      }
-
-    @media screen and (max-width: 1600px){
-        body{
-            overflow-x: visible;
+     .caja
+     {
+         width: 100%;
+         margin-bottom: 1%;
+         border: #0280A7 1px solid;background-color: white;font-family:brandon_light;
+     }
+     #psupt th
+        {
+            color: #0280A7;font-family:txtbran;font-family: brandon_reg;
+            font-weight: normal;
         }
-        #formulario{
-            position: absolute;
-            margin-left: 62%;
+        #psupt td
+        {color: black;font-family:txtbran;font-family: brandon_light; line-height: 125%;}
+    @media  (orientation: landscape) and (min-width:768px){
+        #psupt th
+        {
+            font-size: 2vw;
         }
-        #psupt{
-            width: 100%;
+        #psupt td
+        {font-size: 1.15vw}
+        #formulario_contacto
+        {
+            top: 2%;
+            width: 25%;
+            right: 28%;
         }
-
+    }
+    @media  (max-width:768px) {
+        #psupt th
+        {
+            font-size: 3vw;
+        }
+        #psupt td
+        {font-size: 2.15vw}
+        #formulario_contacto
+        {
+            width: 40%;
+            right: 28%;
+        }
+    }
+    .imagen_text{
+        position: relative;
+        text-align: center;
+    }
+    .imagen_text img
+    {
+        width: 100%;
+        min-width: 1000px;
     }
 
+    .text-img{
+        position: absolute;
+        
+        top: 0;
+        padding: 2%;
+    }
+    input,textarea,button
+    {
+        padding: 2%;
+        background-color: white;
+        font-size: 0.8vw !important;
+    }
 </style>
 
 
 @extends('Menu/barramenu')
 
 @section(@content)
+<div class="row">
+    <div class="col-12">
+        <div class="imagen_text">
+            <img src="Laravel/Recursos/img/Contacto/Contacto-Miguel.png" alt="" width="100%;">
+            <div id="formulario_contacto" class="text-img">
+               
+                    <table id="psupt">
+                        <thead>
+                            <tr><th><center><font >Contáctanos</font></center></td></tr>
+                            <tr><td><center><font>Estamos disponibles para contestar tus<br>dudas, deja tus datos y te responderemos a la brevedad.</font></center></td></tr>
+                        </thead>
+                    </table>
+                    <div class="caja" style="margin-top: 5%;"><input type="text" name="name" placeholder="Nombre *"></div>
+                    <div class="caja"><input type="text" name="name" placeholder="Apellidos"> </div>
+                    <div class="caja"><input type="text" name="name" placeholder="Email "></div>
+                    <div class="caja"><input type="text" name="name" placeholder="Teléfono"> </div>
+                    <div class="caja">
+                        <textarea id="mensaje" placeholder="Mensaje *" rows="5" style="width:100%;"></textarea>
+                    </div>
+                    <div style="text-align:right;">
+                        <button type="button" id="btnenviar" class="btn btn-default btn-sm" style="color: white;font-weight: bold;right:0; ">Enviar</button>
+                    </div>
+            </div>
 
-<div id="imgback">
-    <div id="formulario">
-        <table id="psupt" width="44%">
-            <thead>
-                <tr><td><center><font style="font-size: 25px;color: #0280A7;font-family:txtbran;font-family: brandon_reg">Contáctanos</font></center></td></tr>
-                <tr><td><center><font style="font-size: 16.5px;color: black;font-family:txtbran;font-family: brandon_light;">Estamos disponibles para contestar tus<br>dudas, deja tus datos y te responderemos a la brevedad.</font></center></td></tr>
-            </thead>
-        </table>
+        </div>
 
-        <table id="pinfet" style="color: #0280A7;margin-top: 3%;margin-right: 37%;">
-            <thead>
-                <tr><td style="border: #0280A7 1px solid;background-color: white;font-family:brandon_light"><input style="background-color: white;" type="text" name="name" placeholder="Nombre *"></td></tr>
-                <tr><td style="border: #0280A7 1px solid;background-color: white;font-family:brandon_light"><input style="background-color: white;" type="text" name="name" placeholder="Apellidos *"></td></tr>
-                <tr><td style="border: #0280A7 1px solid;background-color: white;font-family:brandon_light"><input style="background-color: white;" type="text" name="name" placeholder="Email *"></td></tr>
-                <tr><td style="border: #0280A7 1px solid;background-color: white;font-family:brandon_light"><input style="background-color: white;" type="text" name="name" placeholder="Teléfono *"></td></tr>
-                <tr><td style="border: #0280A7 1px solid;background-color: white;font-family:brandon_light"><textarea id="mensaje" placeholder="Mensaje *" rows="5" cols="45"></textarea></td></tr>
-                <tr><td style="float: right;"><center><button type="button" id="btnenviar" class="btn btn-default btn-sm" style="color: white;font-weight: bold;">Enviar</button></center></td></tr>
-            </thead>
-        </table>
     </div>
 </div>
-
 @stop
 
 
