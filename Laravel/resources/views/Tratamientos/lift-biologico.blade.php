@@ -143,7 +143,7 @@
             color: #0280A7;
             line-height: 125%;
         }
-        #beneficios li::before {content: "•"; color:#0280A7;font-size: 40px;margin-left: -40px;}
+        #beneficios li::before {content: "•"; color:#0280A7;font-size: 40px;}
         @media  (orientation: portrait) {
             .text-img h2, .imagen_text p
             {
@@ -261,7 +261,7 @@
                 <div class="col-md-3"></div>
                 <div class="col-md-6 conte">
                         <div class="imagen_text">
-                            <img src="Laravel\Recursos\img\LiftBiologico\T32.png" alt="">
+                            <img src="Laravel\Recursos\img\LiftBiologico\T3.png" alt="">
                         </div>
                 </div>    
             </div>
@@ -292,7 +292,7 @@
                 <div class="col-md-3"></div>
                 <div class="col-md-6 conte">
                     <div class="imagen_text">
-                        <img src="Laravel\Recursos\img\LiftBiologico\T33.png" alt="">
+                        <img src="Laravel\Recursos\img\LiftBiologico\T2.png" alt="">
                     </div>
                 </div>    
             </div>
@@ -303,7 +303,7 @@
                 <div class="col-md-3"></div>
                 <div class="col-md-6 conte">
                     <div class="imagen_text">
-                        <img src="Laravel\Recursos\img\LiftBiologico\T31.png" alt="">
+                        <img src="Laravel\Recursos\img\LiftBiologico\T1.png" alt="">
                     </div>
                 </div>    
             </div>
@@ -318,13 +318,13 @@
                         <div id="beneficios" class="text-img peptonas">
                             <font class="titletxt2" style="margin-left: -20px;">Beneficios</font><br>
                             <p>
-                                <ul>
-                                    <li>Lifting de frente.</li>
-                                    <li>Estirar y retira el exceso de piel.</li>
-                                    <li>Elevación de pómulos.</li>
-                                    <li>Aspecto más joven y natural.</li>
-                                    <li>Surcos Nasogenianos o arrugas de amargura.</li>
-                                    <li>Se denominan "surcos nasogenianos" o "pliegues nasolabiales" a las arrugas que se producen desde el final de la nariz y que descienden oblicuamente hasta ambos extremos de la boca.</li>
+                                <ul style="margin-left: -20px;text-align: justify;">
+                                    <li style="text-align: justify !important;">Lifting de frente.</li>
+                                    <li style="text-align: justify !important;">Estirar y retira el exceso de piel.</li>
+                                    <li style="text-align: justify !important;">Elevación de pómulos.</li>
+                                    <li style="text-align: justify !important;">Aspecto más joven y natural.</li>
+                                    <li style="text-align: justify !important;">Surcos Nasogenianos o arrugas de amargura.</li>
+                                    <li style="text-align: justify !important;">Se denominan "surcos nasogenianos" o "pliegues nasolabiales" a las arrugas que se producen <font style="margin-left: 14px;">desde el final de la nariz y que descienden oblicuamente hasta ambos extremos de la boca.</font></li>
                                 </ul>
                             </p>
                         </div>
