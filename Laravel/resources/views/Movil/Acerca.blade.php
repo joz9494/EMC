@@ -1,6 +1,3 @@
-@extends('/Menu/Movil/barramenu')
-
-@section('content')
     <style>
         #contenedormaestro
         {
@@ -13,7 +10,7 @@
         }
         .conte h2,.conte p,#final li
         {
-            font-family: brandon_reg;
+            font-family: brandon_light;
         }
         .text-img{
         position: absolute;
@@ -106,7 +103,8 @@
     {
         #descripcion1 h2
         {
-            font-size: 4vh !important;
+            font-size: 3.5vh !important;
+            font-family:brandon_light;
         }
         #info_dr_txt,#descripcion2,#descripcion1 h2
         {
@@ -125,7 +123,8 @@
     {
         #descripcion1 h2
         {
-            font-size: 5vw !important;
+            font-size: 3.5vh !important;
+            font-family:brandon_light;
         }
         #info_dr_txt,#descripcion2
         {
@@ -149,7 +148,8 @@
             text-align: center;
             padding-top: 5%;
             padding-left: 35%;
-            padding-right:25%; 
+            padding-right:25%;
+            font-family: brandon_light; 
         }
         #descripcion2
         {
@@ -161,15 +161,43 @@
             padding: 10%;
         }
     }
+    @font-face {
+        font-family: brandon_reg;
+        src: url(Laravel/Recursos/BRANDON_REG.otf);
+    }
+    @font-face {
+        font-family: brandon_bold;
+        src: url(Laravel/Recursos/BRANDON_BLD.otf);
+    }
+    @font-face {
+    font-family: brandon_light;
+    src: url(Laravel/Recursos/BRANDON_LIGHT.otf);
+    }
+    h2{
+        font-family: brandon_light;
+        font-size: 3.5vh;
+    }
+    p,li{
+        font-family: brandon_light !important;
+        font-size: 3vh !important; 
+    }
+    h1{
+        font-family: brandon_light !important;
+        font-size: 3vh !important; 
+    }
     </style>
+    
+@extends('/Menu/Movil/barramenu')
+
+@section('content')
     <div id="contenedormaestro">
             <div class="">
-                <img src="Laravel/recursos/img/AcercaDe/Fondo.png" alt="" style="width:100%;">
+                <img src="Laravel/recursos/img/AcercaDe/Fondo.png" style="height: 30%;" style="width:100%;">
             </div>
             <div id="descripcion1" >
                 <h2>Acerca de Eterna <br>
                 Medical Center<br></h2>
-                <p>
+                <p style="margin-top: 25px;">
                     En Eterna Medical Center estamos 100%
                     comprometidos con nuestros pacientes, donde el
                     servicio a sus necesidades y atención de excelencia
@@ -177,7 +205,7 @@
                     momento.
                 </p>
             </div>
-            <div class="row">
+            <div class="row" style="margin-top: 10px;">
                     <div class="conte">
                         <div class="col-12">
                         <div id="" class="imgen-txt">
@@ -197,39 +225,39 @@
                     <div id="indo_dr" class="imagen_text">
                         <img id="" src="Laravel/recursos/img/AcercaDe/Logo2.png" alt="" >
                         <div id="info_dr_txt" class="text-img">
-                                <p>DR. TORIBIO MARTÍNEZ RIVERA<p>
+                                <p style="font-size: 3.7vh !important;">DR. TORIBIO MARTÍNEZ RIVEIRA<p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" style="margin-top: -10px;">
                 <div id="descripcion3" class="conte col-12">
-                        <h1>Céd. Prof:85511800 - Reg. SSG 12540</h1>
-                        <p style="color:#0280A7">Medico Cirujano Partero, Egresado del instituto Politecnico Nacinonal</p>
+                        <h1>Céd. Prof:8551800 - Reg. SSG 12540</h1>
+                        <p style="color:#0280A7">Médico Cirujano Partero, Egresado del Instituto Politécnico Nacinonal</p>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" style="margin-top: 10px;">
                 <div id="lista1" class="col-12 conte">
-                    <h1>Trayectoria</h1>
+                    <h1 style="font-size: 3.5vh !important">Trayectoria</h1>
                     <p>
                         <ul>
-                            <li>Miembro de American Acadey of Anti-Agin <br>
-                            Medicine(Estados Unidos).</li>
-                            <li> Miembro del colegio NAcional de Medicina <br>
-                                    Antienjecimiento(Mexico).
+                            <li>Miembro de American Academy of Anti-Aging
+                            Medicine (Estados Unidos).</li>
+                            <li>Miembro del colegio NAcional de Medicina <br>
+                                    Antienvejecimiento(México).
                             </li>
                             <li>
                                 Fellowship en Medicina Antienvejecimiento
                             </li>
                             <li>Conferencista en el II y III Congreso Mundial de<br>
-                                    Medicina Antienjecimiento.</li>
+                                    Medicina Antienvejecimiento.</li>
                             <li>
-                                profesor de Curso Internacional de <br>
-                                    Medicina Antienjecimiento. 
+                                Profesor de Curso Internacional de <br>
+                                    Medicina Antienvejecimiento. 
                             </li>
                             <li>
-                                Profesor de terapia Neuronal y ARP Articular en 
-                                <br> Certificacion Antienjecimiento.
+                                Profesor de terapia Neural y PRP Articular en 
+                                <br> Certificación Antienvejecimiento.
                             </li>
                             <li>
                                 Profesor de viscosuplementacion articular
@@ -242,15 +270,15 @@
             </div>
             <div class="row">
                     <div id="lista1" class="col-12 conte">
-                        <h1>Experinecia</h1>
+                        <h1 style="font-size: 3.5vh">Experinecia</h1>
                         <ul>
-                            <li>Antienjecimiento Cerebral</li>
-                            <li>Antienjecimiento y Nutricion Ortomolecular</li>
-                            <li>Aplicación de Peptonas Antienjecimiento</li>
+                            <li>Antienvejecimiento Cerebral</li>
+                            <li>Antienvejecimiento y Nutrición Ortomolecular</li>
+                            <li>Aplicación de Peptonas Antienvejecimiento</li>
                             <li>Plasma Rico en Plaquetas de Cuarta
-                                <br>Generacion (PRP4G)</li>
-                            <li>Terapia Neuronal</li>
-                            <li>Nutrición Antienjecimiento</li>
+                                <br>Generación (PRP 4G)</li>
+                            <li>Terapia Neural</li>
+                            <li>Nutrición Antienvejecimiento</li>
                         </ul></div>
             </div>
             
