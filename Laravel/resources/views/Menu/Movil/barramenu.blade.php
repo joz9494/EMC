@@ -40,9 +40,11 @@
             }
              body{
                 
-                overflow-x: hidden;
+                overflow-x: hidden !important;
+                overflow-y: hidden !important;
 
             }
+
             h4,menu>a{
                 font-family: brandon_reg !important;
             }
@@ -126,46 +128,67 @@
     margin-top: 2%;
     margin-bottom: 2%;
 }
-
+#frente_menu
+{
+    margin: auto auto;
+    width: 100%;
+}
 @media (orientation:portrait)
 {
     
     #menu a
     {
-        font-size: 3.5vh;
+        font-size: 22px;
     }
-    #frente_menu img{
-        margin-top:20%;
+    #frente_menu #img_logo{
+        width: 100%;
+    }
+    #frente_menu #img_btn_menu{
         width: 100%;
     }
     #nav-home img
     {
         width:45%;
     }
+    .navbar-brand
+    {
+        margin-top: 4%;
+    }
 }
 @media (orientation:landscape)
 {
-    #menu a,#menu>#btn-menu>span
+    #menu a
     {
-        font-size: 5vw;
+        font-size: 22px;
     }
-    #frente_menu>div img{
-        margin-top:20%; 
-        width: 50%;
+    #frente_menu #img_logo{
+        width: 100%;
+    }
+    #frente_menu #img_btn_menu{
+        width: 100%;
     }
     #nav-home img
     {
         width:25%;
     }
+    .navbar-brand
+    {
+        margin-top: 4%;
+    }
+}
+#principal
+{
+    padding:0 !important;
+    overflow-x: hidden ;
 }
         </style>
     </head>
-    <body>
+    <body id="principal">
         <header class="">
-                <nav id="menu" class="navbar navbar-light bg-light ">
+                <nav id="menu" class="navbar navbar-light bg-light">
                     <div id="frente_menu" class="row">
                         <div class="col-2">
-                            <img src="Laravel\Recursos\img\Tratamientos\Eterna.png"  class="d-inline-block align-top" alt="">
+                            <img id="img_logo" src="Laravel\Recursos\img\Tratamientos\Eterna.png"  class="d-inline-block align-top" alt="">
                         </div>
                         <div class="col-8">
                             <a class="navbar-brand" href="#">
@@ -174,7 +197,7 @@
                         </div>
                         <div class="col-2">
                             <button id="btn-menu" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                                <img src="Laravel\Recursos\img\Inicio\Menu.png"  alt="">
+                                <img id="img_btn_menu" src="Laravel\Recursos\img\Inicio\Menu.png"  alt="">
                             </button>
                         </div>  
                     </div>
@@ -260,4 +283,17 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<script>
+    $(function() {
+
+var $body = $(document);
+    $body.bind('scroll', function() {
+        // "Desactivar" el scroll horizontal
+        if ($body.scrollLeft() !== 0) {
+            $body.scrollLeft(0);
+        }
+    });
+
+    }); 
+</script>
 </html>
