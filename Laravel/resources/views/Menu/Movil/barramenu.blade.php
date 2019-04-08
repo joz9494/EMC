@@ -53,21 +53,17 @@
             #menu
             {
                 background-color: white !important;
-                padding: 10px;
+                border-bottom:4px solid #1197c0;
+                text-align: center;
+                
             }
             #menu a,#info_horario span{
                 color:#1197c0; 
             }
-            #menu
-            {
-                background-color: white;
-            }
             #menu h1
             {
-                padding: 5%;
                 font-size: 2vh;
                 display:block;
-
             }
             footer
             {
@@ -108,7 +104,8 @@
 }
 #btn-menu
 {
-    border:none ; 
+    width: 100%; 
+    border:none ;
 }
 
 .fa.fa-navicon {
@@ -120,16 +117,30 @@
     margin: auto;
     border-bottom: 1px solid #0280A7;
 }
+.tab-content
+{
+    padding: 0% !important;
+}
+.tab-pane
+{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
 @media (orientation:portrait)
 {
-    #menu>#btn-menu>span
-    {
-        font-size: 4vh;
-        
-    }
+    
     #menu a
     {
         font-size: 3.5vh;
+    }
+    #frente_menu img{
+        margin-top:20%;
+        width: 100%;
+    }
+    #nav-home img
+    {
+        width:45%;
     }
 }
 @media (orientation:landscape)
@@ -138,20 +149,35 @@
     {
         font-size: 5vw;
     }
+    #frente_menu>div img{
+        margin-top:20%; 
+        width: 50%;
+    }
+    #nav-home img
+    {
+        width:25%;
+    }
 }
         </style>
     </head>
     <body>
         <header class="">
-                <nav id="menu" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-                        
-                    <a class="navbar-brand" href="#">
-                            <img src="Laravel\Recursos\img\Tratamientos\Eterna.png"  class="d-inline-block align-top" width="40px" alt="">
-                        Eterna Medical Center
-                    </a>
-                    <button id="btn-menu" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span ><i class=""> <img src="Laravel\Recursos\img\Inicio\Menu.png" width="40px" alt=""></i></span>
-                    </button>
+                <nav id="menu" class="navbar navbar-light bg-light ">
+                    <div id="frente_menu" class="row">
+                        <div class="col-2">
+                            <img src="Laravel\Recursos\img\Tratamientos\Eterna.png"  class="d-inline-block align-top" alt="">
+                        </div>
+                        <div class="col-8">
+                            <a class="navbar-brand" href="#">
+                                Eterna Medical Center
+                            </a>
+                        </div>
+                        <div class="col-2">
+                            <button id="btn-menu" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <img src="Laravel\Recursos\img\Inicio\Menu.png"  alt="">
+                            </button>
+                        </div>  
+                    </div>
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul id="opciones_menu" class="navbar-nav">
                             <li class="nav-item col-10">
@@ -188,22 +214,7 @@
                     </div>
                 </nav>
         </header>
-
-
-
-
-
-
                 @yield('content')
-
-
-
-
-
-                
-            
-            
-
         <footer class="">
             <section id="tabs">
                 <div class="">
@@ -219,10 +230,10 @@
                             <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
                                 <div class="tab-pane fade" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                                     <div class="row">
-                                        <div class="col-4" style="text-align:right; padding-top:2%;">
-                                            <img src="Laravel\Recursos\img\Menu\whatsapp.png" alt="" style="width:45%;">
+                                        <div class="col-sm-5 col-4" style="text-align:right;">
+                                            <img src="Laravel\Recursos\img\Menu\whatsapp.png">
                                         </div>
-                                        <div class="col-8" style="text-align:left;">
+                                        <div class="col-sm-7 col-8" style="text-align:left; margin-top:auto;margin-bottom:auto;">
                                             <h4>+52 (461) 132 48 51 <br>+52 (461) 138 69 05 </h4>
                                         </div>
                                     </div>

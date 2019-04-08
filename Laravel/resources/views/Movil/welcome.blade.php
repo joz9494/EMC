@@ -63,14 +63,7 @@
         #inicio
         {
             background-color: #0280A7;
-            padding-top:21.5%; 
-            padding-bottom: 0.5%;
             color: black !important;
-        }
-        #banner
-        {
-            border-top:4px #1197c0;
-            border-top-style: solid;
         }
         #bienvenido
         {
@@ -92,7 +85,7 @@
         }
         @media (orientation:landscape)
         {
-            h3,{
+            h3{
                 font-size: 5vw;
             }
             #boton h2
@@ -137,11 +130,11 @@
                     Mejora y mantén tu estado físico. </p>
                 </div>
             </div>
-        </div>  
-    </div>
-    <div class="row">
-        <div class="col-12">
-            <img src="Laravel\Recursos\img\Inicio\bio.png" alt="" width="100%">
         </div>
+        <div class="row">
+                <div class="col-12">
+                    <img src="Laravel\Recursos\img\Inicio\bio.png" alt="" width="100%">
+                </div>
+            </div>
     </div>
 @stop   
