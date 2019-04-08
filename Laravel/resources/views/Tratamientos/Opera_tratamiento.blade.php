@@ -278,7 +278,7 @@
                 <li style="margin-left: 5%;">Post laser.</li>
                 <li>Cicatrización.</li>
                 <li>Mejora la circulación sanguínea.</li>
-                <li>Rejuvenecimiento de la piel y<br> <font style="margin-left: 10px;">cuidado del acné.</font></li>
+                <li>Rejuvenecimiento de la piel y cuidado<br> <font style="margin-left: 10px;">del acné.</font></li>
             </ul>
             </center>
         </div>
@@ -314,7 +314,7 @@
 
             <div id="Linea1Horizontal" style="margin-bottom: 1%;"></div>
 
-            <font id="txtCuadros" style="margin-left: -52%;font-family: brandon_reg;font-size: 1.2vw">Beneficios</font><br>
+            <font id="txtCuadros" style="margin-left: -52%;font-family: brandon_reg;font-size: 1.2vw;font-weight: bold;">Beneficios</font><br>
             <ul id="txtCuadros">
                 <li>Programa de rejuvenecimiento de la piel:</li>
                 <li style="margin-left: 5%;">Reducción de arrugas.</li>
@@ -367,7 +367,7 @@
 
             <div id="Linea1Horizontal" style="margin-bottom: 1%;"></div>
 
-            <font id="txtCuadros" style="margin-left: -52%;font-family: brandon_reg;font-size: 1.2vw"">Beneficios</font><br>
+            <font id="txtCuadros" style="margin-left: -52%;font-family: brandon_reg;font-size: 1.2vw;font-weight: bold;">Beneficios</font><br>
             <ul id="txtCuadros">
                 <li>Eliminación del acné.</li>
                 <li style="margin-left: 5%;">Leve.</li>
@@ -411,7 +411,7 @@
 
             <div id="Linea1Horizontal" style="margin-bottom: 1%;"></div>
 
-            <font id="txtCuadros" style="margin-left: -52%;font-family: brandon_reg;font-size: 1.2vw"">Beneficios</font><br>
+            <font id="txtCuadros" style="margin-left: -52%;font-family: brandon_reg;font-size: 1.2vw;font-weight: bold;">Beneficios</font><br>
             <ul id="txtCuadros">
                 <li>Crea una corriente para abrir los poros<br> <font style="margin-left: 10px;">y permitir que los nutrientes sean absorbidos</font><br><font style="margin-left: 10px;">desde la máscara de hidrogel.</font></li>
                 <li>La carga positiva atrae y rompe toxina<br><font style="margin-left: 10px;">e impurezas cargadas negativamente.</font></li>
