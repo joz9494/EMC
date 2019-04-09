@@ -24,7 +24,9 @@
         .conte img
         {
             width: 100%;
+            
         }
+
         #cuerpo
         {
            background-color: white;
@@ -56,7 +58,6 @@
             color: black;
             
         }
-  
         #boton
         {
             width: 100%;
@@ -103,13 +104,12 @@
         body{
             width: 100%;
         }
+
     </style>
 <body>
     @extends('/Menu/Movil/barramenu')
 
     @section('content')
-    
-    
 
     <div id="inicio">
         <div id="banner" class="conte">
@@ -166,9 +166,9 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div id="footer_baner" class="row">
             <div class="col-12">
-                <img src="Laravel\Recursos\img\Inicio\bio.png" alt="" width="100%">
+                <img src="Laravel\Recursos\img\Inicio\bio.png" class="img-fluid" alt="">
             </div>
         </div>
     </div>
