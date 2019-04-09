@@ -40,9 +40,10 @@
             }
              body{
                 
-                overflow-x: hidden;
+                overflow-x: hidden !important;
 
             }
+
             h4,menu>a{
                 font-family: brandon_reg !important;
             }
@@ -53,26 +54,22 @@
             #menu
             {
                 background-color: white !important;
-                padding: 10px;
+                border-bottom:4px solid #1197c0;
+                text-align: center;
+                
             }
             #menu a,#info_horario span{
                 color:#1197c0; 
             }
-            #menu
-            {
-                background-color: white;
-            }
             #menu h1
             {
-                padding: 5%;
                 font-size: 2vh;
                 display:block;
-
             }
             footer
             {
                 background-color: white;
-                padding-top: 1%;
+                
                 width: 100%;
             }
             .nav-item
@@ -108,7 +105,8 @@
 }
 #btn-menu
 {
-    border:none ; 
+    width: 100%; 
+    border:none ;
 }
 
 .fa.fa-navicon {
@@ -120,131 +118,166 @@
     margin: auto;
     border-bottom: 1px solid #0280A7;
 }
+.tab-content
+{
+    padding: 0% !important;
+}
+.tab-pane
+{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
 @media (orientation:portrait)
 {
-    #menu>#btn-menu>span
-    {
-        font-size: 4vh;
-        
-    }
+    
     #menu a
     {
-        font-size: 3.5vh;
+        font-size: 22px;
+    }
+    #frente_menu #img_logo{
+        width: 100%;
+    }
+    #frente_menu #img_btn_menu{
+        width: 100%;
+    }
+    #nav-home img
+    {
+        width:45%;
+    }
+    .navbar-brand
+    {
+        margin-top: 4%;
     }
 }
 @media (orientation:landscape)
 {
-    #menu a,#menu>#btn-menu>span
+    #menu a
     {
-        font-size: 5vw;
+        font-size: 22px;
+    }
+    #frente_menu #img_logo{
+        width: 100%;
+    }
+    #frente_menu #img_btn_menu{
+        width: 100%;
+    }
+    #nav-home img
+    {
+        width:25%;
+    }
+    .navbar-brand
+    {
+        margin-top: 4%;
     }
 }
-        </style>
+.full-width-row {
+  overflow-x: hidden;
+}
+
+.full-width-row > div {
+  margin-left:0;
+  margin-right:0;
+}
+</style>
     </head>
-    <body>
-        <header class="">
-                <nav id="menu" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-                        
-                    <a class="navbar-brand" href="#">
-                            <img src="Laravel\Recursos\img\Tratamientos\Eterna.png"  class="d-inline-block align-top" width="40px" alt="">
-                        Eterna Medical Center
-                    </a>
-                    <button id="btn-menu" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span ><i class=""> <img src="Laravel\Recursos\img\Inicio\Menu.png" width="40px" alt=""></i></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul id="opciones_menu" class="navbar-nav">
-                            <li class="nav-item col-10">
-                                <a class="nav-link" href="{{ url('/') }}" >
-                                    Inicio
-                                    <img src="Laravel\Recursos\img\Menu\hogar-de-web.png"  class="d-inline-block align-top" width="30px" alt="">
+    <body class="container">
+        <div class="row full-width-row">
+            <header class="">
+                    <nav id="menu" class="navbar navbar-light bg-light">
+                        <div id="frente_menu" class="row">
+                            <div class="col-2">
+                                <img id="img_logo" src="Laravel\Recursos\img\Tratamientos\Eterna.png"  class="d-inline-block align-top" alt="">
+                            </div>
+                            <div class="col-8">
+                                <a class="navbar-brand" href="#">
+                                    Eterna Medical Center
                                 </a>
-                            </li>
-                            <li class="nav-item col-10">
-                                <a class="nav-link" href="{{ url('/Servicios') }}" id="letrasmenu">    
-                                    Servicios
-                                    <img src="Laravel\Recursos\img\Menu\lista.png"  class="d-inline-block align-top" width="30px" alt="">
-                                </a>
-                            </li>
-                            <li class="nav-item col-10">
-                                <a class="nav-link" href="{{ url('/Acerca_de_EMC') }}" id="letrasmenuEMCV">
-                                    Acerca de E.M.C
-                                    <img src="Laravel\Recursos\img\Menu\info_(2).png"  class="d-inline-block align-top" width="30px" alt="">
-                                </a>
-                            </li>
-                            <li class="nav-item col-10">
-                                <a class="nav-link" href="{{ url('/Tratamientos') }}" id="letrasmenu">
-                                    Tratamientos
-                                    <img src="Laravel\Recursos\img\Menu\limpiar.png"  class="d-inline-block align-top" width="30px" alt="">
-                                </a>
-                            </li>
-                            <li class="nav-item col-10">
-                                <a class="nav-link" href="{{ url('/Contacto') }}" id="letrasmenu">
-                                    Contacto
-                                    <img src="Laravel\Recursos\img\Menu\contacto.png"  class="d-inline-block align-top" width="30px" alt="">
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-        </header>
-
-
-
-
-
-
-                @yield('content')
-
-
-
-
-
-                
-            
-            
-
-        <footer class="">
-            <section id="tabs">
-                <div class="">
-                    <div class="row content-center">
-                        <div class="col-12 conte">
-                            <nav>
-                                <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
-                                    <a class="nav-item nav-link" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="false">Citas</a>
-                                    <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false" style="margin-left: 0.5%;margin-right: 0.5%;">Direccion</a>
-                                    <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Horario</a>
-                                </div>
-                            </nav>
-                            <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
-                                <div class="tab-pane fade" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-                                    <div class="row">
-                                        <div class="col-4" style="text-align:right; padding-top:2%;">
-                                            <img src="Laravel\Recursos\img\Menu\whatsapp.png" alt="" style="width:45%;">
-                                        </div>
-                                        <div class="col-8" style="text-align:left;">
-                                            <h4>+52 (461) 132 48 51 <br>+52 (461) 138 69 05 </h4>
+                            </div>
+                            <div class="col-2">
+                                <button id="btn-menu" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                    <img id="img_btn_menu" src="Laravel\Recursos\img\Inicio\Menu.png"  alt="">
+                                </button>
+                            </div>  
+                        </div>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul id="opciones_menu" class="navbar-nav">
+                                <li class="nav-item col-10">
+                                    <a class="nav-link" href="{{ url('/') }}" >
+                                        Inicio
+                                        <img src="Laravel\Recursos\img\Menu\hogar-de-web.png"  class="d-inline-block align-top" width="30px" alt="">
+                                    </a>
+                                </li>
+                                <li class="nav-item col-10">
+                                    <a class="nav-link" href="{{ url('/Servicios') }}" id="letrasmenu">    
+                                        Servicios
+                                        <img src="Laravel\Recursos\img\Menu\lista.png"  class="d-inline-block align-top" width="30px" alt="">
+                                    </a>
+                                </li>
+                                <li class="nav-item col-10">
+                                    <a class="nav-link" href="{{ url('/Acerca_de_EMC') }}" id="letrasmenuEMCV">
+                                        Acerca de E.M.C
+                                        <img src="Laravel\Recursos\img\Menu\info_(2).png"  class="d-inline-block align-top" width="30px" alt="">
+                                    </a>
+                                </li>
+                                <li class="nav-item col-10">
+                                    <a class="nav-link" href="{{ url('/Tratamientos') }}" id="letrasmenu">
+                                        Tratamientos
+                                        <img src="Laravel\Recursos\img\Menu\limpiar.png"  class="d-inline-block align-top" width="30px" alt="">
+                                    </a>
+                                </li>
+                                <li class="nav-item col-10">
+                                    <a class="nav-link" href="{{ url('/Contacto') }}" id="letrasmenu">
+                                        Contacto
+                                        <img src="Laravel\Recursos\img\Menu\contacto.png"  class="d-inline-block align-top" width="30px" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+            </header>
+                    @yield('content')
+            <footer class="">
+                <section id="tabs">
+                    <div class="">
+                        <div class="row content-center">
+                            <div class="col-12 conte">
+                                <nav>
+                                    <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                                        <a class="nav-item nav-link" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="false">Citas</a>
+                                        <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false" style="margin-left: 0.5%;margin-right: 0.5%;">Direccion</a>
+                                        <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Horario</a>
+                                    </div>
+                                </nav>
+                                <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+                                    <div class="tab-pane fade" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                                        <div class="row">
+                                            <div class="col-sm-5 col-4" style="text-align:right;">
+                                                <img src="Laravel\Recursos\img\Menu\whatsapp.png">
+                                            </div>
+                                            <div class="col-sm-7 col-8" style="text-align:left; margin-top:auto;margin-bottom:auto;">
+                                                <h4>+52 (461) 132 48 51 <br>+52 (461) 138 69 05 </h4>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-                                    <h4>
-                                    Álvaro Obregòn #312 Int.36B.
-                                    </h4>
-                                    <h4>
-                                     Celaya, Guanajuato, Mexico
-                                    </h4>
-                                </div>
-                                <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
-                                    <h4>Lunes a viernes</h4>
-                                    <h4>9 a.m. a 2 p.m. <span style="color:#0280A7; font-size:32px">·</span> 4 p.m a 7p.m.</h4>
+                                    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                        <h4>
+                                        Álvaro Obregòn #312 Int.36B.
+                                        </h4>
+                                        <h4>
+                                        Celaya, Guanajuato, Mexico
+                                        </h4>
+                                    </div>
+                                    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                                        <h4>Lunes a viernes</h4>
+                                        <h4>9 a.m. a 2 p.m. <span style="color:#0280A7; font-size:32px">·</span> 4 p.m a 7p.m.</h4>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>    
-        </footer>
+                </section>    
+            </footer>
+        </div>
     </body>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
