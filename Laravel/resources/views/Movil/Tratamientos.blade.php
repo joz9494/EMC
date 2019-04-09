@@ -8,10 +8,14 @@
        font-family: brandon_bold;
        src: url("Laravel/Recursos/BRANDON_BLD.otf");
    }
+   @font-face {
+    font-family: brandon_light;
+    src: url(Laravel/Recursos/BRANDON_LIGHT.otf);
+    }
    body{
        background-color: #0280A7;
        overflow-x: hidden;
-       font-family: brandon_reg;
+       font-family: brandon_light;
    }
    h1,h2
    {
@@ -38,7 +42,7 @@
    {
     
       margin-top: 2%;
-      margin-bottom: 2%
+      margin-bottom: 2%;
       
    }
    .tratamiento-cuerpo
@@ -132,11 +136,11 @@
    
 </style>
 @section('content')
-<div id="contenedormaestro" class="">
+<div id="contenedormaestro">
         <div id="titulo" class="row">
             <div class="col-md-2 col-sm-5"></div>
-            <div class="col-md-8 conte" style="margin-top: 80px;margin-bottom: 30px">
-                <h1>Tratamientos</h1>    
+            <div class="col-md-8 conte" style="margin-top: 10px;margin-bottom: 30px;">
+                <h1 style="font-size: 4.5vh !important">Tratamientos</h1>    
             </div>
         </div>
         <div id="banner" class="conte">
@@ -148,9 +152,9 @@
             </div>
         </div>
         <div id="biocell" class="col-8 col-center">
-              <h3 style="color:B61A25; font-size:25px;">Human Ultralcell®</h3>
-              <h3 style="color:B61A25; font-size:22px; font-weight: normal">Regeneración Celular</h3> 
-              <a href="" style="color:B61A25; font-size:25px;">Leer Más</a> 
+              <h3 style="color: #B61A25; font-size:25px;">Human Ultralcell®</h3>
+              <h3 style="color: #B61A25; font-size:22px; font-weight: normal">Regeneración Celular</h3> 
+              <a href="" style="color: #B61A25; font-size:25px;">Leer Más</a> 
         </div> 
         <div id="tratamientos" class="conte" style="margin-top: -10px;">
              
@@ -168,7 +172,7 @@
                     <a href="{{url('/lift-biologico')}}">
                         <div class="tratamiento-cuerpo">
                             <img src="Laravel/Recursos/img/Tratamientos/2.png" alt="">
-                            <div class="nombre">Lift Biológicobr <br><br></div>
+                            <div class="nombre">Lift Biológico <br><br></div>
                             <p class="descripcion">Desacelera notablemente el envejecimiento  </p> 
                         </div>
                     </a>
@@ -196,7 +200,7 @@
                     <a href="{{url('/PRP4G')}}">
                         <div class="tratamiento-cuerpo">
                             <img src="Laravel/Recursos/img/Tratamientos/5.png" alt="">
-                            <div class="nombre">PRP4G<br><p>(Plasma Rico en Plaquetas)</p></div>
+                            <div class="nombre">PRP 4G<br><p>(Plasma Rico en Plaquetas)</p></div>
                             <p class="descripcion">Ten una piel mas fuerte yy joven <br></p> 
                         </div>
                     </a>
