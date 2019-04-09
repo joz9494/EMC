@@ -38,12 +38,16 @@
             font-family: brandon_light;
             src: url(Laravel/Recursos/BRANDON_LIGHT.otf);
 <<<<<<< HEAD
+<<<<<<< HEAD
             }
              body{
                 
                 overflow-x: hidden !important;
 
             }
+=======
+            }.
+>>>>>>> 30a1463733afc59b21b574178e6299dafa0821e3
 =======
             }.
 >>>>>>> 30a1463733afc59b21b574178e6299dafa0821e3
