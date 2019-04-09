@@ -7,12 +7,12 @@
 <style>
         @font-face {
             font-family: brandon_reg;
-                src: url(-"Laravel/Recursos/BRANDON_REG.otf");
-            }
-            @font-face {
-                font-family: brandon_bold;
-                src: url("Laravel/Recursos/BRANDON_BLD.otf");
-            }
+            src: url(-"Laravel/Recursos/BRANDON_REG.otf");
+        }
+        @font-face {
+            font-family: brandon_bold;
+            src: url("Laravel/Recursos/BRANDON_BLD.otf");
+        }
         .conte 
         {
             width: 100%;
@@ -49,7 +49,7 @@
         }
         h3
         {
-            color: #1197c0;
+            color: #1197c0 !important;
         }
         .text-img{
             position: absolute;
@@ -145,7 +145,7 @@
             </div>
             <div class="row">
                 <div class="col-12 conte">
-                        <P style="font-weight: normal;">Mejora tu apariencia física, incrementa la vitalidad de tu piel y elimina dolores crónicos asociados a la vejez.</P>
+                    <P style="font-weight: normal;">Mejora tu apariencia física, incrementa la vitalidad de tu piel y elimina dolores crónicos asociados a la vejez.</P>
                 </div>
             </div>
             <div class="row">

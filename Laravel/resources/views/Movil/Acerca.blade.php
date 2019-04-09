@@ -192,10 +192,10 @@
 @section('content')
     <div id="contenedormaestro">
             <div class="">
-                <img src="Laravel/recursos/img/AcercaDe/Fondo.png" style="height: 30%;" style="width:100%;">
+                <img src="Laravel/recursos/img/AcercaDe/Fondo.png" style="width: 100%;">
             </div>
             <div id="descripcion1" >
-                <h2>Acerca de Eterna <br>
+                <h2 style="font-size: 4.5vh !important">Acerca de Eterna <br>
                 Medical Center<br></h2>
                 <p style="margin-top: 25px;">
                     En Eterna Medical Center estamos 100%
@@ -225,7 +225,7 @@
                     <div id="indo_dr" class="imagen_text">
                         <img id="" src="Laravel/recursos/img/AcercaDe/Logo2.png" alt="" >
                         <div id="info_dr_txt" class="text-img">
-                                <p style="font-size: 3.7vh !important;">DR. TORIBIO MARTÍNEZ RIVEIRA<p>
+                                <p style="font-size: 6.5vw !important;">DR. TORIBIO MARTÍNEZ RIVEIRA<p>
                         </div>
                     </div>
                 </div>
@@ -233,7 +233,7 @@
             <div class="row" style="margin-top: -10px;">
                 <div id="descripcion3" class="conte col-12">
                         <h1>Céd. Prof:8551800 - Reg. SSG 12540</h1>
-                        <p style="color:#0280A7">Médico Cirujano Partero, Egresado del Instituto Politécnico Nacinonal</p>
+                        <p style="color:#0280A7">Médico Cirujano Partero, Egresado del Instituto Politécnico Nacional.</p>
                 </div>
             </div>
             <div class="row" style="margin-top: 10px;">
@@ -241,28 +241,14 @@
                     <h1 style="font-size: 3.5vh !important">Trayectoria</h1>
                     <p>
                         <ul>
-                            <li>Miembro de American Academy of Anti-Aging
-                            Medicine (Estados Unidos).</li>
-                            <li>Miembro del colegio NAcional de Medicina <br>
-                                    Antienvejecimiento(México).
-                            </li>
-                            <li>
-                                Fellowship en Medicina Antienvejecimiento
-                            </li>
-                            <li>Conferencista en el II y III Congreso Mundial de<br>
-                                    Medicina Antienvejecimiento.</li>
-                            <li>
-                                Profesor de Curso Internacional de <br>
-                                    Medicina Antienvejecimiento. 
-                            </li>
-                            <li>
-                                Profesor de terapia Neural y PRP Articular en 
-                                <br> Certificación Antienvejecimiento.
-                            </li>
-                            <li>
-                                Profesor de viscosuplementacion articular
-                            </li>
-                            <li>Certificación Internacional de remodelación facial <br>y corporal con hilos PDO.</li>
+                            <li>Miembro de American Academy of Anti-Aging Medicine (Estados Unidos).</li>
+                            <li>Miembro del colegio Nacional de Medicina Antienvejecimiento (México).</li>
+                            <li>Fellowship en Medicina Antienvejecimiento.</li>
+                            <li>Conferencista en el II y III Congreso Mundial de Medicina Antienvejecimiento.</li>
+                            <li>Profesor de Curso Internacional de Medicina Antienvejecimiento.</li>
+                            <li>Profesor de terapia Neural y PRP Articular en Certificación Antienvejecimiento.</li>
+                            <li>Profesor de viscosuplementación articular.</li>
+                            <li>Certificación Internacional de remodelación facial y corporal con hilos PDO.</li>
 
                         </ul>
                     </p>
@@ -272,13 +258,12 @@
                     <div id="lista1" class="col-12 conte">
                         <h1 style="font-size: 3.5vh">Experinecia</h1>
                         <ul>
-                            <li>Antienvejecimiento Cerebral</li>
-                            <li>Antienvejecimiento y Nutrición Ortomolecular</li>
-                            <li>Aplicación de Peptonas Antienvejecimiento</li>
-                            <li>Plasma Rico en Plaquetas de Cuarta
-                                <br>Generación (PRP 4G)</li>
-                            <li>Terapia Neural</li>
-                            <li>Nutrición Antienvejecimiento</li>
+                            <li>Antienvejecimiento Cerebral.</li>
+                            <li>Antienvejecimiento y Nutrición Ortomolecular.</li>
+                            <li>Aplicación de Peptonas Antienvejecimiento.</li>
+                            <li>Plasma Rico en Plaquetas de Cuarta Generación (PRP 4G).</li>
+                            <li>Terapia Neural.</li>
+                            <li>Nutrición Antienvejecimiento.</li>
                         </ul></div>
             </div>
             
