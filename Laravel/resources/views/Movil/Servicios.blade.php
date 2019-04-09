@@ -17,7 +17,7 @@
 
     h1{
       font-family: brandon_reg;
-      font-size: 3.5vh !important;
+      font-size: 4.5vh !important;
     }
     .text{
       font-family: brandon_light;
@@ -65,7 +65,7 @@
 </style>
 <div id="contenedormaestro">
     <div id="titulo" class="row">
-        <div class="col-12 conte" style="margin-top:70px;">
+        <div class="col-12 conte" style="margin-top:10px;">
             <h1>Servicios</h1>    
         </div>
     </div>
