@@ -195,7 +195,7 @@
                 <img src="Laravel/recursos/img/AcercaDe/Fondo.png" style="height: 30%;" style="width:100%;">
             </div>
             <div id="descripcion1" >
-                <h2>Acerca de Eterna <br>
+                <h2 style="font-size: 4.5vh !important">Acerca de Eterna <br>
                 Medical Center<br></h2>
                 <p style="margin-top: 25px;">
                     En Eterna Medical Center estamos 100%
@@ -241,28 +241,15 @@
                     <h1 style="font-size: 3.5vh !important">Trayectoria</h1>
                     <p>
                         <ul>
-                            <li>Miembro de American Academy of Anti-Aging
-                            Medicine (Estados Unidos).</li>
-                            <li>Miembro del colegio NAcional de Medicina <br>
-                                    Antienvejecimiento(México).
-                            </li>
-                            <li>
-                                Fellowship en Medicina Antienvejecimiento
-                            </li>
-                            <li>Conferencista en el II y III Congreso Mundial de<br>
-                                    Medicina Antienvejecimiento.</li>
-                            <li>
-                                Profesor de Curso Internacional de <br>
-                                    Medicina Antienvejecimiento. 
-                            </li>
-                            <li>
-                                Profesor de terapia Neural y PRP Articular en 
-                                <br> Certificación Antienvejecimiento.
-                            </li>
-                            <li>
-                                Profesor de viscosuplementacion articular
-                            </li>
-                            <li>Certificación Internacional de remodelación facial <br>y corporal con hilos PDO.</li>
+                            <li style="white-space: pre-wrap;">Miembro de American Academy <br>     of Anti-Aging Medicine <br>     (Estados Unidos).</li>
+
+                            <li style="white-space: pre-wrap;">Miembro del colegio <br>     Nacional de Medicina<br>      Antienvejecimiento(México).</li>
+                            <li style="white-space: pre-wrap;">Fellowship en Medicina<br>     Antienvejecimiento.</li>
+                            <li style="white-space: pre-wrap;">Conferencista en el II y III<br>     Congreso Mundial de Medicina <br>     Antienvejecimiento.</li>
+                            <li style="white-space: pre-wrap;">Profesor de Curso Internacional de <br>     Medicina Antienvejecimiento.</li>
+                            <li style="white-space: pre-wrap;">Profesor de terapia Neural <br>     y PRP Articular en Certificación <br>     Antienvejecimiento.</li>
+                            <li style="white-space: pre-wrap;">Profesor de viscosuplementacion<br>     articular.</li>
+                            <li style="white-space: pre-wrap;">Certificación Internacional de <br>     remodelación facial y <br>     corporal con hilos PDO.</li>
 
                         </ul>
                     </p>
@@ -272,13 +259,12 @@
                     <div id="lista1" class="col-12 conte">
                         <h1 style="font-size: 3.5vh">Experinecia</h1>
                         <ul>
-                            <li>Antienvejecimiento Cerebral</li>
-                            <li>Antienvejecimiento y Nutrición Ortomolecular</li>
-                            <li>Aplicación de Peptonas Antienvejecimiento</li>
-                            <li>Plasma Rico en Plaquetas de Cuarta
-                                <br>Generación (PRP 4G)</li>
-                            <li>Terapia Neural</li>
-                            <li>Nutrición Antienvejecimiento</li>
+                            <li>Antienvejecimiento Cerebral.</li>
+                            <li style="white-space: pre-wrap;">Antienvejecimiento y Nutrición <br>     Ortomolecular.</li>
+                            <li style="white-space: pre-wrap;">Aplicación de Peptonas <br>     Antienvejecimiento.</li>
+                            <li style="white-space: pre-wrap;">Plasma Rico en Plaquetas de Cuarta<br>     Generación (PRP 4G).</li>
+                            <li>Terapia Neural.</li>
+                            <li>Nutrición Antienvejecimiento.</li>
                         </ul></div>
             </div>
             
