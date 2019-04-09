@@ -36,7 +36,7 @@
             }
             @font-face {
             font-family: brandon_light;
-            src: url(Laravel/Recursos/BRANDON_LIGHT.otf);
+            src: url("Laravel/Recursos/BRANDON_LIGHT.otf");
             }
              body{
                 
@@ -127,12 +127,21 @@
     margin-top: 2%;
     margin-bottom: 2%;
 }
+#frente_menu .col-2
+{
+    padding: 2% !important;
+}
+header
+{
+    margin-left: auto;
+    margin-right: auto;
+}
 @media (orientation:portrait)
 {
     
     #menu a
     {
-        font-size: 22px;
+        font-size:6vw;
     }
     #frente_menu #img_logo{
         width: 100%;
@@ -182,14 +191,14 @@
     </head>
     <body class="container">
         <div class="row full-width-row">
-            <header class="">
+            <header>
                     <nav id="menu" class="navbar navbar-light bg-light">
                         <div id="frente_menu" class="row">
                             <div class="col-2">
-                                <img id="img_logo" src="Laravel\Recursos\img\Tratamientos\Eterna.png"  class="d-inline-block align-top" alt="">
+                                <img id="img_logo" src="Laravel\Recursos\img\Tratamientos\Eterna.png"  class="d-inline-block" alt="">
                             </div>
                             <div class="col-8">
-                                <a class="navbar-brand" href="#">
+                                <a class="navbar-brand" href="#" style="margin-left:auto;margin-right:auto;">
                                     Eterna Medical Center
                                 </a>
                             </div>
@@ -201,31 +210,31 @@
                         </div>
                         <div class="collapse navbar-collapse" id="navbarNav">
                             <ul id="opciones_menu" class="navbar-nav">
-                                <li class="nav-item col-10">
+                                <li class="nav-item" style="width:80%;">
                                     <a class="nav-link" href="{{ url('/') }}" >
                                         Inicio
                                         <img src="Laravel\Recursos\img\Menu\hogar-de-web.png"  class="d-inline-block align-top" width="30px" alt="">
                                     </a>
                                 </li>
-                                <li class="nav-item col-10">
+                                <li class="nav-item" style="width:80%">
                                     <a class="nav-link" href="{{ url('/Servicios') }}" id="letrasmenu">    
                                         Servicios
                                         <img src="Laravel\Recursos\img\Menu\lista.png"  class="d-inline-block align-top" width="30px" alt="">
                                     </a>
                                 </li>
-                                <li class="nav-item col-10">
+                                <li class="nav-item" style="width:80%">
                                     <a class="nav-link" href="{{ url('/Acerca_de_EMC') }}" id="letrasmenuEMCV">
                                         Acerca de E.M.C
                                         <img src="Laravel\Recursos\img\Menu\info_(2).png"  class="d-inline-block align-top" width="30px" alt="">
                                     </a>
                                 </li>
-                                <li class="nav-item col-10">
+                                <li class="nav-item" style="width:80%">
                                     <a class="nav-link" href="{{ url('/Tratamientos') }}" id="letrasmenu">
                                         Tratamientos
                                         <img src="Laravel\Recursos\img\Menu\limpiar.png"  class="d-inline-block align-top" width="30px" alt="">
                                     </a>
                                 </li>
-                                <li class="nav-item col-10">
+                                <li class="nav-item" style="width:80%">
                                     <a class="nav-link" href="{{ url('/Contacto') }}" id="letrasmenu">
                                         Contacto
                                         <img src="Laravel\Recursos\img\Menu\contacto.png"  class="d-inline-block align-top" width="30px" alt="">
