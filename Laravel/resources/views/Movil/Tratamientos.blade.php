@@ -111,30 +111,48 @@
        {
            text-align: center;
        }
+
+       @font-face {
+            font-family: brandon_reg;
+            src: url(Laravel/Recursos/BRANDON_REG.otf);
+            }
+            @font-face {
+            font-family: brandon_bold;
+            src: url(Laravel/Recursos/BRANDON_BLD.otf);
+            }
+            @font-face {
+            font-family: brandon_light;
+            src: url(Laravel/Recursos/BRANDON_LIGHT.otf);
+            }
+
+       h1{
+        font-family: brandon_light !important;
+        font-size: 3.5vh !important;
+       }
    
 </style>
 @section('content')
 <div id="contenedormaestro" class="">
         <div id="titulo" class="row">
             <div class="col-md-2 col-sm-5"></div>
-            <div class="col-md-8 conte">
+            <div class="col-md-8 conte" style="margin-top: 80px;margin-bottom: 30px">
                 <h1>Tratamientos</h1>    
             </div>
         </div>
         <div id="banner" class="conte">
                 <img src="Laravel\Recursos\img\Tratamientos\Movil\Ima.Biocell.jpg"  alt="">
         </div>
-        <div id="banner" class="conte">
+        <div id="banner" class="conte" style="margin-top: 5px">
             <div class="col-8 col-center">
                 <img src="Laravel\Recursos\img\Tratamientos\Movil\Logo Biocell800.png"  alt="">
             </div>
         </div>
         <div id="biocell" class="col-8 col-center">
               <h3 style="color:B61A25; font-size:25px;">Human Ultralcell®</h3>
-              <h3 style="color:B61A25; font-size:22px; font-weight: normal">Regeneracion celular</h3> 
-              <a href="" style="color:B61A25; font-size:25px;">Leer Mas</a> 
+              <h3 style="color:B61A25; font-size:22px; font-weight: normal">Regeneración Celular</h3> 
+              <a href="" style="color:B61A25; font-size:25px;">Leer Más</a> 
         </div> 
-        <div id="tratamientos" class="conte">
+        <div id="tratamientos" class="conte" style="margin-top: -10px;">
              
             <div class="row justify-content-center row-eq-height">
                 <div class="col-md-2 col-sm-5 tratamiento">

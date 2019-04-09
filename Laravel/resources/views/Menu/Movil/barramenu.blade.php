@@ -37,13 +37,16 @@
             @font-face {
             font-family: brandon_light;
             src: url(Laravel/Recursos/BRANDON_LIGHT.otf);
+<<<<<<< HEAD
             }
              body{
                 
                 overflow-x: hidden !important;
-                overflow-y: hidden !important;
 
             }
+=======
+            }.
+>>>>>>> 30a1463733afc59b21b574178e6299dafa0821e3
 
             h4,menu>a{
                 font-family: brandon_reg !important;
@@ -70,7 +73,7 @@
             footer
             {
                 background-color: white;
-                padding-top: 1%;
+                
                 width: 100%;
             }
             .nav-item
@@ -176,14 +179,14 @@
         margin-top: 4%;
     }
 }
-#principal
-{
-    padding:0 !important;
-    overflow-x: hidden ;
-}
-        </style>
+
+</style>
+
+
+
+
     </head>
-    <body id="principal">
+    <body>
         <header class="">
                 <nav id="menu" class="navbar navbar-light bg-light">
                     <div id="frente_menu" class="row">
@@ -283,17 +286,4 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-<script>
-    $(function() {
-
-var $body = $(document);
-    $body.bind('scroll', function() {
-        // "Desactivar" el scroll horizontal
-        if ($body.scrollLeft() !== 0) {
-            $body.scrollLeft(0);
-        }
-    });
-
-    }); 
-</script>
 </html>

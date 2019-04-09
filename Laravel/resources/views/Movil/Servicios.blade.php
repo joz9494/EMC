@@ -72,21 +72,17 @@
     <div class="row" style="margin-top: -30px;">
         <div class="col-12 conte">
             <p  class="text">
-                En eterna medical center, contamos con
-                servicios para sentirte y verte más jover <br>
-                Mediante trataminetos preventivos y correctiovos con la tegnología mas avanzada,
-                diseñamos todos nuestros servicios
-                completamente a las nesecidades de tu cuerpo.
+                En Eterna Medical Center, contamos con servicios para sentirte y verte más joven.<br> Mediante tratamientos preventivos y correctivos con la tecnología más avanzada, diseñamos todos nuestros servicios completamente a las necesidades de tu cuerpo.
             </p> 
         </div>
     </div>
-    <div id="banner" class="conte" style="margin-top: -27px;">
-        <div class="text-img"><h1>Elimina dolores <br> crónicos</h1></div>
+    <div id="banner" class="conte" style="margin-top: -3px;">
+        <div class="text-img"><h1>Elimina dolores crónicos</h1></div>
         <img src="Laravel\Recursos\img\Servicios\Movil\Mesa de trabajo – 5@3x.png"  alt="">
     </div>
     <div id="banner" class="conte">
-        <div class="text-img"><h1>Mejora la experiencia</h1>
-            <font style="font-family: brandon_light;color: #0280A7;font-size: 3.5vh">Luciendo mas joven</font>
+        <div class="text-img"><h1>Mejora la apariencia</h1>
+            <font style="font-family: brandon_light;color: #0280A7;font-size: 3.5vh">Luciendo más joven</font>
         </div>
         <img src="Laravel\Recursos\img\Servicios\Movil\Mesa de trabajo – 3@3x.png" style="margin-top: -3px;">
     </div> 

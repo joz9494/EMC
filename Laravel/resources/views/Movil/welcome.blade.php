@@ -1,7 +1,10 @@
-@extends('/Menu/Movil/barramenu')
 
-@section('content')
-    <style>
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<style>
         @font-face {
             font-family: brandon_reg;
                 src: url(-"Laravel/Recursos/BRANDON_REG.otf");
@@ -97,7 +100,17 @@
                 font-size: 4vw !important;
             }
         }
+        body{
+            width: 100%;
+        }
     </style>
+<body>
+    @extends('/Menu/Movil/barramenu')
+
+    @section('content')
+    
+    
+
     <div id="inicio">
         <div id="banner" class="conte">
                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -159,4 +172,11 @@
             </div>
         </div>
     </div>
-@stop   
+
+
+
+
+
+    @stop
+</body>
+</html>
