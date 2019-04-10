@@ -23,6 +23,10 @@ Route::get('/', function () {
 });
 
 Route::get('/Contacto',function(){
+	$agent=new Agent();
+	if($agent->isMobile())
+		return view('/Movil/Contacto');
+	else
 	return view('Contacto');
 });
 

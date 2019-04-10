@@ -141,16 +141,16 @@
                
                     <table id="psupt">
                         <thead>
-                            <tr><th><center><font >Contáctanos</font></center></td></tr>
+                            <tr><th><center><font >Contáctanos</font></center></td></tr> 
                             <tr><td><center><font>Estamos disponibles para contestar tus<br>dudas, deja tus datos y te responderemos a la brevedad.</font></center></td></tr>
                         </thead>
                     </table>
                     <div class="caja" style="margin-top: 5%;"><input type="text" name="name" placeholder="Nombre *"></div>
-                    <div class="caja"><input type="text" name="name" placeholder="Apellidos"> </div>
-                    <div class="caja"><input type="text" name="name" placeholder="Email "></div>
+                    <div class="caja"><input type="text" name="name" placeholder="Apellidos *"> </div>
+                    <div class="caja"><input type="text" name="name" placeholder="Email *"></div>
                     <div class="caja"><input type="text" name="name" placeholder="Teléfono"> </div>
                     <div class="caja">
-                        <textarea id="mensaje" placeholder="Mensaje *" rows="5" style="width:100%;"></textarea>
+                        <textarea id="mensaje" placeholder="Mensaje " rows="5" style="width:100%;"></textarea>
                     </div>
                     <div style="text-align:right;">
                         <button type="button" id="btnenviar" class="btn btn-default btn-sm" style="color: white;font-weight: bold;right:0; ">Enviar</button>

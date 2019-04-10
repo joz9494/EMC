@@ -81,6 +81,7 @@
    {
        padding-left:5%;
        padding-right: 5%; 
+       font-family: brandon_light;
    }
    @media (orientation:landscape)
    {
@@ -130,8 +131,16 @@
             }
 
        h1{
+        font-family: brandon_reg !important;
+        font-size: 3.7vh !important;
+        
+       }
+       h3{
         font-family: brandon_light !important;
-        font-size: 3.5vh !important;
+        font-size: 3.7vh !important;
+       }
+       .nombre{
+        font-family: brandon_reg;
        }
    
 </style>
@@ -139,8 +148,8 @@
 <div id="contenedormaestro">
         <div id="titulo" class="row">
             <div class="col-md-2 col-sm-5"></div>
-            <div class="col-md-8 conte" style="margin-top: 10px;margin-bottom: 30px;">
-                <h1 style="font-size: 4.5vh !important">Tratamientos</h1>    
+            <div class="col-md-8 conte" style="margin-top: 10px;margin-bottom: 13px;">
+                <h1 style="font-size: 4.5vh !important;">Tratamientos</h1>    
             </div>
         </div>
         <div id="banner" class="conte">
@@ -154,17 +163,18 @@
         <div id="biocell" class="col-8 col-center">
               <h3 style="color: #B61A25; font-size:25px;">Human Ultralcell®</h3>
               <h3 style="color: #B61A25; font-size:22px; font-weight: normal">Regeneración Celular</h3> 
-              <a href="" style="color: #B61A25; font-size:25px;">Leer Más</a> 
+              <a style="font-family: brandon_reg !important;color: #B61A25; font-size:35px;">Leer más</a> 
         </div> 
-        <div id="tratamientos" class="conte" style="margin-top: -10px;">
+
+        <div id="tratamientos" class="conte" style="margin-top: 30px;">
              
-            <div class="row justify-content-center row-eq-height">
+            <div class="row justify-content-center row-eq-height" style="box-shadow: 5px -5px 0 2px #F0EEEE;">
                 <div class="col-md-2 col-sm-5 tratamiento">
                     <a href="{{url('/Hormonas')}}" >
                         <div class="tratamiento-cuerpo">
                             <img src="Laravel/Recursos/img/Tratamientos/1.png" alt="">
                             <div class="nombre">Hormonas<br>Bio-Indénticas</div>
-                            <p class="descripcion">Balancea los niveles hormonales, sin efectos secundarios </p>     
+                            <p class="descripcion">Balancea los niveles <br> hormonales, sin efectos<br> secundarios.</p>     
                         </div>
                     </a>
                 </div>
@@ -173,7 +183,7 @@
                         <div class="tratamiento-cuerpo">
                             <img src="Laravel/Recursos/img/Tratamientos/2.png" alt="">
                             <div class="nombre">Lift Biológico <br><br></div>
-                            <p class="descripcion">Desacelera notablemente el envejecimiento  </p> 
+                            <p class="descripcion">Desacelera <br> notablemente el <br> envejecimiento.</p> 
                         </div>
                     </a>
                 </div>
@@ -182,8 +192,7 @@
                         <div class="tratamiento-cuerpo">
                             <img src="Laravel/Recursos/img/Tratamientos/3.png" alt="">
                             <div class="nombre">Opera tratamiento<br>Antiaging</div>
-                            <p class="descripcion">¡Estimula la vitalidad celular y luce radiante como</p>
-                            <p class="descripcion">#thalia!</p> 
+                            <p class="descripcion">¡Estimula la vitalidad <br> celular y luce <br> radiante como <br>#Thalía!</p>
                         </div>
                     </a>
                 </div>
@@ -192,7 +201,7 @@
                         <div class="tratamiento-cuerpo">
                             <img src="Laravel/Recursos/img/Tratamientos/4.png" alt="">
                             <div class="nombre">Peptonas <br><br></div>
-                            <p class="descripcion">Estimula la produccion colageno y elastina del rostro </p> 
+                            <p class="descripcion">Estimula la producción <br> colágeno y elastina en el rostro. </p> 
                         </div>    
                     </a>
                 </div>
@@ -200,21 +209,21 @@
                     <a href="{{url('/PRP4G')}}">
                         <div class="tratamiento-cuerpo">
                             <img src="Laravel/Recursos/img/Tratamientos/5.png" alt="">
-                            <div class="nombre">PRP 4G<br><p>(Plasma Rico en Plaquetas)</p></div>
-                            <p class="descripcion">Ten una piel mas fuerte yy joven <br></p> 
+                            <div class="nombre">PRP 4G<br><p style="font-family: brandon_reg !important">(Plasma Rico en Plaquetas)</p></div>
+                            <p class="descripcion">Ten una piel más firme y joven.<br></p> 
                         </div>
                     </a>
                 </div> 
-                <div class="col-md-2 col-sm-5 tratamiento">
+                <div class="col-md-2 col-sm-5 tratamiento contraste">
                     <a href="http://">
                         <div class="tratamiento-cuerpo">
                             <img src="Laravel/Recursos/img/Tratamientos/6.png" alt="">
-                            <div class="nombre">Rinoplastia<br><p>(Rinomodelacion)</p></div>
-                            <p class="descripcion">Modifica la de forma de tu nariz sin cirugia<br></p> 
+                            <div class="nombre">Rinomodelación<br></div>
+                            <p class="descripcion">Modifica la de forma de tu <br> nariz sin cirugía.<br></p> 
                         </div>
                     </a>
                 </div>
-                <div class="col-md-2 col-sm-5 tratamiento contraste">
+                <div class="col-md-2 col-sm-5 tratamiento">
                     <a href="http://">
                         <div class="tratamiento-cuerpo">
                             <img src="Laravel/Recursos/img/Tratamientos/7.png" alt="">
@@ -223,16 +232,16 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-md-2 col-sm-5 tratamiento">
+                <div class="col-md-2 col-sm-5 tratamiento contraste">
                     <a href="http://">
                         <div class="tratamiento-cuerpo">
                             <img src="Laravel/Recursos/img/Tratamientos/8.png" alt="" >
                             <div class="nombre">Scultur Refort</div>
-                            <p class="descripcion">Re-estructura y estimula <br> la formacion de fibras <br> de colágeno y elastina</p> 
+                            <p class="descripcion">Re-estructura y estimula <br> la formación de fibras <br> de colágeno y elastina.</p> 
                         </div>
                     </a>
                 </div>
-                <div class="col-md-2 col-sm-5 tratamiento contraste">
+                <div class="col-md-2 col-sm-5 tratamiento">
                     <a href="http://">
                         <div class="tratamiento-cuerpo">
                             <img src="Laravel/Recursos/img/Tratamientos/9.png" alt="">
@@ -241,12 +250,12 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-md-2 col-sm-5 tratamiento"> 
+                <div class="col-md-2 col-sm-5 tratamiento contraste"> 
                     <a href="http://">
                         <div class="tratamiento-cuerpo">
                             <img src="Laravel/Recursos/img/Tratamientos/10.png" alt="">
-                            <div class="nombre"><p> <br>Progresivo de  Ojos</p></div>
-                            <p class="descripcion">Elimiacíon biológica de<br>lineas profundas,sin<br>cirugía</p> 
+                            <div class="nombre">Tratamiento <br>Progresivo de Ojos</div>
+                            <p class="descripcion">Eliminación biológica de<br>líneas profundas, sin<br>cirugía.</p> 
                         </div>
                     </a>
                 </div>
