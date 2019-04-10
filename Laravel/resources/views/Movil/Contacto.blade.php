@@ -22,11 +22,10 @@
     {
         z-index: 2;
         position: relative;
-        margin-top: -10%;
+        margin-top: -150%;
         margin-left: auto;
         margin-right: auto;
         width: 80%;
-        background-color: white;
         text-align: center;
         
     }
@@ -54,11 +53,10 @@
 </style>
 @section('content')
 <div id="contenedormaestro">
-  
-  <div class="">
-      <img src="Laravel/recursos/img/Contacto/Contacto-Miguel.png" style="width: 100%;">
-  </div>
-  <div id="descripcion1" >
+
+  <img src="Laravel/Recursos/img/Contacto/Movil.png" width="100%">
+
+  <div id="descripcion1">
       <h1>Contáctanos</h1>
       <p>Estamos disponibles para contestar tus<br>dudas, deja tus datos y te responderemos a la brevedad.</p>
 
