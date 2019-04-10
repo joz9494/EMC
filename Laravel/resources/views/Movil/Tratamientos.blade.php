@@ -31,8 +31,7 @@
    #titulo h1,.text-img h2
    {
        color: #0280A7;
-       font-size: 21px;
-       font-weight: bold;
+       font-size: 8vw;
    }
    #banner img
    {

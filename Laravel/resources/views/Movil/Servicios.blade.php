@@ -17,7 +17,7 @@
 
     h1{
       font-family: brandon_reg;
-      font-size: 4.5vh !important;
+      font-size: 8vw !important;
     }
     .text{
       font-family: brandon_light;
@@ -40,7 +40,6 @@
    {
        color: #0280A7;
        font-size: 21px;
-       font-weight: bold;
    }
    #banner img
    {

@@ -69,6 +69,10 @@ Route::get('/Opera_tratamiento_antiaging',function(){
 });
 
 Route::get('/Hormonas',function(){
+	$agent = new Agent();
+	if ($agent->isMobile())
+		return view('/Movil/HormonasBio');
+	else
 	return view('/Tratamientos/Hormonas2');
 });
 Route::get('/Peptonas',function(){

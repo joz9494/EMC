@@ -175,7 +175,7 @@
     }
     h2{
         font-family: brandon_light;
-        font-size: 3.5vh;
+        font-size: 8vw;
     }
     p,li{
         font-family: brandon_light !important;
