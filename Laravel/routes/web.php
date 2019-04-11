@@ -65,13 +65,17 @@ Route::get('Biocell',function(){
 });
 
 Route::get('/Opera_tratamiento_antiaging',function(){
+	$agent = new Agent();
+	if ($agent->isMobile())
+		return view ('Movil/Tratamientos/Opera');
+	else
 	return view('/Tratamientos/Opera_tratamiento');
 });
 
 Route::get('/Hormonas',function(){
 	$agent = new Agent();
 	if ($agent->isMobile())
-		return view('/Movil/HormonasBio');
+		return view('/Movil/Tratamientos/HormonasBio');
 	else
 	return view('/Tratamientos/Hormonas2');
 });

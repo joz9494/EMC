@@ -231,7 +231,7 @@
 <div class="row">
     <div class="col-md-3"></div>
     <div class="col-md-3" style="margin-top: 32px;">
-        <p class="txtparrafo2">Las<font style="font-family: brandon_reg">terapias LED y Galvánica</font> se pueden administrar juntas (secuencialmente) o como tratamientos completamente separados; dándole aún más margen para más variedad de tratamientos y un mayor retorno de la inversión.
+        <p class="txtparrafo2">Las <font style="font-family: brandon_reg">terapias LED y Galvánica</font> se pueden administrar juntas (secuencialmente) o como tratamientos completamente separados; dándole aún más margen para más variedad de tratamientos y un mayor retorno de la inversión.
         </p> 
     </div>
 
