@@ -40,4 +40,10 @@
     </div>
 </div>
 
+
+<div class="row" style="margin-top: 30px;width: 100%;">
+  <div class="col-12">
+    <img src="Laravel/Recursos/img/Tratamientos/Opera/post Care.png" width="100%;">
+  </div>
+</div>
 @stop
