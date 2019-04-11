@@ -63,7 +63,7 @@
       <img id="Hormonas-1" src="Laravel/Recursos/img/Tratamientos/Hormonas/Hormonas-1.jpg" width="100%;" >
           <div id="txt_hormonas1">
               <p>Puedes tener síntomas que aparentan</p>
-              <h2>"Estar fuera de control".</h2>
+              <p style="font-family: brandon_reg !important;">"Estar fuera de control".</p>
           </div>
     </div>
 </div>
@@ -144,13 +144,21 @@
 
 
 <!-- Sección 5 como dura -->
+<div class="row" style="margin-top: 30px;">
+  <img src="Laravel/Recursos/img/Tratamientos/Hormonas/Hormonas-Movil1.png" width="100%">
+</div>
 
-
-
-<div class="row">
+<div class="row" style="margin-top: -350px;margin-left: -70px">
   <div class="col-2"></div>
-  <div class="col-2">
-    <img src="Laravel/Recursos/img/Tratamientos/Hormonas/Hormonas-3.png">
+  <div class="col-9">
+        <h2 style="color: white !important">¿Cuánto dura?</h2>
+        <p style="color: white !important">Aproximadamente de 6 a 8 meses.</p>
+        <br>
+        <h2 style="color: white !important">¿Tiene efectos secundarios?</h2>
+        <p style="color: white !important">Sin efectos secundarios.</p>
+        <br>
+        <h2 style="color: white !important">¿Cambios Hormonales?</h2>
+        <p style="color: white !important">Toma el control.</p>
   </div>
 </div>
 
