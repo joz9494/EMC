@@ -117,7 +117,7 @@
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                         <div class="imagen_text">
-                            <img class="d-block w-100" src="Laravel\Recursos\img\Inicio\12.png" alt="First slide">
+                            <img class="d-block w-100" src="Laravel\Recursos\img\Inicio\122.png" alt="First slide">
                         </div>
                         </div>
                         <div class="carousel-item">
