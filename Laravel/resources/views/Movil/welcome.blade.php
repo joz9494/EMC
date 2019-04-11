@@ -76,21 +76,21 @@
         @media (orientation:portrait)
         {
             h3{
-                font-size: 4vh !important;
+                font-size: 7vw !important;
             }
             #boton h2
             {
-                font-size: 3.5vh;
+                font-size: 5.5vw;
             }
             p,h6
             {
-                font-size: 3vh !important;
+                font-size: 5vw !important;
             }
         }
         @media (orientation:landscape)
         {
             h3{
-                font-size: 5vw;
+                font-size: 6vw;
             }
             #boton h2
             {
@@ -117,7 +117,7 @@
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                         <div class="imagen_text">
-                            <img class="d-block w-100" src="Laravel\Recursos\img\Inicio\11.png" alt="First slide">
+                            <img class="d-block w-100" src="Laravel\Recursos\img\Inicio\12.png" alt="First slide">
                         </div>
                         </div>
                         <div class="carousel-item">
@@ -152,7 +152,7 @@
                 <div class="col-12 conte">
                     <div class="imagen_text ">
                         <img src="Laravel\Recursos\img\Inicio\btn2.png" alt="">
-                        <div id="boton" class="text-img ">
+                        <div id="boton" class="text-img">
                             <h2 style="font-family: brandon_reg;">Eterna Medical Center</h2>
                         </div>
                     </div>
@@ -161,7 +161,7 @@
             <div class="row">
                 <div id="bajo_boton" class="col-12 conte">
                     <p >Retarda tu reloj fisiológico, te ayudamos a sentirte y lucir mejor.
-                        En <b>Eterna Medical</b> Center estamos para ayudarte. <br>
+                        En <b>Eterna Medical Center </b> estamos para ayudarte. <br>
                     Mejora y mantén tu estado físico. </p>
                 </div>
             </div>

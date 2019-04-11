@@ -31,12 +31,16 @@
         <link rel="stylesheet" type="text/css" href="Laravel/Recursos/BRANDON_BLD.otf">
         <style>
             @font-face {
-            font-family: brandon_reg;
+                font-family: brandon_reg;
                 src: url("Laravel/Recursos/BRANDON_REG.otf");
             }
             @font-face {
-            font-family: brandon_light;
-            src: url("Laravel/Recursos/BRANDON_LIGHT.otf");
+                font-family: brandon_light;
+                src: url("Laravel/Recursos/BRANDON_LIGHT.otf");
+            }
+            @font-face {
+                font-family: HelveticaNeue-Condensed;
+                src: url("Laravel/Recursos/HelveticaNeue-Condensed.otf");
             }
              body{
                 
@@ -51,9 +55,8 @@
             {
                 font-family: brandon_light !important;
             }
-            #menu
+            #frente_menu
             {
-                background-color: white !important;
                 border-bottom:4px solid #1197c0;
                 text-align: center;
                 
@@ -81,7 +84,11 @@
                 text-align: center;
             }
    
-
+            #texto_logo
+            {
+                font-family: HelveticaNeue-Condensed;
+            }
+            
 #tabs{
     color: black;
 }
@@ -113,10 +120,16 @@
   color:#1197c0;
   font-weight: 100;
 }
+#opciones_menu
+{
+    -webkit-box-shadow: -1px 20px 12px -10px rgba(207,207,207,1);
+-moz-box-shadow: -1px 20px 12px -10px rgba(207,207,207,1);
+box-shadow: -1px 20px 12px -10px rgba(207,207,207,1);
+}
 #opciones_menu li
 {
     margin: auto;
-    border-bottom: 1px solid #0280A7;
+    border-bottom: 1px solid #1197c0;
 }
 .tab-content
 {
@@ -131,10 +144,14 @@
 {
     padding: 2% !important;
 }
-header
+#frente_menu,header
 {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left:auto;
+    margin-right: auto; 
+}
+#menu
+{
+    background-color: white !important;
 }
 @media (orientation:portrait)
 {
@@ -162,13 +179,13 @@ header
 {
     #menu a
     {
-        font-size: 22px;
+        font-size:4vw;
     }
     #frente_menu #img_logo{
-        width: 100%;
+        width: 80%;
     }
     #frente_menu #img_btn_menu{
-        width: 100%;
+        width: 80%;
     }
     #nav-home img
     {
@@ -192,17 +209,17 @@ header
     <body class="container">
         <div class="row full-width-row">
             <header>
-                    <nav id="menu" class="navbar navbar-light bg-light">
+                    <nav id="menu" class="navbar navbar-light bg-light" style="padding-bottom: 0 !important;">
                         <div id="frente_menu" class="row">
                             <div class="col-2">
                                 <img id="img_logo" src="Laravel\Recursos\img\Tratamientos\Eterna.png"  class="d-inline-block" alt="">
                             </div>
                             <div class="col-8">
-                                <a class="navbar-brand" href="#" style="margin-left:auto;margin-right:auto;">
+                                <a id="texto_logo" class="navbar-brand" href="#" style="margin-left:auto;margin-right:auto;">
                                     Eterna Medical Center
                                 </a>
                             </div>
-                            <div class="col-2">
+                            <div class="col-2 ">
                                 <button id="btn-menu" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                                     <img id="img_btn_menu" src="Laravel\Recursos\img\Inicio\Menu.png"  alt="">
                                 </button>
@@ -216,28 +233,28 @@ header
                                         <img src="Laravel\Recursos\img\Menu\hogar-de-web.png"  class="d-inline-block align-top" width="30px" alt="">
                                     </a>
                                 </li>
-                                <li class="nav-item" style="width:80%">
+                                <li class="nav-item" style="width:80%;">
                                     <a class="nav-link" href="{{ url('/Servicios') }}" id="letrasmenu">    
                                         Servicios
                                         <img src="Laravel\Recursos\img\Menu\lista.png"  class="d-inline-block align-top" width="30px" alt="">
                                     </a>
                                 </li>
-                                <li class="nav-item" style="width:80%">
+                                <li class="nav-item" style="width:80%;">
                                     <a class="nav-link" href="{{ url('/Acerca_de_EMC') }}" id="letrasmenuEMCV">
                                         Acerca de E.M.C
                                         <img src="Laravel\Recursos\img\Menu\info_(2).png"  class="d-inline-block align-top" width="30px" alt="">
                                     </a>
                                 </li>
-                                <li class="nav-item" style="width:80%">
+                                <li class="nav-item" style="width:80%;">
                                     <a class="nav-link" href="{{ url('/Tratamientos') }}" id="letrasmenu">
                                         Tratamientos
                                         <img src="Laravel\Recursos\img\Menu\limpiar.png"  class="d-inline-block align-top" width="30px" alt="">
                                     </a>
                                 </li>
-                                <li class="nav-item" style="width:80%">
+                                <li class="nav-item" style="width:80%;border-bottom:none;" >
                                     <a class="nav-link" href="{{ url('/Contacto') }}" id="letrasmenu">
                                         Contacto
-                                        <img src="Laravel\Recursos\img\Menu\contacto.png"  class="d-inline-block align-top" width="30px" alt="">
+                                        <img src="Laravel\Recursos\img\Menu\contacto.png"  class="d-inline-block align-top" width="30px"  alt="">
                                     </a>
                                 </li>
                             </ul>
