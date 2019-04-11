@@ -91,11 +91,8 @@
 
 <!-- Sección 3 como se realiza   -->
 
-
-<div class="row" style="margin-top: 5px;">
-      <div id="carrusel_principal" class="col-12">
-      <img src="Laravel/Recursos/img/Tratamientos/Hormonas/Hormonas movil.jpg" width="100%;">
-    </div>
+<div style="width: 100%;margin-top: 30px;">
+    <img src="Laravel/Recursos/img/Tratamientos/Hormonas/Hormonas movilA.png" width="100%;">
 </div>
 
 
@@ -123,22 +120,8 @@
 
 
 <!-- Sección 5 como dura -->
-<div class="row" style="margin-top: 30px;">
-  <img src="Laravel/Recursos/img/Tratamientos/Hormonas/Hormonas-Movil1.png" width="100%">
-</div>
-
-<div class="row" style="margin-top: -350px;margin-left: -70px">
-  <div class="col-2"></div>
-  <div class="col-9">
-        <h2 style="color: white !important">¿Cuánto dura?</h2>
-        <p style="color: white !important">Aproximadamente de 6 a 8 meses.</p>
-        <br>
-        <h2 style="color: white !important">¿Tiene efectos secundarios?</h2>
-        <p style="color: white !important">Sin efectos secundarios.</p>
-        <br>
-        <h2 style="color: white !important">¿Cambios Hormonales?</h2>
-        <p style="color: white !important">Toma el control.</p>
-  </div>
+<div style="width: 100%;margin-top: 30px;margin-bottom: 30px">
+    <img src="Laravel/Recursos/img/Tratamientos/Hormonas/Hormonas-Movil1A.png" width="100%;">
 </div>
 
 @stop
