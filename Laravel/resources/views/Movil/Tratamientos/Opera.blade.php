@@ -72,25 +72,25 @@
 
 <div class="row" style="margin-top: 30px;width: 100%;">
   <div class="col-12">
-    <img src="Laravel/Recursos/img/Tratamientos/Opera/post Care.png" width="100%;">
+    <img src="Laravel/Recursos/img/Tratamientos/Opera/post Care2.png" width="100%;">
   </div>
 </div>
 
 <div class="row" style="margin-top: 30px;width: 100%;">
   <div class="col-12">
-    <img src="Laravel/Recursos/img/Tratamientos/Opera/Rejuvenecimiento.png" width="100%;">
+    <img src="Laravel/Recursos/img/Tratamientos/Opera/Rejuvenecimiento2.png" width="100%;">
   </div>
 </div>
 
 <div class="row" style="margin-top: 30px;width: 100%;">
   <div class="col-12">
-    <img src="Laravel/Recursos/img/Tratamientos/Opera/Tratamientos.png" width="100%;">
+    <img src="Laravel/Recursos/img/Tratamientos/Opera/Tratamientos2.png" width="100%;">
   </div>
 </div>
 
 <div class="row" style="margin-top: 30px;width: 100%;margin-bottom: 30px;">
   <div class="col-12">
-    <img src="Laravel/Recursos/img/Tratamientos/Opera/Corriente.png" width="100%;">
+    <img src="Laravel/Recursos/img/Tratamientos/Opera/Corriente2.png" width="100%;">
   </div>
 </div>
 @stop

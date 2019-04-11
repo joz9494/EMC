@@ -80,6 +80,9 @@ Route::get('/Hormonas',function(){
 	return view('/Tratamientos/Hormonas2');
 });
 Route::get('/Peptonas',function(){
+	$agent = new Agent();
+	if ($agent->isMobile())
+		return view ('/Movil/Tratamientos/Peptonas');
 	return view('/Tratamientos/Peptonas');
 });
 Route::get('/lift-biologico',function(){
