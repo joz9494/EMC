@@ -22,6 +22,7 @@
       font-family:brandon_light !important;
       font-size: 5vw !important; 
       text-align: center !important;
+      color: black;
     }
     h2{
       font-family: brandon_reg !important;
@@ -35,14 +36,14 @@
       color: #0280A7 !important;
       text-align: center;
     }
-    #divconte1{
-      background-image: url(Laravel/Recursos/img/Tratamientos/Hormonas/Hormonas-2.png);
-    }
     .txtcomotitle{
       font-family: brandon_light;
       font-size: 4vw;
       color: #0280A7;
       margin-top: 40px;
+    }
+    #contenedor1{
+      position: relative;
     }
 
 </style>
@@ -51,7 +52,7 @@
 
 
 
-
+<!-- Sección 1 de titulo   -->
 <div style="width: 100%;">
   <h1>Hormonas <br> Bio-Idénticas</h1>
 </div> 
@@ -67,16 +68,19 @@
     </div>
 </div>
 
-<div class="row" style="margin-top: 20px;">
+
+
+<!-- Sección 2 que son las hormonas -->
+<div class="row" style="margin-top: 30px;">
       <div class="col-md-3"></div>
       <div id="carrusel_principal" class="col-md-6 ">
       <img src="Laravel/Recursos/img/Tratamientos/Hormonas/esquinas1.png" width="100%">
       <br>
-      <h2>¿Que son las hormonas Bio-idénticas?</h2>
-      <p>Son biológicamente idénticas, tienen una estructura molecular idéntica a las hormonas que produce el organismo, sin los efectos secundarios de las hormonas sintéticas.</p>
+      <h2>¿Que son las hormonas <br> Bio-idénticas?</h2>
+      <p style="margin-top: 10px;">Son biológicamente idénticas, tienen una estructura molecular idéntica a las hormonas que produce el organismo, sin los efectos secundarios de las hormonas sintéticas.</p>
+      <br>
       <h2>¿Como funciona?</h2>
-      <p>
-        Mejoran la comunicación celular, recuperando el equilibrio y optimizan las funciones del organismo.
+      <p style="margin-top: 10px;">Mejoran la comunicación celular, recuperando el equilibrio y optimizan las funciones del organismo.<br>
         Es un procedimiento donde se balancea el requerimiento hormonal donde se pide al paciente acudir con un estudio de sangre llamado Perfil Ovárico Femenino el cual debe incluir Estradiol, Progesterona, Hormona Folículo Estimulante, Hormona Luteinizante y prolactina.
       </p>
       <img src="Laravel/Recursos/img/Tratamientos/Hormonas/esquinas2.png" width="100%">
@@ -84,14 +88,69 @@
 </div>
 
 
-<div class="row" style="margin-top: 20px;">
+
+
+
+<!-- Sección 3 como se realiza   -->
+<div id="contenedor1" style="margin-top: 40px;">
+  <img src="Laravel/Recursos/img/Tratamientos/Hormonas/Hormonas movil.jpg" id="imgfondo1">
+</div>
+
+<div class="row" style="margin-top: -740px;">
   <div class="col-md-3"></div>
-  <div class="col-md-6" id="divconte1">
+  <div class="col-md-6" id="">
         <div id="txtimgfondo" class="col-md-2">
-          <p class="txtcomotitle">¿Cómo se realiza?</p>
-          <p>El estudio debe realizarse 14 días después de la menstruación, en caso de ya no tener menstruación el estudio se realiza en cualquier día.</p>
-          <h2>¿De qué manera ajustamos las<br>hormonas bio-idénticas?</h2>
+          <h2 style="color: white !important">¿Cómo se realiza?</h2>
+          <p style="color: white">El estudio debe realizarse 14 días después de la menstruación, en caso de ya no tener menstruación el estudio se realiza en cualquier día.</p>
         </div>
+  </div>
+</div>
+
+<div class="row" style="margin-top: -460px;margin-left: 70px;">
+  <div class="col-3"></div>
+  <div class="col-12">
+    <h2 style="color: white !important;">¿De qué manera ajustamos las hormonas <br> bio-idénticas?</h2>
+  </div>
+</div>
+
+<div class="row" style="margin-top: -190px;margin-left: 130px;">
+  <div class="col-2"></div>
+  <div class="col-11">
+    <p style="color: white !important">Analizamos las deficiencias y se reponemos las hormonas que están por debajo de lo óptimo y son deficientes.</p>
+  </div>
+</div>
+
+
+<!-- Sección 4 quien puede usarlo   -->
+
+<img src="Laravel/Recursos/img/Tratamientos/Hormonas/esquinas1.png" width="100%" style="margin-top: 40px;">
+
+<div class="row">
+  <div class="col-2"></div>
+  <div class="col-md-3">
+    <h2>¿Quién puede usarlo?</h2>
+    <p style="margin-top: 10px;">Es una alternativa para las mujeres que enfrentan los cambios de la menopausia, pero también es una opción tanto para hombres y mujeres de distintas edades. <br></p>
+    <br>
+    <h2>¿Es un tratamiento para la mesopausa?</h2>
+    <p style="text-align : center;margin-top: 10px;">Es una alternativa para aquellas mujeres que <br> sufren los síntomas de la menopausia <br> temprana y que buscan poner fin a los <br> bochornos o calores, <br> la sudoración nocturna, la pérdida <br> de la memoria, los cambios de ánimo, el <br> aumento de peso y la disminución del apetito <br> sexual son pacientes <br> recurrentes en este tratamiento que le <br> ayudará a terminar con estas molestias.</p>
+    <br>
+    <h2>¿Beneficios para los hombres?</h2>
+    <p style="text-align : center;margin-top: 10px;">A la edad de 80 años, el nivel de testosterona de un hombre sólo puede ser de 20% de lo que fue en su juventud. <br> Esta disminución de la testosterona se produce gradualmente, comenzando ya a mediados de los 30 años.<br>
+    La deficiencia de testosterona también puede conducir a una serie de síntomas molestos, como la pérdida de resistencia y masa muscular, <br> la reducciún de la libido, ansiedad, depresión y <br> deterioro cognitivo. <br> La deficiencia de testosterona puede ser <br> revertida mediante el tratamiento de <br> hormonas bioidénticas.</p>
+  </div>
+</div>
+
+<img src="Laravel/Recursos/img/Tratamientos/Hormonas/esquinas2.png" width="100%" style="margin-top: 0px;">
+
+
+<!-- Sección 5 como dura -->
+
+
+
+<div class="row">
+  <div class="col-2"></div>
+  <div class="col-2">
+    <img src="Laravel/Recursos/img/Tratamientos/Hormonas/Hormonas-3.png">
   </div>
 </div>
 
