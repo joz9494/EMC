@@ -90,10 +90,12 @@
 
 
 <!-- Sección 3 como se realiza   -->
-<div class="row">
-  <div class="col-12">
-    <img src="Laravel/Recursos/img/Tratamientos/Hormonas/Hormonas movil.jpg">
-  </div>
+
+
+<div class="row" style="margin-top: 5px;">
+      <div id="carrusel_principal" class="col-12">
+      <img src="Laravel/Recursos/img/Tratamientos/Hormonas/Hormonas movil.jpg" width="100%;">
+    </div>
 </div>
 
 
@@ -109,11 +111,11 @@
     <p style="margin-top: 10px;">Es una alternativa para las mujeres que enfrentan los cambios de la menopausia, pero también es una opción tanto para hombres y mujeres de distintas edades. <br></p>
     <br>
     <h2>¿Es un tratamiento para la mesopausa?</h2>
-    <p style="text-align : center;margin-top: 10px;">Es una alternativa para aquellas mujeres que <br> sufren los síntomas de la menopausia <br> temprana y que buscan poner fin a los <br> bochornos o calores, <br> la sudoración nocturna, la pérdida <br> de la memoria, los cambios de ánimo, el <br> aumento de peso y la disminución del apetito <br> sexual son pacientes <br> recurrentes en este tratamiento que le <br> ayudará a terminar con estas molestias.</p>
+    <p style="text-align : center;margin-top: 10px;">Es una alternativa para aquellas mujeres que sufren los síntomas de la menopausia temprana y que buscan poner fin a los bochornos o calores, la sudoración nocturna, la pérdida de la memoria, los cambios de ánimo, el aumento de peso y la disminución del apetito sexual son pacientes recurrentes en este tratamiento que le ayudará a terminar con estas molestias.</p>
     <br>
     <h2>¿Beneficios para los hombres?</h2>
     <p style="text-align : center;margin-top: 10px;">A la edad de 80 años, el nivel de testosterona de un hombre sólo puede ser de 20% de lo que fue en su juventud. <br> Esta disminución de la testosterona se produce gradualmente, comenzando ya a mediados de los 30 años.<br>
-    La deficiencia de testosterona también puede conducir a una serie de síntomas molestos, como la pérdida de resistencia y masa muscular, <br> la reducciún de la libido, ansiedad, depresión y <br> deterioro cognitivo. <br> La deficiencia de testosterona puede ser <br> revertida mediante el tratamiento de <br> hormonas bioidénticas.</p>
+    La deficiencia de testosterona también puede conducir a una serie de síntomas molestos, como la pérdida de resistencia y masa muscular, la reducciún de la libido, ansiedad, depresión y deterioro cognitivo. <br> La deficiencia de testosterona puede ser revertida mediante el tratamiento de  hormonas bioidénticas.</p>
   </div>
 </div>
 
