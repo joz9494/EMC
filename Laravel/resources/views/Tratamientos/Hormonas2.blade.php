@@ -199,7 +199,7 @@
                     <div class="imagen_text">
                         <img src="Laravel/Recursos/img/Tratamientos/Hormonas/Esquinas.png">
                         <div id="esquinas1"  class="text-img ">
-                               <h2> ¿Que son las hormonas Bio-idénticas?</h2>
+                               <h2> ¿Qué son las hormonas Bio-idénticas?</h2>
                                 <p style="text-align : justify;">
                                 Son biológicamente idénticas, tienen una estructura molecular idéntica a las hormonas que produce el organismo, sin los efectos secundarios de las hormonas sintéticas.
                                 <p>

@@ -53,13 +53,12 @@
 
 
 <!-- Sección 1 de titulo   -->
-<div style="width: 100%;">
-  <h1>Hormonas <br> Bio-Idénticas</h1>
+<div style="width: 100%;margin-top: 5px;margin-bottom: 5px;">
+  <h1>Hormonas Bio-Idénticas</h1>
 </div> 
 
 <div class="row" style="margin-top: 5px;">
-      <div class="col-md-3"></div>
-      <div id="carrusel_principal" class="col-md-6 ">
+      <div id="carrusel_principal" class="col-12">
       <img id="Hormonas-1" src="Laravel/Recursos/img/Tratamientos/Hormonas/Hormonas-1.jpg" width="100%;" >
           <div id="txt_hormonas1">
               <p>Puedes tener síntomas que aparentan</p>
@@ -72,11 +71,10 @@
 
 <!-- Sección 2 que son las hormonas -->
 <div class="row" style="margin-top: 30px;">
-      <div class="col-md-3"></div>
-      <div id="carrusel_principal" class="col-md-6 ">
+      <div id="carrusel_principal" class="col-md-12">
       <img src="Laravel/Recursos/img/Tratamientos/Hormonas/esquinas1.png" width="100%">
       <br>
-      <h2>¿Que son las hormonas <br> Bio-idénticas?</h2>
+      <h2>¿Qué son las hormonas <br> Bio-idénticas?</h2>
       <p style="margin-top: 10px;">Son biológicamente idénticas, tienen una estructura molecular idéntica a las hormonas que produce el organismo, sin los efectos secundarios de las hormonas sintéticas.</p>
       <br>
       <h2>¿Como funciona?</h2>
@@ -92,33 +90,13 @@
 
 
 <!-- Sección 3 como se realiza   -->
-<div id="contenedor1" style="margin-top: 40px;">
-  <img src="Laravel/Recursos/img/Tratamientos/Hormonas/Hormonas movil.jpg" id="imgfondo1">
-</div>
-
-<div class="row" style="margin-top: -740px;">
-  <div class="col-md-3"></div>
-  <div class="col-md-6" id="">
-        <div id="txtimgfondo" class="col-md-2">
-          <h2 style="color: white !important">¿Cómo se realiza?</h2>
-          <p style="color: white">El estudio debe realizarse 14 días después de la menstruación, en caso de ya no tener menstruación el estudio se realiza en cualquier día.</p>
-        </div>
-  </div>
-</div>
-
-<div class="row" style="margin-top: -460px;margin-left: 70px;">
-  <div class="col-3"></div>
+<div class="row">
   <div class="col-12">
-    <h2 style="color: white !important;">¿De qué manera ajustamos las hormonas <br> bio-idénticas?</h2>
+    <img src="Laravel/Recursos/img/Tratamientos/Hormonas/Hormonas movil.jpg">
   </div>
 </div>
 
-<div class="row" style="margin-top: -190px;margin-left: 130px;">
-  <div class="col-2"></div>
-  <div class="col-11">
-    <p style="color: white !important">Analizamos las deficiencias y se reponemos las hormonas que están por debajo de lo óptimo y son deficientes.</p>
-  </div>
-</div>
+
 
 
 <!-- Sección 4 quien puede usarlo   -->
@@ -126,8 +104,7 @@
 <img src="Laravel/Recursos/img/Tratamientos/Hormonas/esquinas1.png" width="100%" style="margin-top: 40px;">
 
 <div class="row">
-  <div class="col-2"></div>
-  <div class="col-md-3">
+  <div class="col-md-12">
     <h2>¿Quién puede usarlo?</h2>
     <p style="margin-top: 10px;">Es una alternativa para las mujeres que enfrentan los cambios de la menopausia, pero también es una opción tanto para hombres y mujeres de distintas edades. <br></p>
     <br>
