@@ -71,7 +71,12 @@
    {
        margin-top: 10%; 
    }
-   
+   #biocell
+    {
+        -webkit-box-shadow: -1px 20px 12px -10px rgba(207,207,207,1);
+    -moz-box-shadow: -1px 20px 12px -10px rgba(207,207,207,1);
+    box-shadow: -1px 20px 12px -10px rgba(207,207,207,1);
+    }
    .contraste
    {
        background-color: #E9F8FF;
@@ -111,7 +116,7 @@
         float: none;
         margin: 0 auto;
        }
-       #biocell
+       #biocell_texto
        {
            text-align: center;
        }
@@ -154,20 +159,21 @@
         <div id="banner" class="conte">
                 <img src="Laravel\Recursos\img\Tratamientos\Movil\Ima.Biocell.jpg"  alt="">
         </div>
-        <div id="banner" class="conte" style="margin-top: 5px">
-            <div class="col-8 col-center">
-                <img src="Laravel\Recursos\img\Tratamientos\Movil\Logo Biocell800.png"  alt="">
+        <div id="biocell" >
+            <div id="banner" class="conte" style="margin-top: 5px">
+                <div class="col-8 col-center">
+                    <img src="Laravel\Recursos\img\Tratamientos\Movil\Logo Biocell800.png"  alt="">
+                </div>
             </div>
+            <div id="biocell_texto" class="col-8 col-center">
+                <h3 style="color: #B61A25; font-size:25px;">Human Ultralcell®</h3>
+                <h3 style="color: #B61A25; font-size:22px; font-weight: normal">Regeneración Celular</h3> 
+                <a style="font-family: brandon_reg !important;color: #B61A25; font-size:35px;">Leer más</a> 
+            </div> 
         </div>
-        <div id="biocell" class="col-8 col-center">
-              <h3 style="color: #B61A25; font-size:25px;">Human Ultralcell®</h3>
-              <h3 style="color: #B61A25; font-size:22px; font-weight: normal">Regeneración Celular</h3> 
-              <a style="font-family: brandon_reg !important;color: #B61A25; font-size:35px;">Leer más</a> 
-        </div> 
-
         <div id="tratamientos" class="conte" style="margin-top: 30px;">
              
-            <div class="row justify-content-center row-eq-height" style="box-shadow: 5px -5px 0 2px #F0EEEE;">
+            <div class="row justify-content-center row-eq-height">
                 <div class="col-md-2 col-sm-5 tratamiento">
                     <a href="{{url('/Hormonas')}}" >
                         <div class="tratamiento-cuerpo">
