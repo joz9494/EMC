@@ -12,6 +12,7 @@
         <!-- Styles -->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">  
+        <meta name="format-detection" content="telephone=no">
         <link rel="icon" type="image/png" href="Laravel/Recursos/images/icons/favicon.png"/>
         <link rel="stylesheet" type="text/css" href="Laravel/Recursos/vendor/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="Laravel/Recursos/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
@@ -48,10 +49,10 @@
 
             }
 
-            h4,menu>a{
+            menu>a,#dia{
                 font-family: brandon_reg !important;
             }
-            p,#opciones_menu>li
+            p,#opciones_menu>li,#horario,h4
             {
                 font-family: brandon_light !important;
             }
@@ -71,8 +72,7 @@
             }
             footer
             {
-                background-color: white;
-                
+                background-color: white;   
                 width: 100%;
             }
             .nav-item
@@ -99,7 +99,6 @@
 #tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
     color: white !important;
     background-color: #0280A7 !important;
-    font-size: 20px;
     
 }
 
@@ -108,7 +107,6 @@
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     color: #1197c0;
-    font-size: 20px;
 }
 #btn-menu
 {
@@ -153,9 +151,17 @@ box-shadow: -1px 20px 12px -10px rgba(207,207,207,1);
 {
     background-color: white !important;
 }
+#nav-home .col-2,#nav-home .col-sm-2
+{
+    padding-right:0 !important;
+}
 @media (orientation:portrait)
 {
-    
+    #tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active,#tabs .nav-tabs .nav-link
+    ,#tabs h4
+    {
+        font-size: 6vw; 
+    }   
     #menu a
     {
         font-size:6vw;
@@ -168,18 +174,28 @@ box-shadow: -1px 20px 12px -10px rgba(207,207,207,1);
     }
     #nav-home img
     {
-        width:45%;
+        width:100%;
     }
     .navbar-brand
     {
         margin-top: 4%;
     }
+    .tab-pane>h4>span
+    {
+        font-size:12vw;
+    }
+
 }
 @media (orientation:landscape)
 {
     #menu a
     {
         font-size:4vw;
+    }
+    #tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active,#tabs .nav-tabs .nav-link
+    ,#tabs h4
+    {
+        font-size: 4vw; 
     }
     #frente_menu #img_logo{
         width: 80%;
@@ -189,11 +205,15 @@ box-shadow: -1px 20px 12px -10px rgba(207,207,207,1);
     }
     #nav-home img
     {
-        width:25%;
+        width:100%;
     }
     .navbar-brand
     {
         margin-top: 4%;
+    }
+    .tab-pane>h4>span
+    {
+        font-size:8vw;
     }
 }
 .full-width-row {
@@ -270,32 +290,34 @@ box-shadow: -1px 20px 12px -10px rgba(207,207,207,1);
                                 <nav>
                                     <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
                                         <a class="nav-item nav-link" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="false">Citas</a>
-                                        <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false" style="margin-left: 0.5%;margin-right: 0.5%;">Direccion</a>
+                                        <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false" style="margin-left: 0.5%;margin-right: 0.5%;">Dirección</a>
                                         <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Horario</a>
                                     </div>
                                 </nav>
                                 <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
                                     <div class="tab-pane fade" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                                         <div class="row">
-                                            <div class="col-sm-5 col-4" style="text-align:right;">
-                                                <img src="Laravel\Recursos\img\Menu\whatsapp.png">
-                                            </div>
-                                            <div class="col-sm-7 col-8" style="text-align:left; margin-top:auto;margin-bottom:auto;">
-                                                <h4>+52 (461) 132 48 51 <br>+52 (461) 138 69 05 </h4>
-                                            </div>
+                                            <div class="col"></div>
+                                                <div class="col-sm-1 col-2" style="text-align:right;">
+                                                    <img src="Laravel\Recursos\img\Menu\whatsapp.png">
+                                                </div>
+                                                <div class="col-sm-5 col-7" style="text-align:left; margin-top:auto;margin-bottom:auto;">
+                                                    <h4 style=" color:black !important;">+52 (461) 132 48 51 <br>+52 (461) 138 69 05 </h4>
+                                                </div>
+                                                <div class="col"></div>
                                         </div>
                                     </div>
                                     <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
                                         <h4>
-                                        Álvaro Obregòn #312 Int.36B.
+                                        Álvaro Obregón #312 Int.36B.
                                         </h4>
                                         <h4>
-                                        Celaya, Guanajuato, Mexico
+                                        Celaya, Guanajuato, México
                                         </h4>
                                     </div>
                                     <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
-                                        <h4>Lunes a viernes</h4>
-                                        <h4>9 a.m. a 2 p.m. <span style="color:#0280A7; font-size:32px">·</span> 4 p.m a 7p.m.</h4>
+                                        <h4 id="dia">Lunes a viernes</h4>
+                                        <h4 id="horario">9 a.m. a 2 p.m. <span style="color:#0280A7; padin">•</span> 4 p.m. a 7 p.m.</h4>
                                     </div>
                                 </div>
                             </div>

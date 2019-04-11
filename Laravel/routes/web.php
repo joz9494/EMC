@@ -79,7 +79,11 @@ Route::get('/Peptonas',function(){
 	return view('/Tratamientos/Peptonas');
 });
 Route::get('/lift-biologico',function(){
-	return view('/Tratamientos/lift-biologico');
+	$agent=new Agent();
+	if($agent->isMobile())
+		return view('/Movil/Tratamientos/lift-biologico');
+	else
+	return view('/Movil/Tratamientos/lift-biologico');
 });
 Route::get('/PRP4G',function(){
 	return view('/Tratamientos/PRP4G');
