@@ -35,7 +35,7 @@
 @section('content')
 
 <div style="width: 100%;margin-top: 10px;margin-bottom: 10px;">
-  <h1>PRP 4G (Plasma Rico en Plaquetas de Cuarta Generación)</h1>
+  <h1 style="font-size: 6vw !important;">PRP 4G (Plasma Rico en Plaquetas de Cuarta Generación)</h1>
 </div> 
 
 <div class="row" style="margin-top: 10px;width: 100%;">
