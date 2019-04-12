@@ -93,5 +93,9 @@ Route::get('/lift-biologico',function(){
 	return view('/Movil/Tratamientos/lift-biologico');
 });
 Route::get('/PRP4G',function(){
+	$agent = new Agent();
+	if ($agent->isMobile())
+		return view ('Movil/Tratamientos/Prp4g');
+	else
 	return view('/Tratamientos/PRP4G');
 });

@@ -14,10 +14,16 @@
     {
         width: 100%;
     }
-    p,h2,#beneficios li
+    h2{
+        font-size: 8vw !important;
+        color: #1197c0 !important;
+        text-align: center;
+    }
+    p,#beneficios li
     {
        color: #1197c0 !important;
        text-align: center;
+       font-size: 5vw !important;
     }
     #beneficios li::before {content: "•"; color:#0280A7;}
 
@@ -74,9 +80,13 @@
         padding: 10%;
     }
 </style>
+
 @section('content')
+
+
+
 <div id="contenenedormaestro">
-    <div  id="titulo" class="conte">
+    <div  id="titulo" class="conte" style="margin-top: 20px;">
         <h2>Lift Biológico</h2>
     </div>
     <div class="row">
@@ -85,17 +95,17 @@
             <p>¿De qué están compuestos los hilos? O ¿Hilos mágicos?</p>
         </div>
     </div>
-    <div class="row">
+    <div class="row" style="margin-top: 10px;">
         <div class="col-12 conte">
             <img src="Laravel\Recursos\img\LiftBiologico\Movil\iPhone 6-7-8 Plus – 6.png">
         </div>
     </div>
     <div class="row">
-        <div class="col-12 conte">
+        <div class="col-12 conte" style="margin-top: 30px;">
             <img src="Laravel\Recursos\img\LiftBiologico\Movil\iPhone 6-7-8 Plus – 7.png">
         </div>
     </div>
-    <div class="row">
+    <div class="row" style="margin-top: 30px;">
         <div class="col-12">
             <div  id="titulo">
                 <h2>¿Seguridad?</h2>
@@ -105,7 +115,7 @@
             </div>
         </div>
     </div>
-    <div class="row">
+    <div class="row" style="margin-top: 30px;">
         <div class="col-12">
             <div  id="titulo">
                 <h2>¿Cómo funciona?</h2>
@@ -114,7 +124,7 @@
                 <div class="text">
                     <p>
                         Se implantan en la dermis con una aguja guía, activando los fibroblastos, para generar colágeno y elastina, provocando un efecto lifting inmediato y aportando a los pacientes un moldeado natural al rostro y al cuerpo.<br>
-                        Su implantación es sencilla y rápida, permitiendo el desarrollo normal de la actividad cotidiana,no produce cortes, marcas ni cicatrices.
+                        Su implantación es sencilla y rápida, permitiendo el desarrollo normal de la actividad cotidiana, no produce cortes, marcas ni cicatrices.
                         Es un tratamiento rápido, cómodo y seguro.<br>   
                         La técnica es totalmente individualizada para cada paciente dependiendo de la edad, la fisonomía y el grado de flacidez, pero en una sesión estándar se suelen insertar entre 10 y 20 hilos.
                     </p>
@@ -122,7 +132,7 @@
             </div>
         </div>
     </div>
-    <div class=" row">
+    <div class=" row" style="margin-top: 30px;">
         <div class="col-12 conte">
                 <input type="checkbox" id="spoiler1"></input>
                 <label for="spoiler1">¿Cómo se origina?</label>
@@ -146,7 +156,7 @@
     <div class=" row">
         <div class="col-12 conte">
                 <input type="checkbox" id="spoiler4"></input>
-                <label for="spoiler4">Beneficios</label>
+                <label for="spoiler4" style="font-size: 8vw;">Beneficios</label>
                 <div id="beneficios" class="spoiler col-12">
                         <p>
                                 <ul style="margin-left: -20px;text-align: justify;">
@@ -162,4 +172,6 @@
         </div>
     </div>
 </div>
+
+
 @stop
