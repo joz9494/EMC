@@ -48,7 +48,7 @@
    {
        color: #0280A7;
        width: 100%;
-       padding-top: 20%;
+       padding-top: 1%;
        padding-bottom: 15%;
        
    }
@@ -171,8 +171,8 @@
                 <a style="font-family: brandon_reg !important;color: #B61A25; font-size:35px;">Leer más</a> 
             </div> 
         </div>
+        
         <div id="tratamientos" class="conte" style="margin-top: 30px;">
-             
             <div class="row justify-content-center row-eq-height">
                 <div class="col-md-2 col-sm-5 tratamiento">
                     <a href="{{url('/Hormonas')}}" >
@@ -186,7 +186,7 @@
                 <div class="col-md-2 col-sm-5 tratamiento contraste">
                     <a href="{{url('/lift-biologico')}}">
                         <div class="tratamiento-cuerpo">
-                            <img src="Laravel/Recursos/img/Tratamientos/2.png" alt="">
+                            <img src="Laravel/Recursos/img/Tratamientos/2.png" style="margin-top: 5%;">
                             <div class="nombre">Lift Biológico <br><br></div>
                             <p class="descripcion">Desacelera <br> notablemente el <br> envejecimiento.</p> 
                         </div>
@@ -204,7 +204,7 @@
                 <div class="col-md-2 col-sm-5 tratamiento contraste">
                     <a href="{{url('/Peptonas')}}">
                         <div class="tratamiento-cuerpo">
-                            <img src="Laravel/Recursos/img/Tratamientos/4.png" alt="">
+                            <img src="Laravel/Recursos/img/Tratamientos/4.png" style="margin-top: 5%;">
                             <div class="nombre">Peptonas <br><br></div>
                             <p class="descripcion">Estimula la producción <br> colágeno y elastina en el rostro. </p> 
                         </div>    
@@ -222,7 +222,7 @@
                 <div class="col-md-2 col-sm-5 tratamiento contraste">
                     <a href="http://">
                         <div class="tratamiento-cuerpo">
-                            <img src="Laravel/Recursos/img/Tratamientos/6.png" alt="">
+                            <img src="Laravel/Recursos/img/Tratamientos/6.png" style="margin-top: 5%;">
                             <div class="nombre">Rinomodelación<br></div>
                             <p class="descripcion">Modifica la de forma de tu <br> nariz sin cirugía.<br></p> 
                         </div>
@@ -240,7 +240,7 @@
                 <div class="col-md-2 col-sm-5 tratamiento contraste">
                     <a href="http://">
                         <div class="tratamiento-cuerpo">
-                            <img src="Laravel/Recursos/img/Tratamientos/8.png" alt="" >
+                            <img src="Laravel/Recursos/img/Tratamientos/8.png" style="margin-top: 5%;" >
                             <div class="nombre">Scultur Refort</div>
                             <p class="descripcion">Re-estructura y estimula <br> la formación de fibras <br> de colágeno y elastina.</p> 
                         </div>
