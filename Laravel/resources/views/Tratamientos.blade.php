@@ -262,7 +262,7 @@
                                     <br>
                                     <p class="descripcion" style="font-family: brandon_light;margin-top: 8px;">Modifica la forma de tu <br> nariz sin cirugía.<br></p> 
                                 </div>
-                                <a href="http://" class="btn btn-primary" style="background-color: #1197c0;border-color: #1197c0">Leer más</a>
+                                <a href="{{url('/Rinomodelacion')}}" class="btn btn-primary" style="background-color: #1197c0;border-color: #1197c0">Leer más</a>
                             </div>
                             <div class="col-md-2 col-sm-5 tratamiento contraste">
                                 <div class="tratamiento-cuerpo">

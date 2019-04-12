@@ -101,11 +101,17 @@ Route::get('/PRP4G',function(){
 });
 
 
-
 Route::get('/Silicio_plus_DMAE',function(){
 	$agent = new Agent();
 	if ($agent->isMobile())
 		return view ('Movil/Tratamientos/Silicio');
 	else
 		return view('/Tratamientos/Silicio');
+
+Route::get('/Rinomodelacion',function(){
+	$agent = new Agent();
+	if ($agent->isMobile())
+		return view ('Movil/Tratamientos/Rinomodelacion');
+	else
+	return view('/Tratamientos/Rinomodelacion');
 });

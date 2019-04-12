@@ -220,7 +220,7 @@
                     </a>
                 </div> 
                 <div class="col-md-2 col-sm-5 tratamiento contraste">
-                    <a href="http://">
+                    <a href="{{url('/Rinomodelacion')}}">
                         <div class="tratamiento-cuerpo">
                             <img src="Laravel/Recursos/img/Tratamientos/6.png" style="margin-top: 5%;">
                             <div class="nombre">Rinomodelación<br></div>

@@ -64,7 +64,7 @@
     {
         h2
         {
-            font-size: 6vw !important;
+            font-size: 8vw !important;
         }
         .conte,#beneficios li,#beneficios li::before
         {
@@ -157,7 +157,7 @@
         <div class="col-12 conte">
                 <input type="checkbox" id="spoiler4"></input>
                 <label for="spoiler4">Beneficios</label>
-                <div id="beneficios" class="spoiler col-12">
+                <div id="beneficios" class="spoiler col-12 ">
                         <p>
                             <ul style="text-align: justify;margin-top: -25px;">
                                 <li style="text-align: justify !important;"><font style="margin-left: 10px;">Lifting de frente.</font></li>
