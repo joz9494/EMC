@@ -107,7 +107,7 @@ Route::get('/Silicio_plus_DMAE',function(){
 		return view ('Movil/Tratamientos/Silicio');
 	else
 		return view('/Tratamientos/Silicio');
-
+});
 Route::get('/Rinomodelacion',function(){
 	$agent = new Agent();
 	if ($agent->isMobile())

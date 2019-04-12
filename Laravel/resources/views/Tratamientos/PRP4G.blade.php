@@ -58,10 +58,12 @@
         h1,h2
         {
             font-family: brandon_reg !important;
+            font-size: 3.5vh !important;
         }
         p,li
         {
             font-family: brandon_light !important;
+            font-size: 2.17vh !important;
         }
         #titulo h1,.text-img h2
         {
@@ -188,7 +190,7 @@
             <div id="titulo" class="row">
                 <div class="col-md-2"></div>
                 <div class="col-md-8 conte" style="margin-top: -8px;">
-                    <font style="font-family: brandon_reg"><center><a style="color: #0280A7" href="{{ url('/Tratamientos') }}"><img src="Laravel\Recursos\img\Tratamientos\flecha160x160.png" alt="" style="width:60px;margin-top: -10px"><font style="font-size: 30px;">  PRP 4G (Plasma Rico en Plaquetas)</font></a></center></font>
+                    <font style="font-family: brandon_reg"><center><a style="color: #0280A7" href="{{ url('/Tratamientos') }}"><img src="Laravel\Recursos\img\Tratamientos\flecha160x160.png" alt="" style="width:60px;margin-top: -10px"><font style="font-size: 3.5vh;">  PRP 4G (Plasma Rico en Plaquetas)</font></a></center></font>
                 </div>  
             </div>
             <div class=" row">

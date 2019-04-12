@@ -49,21 +49,21 @@
 .txtparrafo{
     font-family: brandon_light !important;
     color: black !important;
-    font-size: 1.27vw !important;
+    font-size: 2.17vh !important;
     text-align: justify !important;
     margin-left: -10px;
     }
     .txtparrafo2{
-      font-family: brandon_light !important;
+    font-family: brandon_light !important;
     color: black !important;
-    font-size: 1.27vw !important;
+    font-size: 2.17vh !important;
     text-align: right !important;
     margin-left: -10px;  
     }
 .txttitulo{
     font-family: brandon_reg !important;
     color: black !important;
-    font-size: 1.37vw !important;
+    font-size: 3.5vh !important;
 }
 
 #txtCuadros li::before {
@@ -148,7 +148,7 @@
         <div class="col-md-2"></div>
             <div class="col-md-8 conte" style="margin-top: 30px;">
 
-                <font style="font-family: brandon_reg"><center><a style="color: #1197c0" href="{{ url('/Tratamientos') }}"><img src="Laravel\Recursos\img\Tratamientos\flecha160x160.png" alt="" style="width:60px;margin-top: -10px"><font style="font-size: 30px;margin-left: 1%;">Opera tratamiento Antiaging</font></a></center></font>
+                <font style="font-family: brandon_reg"><center><a style="color: #1197c0" href="{{ url('/Tratamientos') }}"><img src="Laravel\Recursos\img\Tratamientos\flecha160x160.png" alt="" style="width:60px;margin-top: -10px"><font style="font-size: 3.5vh;margin-left: 1%;">Opera tratamiento Antiaging</font></a></center></font>
 
             </div> 
     </div>
