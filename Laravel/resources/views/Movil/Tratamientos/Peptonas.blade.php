@@ -28,7 +28,7 @@
 
 @section('content')
 
-<div style="width: 100%;margin-top: 10px;margin-bottom: 10px;">
+<div style="width: 100%;margin-top: 10px;">
   <h1>Peptonas</h1>
 </div> 
 
@@ -40,13 +40,13 @@
 
 <div class="row" style="margin-top: 30px;width: 100%;">
   <div class="">
-    <img src="Laravel/Recursos/img/Tratamientos/Peptonas/movil2.png" width="100%">
+    <img src="Laravel/Recursos/img/Tratamientos/Peptonas/movil22.png" width="100%">
   </div>
 </div>
 
 <div class="row" style="margin-top: 30px;width: 100%;margin-bottom: 30px;">
   <div class="">
-    <img src="Laravel/Recursos/img/Tratamientos/Peptonas/movil3.png" width="100%">
+    <img src="Laravel/Recursos/img/Tratamientos/Peptonas/movil33.png" width="100%">
   </div>
 </div>
 

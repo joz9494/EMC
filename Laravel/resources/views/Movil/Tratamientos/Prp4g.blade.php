@@ -34,13 +34,13 @@
 
 @section('content')
 
-<div style="width: 100%;margin-top: 10px;margin-bottom: 10px;">
+<div style="width: 100%;margin-top: 10px;">
   <h1 style="font-size: 6vw !important;">PRP 4G (Plasma Rico en Plaquetas de Cuarta Generación)</h1>
 </div> 
 
 <div class="row" style="margin-top: 10px;width: 100%;">
   <div class="">
-    <img src="Laravel/Recursos/img/Tratamientos/PRP/PRP4G-1.png" width="100%">
+    <img src="Laravel/Recursos/img/Tratamientos/PRP/PRP4G-11.png" width="100%">
   </div>
 </div>
 
@@ -57,7 +57,7 @@
 </div>
 
 
-<div class="row" style="text-align: center;">
+<div class="row" style="text-align: center;margin-top: -7px;">
   <div class="col-12">
     <h2>¿Causa efectos secundarios?</h2> 
     <p>
@@ -79,7 +79,8 @@
   </div>
 </div>
 
-<div class="row" style="width: 100%;">
+
+<div class="row" style="width: 100%;margin-top: -7px;">
   <div class="col-12">
     <img src="Laravel/Recursos/img/Tratamientos/Hormonas/esquinas2.png" width="100%">
   </div>
