@@ -39,19 +39,19 @@
 </div> 
 
 <div class="row" style="margin-top: 10px;width: 100%;">
-  <div class="col-12">
+  <div class="">
     <img src="Laravel/Recursos/img/Tratamientos/PRP/PRP4G-1.png" width="100%">
   </div>
 </div>
 
 <div class="row" style="margin-top: 30px;width: 100%;">
-  <div class="col-12">
+  <div class="">
     <img src="Laravel/Recursos/img/Tratamientos/PRP/PRP4G-2.png" width="100%">
   </div>
 </div>
 
 <div class="row" style="margin-top: 30px;width: 100%;">
-  <div class="col-12">
+  <div class="">
     <img src="Laravel/Recursos/img/Tratamientos/Hormonas/esquinas1.png" width="100%">
   </div>
 </div>
@@ -87,7 +87,7 @@
 
 
 <div class="row" style="margin-top: 30px;width: 100%;margin-bottom: 30px;">
-  <div class="col-12">
+  <div class="">
     <img src="Laravel/Recursos/img/Tratamientos/PRP/PRP4G-3.png" width="100%">
   </div>
 </div>

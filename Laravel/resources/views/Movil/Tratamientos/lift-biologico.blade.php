@@ -156,17 +156,17 @@
     <div class=" row">
         <div class="col-12 conte">
                 <input type="checkbox" id="spoiler4"></input>
-                <label for="spoiler4" style="font-size: 8vw;">Beneficios</label>
+                <label for="spoiler4">Beneficios</label>
                 <div id="beneficios" class="spoiler col-12">
                         <p>
-                                <ul style="margin-left: -20px;text-align: justify;">
-                                    <li style="text-align: justify !important;">Lifting de frente.</li>
-                                    <li style="text-align: justify !important;">Estirar y retira el exceso de piel.</li>
-                                    <li style="text-align: justify !important;">Elevación de pómulos.</li>
-                                    <li style="text-align: justify !important;">Aspecto más joven y natural.</li>
-                                    <li style="text-align: justify !important;">Surcos Nasogenianos o arrugas de amargura.</li>
-                                    <li style="text-align: justify !important;">Se denominan "surcos nasogenianos" o "pliegues nasolabiales" a las arrugas que se producen <font style="margin-left: 14px;">desde el final de la nariz y que descienden oblicuamente hasta ambos extremos de la boca.</font></li>
-                                </ul>
+                            <ul style="text-align: justify;margin-top: -25px;">
+                                <li style="text-align: justify !important;"><font style="margin-left: 10px;">Lifting de frente.</font></li>
+                                <li style="text-align: justify !important;"><font style="margin-left: 10px;">Estirar y retira el exceso de piel.</font></li>
+                                <li style="text-align: justify !important;"><font style="margin-left: 10px;">Elevación de pómulos.</font></li>
+                                <li style="text-align: justify !important;"><font style="margin-left: 10px;">Aspecto más joven y natural.</font></li>
+                                <li style="text-align: justify !important;"><font style="margin-left: 10px;">Surcos Nasogenianos o arrugas de amargura.</font></li>
+                                <li style="text-align: justify !important;"><font style="margin-left: 10px;">Se denominan "surcos nasogenianos" o "pliegues nasolabiales" a las arrugas que se producen desde el final de la nariz y que descienden oblicuamente hasta ambos extremos de la boca.</font></li>
+                            </ul>
                             </p>
                 </div>                
         </div>
