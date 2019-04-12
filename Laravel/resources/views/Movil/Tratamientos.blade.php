@@ -229,7 +229,7 @@
                     </a>
                 </div>
                 <div class="col-md-2 col-sm-5 tratamiento">
-                    <a href="http://">
+                    <a href="{{ url ('/Silicio_plus_DMAE')}}">
                         <div class="tratamiento-cuerpo">
                             <img src="Laravel/Recursos/img/Tratamientos/7.png" alt="">
                             <div class="nombre">Silicio plus + DMAE </div>
@@ -256,7 +256,7 @@
                     </a>
                 </div>
                 <div class="col-md-2 col-sm-5 tratamiento contraste"> 
-                    <a href="http://">
+                    <a href="{{ url ('/Silicio_plus_DMAE')}}">
                         <div class="tratamiento-cuerpo">
                             <img src="Laravel/Recursos/img/Tratamientos/10.png" alt="">
                             <div class="nombre">Tratamiento <br>Progresivo de Ojos</div>
