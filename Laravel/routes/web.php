@@ -90,7 +90,7 @@ Route::get('/lift-biologico',function(){
 	if($agent->isMobile())
 		return view('/Movil/Tratamientos/lift-biologico');
 	else
-	return view('/Movil/Tratamientos/lift-biologico');
+	return view('Tratamientos/lift-biologico');
 });
 Route::get('/PRP4G',function(){
 	$agent = new Agent();
@@ -98,4 +98,14 @@ Route::get('/PRP4G',function(){
 		return view ('Movil/Tratamientos/Prp4g');
 	else
 	return view('/Tratamientos/PRP4G');
+});
+
+
+
+Route::get('/Silicio_plus_DMAE',function(){
+	$agent = new Agent();
+	if ($agent->isMobile())
+		return view ('Movil/Tratamientos/Silicio');
+	else
+		return view('/Tratamientos/Silicio');
 });

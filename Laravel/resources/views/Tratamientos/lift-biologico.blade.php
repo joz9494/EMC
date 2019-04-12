@@ -220,14 +220,14 @@
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
                                 <div class="imagen_text">
-                                    <img class="d-block w-100" src="Laravel\Recursos\img\LiftBiologico\C1.png" alt="First slide">
+                                    <img class="d-block w-100" src="Laravel\Recursos\img\Tratamientos\LiftBiologico\C1.png" alt="First slide">
                                 </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="Laravel\Recursos\img\LiftBiologico\C3.png" alt="Second slide">
+                                    <img class="d-block w-100" src="Laravel\Recursos\img\Tratamientos\LiftBiologico\C3.png" alt="Second slide">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="Laravel\Recursos\img\LiftBiologico\C2.png" alt="Third slide">
+                                    <img class="d-block w-100" src="Laravel\Recursos\img\Tratamientos\LiftBiologico\C2.png" alt="Third slide">
                                 </div>
                             </div>
                             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
