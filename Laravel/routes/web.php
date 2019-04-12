@@ -99,3 +99,11 @@ Route::get('/PRP4G',function(){
 	else
 	return view('/Tratamientos/PRP4G');
 });
+
+Route::get('/Rinomodelacion',function(){
+	$agent = new Agent();
+	if ($agent->isMobile())
+		return view ('Movil/Tratamientos/Rinomodelacion');
+	else
+	return view('/Tratamientos/Rinomodelacion');
+});
