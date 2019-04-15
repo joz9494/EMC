@@ -32,10 +32,6 @@
             font-family: brandon_light;
             src: url(Laravel/Recursos/BRANDON_LIGHT.otf);
         }
-        body{
-            background-color: #0280A7;
-            overflow-x: hidden;
-        }
     
                
         #contenedormaestro
@@ -59,28 +55,14 @@
         {
             font-family: brandon_reg !important;
         }
-        p,li
+        p
         {
             font-family: brandon_light !important;
         }
         #titulo h1,.text-img h2
         {
             color: #1197C0;
-            font-size: 32px;
             font-weight: normal;
-        }
-        #txt_hormonas1
-        {
-            width: 100%;
-            background-color:rgb(236,236,236);
-            padding: 2%;
-
-
-        }
-        #txt_hormonas1 p
-        {
-            font-size: 3vh;
-            color: black;
         }
         .imagen_text{
             position: relative;
@@ -95,68 +77,18 @@
             position: absolute;
             top: 0;
             padding: 2.5%;
-            padding-left: 6%;
-            padding-right: 6%;
+            padding-left: 4%;
+            padding-right: 4%;
             color: black;
-        }
-        #prp4g1
-        {
-            top: 2%;
-            width: 70%;
-            right: 30%;
-        }
-        #prp4g3
-        {
-            
-            width: 60%;
-            right: 40%;
-        }
-        #prp4g3 ul
-        {
-            text-align: left;
-            margin: 2%;
-        }
-        #prp4g3 li
-        {
-            line-height: 100%;
-        }
-        #prp4g3 li::before {content: "•"; color:gray;font-size: 2vw; padding-right: 1.5%;}
-        .salto_linea
-        {
-            margin-left: 3.8%;
-        }
-        #prp4g1 h2,#hormonas3 p,#prp4g3 h2
-        {
-            color: black;
-        }
-        #hormonas3 h2
-        {
-            color: #0280A7;
-        }
-        #hormonas3
-        {
-            top: 6% ;
-            width: 60%;
-            left:  35%;
-        }
-
-        #prp4g1 p,#prp4g3 li
-        {
-            color: gray;
         }
         @media  (orientation: portrait) {
             .text-img h2,#hormonas3 h2{
-                font-size: 1.37vw;
+                font-size: 3.5vw;
                 line-height: 125%;
             }
             .imagen_text p,#hormonas3 p
             {
-                font-size: 1.27vw;
-                line-height: 125%;
-            }
-            #prp4g1 h2,#prp4g1 p,#prp4g3 h2,#prp4g3 li
-            {
-                font-size: 1.4vw;
+                font-size: 2.17vw;
                 line-height: 125%;
             }
 

@@ -80,7 +80,7 @@
     </div>
     <div class="row" style="margin-top: 10px;">
         <div class="col-12 conte">
-            <img src="Laravel\Recursos\img\Tratamientos\Rinomodelacion\RinomodelaciónMovil.png">
+            <img src="Laravel\Recursos\img\Tratamientos\Rinomodelacion\RinomodelaciónMovilv2.png">
         </div>
     </div>
     <div class="row">
