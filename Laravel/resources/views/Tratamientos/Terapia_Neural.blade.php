@@ -79,8 +79,54 @@
 
         <div class="row">
             <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <img src="Laravel/Recursos/img/Tratamientos/Hormonas/esquinas1.png" width="96%">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <p></p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <img src="Laravel/Recursos/img/Tratamientos/Hormonas/esquinas2.png" width="96%">
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <img src="Laravel/Recursos/img/Tratamientos/Terapia Nueral/Terapia Neural1.png" width="96%%;">
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-3"></div>
                 <div class="col-md-6 conte">
-                    <img id="contentimg" src="Laravel/Recursos/img/Tratamientos/Opera/Opera-thalia.png" width="96%;">
+                    <img id="contentimg" src="Laravel/Recursos/img/Tratamientos/Terapia Nueral/Terapia Neural2.png" width="96%;">
+                </div>
+        </div>
+
+
+        <div class="row" style="margin-top: 50px;">
+            <div class="col-md-3"></div>
+                <div class="col-md-6 conte">
+                    <img id="contentimg" src="Laravel/Recursos/img/Tratamientos/Terapia Nueral/Terapia Neural3.png" width="96%;">
+                </div>
+        </div>
+
+
+        <div class="row" style="margin-top: 50px;">
+            <div class="col-md-3"></div>
+                <div class="col-md-6 conte">
+                    <img id="contentimg" src="Laravel/Recursos/img/Tratamientos/Opera/Terapia Neural2.png" width="96%;">
                 </div>
         </div>
 
