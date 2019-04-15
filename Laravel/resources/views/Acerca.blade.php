@@ -144,9 +144,13 @@
             text-align: left;
             margin: 2%;
         }
-        #final li,#final h2
+        ,#final h2
         {
-            font-size: 1vw;
+            font-size: 3.5vh;
+        }
+        #final li
+        {
+            font-size: 2.17vh;
             line-height: 150%;
         } 
         #final li::before { content: "•"; color:grey; font-size: 2vw; padding-right: 3%;}

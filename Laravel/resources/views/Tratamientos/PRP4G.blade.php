@@ -146,12 +146,12 @@
         }
         @media  (orientation: portrait) {
             .text-img h2,#hormonas3 h2{
-                font-size: 1.37vw;
+                font-size: 3.5vh;
                 line-height: 125%;
             }
             .imagen_text p,#hormonas3 p
             {
-                font-size: 1.27vw;
+                font-size: 2.17vh;
                 line-height: 125%;
             }
             #prp4g1 h2,#prp4g1 p,#prp4g3 h2,#prp4g3 li
@@ -190,7 +190,7 @@
             <div id="titulo" class="row">
                 <div class="col-md-2"></div>
                 <div class="col-md-8 conte" style="margin-top: -8px;">
-                    <font style="font-family: brandon_reg"><center><a style="color: #0280A7" href="{{ url('/Tratamientos') }}"><img src="Laravel\Recursos\img\Tratamientos\flecha160x160.png" alt="" style="width:60px;margin-top: -10px"><font style="font-size: 3.5vh;">  PRP 4G (Plasma Rico en Plaquetas)</font></a></center></font>
+                    <font style="font-family: brandon_reg"><center><a style="color: #0280A7" href="{{ url('/Tratamientos') }}"><img src="Laravel\Recursos\img\Tratamientos\flecha160x160.png" alt="" style="width:60px;margin-top: -10px"><font style="font-size: 30px;">  PRP 4G (Plasma Rico en Plaquetas)</font></a></center></font>
                 </div>  
             </div>
             <div class=" row">

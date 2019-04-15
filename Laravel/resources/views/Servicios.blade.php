@@ -117,11 +117,11 @@
                 <div class="col-md-2"></div>
                 <div class="col-md-8 conte">
 
-                    <font style="color: #1197c0; font-family: brandon_reg;"><center><font style="font-size: 30px;margin-left: 1%;margin-top: -100px !important">Servicios</font></center></font>
+                    <font style="color: #1197c0; font-family: brandon_reg;"><center><font style="font-size: 8vw;margin-left: 1%;margin-top: -100px !important">Servicios</font></center></font>
 
                 </div> 
             </div>
-                <font style="font-family: brandon_reg;font-size: 21px; ">En Eterna Medical Center, contamos con servicios para sentirte y verte más joven. Mediante tratamientos preventivos y correctivos con la tecnología más avanzada, diseñamos todos nuestros servicios completamente a las necesidades de tu cuerpo.</font>
+                <font style="font-family: brandon_reg;font-size: 5vw; ">En Eterna Medical Center, contamos con servicios para sentirte y verte más joven. Mediante tratamientos preventivos y correctivos con la tecnología más avanzada, diseñamos todos nuestros servicios completamente a las necesidades de tu cuerpo.</font>
             </div>
         </div>  
 

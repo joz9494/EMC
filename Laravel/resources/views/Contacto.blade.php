@@ -81,10 +81,10 @@
     @media  (orientation: landscape) and (min-width:768px){
         #psupt th
         {
-            font-size: 2vw;
+            font-size: 3.5vh;
         }
         #psupt td
-        {font-size: 1.15vw}
+        {font-size: 2.17vh}
         #formulario_contacto
         {
             top: 2%;

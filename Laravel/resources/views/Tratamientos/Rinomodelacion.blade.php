@@ -83,12 +83,12 @@
         }
         @media  (orientation: portrait) {
             .text-img h2,#hormonas3 h2{
-                font-size: 3.5vw;
+                font-size: 3.5vh;
                 line-height: 125%;
             }
             .imagen_text p,#hormonas3 p
             {
-                font-size: 2.17vw;
+                font-size: 2.17vh;
                 line-height: 125%;
             }
 
@@ -101,11 +101,6 @@
             .imagen_text p
             {
                 font-size: 1.27vw;
-                line-height: 125%;
-            }
-            #prp4g1 h2,#prp4g1 p,#prp4g3 h2,#prp4g3 li,#hormonas3 h2,#hormonas3 p
-            {
-                font-size: 1.4vw;
                 line-height: 125%;
             }
             

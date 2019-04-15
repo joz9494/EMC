@@ -14,8 +14,7 @@
     {
         width: 100%;
     }
-    h2{
-        font-size: 8vw !important;
+    h2,h1{
         color: #1197c0 !important;
         text-align: center;
     }
@@ -62,9 +61,13 @@
     }
     @media( orientation:portrait)
     {
+        #titulo h1
+        {
+            font-size: 8vw;
+        }
         h2
         {
-            font-size: 8vw !important;
+            font-size: 6vw !important;
         }
         .conte,#beneficios li,#beneficios li::before
         {
@@ -99,7 +102,7 @@
 
 <div id="contenenedormaestro">
     <div  id="titulo" class="conte" style="margin-top: 20px;">
-        <h2>Lift Biológico</h2>
+        <h1>Lift Biológico</h1>
     </div>
     <div class="row fila" style="margin-top: 0px;">
         <div class="col-2"></div>
@@ -193,7 +196,7 @@
                                 <li style="text-align: justify !important;"><font style="margin-left: 10px;">Elevación de pómulos.</font></li>
                                 <li style="text-align: justify !important;"><font style="margin-left: 10px;">Aspecto más joven y natural.</font></li>
                                 <li style="text-align: justify !important;"><font style="margin-left: 10px;">Surcos Nasogenianos o arrugas de amargura.</font></li>
-                                <li style="text-align: justify !important;"><font style="margin-left: 10px;">Se denominan "surcos nasogenianos" o "pliegues nasolabiales" a las arrugas que se producen desde el final de la nariz y que descienden oblicuamente hasta ambos extremos de la boca.</font></li>
+                                <li style="text-align:left !important;"><font style="margin-left: 10px;">Se denominan "surcos nasogenianos" o "pliegues nasolabiales" a las arrugas que se producen desde el final de la nariz y que descienden oblicuamente hasta ambos extremos de la boca.</font></li>
                             </ul>
                             </p>
                 </div>                

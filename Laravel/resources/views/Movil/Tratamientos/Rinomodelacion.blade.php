@@ -32,11 +32,14 @@
 
     @media( orientation:portrait)
     {
-        h1,h2
+        #titutlo h1
         {
             font-size: 8vw !important;
         }
-        
+        h2
+        {
+            font-size: 5.5vw !important;
+        }
         p
         {
             font-size: 5vw;

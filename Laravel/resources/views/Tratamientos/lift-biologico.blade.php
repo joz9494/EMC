@@ -210,7 +210,7 @@
                 <div class="col-md-2"></div>
                 <div class="col-md-8 conte">
 
-                    <font style="font-family: brandon_reg"><center><a style="color: #1197c0" href="{{ url('/Tratamientos') }}"><img src="Laravel\Recursos\img\Tratamientos\flecha160x160.png" alt="" style="width:60px;margin-top: -10px"><font style="font-size: 30px;margin-left: 1%;">Lift Biológico</font></a></center></font>
+                    <font style="font-family: brandon_reg"><center><a style="color: #1197c0" href="{{ url('/Tratamientos') }}"><img src="Laravel\Recursos\img\Tratamientos\Tratamientos\flecha160x160.png" alt="" style="width:60px;margin-top: -10px"><font style="font-size: 30px;margin-left: 1%;">Lift Biológico</font></a></center></font>
 
                 </div> 
             </div>
@@ -220,14 +220,14 @@
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
                                 <div class="imagen_text">
-                                    <img class="d-block w-100" src="Laravel\Recursos\img\LiftBiologico\C1.png" alt="First slide">
+                                    <img class="d-block w-100" src="Laravel\Recursos\img\Tratamientos\LiftBiologico\C1.png" alt="First slide">
                                 </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="Laravel\Recursos\img\LiftBiologico\C3.png" alt="Second slide">
+                                    <img class="d-block w-100" src="Laravel\Recursos\img\Tratamientos\LiftBiologico\C3.png" alt="Second slide">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="Laravel\Recursos\img\LiftBiologico\C2.png" alt="Third slide">
+                                    <img class="d-block w-100" src="Laravel\Recursos\img\Tratamientos\LiftBiologico\C2.png" alt="Third slide">
                                 </div>
                             </div>
                             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -261,7 +261,7 @@
                 <div class="col-md-3"></div>
                 <div class="col-md-6 conte">
                         <div class="imagen_text">
-                            <img src="Laravel\Recursos\img\LiftBiologico\T3.png" alt="">
+                            <img src="Laravel\Recursos\img\Tratamientos\LiftBiologico\T3.png" alt="">
                         </div>
                 </div>    
             </div>
@@ -292,7 +292,7 @@
                 <div class="col-md-3"></div>
                 <div class="col-md-6 conte">
                     <div class="imagen_text">
-                        <img src="Laravel\Recursos\img\LiftBiologico\T2.png" alt="">
+                        <img src="Laravel\Recursos\img\Tratamientos\LiftBiologico\T2.png" alt="">
                     </div>
                 </div>    
             </div>
@@ -303,7 +303,7 @@
                 <div class="col-md-3"></div>
                 <div class="col-md-6 conte">
                     <div class="imagen_text">
-                        <img src="Laravel\Recursos\img\LiftBiologico\T1.png" alt="">
+                        <img src="Laravel\Recursos\img\Tratamientos\LiftBiologico\T1.png" alt="">
                     </div>
                 </div>    
             </div>

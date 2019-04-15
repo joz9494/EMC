@@ -84,7 +84,7 @@
         }
         #txt_hormonas1 p,#txt_hormonas1 h2
         {
-            font-size: 3vh;
+            font-size: 2.17vh;
             color: black;
         }
         .imagen_text{
@@ -139,16 +139,16 @@
         @media  (orientation: landscape)and (min-width:768px){
             .text-img h2
             {
-                font-size: 1.37vw;
+                font-size: 3.5vh;
             }
             .imagen_text p
             {
-                font-size: 1.27vw;
+                font-size: 2.17vh;
                 padding-bottom: 1.8%;
             }
             #hormonas2 h2,#hormonas2 p
             {
-                font-size: 1.4vw;
+                font-size: 1.4vw !important;
                 line-height:150%;
             }
             #hormonas3 h2,#hormonas3 p

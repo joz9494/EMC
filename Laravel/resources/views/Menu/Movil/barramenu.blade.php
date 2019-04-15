@@ -49,7 +49,7 @@
 
             }
 
-            menu>a,#dia{
+            menu>a,#dia,h2,h1{
                 font-family: brandon_reg !important;
             }
             p,#opciones_menu>li,#horario,h4
