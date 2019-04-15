@@ -41,7 +41,6 @@
         }
         h2{
             font-family: brandon_reg !important;
-            font-weight: normal !important;
         }       
         #contenedormaestro
         { 
@@ -182,7 +181,7 @@
             <div id="titulo" class="row">
                 <div class="col-md-2"></div>
                 <div class="col-md-8 conte" style="margin-top: -8px;">
-                    <font style="font-family: brandon_reg"><center><a style="color: #0280A7" href="{{ url('/Tratamientos') }}"><img src="Laravel\Recursos\img\Tratamientos\flecha160x160.png" alt="" style="width:60px;margin-top: -10px"><font style="font-size: 30px;">  Peptonas</font></a></center></font>
+                    <font style="font-family: brandon_reg"><center><a style="color: #0280A7" href="{{ url('/Tratamientos') }}"><img src="Laravel\Recursos\img\Tratamientos\flecha160x160.png" alt="" style="width:60px;margin-top: -10px"><font style="font-size: 3.5vh;">  Peptonas</font></a></center></font>
                 </div>  
             </div>
             <div class=" row">
@@ -248,7 +247,6 @@
                             <p style="padding-bottom:4%">Si.</p>
                             <h2>¿Cuánto tiempo dura el proceso?</h2>
                             <p>1 hora máximo.</p>
-
                         </div>
                     </div>
                 </div>

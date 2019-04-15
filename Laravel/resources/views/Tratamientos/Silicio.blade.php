@@ -45,12 +45,12 @@
     p{
     font-family: brandon_light;
     color: black;
-    font-size: 2.07vh;
+    font-size: 2.17vh;
     text-align: center;
     color: #0280A7 !important;
   }
   h1{
-    font-size: 2.47vh !important;
+    font-size: 3.5vh !important;
     font-family: brandon_reg !important;
     color: #0280A7 !important;
     text-align: center;
