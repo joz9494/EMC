@@ -116,3 +116,12 @@ return view('Movil/Tratamientos/Terapia_Neural');
 else
 return view ('/Tratamientos/Terapia_Neural');
 });
+
+
+Route::get('/Silicio_plus_DMAE',function(){
+$agent = new Agent();
+if($agent->isMobile())
+return view('Movil/Tratamientos/Silicio');
+else
+return view ('/Tratamientos/Silicio');
+});

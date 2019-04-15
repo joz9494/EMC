@@ -47,7 +47,7 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row" style="margin-top: -30px;">
             <div class="col-md-3"></div>
             <div class="col-md-5" style="padding: 30px;">
                 <h1>¿El dolor crónico te paraliza?</h1>
@@ -58,7 +58,7 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row" style="margin-top: -30px;">
             <div class="col-md-3"></div>
             <div class="col-md-6">
                 <img src="Laravel/Recursos/img/Tratamientos/Hormonas/esquinas2.png" width="96%">
