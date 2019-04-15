@@ -121,13 +121,13 @@
         <div id="contenedormaestro">
             <div id="titulo" class="row">
                 <div class="col-md-2"></div>
-                <div class="col-md-8 conte" style="margin-top: -8px;">
+                <div class="col-md-8 conte" style="">
                     <font style="font-family: brandon_reg"><center><a style="color: #0280A7" href="{{ url('/Tratamientos') }}"><img src="Laravel\Recursos\img\Tratamientos\flecha160x160.png" alt="" style="width:60px;margin-top: -10px"><font style="font-size: 30px;">  Rinomodelacion</font></a></center></font>
                 </div>  
             </div>
             <div class=" row">
                 <div class="col-md-3"></div>
-                <div class="col-md-6 ">
+                <div class="col-md-6 conte">
                     <div class="imagen_text">
                         <img src="Laravel\Recursos\img\Tratamientos\Rinomodelacion\Rinomodelación.jpg" alt="">
                     </div>
