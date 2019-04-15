@@ -247,7 +247,7 @@
                     </a>
                 </div>
                 <div class="col-md-2 col-sm-5 tratamiento">
-                    <a href="http://">
+                    <a href="{{ url ('Terapia_Neural') }}">
                         <div class="tratamiento-cuerpo">
                             <img src="Laravel/Recursos/img/Tratamientos/9.png" alt="">
                             <div class="nombre">Terapia Neural</div>

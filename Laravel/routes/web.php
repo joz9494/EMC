@@ -115,3 +115,12 @@ Route::get('/Rinomodelacion',function(){
 	else
 	return view('/Tratamientos/Rinomodelacion');
 });
+
+
+Route::get('/Terapia_Neural',function(){
+$agent = new Agent();
+if($agent->isMobile())
+return view('/Tratamientos/Terapia_Neural');
+else
+return view ('/Tratamientos/Terapia_Neural');
+});

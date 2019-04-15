@@ -292,7 +292,7 @@
                                     <br>
                                     <p class="descripcion" style="font-family: brandon_light;margin-top: 35px;">Tratamiento para enfermedades <br>causadas por <br>trastorno en el sistema<br>eléctrico del cuerpo.</p> 
                                 </div>
-                                <a href="http://" class="btn btn-primary" style="background-color: #1197c0;border-color: #1197c0">Leer más</a>
+                                <a href="{{ url('Terapia_Neural') }}" class="btn btn-primary" style="background-color: #1197c0;border-color: #1197c0">Leer más</a>
                             </div>
                             <div class="col-md-2 col-sm-5 tratamiento"> 
                                 <div class="tratamiento-cuerpo">
