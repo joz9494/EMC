@@ -71,13 +71,13 @@
         
         <div class="row">
              <div class="col-md-2"></div>
-                <div class="col-md-8 conte" style="margin-top: -8px;">
+                <div class="col-md-8 conte" style="margin-top: 10px;">
                     <font style="font-family: brandon_reg"><center><a style="color: #0280A7" href="{{ url('/Tratamientos') }}"><img src="Laravel\Recursos\img\Tratamientos\flecha160x160.png" alt="" style="width:60px;margin-top: -10px"><font style="font-size: 3.5vh;">  Terapia Neural</font></a></center></font>
                 </div>  
         </div>
 
 
-        <div class="row">
+        <div class="row" style="margin-top: 10px;">
             <div class="col-md-3"></div>
             <div class="col-md-6">
                 <img src="Laravel/Recursos/img/Tratamientos/Hormonas/esquinas1.png" width="96%">
@@ -86,8 +86,12 @@
 
         <div class="row">
             <div class="col-md-3"></div>
-            <div class="col-md-6">
-                <p></p>
+            <div class="col-md-5" style="margin-left: 50px;">
+                <h1>¿El dolor crónico te paraliza?</h1>
+                <p>Elimina dolores persistentes o los asociados a la vejez.</p>
+                <br>
+                <h1>¿Qué es?</h1>
+                <p>La terapia Neural es un método de tratamiento de enfermedades causadas por trastornos en el sistema eléctrico del cuerpo, estos trastornos eléctricos son llamados campos de interferencia y pueden encontrarse en cualquier parte del cuerpo.</p>
             </div>
         </div>
 
@@ -99,7 +103,8 @@
         </div>
 
 
-        <div class="row">
+
+        <div class="row" style="margin-top: 50px;">
             <div class="col-md-3"></div>
             <div class="col-md-6">
                 <img src="Laravel/Recursos/img/Tratamientos/Terapia Nueral/Terapia Neural1.png" width="96%%;">
@@ -107,7 +112,15 @@
         </div>
 
 
-        <div class="row">
+        <div class="row" style="margin-top: 50px;">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <h1>Beneficios de la terapia Neural</h1>
+            </div>
+        </div>
+
+
+        <div class="row" style="margin-top: 50px;">
             <div class="col-md-3"></div>
                 <div class="col-md-6 conte">
                     <img id="contentimg" src="Laravel/Recursos/img/Tratamientos/Terapia Nueral/Terapia Neural2.png" width="96%;">
@@ -125,10 +138,43 @@
 
         <div class="row" style="margin-top: 50px;">
             <div class="col-md-3"></div>
-                <div class="col-md-6 conte">
-                    <img id="contentimg" src="Laravel/Recursos/img/Tratamientos/Opera/Terapia Neural2.png" width="96%;">
-                </div>
+            <div class="col-md-6">
+                <h1>¿En cuántas sesiones vez beneficios?</h1>
+                <p style="color: black !important">Puedes ver los beneficios desde la primera aplicación.</p>
+            </div>
         </div>
+
+
+        <div class="row" style="margin-top: 50px;">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <img src="Laravel/Recursos/img/Tratamientos/Hormonas/esquinas1.png" width="96%">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-5" style="margin-left: 50px;">
+                <h1>¿Quién puede utilizar la Terapia Neural?</h1>
+                <p>Puede ayudar a pacientes en patologías osteoarticular, bursitis, artritis, artrosis, contracturas musculares, lesiones musculares, tendinitis, tendinosis, síndrome túnel carpiano que no haya generado un daño grave.</p>
+                <br>
+                <h1>¿Cada cuándo se debe aplicar?</h1>
+                <p>Se aplica varias veces y es progresivo. Todo depende de la situación donde te encuentres.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <img src="Laravel/Recursos/img/Tratamientos/Hormonas/esquinas2.png" width="96%">
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <br>
+
+
 
     </div>
 
