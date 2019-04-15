@@ -231,7 +231,8 @@
                                 <div class="tratamiento-cuerpo">
                                     <img src="Laravel/Recursos/img/Tratamientos/3.png" alt="">
                                     <div class="nombre">Opera tratamiento<br>Antiaging</div>
-                                    <p class="descripcion" style="font-family: brandon_light;margin-top: 30px;">¡Estimula la vitalidad<br> celular y luce <br> radiante como <br>#Thalía!</p>
+                                    <p class="descripcion" style="font-family: brandon_light;margin-top: 30px;">
+                                        ¡Estimula la vitalidad<br> celular y luce <br> radiante como <br>#Thalía!</p>
                                     <p class="descripcion"></p> 
                                 </div>
                                 <a href="{{url('/Opera_tratamiento_antiaging')}}" class="btn btn-primary" style="background-color: #1197c0;border-color: #1197c0">Leer más</a>
@@ -280,9 +281,10 @@
                                     <div class="nombre">Scultur Refort</div>
                                     <br>
                                     <br>
-                                    <p class="descripcion" style="font-family: brandon_light;margin-top: 35px;">Re-estructura y estimula <br> la formación de fibras <br> de colágeno y elastina.</p> 
+                                    <p class="descripcion" style="font-family: brandon_light;margin-top: 35px;">
+                                        Re-estructura y estimula <br> la formación de fibras <br> de colágeno y elastina.</p> 
                                 </div>
-                                <a href="http://" class="btn btn-primary" style="background-color: #1197c0;border-color: #1197c0">Leer más</a>
+                                <a href="{{url('/scultur_refort')}}" class="btn btn-primary" style="background-color: #1197c0;border-color: #1197c0">Leer más</a>
                             </div>
                             <div class="col-md-2 col-sm-5 tratamiento contraste">
                                 <div class="tratamiento-cuerpo">
@@ -290,7 +292,8 @@
                                     <div class="nombre">Terapia Neural</div>
                                     <br>
                                     <br>
-                                    <p class="descripcion" style="font-family: brandon_light;margin-top: 35px;">Tratamiento para enfermedades <br>causadas por <br>trastorno en el sistema<br>eléctrico del cuerpo.</p> 
+                                    <p class="descripcion" style="font-family: brandon_light;margin-top: 35px;">
+                                        Tratamiento para enfermedades <br>causadas por <br>trastorno en el sistema<br>eléctrico del cuerpo.</p> 
                                 </div>
                                 <a href="{{ url('Terapia_Neural') }}" class="btn btn-primary" style="background-color: #1197c0;border-color: #1197c0">Leer más</a>
                             </div>
@@ -300,7 +303,8 @@
                                     <div class="nombre" style="margin-top: 32px;">Tratamiento <br>Progresivo de Ojos</p></div>
                                     <br>
                                     <br>
-                                    <p class="descripcion" style="font-family: brandon_light;margin-top: -35px;">Eliminación biológica de<br>líneas profundas,sin<br>cirugía.</p> 
+                                    <p class="descripcion" style="font-family: brandon_light;margin-top: -35px;">
+                                        Eliminación biológica de<br>líneas profundas,sin<br>cirugía.</p> 
                                 </div>
                                 <a href="http://" class="btn btn-primary" style="background-color: #1197c0;border-color: #1197c0">Leer más</a>
                             </div>

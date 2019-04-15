@@ -114,9 +114,17 @@
         {
             font-size: 2.5vh;
         }
-        #descripcion3 h1,#lista1 li,#lista1 h1,#descripcion1
+        #descripcion3 h1,#descripcion1
         {
             font-size:  3vh;
+        }
+        #lista1 li
+        {
+           font-size:  5vw;
+        }
+        #lista1 h1
+        {
+            font-size: 5.5vw;
         }
     }
     @media (orientation:landscape)
@@ -238,7 +246,7 @@
             </div>
             <div class="row" style="margin-top: 10px;">
                 <div id="lista1" class="col-12 conte">
-                    <h1 style="font-size: 3.5vh !important">Trayectoria</h1>
+                    <h1 style="font-size: 5.5vw !important">Trayectoria</h1>
                     <p>
                         <ul>
                             <li>Miembro de American Academy of Anti-Aging Medicine (Estados Unidos).</li>
@@ -256,7 +264,7 @@
             </div>
             <div class="row">
                     <div id="lista1" class="col-12 conte">
-                        <h1 style="font-size: 3.5vh">Experinecia</h1>
+                        <h1 style="font-size: 5.5vw">Experinecia</h1>
                         <ul>
                             <li>Antienvejecimiento Cerebral.</li>
                             <li>Antienvejecimiento y Nutrición Ortomolecular.</li>

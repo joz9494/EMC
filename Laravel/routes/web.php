@@ -110,9 +110,16 @@ Route::get('/Rinomodelacion',function(){
 
 
 Route::get('/Terapia_Neural',function(){
-$agent = new Agent();
-if($agent->isMobile())
-return view('Movil/Tratamientos/Terapia_Neural');
-else
-return view ('/Tratamientos/Terapia_Neural');
+	$agent = new Agent();
+		if($agent->isMobile())
+			return view('Movil/Tratamientos/Terapia_Neural');
+		else
+			return view ('/Tratamientos/Terapia_Neural');
+});
+Route::get('/scultur_refort',function(){
+	$agent = new Agent();
+		if($agent->isMobile())
+			return view('Movil/Tratamientos/scultur_refort');
+		else
+			return view ('/Tratamientos/scultur_refort');
 });
