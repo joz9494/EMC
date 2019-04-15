@@ -77,7 +77,7 @@
         </div>
 
 
-        <div class="row" style="margin-top: 50px;">
+        <div class="row" style="margin-top: 10px;">
             <div class="col-md-3"></div>
             <div class="col-md-6">
                 <img src="Laravel/Recursos/img/Tratamientos/Hormonas/esquinas1.png" width="96%">
@@ -104,7 +104,7 @@
 
 
 
-        <div class="row" style="margin-top: 100px;">
+        <div class="row" style="margin-top: 50px;">
             <div class="col-md-3"></div>
             <div class="col-md-6">
                 <img src="Laravel/Recursos/img/Tratamientos/Terapia Nueral/Terapia Neural1.png" width="96%%;">
@@ -112,7 +112,7 @@
         </div>
 
 
-        <div class="row" style="margin-top: 100px;">
+        <div class="row" style="margin-top: 50px;">
             <div class="col-md-3"></div>
             <div class="col-md-6">
                 <h1>Beneficios de la terapia Neural</h1>
@@ -128,7 +128,7 @@
         </div>
 
 
-        <div class="row" style="margin-top: 100px;">
+        <div class="row" style="margin-top: 50px;">
             <div class="col-md-3"></div>
                 <div class="col-md-6 conte">
                     <img id="contentimg" src="Laravel/Recursos/img/Tratamientos/Terapia Nueral/Terapia Neural3.png" width="96%;">
@@ -136,7 +136,7 @@
         </div>
 
 
-        <div class="row" style="margin-top: 100px;">
+        <div class="row" style="margin-top: 50px;">
             <div class="col-md-3"></div>
             <div class="col-md-6">
                 <h1>¿En cuántas sesiones vez beneficios?</h1>
@@ -173,7 +173,7 @@
         <br>
         <br>
         <br>
-        
+
 
 
     </div>
