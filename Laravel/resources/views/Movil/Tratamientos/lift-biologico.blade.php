@@ -7,7 +7,7 @@
     }
     .conte
     {
-        margin-top: 5px;margin-bottom: 5px;
+       
         text-align: center;
     }
     .conte img
@@ -78,6 +78,18 @@
     #beneficios
     {
         padding: 10%;
+        padding-bottom: 0;
+    }
+    .text
+    {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .fila
+    {
+        margin-top: 20px;
     }
 </style>
 
@@ -89,33 +101,49 @@
     <div  id="titulo" class="conte" style="margin-top: 20px;">
         <h2>Lift Biológico</h2>
     </div>
-    <div class="row">
+    <div class="row fila" style="margin-top: 0px;">
         <div class="col-2"></div>
-        <div id="pregunta" class="col-8">
-            <p>¿De qué están compuestos los hilos? O ¿Hilos mágicos?</p>
-        </div>
-    </div>
-    <div class="row" style="margin-top: 10px;">
         <div class="col-12 conte">
-            <img src="Laravel\Recursos\img\LiftBiologico\Movil\iPhone 6-7-8 Plus – 6.png">
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-12 conte" style="margin-top: 30px;">
-            <img src="Laravel\Recursos\img\LiftBiologico\Movil\iPhone 6-7-8 Plus – 7.png">
-        </div>
-    </div>
-    <div class="row" style="margin-top: 30px;">
-        <div class="col-12">
-            <div  id="titulo">
-                <h2>¿Seguridad?</h2>
+            <div class="text">
+                <p>El lift biológico revitaliza la piel que tiene apariencia de “colgada”.</p>
             </div>
+        </div>
+    </div>
+    <div class="row fila" style="margin-top: 10px;">
+        <div class="col-12 conte">
+            <img src="Laravel\Recursos\img\Tratamientos\LiftBiologico\Movil\iPhone 6-7-8 Plus – 19.png">
+        </div>
+    </div>
+    <div class="row fila" style="margin-top: 20px;">
+        <div class="col-2"></div>
+        <div class="col-12 conte">
+            <div class="text">
+                <p>Revolucionaria técnica de rejuvenecimiento facial que estimula los tejidos
+                    internos para reafirmar la piel y corregir la flacidez.</p>
+            </div>
+        </div>
+    </div>
+    <div class="row fila">
+        <div class="col-12 conte" >
+            <img src="Laravel\Recursos\img\Tratamientos\LiftBiologico\Movil\iPhone 6-7-8 Plus – 15.png">
+        </div>
+    </div>
+    <div class="row fila " style="margin-top: 20px;">
+            <div class="col-2"></div>
             <div class="col-12 conte">
-                <img src="Laravel\Recursos\img\LiftBiologico\Movil\iPhone 6-7-8 Plus – 8.png">
+                <div class="text">    
+                    <p>Son Hilos de gran calidad, están compuestos de PDO (Polidioxanona).
+                            Son conocidos como hilos mágicos ya que el material del que están fabricados es capaz de formar tejido de soporte de forma natural al producir colágeno y fibroblastos alrededor del hilo insertado que tensan y tensar la piel. 
+                            </p>
+                </div>
             </div>
         </div>
+    <div class="row fila" style="margin-top:20px;">
+        <div class="col-12 conte">
+            <img src="Laravel\Recursos\img\Tratamientos\LiftBiologico\Movil\iPhone 6-7-8 Plus – 17.png">
+        </div>
     </div>
-    <div class="row" style="margin-top: 30px;">
+    <div class="row fila" style="margin-top: 20px;">
         <div class="col-12">
             <div  id="titulo">
                 <h2>¿Cómo funciona?</h2>
@@ -132,28 +160,28 @@
             </div>
         </div>
     </div>
-    <div class=" row" style="margin-top: 30px;">
+    <div class=" row" style="margin-top: 20px;" >
         <div class="col-12 conte">
                 <input type="checkbox" id="spoiler1"></input>
                 <label for="spoiler1">¿Cómo se origina?</label>
-                <img src="Laravel\Recursos\img\LiftBiologico\Movil\iPhone 6-7-8 Plus – 9.png" alt="" class="spoiler">                
+                <img src="Laravel\Recursos\img\Tratamientos\LiftBiologico\Movil\iPhone 6-7-8 Plus – 9.png" alt="" class="spoiler">                
         </div>
     </div>
-    <div class=" row">
+    <div class=" row" style="margin-top: 10px;">
         <div class="col-12 conte">
                 <input type="checkbox" id="spoiler2"></input>
                 <label for="spoiler2">¿Cuánto dura?</label>
-                <img src="Laravel\Recursos\img\LiftBiologico\Movil\iPhone 6-7-8 Plus – 13.png" alt="" class="spoiler">                
+                <img src="Laravel\Recursos\img\Tratamientos\LiftBiologico\Movil\iPhone 6-7-8 Plus – 13.png" alt="" class="spoiler">                
         </div>
     </div>
-    <div class=" row">
+    <div class=" row" style="margin-top: 10px;">
         <div class="col-12 conte">
                 <input type="checkbox" id="spoiler3"></input>
                 <label for="spoiler3">¿Para quien esta indicando?</label>
-                <img src="Laravel\Recursos\img\LiftBiologico\Movil\iPhone 6-7-8 Plus – 14.png" alt="" class="spoiler">                
+                <img src="Laravel\Recursos\img\Tratamientos\LiftBiologico\Movil\iPhone 6-7-8 Plus – 14.png" alt="" class="spoiler">                
         </div>
     </div>
-    <div class=" row">
+    <div class=" row" style="margin-top: 10px;margin-bottom: 20px;">
         <div class="col-12 conte">
                 <input type="checkbox" id="spoiler4"></input>
                 <label for="spoiler4">Beneficios</label>

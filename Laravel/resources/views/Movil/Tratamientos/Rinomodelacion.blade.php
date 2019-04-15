@@ -78,20 +78,20 @@
     <div  id="titulo" class="conte" style="margin-top: 20px;">
         <h1>Rinomodelacion</h1>
     </div>
-    <div class="row" style="margin-top: 10px;">
+    <div class="row" style="margin-top: 20px;">
         <div class="col-12 conte">
             <img src="Laravel\Recursos\img\Tratamientos\Rinomodelacion\RinomodelaciónMovilv2.png">
         </div>
     </div>
     <div class="row">
-        <div class="col-12 conte" style="margin-top: 30px;">
-            <img src="Laravel\Recursos\img\Tratamientos\Rinomodelacion\RinomodelaciónMovil-1.png">
+        <div class="col-12 conte" style="margin-top: 20px;">
+            <img src="Laravel\Recursos\img\Tratamientos\Rinomodelacion\RinomodelaciónMovil-1b.png">
         </div>
     </div>
     
     <div class="row">
         <div class="col-12 conte">
-            <img src="Laravel/Recursos/img/Tratamientos/Hormonas/esquinas1.png" width="100%" style="margin-top: 40px;" class="esquinas">
+            <img src="Laravel/Recursos/img/Tratamientos/Hormonas/esquinas1.png" width="100%" style="margin-top: 20px;" class="esquinas">
             <div id="marco1">
                 <h2>¿Es una cirugía?</h2>
                 <p>No, es una técnica sin necesidad de someterse a complicadas cirugías.</p>
@@ -108,14 +108,14 @@
         </div>
     </div>
 
-<div class="row" style="margin-top: 30px;">
+<div class="row" style="margin-top: 20px;">
     <div class="col-12 conte">
         <img src="Laravel\Recursos\img\Tratamientos\Rinomodelacion\RinomodelaciónMovil-2.png">
     </div>
 </div>
 <div class="row">
         <div class="col-12 conte">
-            <img src="Laravel/Recursos/img/Tratamientos/Hormonas/esquinas1.png" width="100%" style="margin-top: 40px;" class="esquinas">
+            <img src="Laravel/Recursos/img/Tratamientos/Hormonas/esquinas1.png" width="100%" style="margin-top: 20px;" class="esquinas">
             <div id="marco2">
                     <h2>¿A qué edad puede aplicarse este procedimiento?</h2>
                     <p>Puede ser aplicado a partir de <br>los 15 o 60 años.</p>
@@ -123,7 +123,7 @@
                     <h2>¿En cuánto tiempo veo los resultados?</h2>
                     <p>Los resultados son inmediatamente. </p>
             </div>
-            <img src="Laravel/Recursos/img/Tratamientos/Hormonas/esquinas2.png" width="100%" style="margin-top: 0px;" class="esquinas">
+            <img src="Laravel/Recursos/img/Tratamientos/Hormonas/esquinas2.png" width="100%" style="margin-bottom: 20px;" class="esquinas">
         </div>
     </div>
 @stop
