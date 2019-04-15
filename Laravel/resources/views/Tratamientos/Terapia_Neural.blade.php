@@ -71,7 +71,7 @@
         
         <div class="row">
              <div class="col-md-2"></div>
-                <div class="col-md-8 conte" style="margin-top: -8px;">
+                <div class="col-md-8 conte" style="margin-top: 10px;">
                     <font style="font-family: brandon_reg"><center><a style="color: #0280A7" href="{{ url('/Tratamientos') }}"><img src="Laravel\Recursos\img\Tratamientos\flecha160x160.png" alt="" style="width:60px;margin-top: -10px"><font style="font-size: 3.5vh;">  Terapia Neural</font></a></center></font>
                 </div>  
         </div>
@@ -87,7 +87,11 @@
         <div class="row">
             <div class="col-md-3"></div>
             <div class="col-md-6">
-                <p></p>
+                <h1>¿El dolor crónico te paraliza?</h1>
+                <p>Elimina dolores persistentes o los asociados a la vejez.</p>
+                <br>
+                <h1>¿Qué es?</h1>
+                <p>La terapia Neural es un método de tratamiento de enfermedades causadas por trastornos en el sistema eléctrico del cuerpo, estos trastornos eléctricos son llamados campos de interferencia y pueden encontrarse en cualquier parte del cuerpo.</p>
             </div>
         </div>
 
@@ -99,7 +103,7 @@
         </div>
 
 
-        <div class="row">
+        <div class="row" style="margin-top: 50px;">
             <div class="col-md-3"></div>
             <div class="col-md-6">
                 <img src="Laravel/Recursos/img/Tratamientos/Terapia Nueral/Terapia Neural1.png" width="96%%;">
