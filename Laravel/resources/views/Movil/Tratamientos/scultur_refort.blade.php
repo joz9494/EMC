@@ -81,7 +81,7 @@
     </div>
     <div class="row" style="margin-top: 20px;">
         <div class="col-12 conte">
-            <img src="Laravel\Recursos\img\Tratamientos\Scultur Refort\refort movil 1.png">
+            <img src="Laravel\Recursos\img\Tratamientos\Scultur Refort\movil superior.png">
         </div>
     </div>
     <div class="row" style="margin-top: 20px;">
@@ -96,7 +96,7 @@
 
 <div class="row" style="margin-top: 20px;margin-bottom: 20px;">
     <div class="col-12 conte">
-        <img src="Laravel\Recursos\img\Tratamientos\Scultur Refort\refort movil 2.png">
+        <img src="Laravel\Recursos\img\Tratamientos\Scultur Refort\movil inferior.png">
     </div>
 </div>
 @stop
