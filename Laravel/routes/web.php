@@ -132,3 +132,12 @@ Route::get('/Tratamiento_progresivo_de_ojos',function(){
 	else
 		return view('/Tratamientos/Tratamiento_ojos');
 });
+
+
+Route::get('Scultur_Refort',function(){
+	$agent = new Agent();
+	if($agent->isMobile())
+		return view ('/Tratamientos/Scultur_refort');
+	else
+		return view('/Tratamientos/Scultur_refort');
+});
