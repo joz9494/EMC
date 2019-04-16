@@ -179,7 +179,7 @@
                         <div class="tratamiento-cuerpo">
                             <img src="Laravel/Recursos/img/Tratamientos/1.png" alt="">
                             <div class="nombre">Hormonas<br>Bio-Indénticas</div>
-                            <p class="descripcion">Balancea los niveles <br> hormonales, sin efectos<br> secundarios.</p>     
+                            <p class="descripcion">Balancea los niveles<br> hormonales, sin efectos<br> secundarios.<br> secundarios.</p>     
                         </div>
                     </a>
                 </div>
@@ -188,7 +188,7 @@
                         <div class="tratamiento-cuerpo">
                             <img src="Laravel/Recursos/img/Tratamientos/2.png" style="margin-top: 5%;">
                             <div class="nombre">Lift Biológico <br><br></div>
-                            <p class="descripcion">Desacelera <br> notablemente el <br> envejecimiento.</p> 
+                            <p class="descripcion">Desacelera<br> notablemente el<br> envejecimiento.</p> 
                         </div>
                     </a>
                 </div>
@@ -197,7 +197,7 @@
                         <div class="tratamiento-cuerpo">
                             <img src="Laravel/Recursos/img/Tratamientos/3.png" alt="">
                             <div class="nombre">Opera tratamiento<br>Antiaging</div>
-                            <p class="descripcion">¡Estimula la vitalidad <br> celular y luce <br> radiante como <br>#Thalía!</p>
+                            <p class="descripcion">¡Estimula la vitalidad<br> celular y luce <br> radiante como <br>#Thalía!</p>
                         </div>
                     </a>
                 </div>
@@ -206,7 +206,7 @@
                         <div class="tratamiento-cuerpo">
                             <img src="Laravel/Recursos/img/Tratamientos/4.png" style="margin-top: 5%;">
                             <div class="nombre">Peptonas <br><br></div>
-                            <p class="descripcion">Estimula la producción <br> colágeno y elastina en el rostro. </p> 
+                            <p class="descripcion">Estimula la producción de <br> colágeno y elastina del rostro. </p> 
                         </div>    
                     </a>
                 </div>
@@ -215,7 +215,7 @@
                         <div class="tratamiento-cuerpo">
                             <img src="Laravel/Recursos/img/Tratamientos/5.png" alt="">
                             <div class="nombre">PRP 4G<br><p style="font-family: brandon_reg !important">(Plasma Rico en Plaquetas)</p></div>
-                            <p class="descripcion">Ten una piel más firme y joven.<br></p> 
+                            <p class="descripcion">Ten una piel más fuerte y joven.<br></p> 
                         </div>
                     </a>
                 </div> 
@@ -224,7 +224,7 @@
                         <div class="tratamiento-cuerpo">
                             <img src="Laravel/Recursos/img/Tratamientos/6.png" style="margin-top: 5%;">
                             <div class="nombre">Rinomodelación<br></div>
-                            <p class="descripcion">Modifica la de forma de tu <br> nariz sin cirugía.<br></p> 
+                            <p class="descripcion">Modifica la forma de tu <br> nariz sin cirugía.<br></p> 
                         </div>
                     </a>
                 </div>
@@ -238,7 +238,7 @@
                     </a>
                 </div>
                 <div class="col-md-2 col-sm-5 tratamiento contraste">
-                    <a href="http://">
+                    <a href="{{url('/scultur_refort')}}">
                         <div class="tratamiento-cuerpo">
                             <img src="Laravel/Recursos/img/Tratamientos/8.png" style="margin-top: 5%;" >
                             <div class="nombre">Scultur Refort</div>
@@ -260,7 +260,7 @@
                         <div class="tratamiento-cuerpo">
                             <img src="Laravel/Recursos/img/Tratamientos/10.png" alt="">
                             <div class="nombre">Tratamiento <br>Progresivo de Ojos</div>
-                            <p class="descripcion">Eliminación biológica de<br>líneas profundas, sin<br>cirugía.</p> 
+                            <p class="descripcion">Eliminación biológica de<br>líneas profundas,sin<br>cirugía.</p> 
                         </div>
                     </a>
                 </div>

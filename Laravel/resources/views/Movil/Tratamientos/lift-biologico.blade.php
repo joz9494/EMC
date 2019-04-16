@@ -5,6 +5,9 @@
         width: 100%;
         background-color: white;
     }
+    label{
+        font-family: brandon_reg !important
+    }
     .conte
     {
        
@@ -45,7 +48,7 @@
     }
     /* Estilo botón cuando su INPUT está seleccionado */
     input[id^="spoiler"]:checked + label {
-    color: white;;
+    color: white;;        
     background: #ccc;
     }
     /* Estilo caja SPOILER (inicialmente oculto) */
@@ -104,7 +107,7 @@
     <div  id="titulo" class="conte" style="margin-top: 20px;">
         <h1>Lift Biológico</h1>
     </div>
-    <div class="row fila" style="margin-top: 0px;">
+    <div class="row fila" style="margin-top: 10px">
         <div class="col-2"></div>
         <div class="col-12 conte">
             <div class="text">

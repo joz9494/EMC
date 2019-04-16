@@ -26,7 +26,7 @@
     }
     h2{
       font-family: brandon_reg !important;
-      font-size: 8vw !important;
+      font-size: 5.5vw !important;
       color: #0280A7 !important;
       text-align: center !important;
     }
@@ -36,12 +36,7 @@
       color: #0280A7 !important;
       text-align: center;
     }
-    .txtcomotitle{
-      font-family: brandon_light;
-      font-size: 4vw;
-      color: #0280A7;
-      margin-top: 40px;
-    }
+    
     #contenedor1{
       position: relative;
     }
