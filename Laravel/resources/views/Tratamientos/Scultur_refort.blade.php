@@ -124,7 +124,7 @@
                 <div class="col-md-3"></div>
                 <div class="col-md-6 conte">
                     <div class="imagen_text">
-                        <img src="Laravel\Recursos\img\Tratamientos\Scultur Refort\refort1 web.png" alt="">
+                        <img src="Laravel\Recursos\img\Tratamientos\Scultur Refort\web superior.png" alt="">
                     </div>
                 </div>
             </div>
@@ -142,7 +142,7 @@
                 <div class="col-md-3"></div>
                 <div class="col-md-6 conte" >
                     <div class="imagen_text">
-                        <img src="Laravel\Recursos\img\Tratamientos\Scultur Refort\refort2 web.png" alt="">
+                        <img src="Laravel\Recursos\img\Tratamientos\Scultur Refort\web inferior.png" alt="">
                     </div>
                 </div>
             </div>
