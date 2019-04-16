@@ -104,14 +104,14 @@
         }
         #hormonas2
         {
-            top: 3%;
+            top: 2%;
             width: 70%;
             left: 30%;
             
         }
         #hormonas3
         {
-            top: 8% ;
+            top: 4% ;
             width: 75%;
             right:  25%;
         }

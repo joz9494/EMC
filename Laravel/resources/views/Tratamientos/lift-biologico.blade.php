@@ -210,7 +210,7 @@
                 <div class="col-md-2"></div>
                 <div class="col-md-8 conte">
 
-                    <font style="font-family: brandon_reg"><center><a style="color: #1197c0" href="{{ url('/Tratamientos') }}"><img src="Laravel\Recursos\img\Tratamientos\Tratamientos\flecha160x160.png" alt="" style="width:60px;margin-top: -10px"><font style="font-size: 30px;margin-left: 1%;">Lift Biológico</font></a></center></font>
+                    <font style="font-family: brandon_reg"><center><a style="color: #1197c0" href="{{ url('/Tratamientos') }}"><img src="Laravel\Recursos\img\Tratamientos\flecha160x160.png" alt="" style="width:60px;margin-top: -10px"><font style="font-size: 30px;margin-left: 1%;">Lift Biológico</font></a></center></font>
 
                 </div> 
             </div>
@@ -286,7 +286,7 @@
                 </div>    
             </div>
 
-            <div class="espacio3" style="margin-top: -20px;"></div>
+            <div class="espacio3" style="margin-top: -15px;"></div>
 
             <div class="row">
                 <div class="col-md-3"></div>
