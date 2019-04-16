@@ -134,10 +134,20 @@ Route::get('/Tratamiento_progresivo_de_ojos',function(){
 });
 
 
-Route::get('Scultur_Refort',function(){
+Route::get('/Scultur_Refort',function(){
 	$agent = new Agent();
 	if($agent->isMobile())
 		return view ('/Tratamientos/Scultur_refort');
 	else
 		return view('/Tratamientos/Scultur_refort');
 });
+
+
+Route::get('/Silicio_plus_DMAE',function(){
+	$agent = new Agent();
+	if($agent->isMobile())
+		return view ('/Movil/Tratamientos/Silicio');
+	else
+		return view('/Tratamientos/Silicio');
+});
+

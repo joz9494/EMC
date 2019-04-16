@@ -274,7 +274,7 @@
                                     <p class="descripcion" style="font-family: brandon_light;margin-top: 35px;">Reafirmante y antiestrías.<br></p> 
                                 </div>
                                 <a href="{{ url ('/Silicio_plus_DMAE')}}" class="btn btn-primary" style="background-color: #1197c0;border-color: #1197c0">Leer más</a>
-                            </div>
+                            </div> 
                             <div class="col-md-2 col-sm-5 tratamiento">
                                 <div class="tratamiento-cuerpo">
                                     <img src="Laravel/Recursos/img/Tratamientos/8.png" alt="">
