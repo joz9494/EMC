@@ -116,19 +116,19 @@
         <div id="contenedormaestro">
             <div id="titulo" class="row">
                 <div class="col-md-2"></div>
-                <div class="col-md-8 conte" style="">
-                    <font style="font-family: brandon_reg"><center><a style="color: #0280A7" href="{{ url('/Tratamientos') }}"><img src="Laravel\Recursos\img\Tratamientos\flecha160x160.png" alt="" style="width:60px;margin-top: -10px"><font style="font-size: 30px;">Tratamiento Scultur Refort</font></a></center></font>
+                <div class="col-md-8 conte" style="margin-top: -15px;">
+                    <font style="font-family: brandon_reg"><center><a style="color: #0280A7" href="{{ url('/Tratamientos') }}"><img src="Laravel\Recursos\img\Tratamientos\flecha160x160.png" alt="" style="width:60px;margin-top: -10px"><font style="font-size: 3.5vh;">Scultur Refort</font></a></center></font>
                 </div>  
             </div>
-            <div class=" row">
+            <div class=" row" style="margin-top: -25px;">
                 <div class="col-md-3"></div>
                 <div class="col-md-6 conte">
                     <div class="imagen_text">
-                        <img src="Laravel\Recursos\img\Tratamientos\Scultur Refort\refort1 web.png" alt="">
+                        <img src="Laravel\Recursos\img\Tratamientos\Scultur Refort\web superior.png" alt="">
                     </div>
                 </div>
             </div>
-            <div class=" row">
+            <div class=" row" style="margin-top: -10px;">
                 <div class="col-md-3"></div>
                 <div class="col-md-6 conte">
                     <div class="texto">
@@ -138,11 +138,11 @@
                     </div>
                 </div>
             </div>
-            <div id="final" class=" row">
+            <div id="final" class=" row" style="margin-top: -10px;">
                 <div class="col-md-3"></div>
                 <div class="col-md-6 conte" >
                     <div class="imagen_text">
-                        <img src="Laravel\Recursos\img\Tratamientos\Scultur Refort\refort2 web.png" alt="">
+                        <img src="Laravel\Recursos\img\Tratamientos\Scultur Refort\web inferior.png" alt="">
                     </div>
                 </div>
             </div>
