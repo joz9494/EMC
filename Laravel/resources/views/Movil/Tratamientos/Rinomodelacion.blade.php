@@ -32,7 +32,7 @@
 
     @media( orientation:portrait)
     {
-        #titutlo h1
+        #titulo h1
         {
             font-size: 8vw !important;
         }
@@ -79,7 +79,7 @@
 
 <div id="contenenedormaestro">
     <div  id="titulo" class="conte" style="margin-top: 20px;">
-        <h1>Rinomodelacion</h1>
+        <h1>Rinomodelación</h1>
     </div>
     <div class="row" style="margin-top: 20px;">
         <div class="col-12 conte">
@@ -124,7 +124,7 @@
                     <p>Puede ser aplicado a partir de <br>los 15 o 60 años.</p>
                     <br>
                     <h2>¿En cuánto tiempo veo los resultados?</h2>
-                    <p>Los resultados son inmediatamente. </p>
+                    <p>Los resultados son inmediatamente.</p>
             </div>
             <img src="Laravel/Recursos/img/Tratamientos/Hormonas/esquinas2.png" width="100%" style="margin-bottom: 20px;" class="esquinas">
         </div>

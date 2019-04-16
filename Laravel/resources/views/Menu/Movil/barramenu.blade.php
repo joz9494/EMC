@@ -52,7 +52,7 @@
             menu>a,#dia,h2,h1{
                 font-family: brandon_reg !important;
             }
-            p,#opciones_menu>li,#horario,h4
+            p,#opciones_menu>li,#horario,h4,li
             {
                 font-family: brandon_light !important;
             }
