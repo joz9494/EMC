@@ -200,7 +200,7 @@
                                 <img src="Laravel/Recursos/img/Tratamientos/Biomas.png" style="margin-left: -5%;margin-top: -20px;">
                                 <div id="biocell" class="text-img">
                                     <h1>Human Ultracell® </h1>
-                                    <p>Regeneracion Celular</p>
+                                    <p>Regeneración Celular</p>
 
                                     <a href="{{url('Biocell')}}">Ver más</a>
 

@@ -8,20 +8,20 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">  
         <link rel="icon" type="image/png" href="../Recursos/images/icons/favicon.png"/>
-        <link rel="stylesheet" type="text/css" href="../Recursos/vendor/bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="../Recursos/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" type="text/css" href="../Recursos/fonts/iconic/css/material-design-iconic-font.min.css">
-        <link rel="stylesheet" type="text/css" href="../Recursos/fonts/linearicons-v1.0.0/icon-font.min.css">
-        <link rel="stylesheet" type="text/css" href="../Recursos/vendor/animate/animate.css">  
-        <link rel="stylesheet" type="text/css" href="../Recursos/vendor/css-hamburgers/hamburgers.min.css">
-        <link rel="stylesheet" type="text/css" href="../Recursos/vendor/animsition/css/animsition.min.css">
-        <link rel="stylesheet" type="text/css" href="../Recursos/vendor/select2/select2.min.css">  
-        <link rel="stylesheet" type="text/css" href="../Recursos/vendor/daterangepicker/daterangepicker.css">
-        <link rel="stylesheet" type="text/css" href="../Recursos/vendor/slick/slick.css">
-        <link rel="stylesheet" type="text/css" href="../Recursos/vendor/MagnificPopup/magnific-popup.css">
-        <link rel="stylesheet" type="text/css" href="../Recursos/vendor/perfect-scrollbar/perfect-scrollbar.css">
-        <link rel="stylesheet" type="text/css" href="../Recursos/css/util.css">
-        <link rel="stylesheet" type="text/css" href="../Recursos/css/main.css">
+        <link rel="stylesheet" type="text/css" href="Laravel/Recursos/vendor/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="Laravel/Recursos/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="Laravel/Recursos/fonts/iconic/css/material-design-iconic-font.min.css">
+        <link rel="stylesheet" type="text/css" href="Laravel/Recursos/fonts/linearicons-v1.0.0/icon-font.min.css">
+        <link rel="stylesheet" type="text/css" href="Laravel/Recursos/vendor/animate/animate.css">  
+        <link rel="stylesheet" type="text/css" href="Laravel/Recursos/vendor/css-hamburgers/hamburgers.min.css">
+        <link rel="stylesheet" type="text/css" href="Laravel/Recursos/vendor/animsition/css/animsition.min.css">
+        <link rel="stylesheet" type="text/css" href="Laravel/Recursos/vendor/select2/select2.min.css">  
+        <link rel="stylesheet" type="text/css" href="Laravel/Recursos/vendor/daterangepicker/daterangepicker.css">
+        <link rel="stylesheet" type="text/css" href="Laravel/Recursos/vendor/slick/slick.css">
+        <link rel="stylesheet" type="text/css" href="Laravel/Recursos/vendor/MagnificPopup/magnific-popup.css">
+        <link rel="stylesheet" type="text/css" href="Laravel/Recursos/vendor/perfect-scrollbar/perfect-scrollbar.css">
+        <link rel="stylesheet" type="text/css" href="Laravel/Recursos/css/util.css">
+        <link rel="stylesheet" type="text/css" href="Laravel/Recursos/css/main.css">
 </head>
 <body>
 
@@ -33,6 +33,14 @@
     @font-face {
         font-family: txtbran;
         src: url(BRANDON_THIN.otf)format('otf');
+    }
+    @font-face {
+        font-family: brandon_reg;
+        src: url(-"Laravel/Recursos/BRANDON_REG.otf");
+    }
+    @font-face {
+        font-family: brandon_light;
+        src: url(Laravel/Recursos/BRANDON_LIGHT.otf);
     }
     #contenedormaster{
         width: 100%;
@@ -99,6 +107,16 @@
         z-index: 200;
         position: absolute;
     }
+    h2
+    {
+        font-family: brandon_reg !important;
+        font-size: 3.5vh !important;
+    }
+    p
+    {
+        font-family: brandon_light;
+        font-size: 2.17vh;
+    }
     .col-center
    {
        margin: 0 auto;
@@ -107,7 +125,11 @@
    {
        width: 100%;
    }
-
+    .conte
+    {
+        padding-top:2%; 
+        text-align: center;
+    }
 
 
    .imagen_text{
@@ -120,11 +142,20 @@
         padding: 1%;
         color: black;
     }
-   #interno
+   #titulo_interno
     {
         width: 100%;
-        margin: auto auto 
-        text-align: center;
+        top: 40%;
+        margin: 0 auto; 
+        
+    }
+    #texto_interno
+    {
+        width: 45%;
+        top: 18%;
+        right:5%; 
+        margin: 0 auto; 
+        
     }
     #interno h2,#interno p
     {
@@ -137,13 +168,14 @@
     }
     #con_raton
     {
-
+        
         visibility: hidden;
         opacity: 0;
         transition: visibility 0s, opacity .7s linear;
+        display: none;
     }
     #interno:hover #con_raton
-    {   
+    {   display: block;
         visibility: visible;
         opacity: 1;
        
@@ -155,7 +187,11 @@
         
         
     }
-
+    .linea
+    {
+        padding-top:4%; 
+        border-top: red solid 2px;
+    }
 </style>
 
 
@@ -172,61 +208,45 @@
         <div class="row">
             <div class="col-6 col-center">
             <div id="Textocontenedor">
-                    <font>La célula es la parte más pequeña y maravillosa del organismo, se deterioran con el tiempo, por el estilo de vida o la herencia genética, causando enfermedades, mutaciones celulares y dolencias crónicas.</font><br>
-                    <br>
-                    <font>La terapia en renovación celular, estimula los mecanismos propios de las células, especialmente al sistema inmunológico, activando sus funciones para hacer rejuvenecer nuestros órganos y evitar los riesgos a contraer enfermedades degenerativas. Human Ultracell V ha logrado proveer al ser humano de salud celular para lucir joven por fuera y alargar su vida ayudando a prevenir el envejecimiento orgánico y sus secuelas.</font>
+                    <p>La célula es la parte más pequeña y maravillosa del organismo, se deterioran con el tiempo, por el estilo de vida o la herencia genética, causando enfermedades, mutaciones celulares y dolencias crónicas.</p><br>
+                    <p>La terapia en renovación celular, estimula los mecanismos propios de las células, especialmente al sistema inmunológico, activando sus funciones para hacer rejuvenecer nuestros órganos y evitar los riesgos a contraer enfermedades degenerativas. Human Ultracell V ha logrado proveer al ser humano de salud celular para lucir joven por fuera y alargar su vida ayudando a prevenir el envejecimiento orgánico y sus secuelas.</p>
                 </div>
             </div>
         </div>
         <div class=" row">
-            <div class=" col-6 col-center conte">
+            <div class=" col-6 col-center  conte">
+                <div id="interno">
                     <div id="sin_raton" class="imagen_text">
                         <img src="Laravel/Recursos/img/Biocel/inicio.png" alt="" > 
-                        <div id="interno" class="text-img">
-                            <h2>Regeneración Celular</h2> 
+                        <div id="titulo_interno" class="text-img">
+                            <h2>Regeneración CelularM</h2> 
                         </div> 
                     </div>
                     <div id="con_raton" class="imagen_text">
                         <img src="Laravel/Recursos/img/Biocel/inicio-2.png" alt="" >
-                        <div id="interno" class="text-img">
+                        <div id="texto_interno" class="text-img">
                             <p id="">
-                                Observamos la salud de foma integral y colaboramos con especialistas en todas las áreas de la medicina para lograr el estado óptimo de cada uno de nuestros pacientes. <br>
-                                En Eterna Medical Center te ayudamos a realentizar el proceso de envejecimiento con la mejor tegnología disponible.
+                                    <h2 style="h2-weight: bold;font-size: 30px">Regeneración Celular</h2><br>
+                                    <p>Regeneración, revitalización y renovación celular para: refuerzo del sistema inmunológo, coadyuvante en enfermedades del sistema inmunológico,
+                                    envejecimiento prematuro, disminución de facultades mentales y fisicas, cansancio, astenia física prevención de enfermedades degegenerativas, aumento de la energía general.</p>
                             </p>
                         </div>
                     </div>
-            </div>
-        </div>
-
-        <div id="imgbannercambio">
-            <div>
-                <font id="txtprincipal">Regeneración Celular</font>
-            </div>
-            <div id="txtregeneracion2">
-                <div>
-                    <font style="font-weight: bold;font-size: 30px">Regeneración Celular</font><br>
-                    <font>Regeneración, revitalización y renovación celular para:</font>
-                    <font>refuerzo del sistema inmunológo, coadyuvante en <br> enfermedades del sistema inmunológico, <br>
-                    envejecimiento prematuro, disminución de facultades <br> mentales y fisicas, cansancio, astenia física <br> prevención de enfermedades degegenerativas, aumento de la energía general.</font>
                 </div>
             </div>
         </div>
 
-        <div id="linea1">
-            
+        <div class="row">
+            <div id="" class="col-6 col-center conte" >
+                <img src="Laravel/Recursos/img/Biocel/BANNER1.png" class="linea">
+            </div>
+        </div>
+        <div class="row">
+            <div id="" class="col-6 col-center conte" >
+                <img src="Laravel/Recursos/img/Biocel/BANNER2.png" class="linea">
+            </div>
         </div>
 
-        <div id="imagen2">
-            <img id="imgbanner" src="Laravel/Recursos/img/Biocel/BANNER1.png">
-        </div>
-
-        <div id="linea2">
-            
-        </div>
-
-        <div id="imagen3">
-            <img id="imgbanner" src="Laravel/Recursos/img/Biocel/BANNER2.png">
-        </div>
 
 
     </div>
