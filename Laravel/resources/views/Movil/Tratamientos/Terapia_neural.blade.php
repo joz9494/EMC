@@ -40,14 +40,14 @@
         </div>
 
 
-        <div class="row" style="margin-top: 10px;">
+        <div class="row" style="margin-top: 5px; padding: 10px;">
             <div class="col-md-3"></div>
             <div class="col-md-6">
                 <img src="Laravel/Recursos/img/Tratamientos/Hormonas/esquinas1.png" width="96%">
             </div>
         </div>
 
-        <div class="row" style="margin-top: -30px;">
+        <div class="row" style="margin-top: -40px;">
             <div class="col-md-3"></div>
             <div class="col-md-5" style="padding: 30px;">
                 <h1>¿El dolor crónico te paraliza?</h1>
@@ -58,7 +58,7 @@
             </div>
         </div>
 
-        <div class="row" style="margin-top: -30px;">
+        <div class="row" style="margin-top: -45px;padding: 10px;">
             <div class="col-md-3"></div>
             <div class="col-md-6">
                 <img src="Laravel/Recursos/img/Tratamientos/Hormonas/esquinas2.png" width="96%">
@@ -67,7 +67,7 @@
 
 
 
-        <div class="row" style="margin-top: 50px;">
+        <div class="row" style="margin-top: 15px;">
             <div class="col-md-3"></div>
             <div class="col-md-6">
                 <img src="Laravel/Recursos/img/Tratamientos/Terapia Nueral/iPhone 6-7 – 1.png" width="96%%;">
@@ -75,7 +75,7 @@
         </div>
 
 
-        <div class="row" style="margin-top: 50px;">
+        <div class="row" style="margin-top: 10px;">
             <div class="col-md-3"></div>
             <div class="col-md-6">
                 <h1>Beneficios de la terapia Neural</h1>
@@ -83,7 +83,7 @@
         </div>
 
 
-        <div class="row" style="margin-top: 50px;padding: 10px !important;">
+        <div class="row" style="margin-top: 5px;padding: 10px !important;">
             <div class="col-md-3"></div>
                 <div class="col-md-6 conte">
                     <p style="text-align: left;color: black !important"><font style="font-size: 5.5vw;font-family: brandon_reg;color: #0280A7 !important">+ Movilidad</font><br>
@@ -96,7 +96,7 @@
         </div>
 
 
-        <div class="row" style="margin-top: 50px;">
+        <div class="row" style="margin-top: 10px;">
             <div class="col-md-3"></div>
                 <div class="col-md-6 conte">
                     <img id="contentimg" src="Laravel/Recursos/img/Tratamientos/Terapia Nueral/Artboard – 4.png" width="96%;">
@@ -104,7 +104,7 @@
         </div>
 
 
-        <div class="row" style="margin-top: 50px;padding: 10px !important;">
+        <div class="row" style="margin-top: 10px;padding: 10px !important;">
             <div class="col-md-3"></div>
                 <div class="col-md-6 conte">
                     <p style="text-align: left;color: black !important"><font style="font-size: 5.5vw;font-family: brandon_reg;color: #0280A7 !important">-  Dolor</font><br>
@@ -115,7 +115,7 @@
         </div>
 
 
-        <div class="row" style="margin-top: 50px;">
+        <div class="row" style="margin-top: 5px;">
             <div class="col-md-3"></div>
                 <div class="col-md-6 conte">
                     <img id="contentimg" src="Laravel/Recursos/img/Tratamientos/Terapia Nueral/Artboard – 5.png" width="96%;">
@@ -126,7 +126,7 @@
         
 
 
-        <div class="row" style="margin-top: 50px;">
+        <div class="row" style="margin-top: 10px;">
             <div class="col-md-3"></div>
             <div class="col-md-6">
                 <h1>¿En cuántas sesiones vez beneficios?</h1>
@@ -135,7 +135,7 @@
         </div>
 
 
-        <div class="row" style="margin-top: 50px;">
+        <div class="row" style="margin-top: 5px; padding: 10px;">
             <div class="col-md-3"></div>
             <div class="col-md-6">
                 <img src="Laravel/Recursos/img/Tratamientos/Hormonas/esquinas1.png" width="96%">
@@ -143,8 +143,8 @@
         </div>
 
         <div class="row">
-            <div class="col-md-3"></div>
-            <div class="col-md-5">
+            <div class="col-md-2"></div>
+            <div class="col-10" style="margin-left: 30px;margin-top: -10px;">
                 <h1>¿Quién puede utilizar la Terapia Neural?</h1>
                 <p style="color: black !important">Puede ayudar a pacientes en patologías osteoarticular, bursitis, artritis, artrosis, contracturas musculares, lesiones musculares, tendinitis, tendinosis, síndrome túnel carpiano que no haya generado un daño grave.</p>
                 <br>
@@ -153,7 +153,7 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row" style="padding: 10px;margin-top: -15px;">
             <div class="col-md-3"></div>
             <div class="col-md-6">
                 <img src="Laravel/Recursos/img/Tratamientos/Hormonas/esquinas2.png" width="96%">
@@ -161,9 +161,6 @@
         </div>
 
         <br>
-        <br>
-        <br>
-
 
 
     </div>
