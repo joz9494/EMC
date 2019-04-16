@@ -190,23 +190,15 @@
             <div id="titulo" class="row">
                 <div class="col-md-2"></div>
                 <div class="col-md-8 conte" style="margin-top: -8px;">
-                    <font style="font-family: brandon_reg"><center><a style="color: #0280A7" href="{{ url('/Tratamientos') }}"><img src="Laravel\Recursos\img\Tratamientos\flecha160x160.png" alt="" style="width:60px;margin-top: -10px"><font style="font-size: 30px;">  PRP 4G (Plasma Rico en Plaquetas)</font></a></center></font>
+                    <font style="font-family: brandon_reg"><center><a style="color: #0280A7" href="{{ url('/Tratamientos') }}"><img src="Laravel\Recursos\img\Tratamientos\flecha160x160.png" alt="" style="width:60px;margin-top: -10px"><font style="font-size: 30px;">  PRP 4G (Plasma Rico en Plaquetas de Cuarta Generación)</font></a></center></font>
                 </div>  
             </div>
             <div class=" row">
                 <div class="col-md-3"></div>
                 <div class="col-md-6 ">
                     <div class="imagen_text">
-                        <img src="Laravel\Recursos\img\Tratamientos\PRP\PRP1.jpg" alt="">
-                        <div id="prp4g1" class="text-img">
-                            <h2>¿Qué es?</h2>
-                            <p>
-                                Es una sustancia que se obtiene centrifugando tu sangre para seguir una fracción de plasma con una alta concetración de plaquetas.
-                                <br>
-                                <br>
-                                Al ser aplicado mediante micro punciones dérmicas en las zonas a tratar, el Plasma Rico en Plaquetas estimula la producción de colágeno, elastina y tejido epidérmico, lo que se traduce en una piel joven, tersa y de mejor calidad.
-                            </p>
-                        </div>
+                        <img src="Laravel\Recursos\img\Tratamientos\PRP\PRP1b.jpg" alt="">
+                       
                     </div>
                 </div>
             </div>
@@ -214,18 +206,8 @@
                 <div class="col-md-3"></div>
                 <div class="col-md-6 conte">
                     <div class="imagen_text">
-                        <img src="Laravel\Recursos\img\Tratamientos\PRP\PRP2.png" alt="">
-                        <div id="hormonas3" class="text-img">
-                            <h2>¿Qué tipo de tratamiento es?</h2>
-                            <p>
-                                Suele utilizarse como tratamiento preventivo y regenerador, se recomienda su utilización cuando comienzan a aparecer signos del envejecimiento cutáneo.
-                            </p>
-                            <br>
-                            <h2>¿Cómo funciona?</h2>
-                            <p>
-                                Consiste en inyecciones en puntos específicos según cada caso para mejorar notablemente el aspecto de la piel.
-                            </p>
-                        </div>
+                        <img src="Laravel\Recursos\img\Tratamientos\PRP\PRP3b.jpg" alt="">
+                       
                     </div>
                 </div>
             </div>
@@ -235,6 +217,12 @@
                     <div class="imagen_text">
                         <img src="Laravel/Recursos/img/Tratamientos/Hormonas/Esquinas.png" alt="">
                         <div class="text-img " >
+                                <h2>¿Cómo se realiza?</h2>
+                                <p>
+                                    Es un procedimiento en el cual se toma una muestra de sangre y se procesa para
+                                    tomar la parte rica en plaquetas y se activa para tener un mejor resultado del plasma.
+                                </p>
+                                <br>
                                 <h2>¿Causa efectos secundarios?</h2> 
                                 <p>
                                 No posee efectos secundarios. es un procedimiento libre de riesgos y de
@@ -246,12 +234,6 @@
                                 <p>
                                 En promedio dura de 6 a 12 meses dependiendo de cada paciente.
                                 </p>
-                                <br>
-                                <h2>¿Cómo se realiza?</h2>
-                                <p>
-                                    Es un procedimiento en el cual se toma una muestra de sangre y se procesa para
-                                    tomar la parte rica en plaquetas y se activa para tener un mejor resultado del plasma.
-                                </p>
                         </div>
                     </div>
                 </div>
@@ -260,24 +242,8 @@
                 <div class="col-md-3"></div>
                 <div class="col-md-6 conte">
                     <div id="final" class="imagen_text">
-                        <img src="Laravel\Recursos\img\Tratamientos\PRP\PRP3.jpg" alt="">
-                        <div id="prp4g3" class="text-img">
-                            <h2>¿Cuándo se recomienda?</h2>
-                            <p>Se sugiere cuando los signos de envejecimiento sean visibles. Se pude aplicar a los 20 años, pero depende de cada paciente.
-                            </p>
-                            <br>
-                            <br>
-                            <h2>¿Qué beneficios obtienes?</h2>
-                            <p>
-                                <ul>
-                                    <li>Aumento de la tensión de la piel.</li>
-                                    <li>Aumento volumétrico de pómulo.</li>
-                                    <li>Aspecto saludable de la piel.<br> 
-                                    <div class="salto_linea">(brillo, color, tersura, suavidad).</div></li>
-                                    <li>Disminución de arrugas y flacidez.</li>
-                                </ul>
-                            </p>
-                        </div>
+                        <img src="Laravel\Recursos\img\Tratamientos\PRP\PRP2.jpg" alt="">
+                        
                     </div>
                 </div>
             </div>

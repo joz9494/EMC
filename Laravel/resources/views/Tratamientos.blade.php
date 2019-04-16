@@ -248,7 +248,7 @@
                             <div class="col-md-2 col-sm-5 tratamiento">
                                 <div class="tratamiento-cuerpo">
                                     <img src="Laravel/Recursos/img/Tratamientos/5.png" alt="">
-                                    <div class="nombre">PRP 4G<br><p>(Plasma Rico en Plaquetas)</p></div>
+                                    <div class="nombre">PRP 4G<br><p>(Plasma Rico en Plaquetas de Cuarta Generación)</p></div>
                                     <p class="descripcion" style="font-family: brandon_light;margin-top: 30px;">Ten una piel más fuerte y joven.<br></p> 
                                 </div>
                                 <a href="{{url('/PRP4G')}}" class="btn btn-primary" style="background-color: #1197c0;border-color: #1197c0">Leer más</a>
