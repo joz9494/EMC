@@ -47,66 +47,7 @@
         
         background-color: white;
     }
-    #imgbanner{
-        width: 50%;
-        height: 20%;
-        margin-top: 5%;
-        margin-left: 20%;
-    }
-    #imgbannercambio{
-        width: 52%;
-        height: 20%;
-        margin-top: 5%;
-        margin-left: 20%;
-        background-image: url('Laravel/Recursos/img/Biocel/inicio.png');
-    }
-    #imgbannercambio div div font{
-        display: none;
-    }
-    #imgbannercambio:hover {
-        background-image: url('Laravel/Recursos/img/Biocel/inicio-2.png');
-    }
-    #imgbannercambio:hover div div font{
-        display: block;
-    }
-    #imgbannercambio:hover div font{
-        display: none;
-    }
-    #linea1{
-        height: 2px;
-        width: 1050px;
-        margin-top: 100px;
-        margin-left: 18%;
-        background-color: #8e353e;
-    }
-    #linea2{
-        height: 2px;
-        width: 1050px;
-        margin-top: 100px;
-        margin-left: 18%;
-        background-color: #8e353e;
-    }
-    #Textocontenedor{
-        padding: 5%;
-    }
-    #txtregeneracion2{
-        width: 40%;
-        font-size: 15px;
-        color: #8e353e;
-        float: right;
-        margin-right: 5%;
-        margin-top: 100px;
-    }
-    #txtprincipal{
-        font-size: 50px;
-        color: #8e353e;
-        font-weight: bold;
-        margin-left: 250px;
-        margin-top: 160px;
-        float: left;
-        z-index: 200;
-        position: absolute;
-    }
+   
     h2
     {
         font-family: brandon_reg !important;
@@ -120,7 +61,7 @@
     {
         font-size: 4.5vh !important;
     }
-    p,li
+    p, #lista>li
     {
         font-family: brandon_light !important;
     }
@@ -175,11 +116,11 @@
         font-size: 1.8vh;
     }
     
-    #interno h2,#interno p,li,li::before
+    #interno h2,#interno p, #lista>li, #lista>li::before
     {
         color: #8e353e;
     }
-    li::before { content: "•"; font-size: 1.9vh; padding-right: 2%;}
+    #lista>li::before { content: "•"; font-size: 1.9vh; padding-right: 2%;}
     #sin_raton{
         line-height: 150%;
         text-align: center;
@@ -232,7 +173,7 @@
                 </div>
             </div>
         </div>
-        <div class=" row" style="margin-top: -50px;">
+        <div class=" row" style="">
             <div class=" col-6 col-center  conte">
                 <div id="interno">
                     <div id="sin_raton" class="imagen_text">
@@ -247,7 +188,7 @@
                             
                                 <h2 style="font-size: 2.15vh !important; text-align:left;">Regeneración, revitalización y renovación <br> celular para: <br><br></h2>
                                 <p >
-                                    <ul style="font-size: 1.9vh !important;text-align:left;">
+                                    <ul id="lista" style="font-size: 1.9vh !important;text-align:left;">
                                         <li>Refuerzo del sistema inmunólogo.</li>
                                         <li>Coadyuvante en enfermedades del sistema <br>
                                                 <div class="salto_linea">inmunológico.</li>
@@ -263,7 +204,7 @@
                 </div>
             </div>
         </div>
-
+        
         <div class="row">
             <div id="" class="col-6 col-center conte" >
                 <img src="Laravel/Recursos/img/Biocel/BANNER1b.png" class="linea">

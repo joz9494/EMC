@@ -168,7 +168,7 @@
             <div id="biocell_texto" class="col-8 col-center">
                 <h3 style="color: #B61A25; font-size:25px;">Human Ultralcell®</h3>
                 <h3 style="color: #B61A25; font-size:22px; font-weight: normal">Regeneración Celular</h3> 
-                <a style="font-family: brandon_reg !important;color: #B61A25; font-size:35px;">Leer más</a> 
+                <a href="{{url('/Biocell')}}" style="font-family: brandon_reg !important;color: #B61A25; font-size:35px;">Leer más</a> 
             </div> 
         </div>
         
@@ -256,7 +256,7 @@
                     </a>
                 </div>
                 <div class="col-md-2 col-sm-5 tratamiento contraste"> 
-                    <a href="{{ url ('/Silicio_plus_DMAE')}}">
+                    <a href="{{ url ('/Tratamiento_progresivo_de_ojos')}}">
                         <div class="tratamiento-cuerpo">
                             <img src="Laravel/Recursos/img/Tratamientos/10.png" alt="">
                             <div class="nombre">Tratamiento <br>Progresivo de Ojos</div>

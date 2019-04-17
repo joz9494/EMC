@@ -132,7 +132,7 @@ Route::get('/scultur_refort',function(){
 Route::get('/Tratamiento_progresivo_de_ojos',function(){
 	$agent = new Agent();
 	if ($agent->isMobile())
-		return view ('/Tratamientos/Tratamiento_ojos');
+		return view ('/Movil/Tratamientos/Tratamiento_ojos');
 	else
 		return view('/Tratamientos/Tratamiento_ojos');
 });
