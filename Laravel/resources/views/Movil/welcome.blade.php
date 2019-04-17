@@ -168,7 +168,7 @@
         </div>
         <div id="footer_baner" class="row">
             <div class="col-12">
-                <a href="{{url('/Biocell')}}">
+                <a href="{{ url('Biocell') }}">
                     <img src="Laravel\Recursos\img\Inicio\bio.png" class="img-fluid" alt="">
                 </a>
             </div>
