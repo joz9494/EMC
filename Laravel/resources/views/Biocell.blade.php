@@ -77,14 +77,14 @@
         width: 1050px;
         margin-top: 100px;
         margin-left: 18%;
-        background-color: #C13A4E;
+        background-color: #8e353e;
     }
     #linea2{
         height: 2px;
         width: 1050px;
         margin-top: 100px;
         margin-left: 18%;
-        background-color: #C13A4E;
+        background-color: #8e353e;
     }
     #Textocontenedor{
         padding: 5%;
@@ -92,14 +92,14 @@
     #txtregeneracion2{
         width: 40%;
         font-size: 15px;
-        color: #C13A4E;
+        color: #8e353e;
         float: right;
         margin-right: 5%;
         margin-top: 100px;
     }
     #txtprincipal{
         font-size: 50px;
-        color: #C13A4E;
+        color: #8e353e;
         font-weight: bold;
         margin-left: 250px;
         margin-top: 160px;
@@ -120,10 +120,17 @@
     {
         font-size: 4.5vh !important;
     }
-    p
+    p,li
     {
         font-family: brandon_light !important;
+    }
+    p
+    {
         font-size: 2.17vh !important;
+    }
+    .salto_linea
+    {
+        margin-left: 3.5%;
     }
     .col-center
    {
@@ -148,7 +155,6 @@
         position: absolute;
         top: 0;
         padding: 1%;
-        color: black;
     }
    #titulo_interno
     {
@@ -161,7 +167,7 @@
     {
         width: 45%;
         top: 18%;
-        right:5%; 
+        right:3%; 
         margin: 0 auto; 
     }
     #texto_interno p
@@ -169,10 +175,11 @@
         font-size: 1.8vh;
     }
     
-    #interno h2,#interno p
+    #interno h2,#interno p,li,li::before
     {
-        color: #C13A4E;
+        color: #8e353e;
     }
+    li::before { content: "•"; font-size: 1.9vh; padding-right: 2%;}
     #sin_raton{
         line-height: 150%;
         text-align: center;
@@ -202,7 +209,7 @@
     .linea
     {
         padding-top:4%; 
-        border-top: #C13A4E solid 2px;
+        border-top: #8e353e solid 2px;
     }
 </style>
 
@@ -237,16 +244,18 @@
                     <div id="con_raton" class="imagen_text">
                         <img src="Laravel/Recursos/img/Biocel/inicio-2.png" alt="" >
                         <div id="texto_interno" class="text-img">
-                            <p id="">
-<<<<<<< HEAD
-                                    <h2 style="">Regeneración Celular</h2><br>
-                                    <p>Regeneración, revitalización y renovación celular para: <br>
-                                         refuerzo del sistema inmunológico, coadyuvante en enfermedades del sistema inmunológico, envejecimiento prematuro, disminución de facultades mentales y físicas, cansancio, astenia física, prevención de enfermedades degenerativas, aumento de la energía general.</p>
-=======
-                                    <h2 style="font-size: 2vh !important">Regeneración Celular</h2><br>
-                                    <p style="font-size: 1.75vh !important">Regeneración, revitalización y renovación celular para: refuerzo del sistema inmunológo, coadyuvante en enfermedades del sistema inmunológico,
-                                    envejecimiento prematuro, disminución de facultades mentales y fisicas, cansancio, astenia física prevención de enfermedades degegenerativas, aumento de la energía general.</p>
->>>>>>> b674b05149f0bd4dcd4fc4fc9aac7a5d0323fe9f
+                            
+                                <h2 style="font-size: 2.15vh !important; text-align:left;">Regeneración, revitalización y renovación <br> celular para: <br><br></h2>
+                                <p >
+                                    <ul style="font-size: 1.9vh !important;text-align:left;">
+                                        <li>Refuerzo del sistema inmunólogo.</li>
+                                        <li>Coadyuvante en enfermedades del sistema <br>
+                                                <div class="salto_linea">inmunológico.</li>
+                                        <li>Envejecimiento prematuro.</li>
+                                        <li>Disminución de facultades mentales y físicas.</li>
+                                        <li>Cansancio.</li>
+                                    </ul> 
+                                </p>
                             </p>
                         </div>
                     </div>
