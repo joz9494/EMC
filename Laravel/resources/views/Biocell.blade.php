@@ -114,8 +114,8 @@
     }
     p
     {
-        font-family: brandon_light;
-        font-size: 2.17vh;
+        font-family: brandon_light !important;
+        font-size: 2.17vh !important;
     }
     .col-center
    {
@@ -226,8 +226,8 @@
                         <img src="Laravel/Recursos/img/Biocel/inicio-2.png" alt="" >
                         <div id="texto_interno" class="text-img">
                             <p id="">
-                                    <h2 style="h2-weight: bold;font-size: 30px">Regeneración Celular</h2><br>
-                                    <p>Regeneración, revitalización y renovación celular para: refuerzo del sistema inmunológo, coadyuvante en enfermedades del sistema inmunológico,
+                                    <h2 style="font-size: 2vh !important">Regeneración Celular</h2><br>
+                                    <p style="font-size: 1.75vh !important">Regeneración, revitalización y renovación celular para: refuerzo del sistema inmunológo, coadyuvante en enfermedades del sistema inmunológico,
                                     envejecimiento prematuro, disminución de facultades mentales y fisicas, cansancio, astenia física prevención de enfermedades degegenerativas, aumento de la energía general.</p>
                             </p>
                         </div>
