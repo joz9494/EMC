@@ -213,7 +213,7 @@
                 </div>
             </div>
         </div>
-        <div class=" row">
+        <div class=" row" style="margin-top: -50px;">
             <div class=" col-6 col-center  conte">
                 <div id="interno">
                     <div id="sin_raton" class="imagen_text">
@@ -225,10 +225,14 @@
                     <div id="con_raton" class="imagen_text">
                         <img src="Laravel/Recursos/img/Biocel/inicio-2.png" alt="" >
                         <div id="texto_interno" class="text-img">
-                            <p id="">
-                                    <h2 style="font-size: 2vh !important">Regeneración Celular</h2><br>
-                                    <p style="font-size: 1.75vh !important">Regeneración, revitalización y renovación celular para: refuerzo del sistema inmunológo, coadyuvante en enfermedades del sistema inmunológico,
-                                    envejecimiento prematuro, disminución de facultades mentales y fisicas, cansancio, astenia física prevención de enfermedades degegenerativas, aumento de la energía general.</p>
+                            <p>
+                                <h2 style="font-size: 2.4vh !important;color: #8e353e !important">Regeneración, revitalización y renovación celular para:</h2><br>
+                                <p style="font-size: 1.9vh !important;text-align: left !important;color: #8e353e !important">
+                                    &bull; Refuerzo del sistema inmunólogo.<br>
+                                    &bull; Coadyuvante en enfermedades del sistema inmunológico.<br>
+                                    &bull; Envejecimiento prematuro.<br>
+                                    &bull; Disminución de facultades mentales y físicas.<br>
+                                    &bull; Cansancio.</p>
                             </p>
                         </div>
                     </div>
