@@ -150,12 +150,14 @@
             </div>
             <div class="row">
                 <div class="col-12 conte">
-                    <div class="imagen_text ">
-                        <img src="Laravel\Recursos\img\Inicio\btn2.png" alt="">
-                        <div id="boton" class="text-img">
-                            <h2 style="font-family: brandon_reg;">Eterna Medical Center</h2>
+                    <a href="{{url('/')}}">
+                        <div class="imagen_text ">
+                            <img src="Laravel\Recursos\img\Inicio\btn2.png" alt="">
+                            <div id="boton" class="text-img">
+                                <h2 style="font-family: brandon_reg;">Eterna Medical Center</h2>
+                            </div> 
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
             <div class="row">
