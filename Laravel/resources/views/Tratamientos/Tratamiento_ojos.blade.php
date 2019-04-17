@@ -114,12 +114,13 @@
     <div id="contenedormaster" style="background-color: white;margin-bottom: 0%;width: 100%; text-align: center;">
         <div class="row">
             <div class="col-md-3"></div>
-            <div id="contetxt" class="col-md-6" style="margin-top: 10px;">
+            <div id="contetxt" class="col-md-6" style="margin-top: 10px;margin-left: -70px;">
                 <div id="titulo" class="row">
                 <div class="col-md-2"></div>
-                <div class="col-md-8 conte">
+                <div class="col-md-9 conte">
 
-                    <font style="color: #1197c0; font-family: brandon_reg;"><center><a style="color: #0280A7" href="{{ url('/Tratamientos') }}"><img src="Laravel\Recursos\img\Tratamientos\flecha160x160.png" alt="" style="width:60px;margin-top: -10px"><font style="font-size: 30px;margin-left: 1%;margin-top: -100px !important">¡Tratamiento Progresivo de Ojos!</font></center></font>
+                    <font style="color: #1197c0; font-family: brandon_reg;"><center><a style="color: #0280A7" href="{{ url('/Tratamientos') }}"><img src="Laravel\Recursos\img\Tratamientos\flecha160x160.png" alt="" style="width:60px;margin-top: -10px"><font style="font-family: brandon_reg;font-size: 3.5vh;margin-left: 10px;">PRP Ocular</font>
+                        <font style="font-size: 3.5vh;margin-left: 1%;margin-top: -100px !important">¡Tratamiento Progresivo de Ojos!</font></center></font>
 
                 </div> 
             </div>
@@ -128,17 +129,20 @@
 
 
 
-        <div id="contenedorcarrousel" style="width: 80%;">
+        <div id="contenedorcarrousel" style="width: 46%;margin-left: 25%;margin-top: 20px;">
           <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100" id="imgcarrousel" src="Laravel/Recursos/img/Inicio/122.png" alt="First slide">
+                    <img class="d-block w-100" src="Laravel/Recursos/img/Tratamientos/Tratamiento progresivo de ojos/Slide1.png" alt="First slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" id="imgcarrousel" src="Laravel/Recursos/img/Inicio/2.png" alt="Second slide">
+                    <img class="d-block w-100" src="Laravel/Recursos/img/Tratamientos/Tratamiento progresivo de ojos/Slide2.png" alt="Second slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" id="imgcarrousel" src="Laravel/Recursos/img/Inicio/3.png" alt="Third slide">
+                    <img class="d-block w-100" src="Laravel/Recursos/img/Tratamientos/Tratamiento progresivo de ojos/Slide3.png" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="Laravel/Recursos/img/Tratamientos/Tratamiento progresivo de ojos/Slide4.png" alt="Third slide">
                 </div>
             </div>
                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -151,6 +155,25 @@
                 </a>
             </div>
             </div>
+
+
+
+            <div class="row" style="margin-top: 50px;">
+                <div class="col-md-3"></div>
+                    <div class="col-md-3">
+                        <img src="Laravel/Recursos/img/Tratamientos/Tratamiento progresivo de ojos/LadoI.png" width="90%">
+                        <h1 style="margin-top: 30px;">¿De qué manera funciona?</h1><br>
+                        <p style="text-align: center;">Es un preparado de plasma rico en plaquetas es uno de los últimos tratamientos de belleza y rejuvenecimiento que han surgido, a partir de tu sangre, así que es muy seguro y eficaz.<br>
+                        Gracias a la técnica desarrollada por el Dr. Martinez ahora es posible obtener los beneficios del PRP en el controrno de tus ojos.</p>
+                    </div>
+
+                <div class="col-md-3" style="margin-left: -2.5%;">
+                        <img src="Laravel/Recursos/img/Tratamientos/Tratamiento progresivo de ojos/LadoD.png" width="90%">
+                        <h1 style="margin-top: 30px;">¿Qué centajas obtiene al utilizar este tratamiento?</h1>
+                        <p style="text-align: center;">La ventaja del uso del PRP como medicina "antiage" o antienvejecimiento es la de utilizar una sustancia biológica fabricada por el propio organismo, libre de químicos y exenta de riesgos.</p>
+                </div>
+            </div>
+            <br>
 
 
     </div>

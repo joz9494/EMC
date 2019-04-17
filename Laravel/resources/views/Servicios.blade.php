@@ -171,9 +171,9 @@
         <div class="row" id="contenedor">
             <div class="col-md-3"></div>
                 <div class="col-md-6 conte" id="img1">
-                    <img id="contentimg" src="Laravel/Recursos/img/Servicios/Elimina-C.png">
+                    <img id="contentimg" src="Laravel/Recursos/img/Servicios/1.png">
                     <div>
-                       <img id="contentimg" src="Laravel/Recursos/img/Servicios/1.png"> 
+                       <img id="contentimg" src="Laravel/Recursos/img/Servicios/12.png"> 
                     </div>
                 </div>
         </div>
@@ -183,9 +183,9 @@
         <div class="row" id="contenedor">
             <div class="col-md-3"></div>
                 <div class="col-md-6 conte" id="img2">
-                    <img id="contentimg" src="Laravel/Recursos/img/Servicios/Mejora-A.png">
+                    <img id="contentimg" src="Laravel/Recursos/img/Servicios/2.png">
                     <div>
-                        <img id="contentimg" src="Laravel/Recursos/img/Servicios/2.png">
+                        <img id="contentimg" src="Laravel/Recursos/img/Servicios/21.png">
                     </div>
                 </div>
         </div>
@@ -195,9 +195,9 @@
         <div class="row" id="contenedor">
             <div class="col-md-3"></div>
                 <div class="col-md-6 conte" id="img3">
-                    <img id="contentimg" src="Laravel/Recursos/img/Servicios/Elimina--C.png">
+                    <img id="contentimg" src="Laravel/Recursos/img/Servicios/3.png">
                     <div>
-                       <img id="contentimg" src="Laravel/Recursos/img/Servicios/3.png"> 
+                       <img id="contentimg" src="Laravel/Recursos/img/Servicios/31.png"> 
                     </div>
                 </div>
         </div>
