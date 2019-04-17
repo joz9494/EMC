@@ -44,7 +44,7 @@
     }
     #contenedormaster{
         width: 100%;
-        height: 200%;
+        
         background-color: white;
     }
     #imgbanner{
@@ -77,14 +77,14 @@
         width: 1050px;
         margin-top: 100px;
         margin-left: 18%;
-        background-color: red;
+        background-color: #C13A4E;
     }
     #linea2{
         height: 2px;
         width: 1050px;
         margin-top: 100px;
         margin-left: 18%;
-        background-color: red;
+        background-color: #C13A4E;
     }
     #Textocontenedor{
         padding: 5%;
@@ -92,14 +92,14 @@
     #txtregeneracion2{
         width: 40%;
         font-size: 15px;
-        color: red;
+        color: #C13A4E;
         float: right;
         margin-right: 5%;
         margin-top: 100px;
     }
     #txtprincipal{
         font-size: 50px;
-        color: red;
+        color: #C13A4E;
         font-weight: bold;
         margin-left: 250px;
         margin-top: 160px;
@@ -110,7 +110,15 @@
     h2
     {
         font-family: brandon_reg !important;
+        
+    }
+    #con_raton h2
+    {
         font-size: 3.5vh !important;
+    }
+    #sin_raton h2
+    {
+        font-size: 4.5vh !important;
     }
     p
     {
@@ -155,11 +163,15 @@
         top: 18%;
         right:5%; 
         margin: 0 auto; 
-        
     }
+    #texto_interno p
+    {
+        font-size: 1.8vh;
+    }
+    
     #interno h2,#interno p
     {
-        color: red;
+        color: #C13A4E;
     }
     #sin_raton{
         line-height: 150%;
@@ -190,7 +202,7 @@
     .linea
     {
         padding-top:4%; 
-        border-top: red solid 2px;
+        border-top: #C13A4E solid 2px;
     }
 </style>
 
@@ -206,8 +218,8 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-6 col-center">
-            <div id="Textocontenedor">
+            <div class="col-6 col-center conte">
+            <div id="" style="text-align:justify">
                     <p>La célula es la parte más pequeña y maravillosa del organismo, se deterioran con el tiempo, por el estilo de vida o la herencia genética, causando enfermedades, mutaciones celulares y dolencias crónicas.</p><br>
                     <p>La terapia en renovación celular, estimula los mecanismos propios de las células, especialmente al sistema inmunológico, activando sus funciones para hacer rejuvenecer nuestros órganos y evitar los riesgos a contraer enfermedades degenerativas. Human Ultracell V ha logrado proveer al ser humano de salud celular para lucir joven por fuera y alargar su vida ayudando a prevenir el envejecimiento orgánico y sus secuelas.</p>
                 </div>
@@ -219,12 +231,13 @@
                     <div id="sin_raton" class="imagen_text">
                         <img src="Laravel/Recursos/img/Biocel/inicio.png" alt="" > 
                         <div id="titulo_interno" class="text-img">
-                            <h2>Regeneración CelularM</h2> 
+                            <h2>Regeneración Celular</h2> 
                         </div> 
                     </div>
                     <div id="con_raton" class="imagen_text">
                         <img src="Laravel/Recursos/img/Biocel/inicio-2.png" alt="" >
                         <div id="texto_interno" class="text-img">
+
                             <p>
                                 <h2 style="font-size: 2.4vh !important;color: #8e353e !important">Regeneración, revitalización y renovación celular para:</h2><br>
                                 <p style="font-size: 1.9vh !important;text-align: left !important;color: #8e353e !important">
@@ -233,6 +246,16 @@
                                     &bull; Envejecimiento prematuro.<br>
                                     &bull; Disminución de facultades mentales y físicas.<br>
                                     &bull; Cansancio.</p>
+
+                            <p id="">
+
+                                    <h2 style="">Regeneración Celular</h2><br>
+                                    <p>Regeneración, revitalización y renovación celular para: <br>
+                                         refuerzo del sistema inmunológico, coadyuvante en enfermedades del sistema inmunológico, envejecimiento prematuro, disminución de facultades mentales y físicas, cansancio, astenia física, prevención de enfermedades degenerativas, aumento de la energía general.</p>
+
+                                    <h2 style="font-size: 2vh !important">Regeneración Celular</h2><br>
+                                    <p style="font-size: 1.75vh !important">Regeneración, revitalización y renovación celular para: refuerzo del sistema inmunológo, coadyuvante en enfermedades del sistema inmunológico,
+                                    envejecimiento prematuro, disminución de facultades mentales y fisicas, cansancio, astenia física prevención de enfermedades degegenerativas, aumento de la energía general.</p>
                             </p>
                         </div>
                     </div>
@@ -242,12 +265,12 @@
 
         <div class="row">
             <div id="" class="col-6 col-center conte" >
-                <img src="Laravel/Recursos/img/Biocel/BANNER1.png" class="linea">
+                <img src="Laravel/Recursos/img/Biocel/BANNER1b.png" class="linea">
             </div>
         </div>
-        <div class="row">
+        <div class="row" style="padding-bottom:2%;">
             <div id="" class="col-6 col-center conte" >
-                <img src="Laravel/Recursos/img/Biocel/BANNER2.png" class="linea">
+                <img src="Laravel/Recursos/img/Biocel/BANNER2b.png" class="linea">
             </div>
         </div>
 
