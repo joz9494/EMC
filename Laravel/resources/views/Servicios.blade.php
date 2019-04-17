@@ -102,6 +102,47 @@
         }
 
     }
+
+
+
+
+
+    #img1 div img{
+        display: none;
+    }
+    #img1:hover div img{
+        display: block;
+    }
+    #img1:hover img{
+        display: none;
+    }
+
+
+    #img2 div img{
+        display: none;
+    }
+    #img2:hover div img{
+        display: block;
+    }
+    #img2:hover img{
+        display: none;
+    }
+
+
+     #img3 div img{
+        display: none;
+    }
+    #img3:hover div img{
+        display: block;
+    }
+    #img3:hover img{
+        display: none;
+    }
+
+
+
+
+
 </style>
 
 
@@ -129,8 +170,11 @@
         <!-- imagen 1 -->
         <div class="row" id="contenedor">
             <div class="col-md-3"></div>
-                <div class="col-md-6 conte">
+                <div class="col-md-6 conte" id="img1">
                     <img id="contentimg" src="Laravel/Recursos/img/Servicios/Elimina-C.png">
+                    <div>
+                       <img id="contentimg" src="Laravel/Recursos/img/Servicios/Mejora-A.png"> 
+                    </div>
                 </div>
         </div>
 
@@ -138,8 +182,11 @@
         <!-- imagen 2 -->
         <div class="row" id="contenedor">
             <div class="col-md-3"></div>
-                <div class="col-md-6 conte">
+                <div class="col-md-6 conte" id="img2">
                     <img id="contentimg" src="Laravel/Recursos/img/Servicios/Mejora-A.png">
+                    <div>
+                        <img id="contentimg" src="Laravel/Recursos/img/Servicios/Servicio2.png">
+                    </div>
                 </div>
         </div>
 
@@ -147,8 +194,11 @@
         <!-- imagen 3 -->
         <div class="row" id="contenedor">
             <div class="col-md-3"></div>
-                <div class="col-md-6 conte">
+                <div class="col-md-6 conte" id="img3">
                     <img id="contentimg" src="Laravel/Recursos/img/Servicios/Elimina--C.png">
+                    <div>
+                       <img id="contentimg" src="Laravel/Recursos/img/Servicios/servicio3.png"> 
+                    </div>
                 </div>
         </div>
 

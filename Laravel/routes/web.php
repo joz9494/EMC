@@ -61,6 +61,10 @@ Route::get('/Tratamientos',function(){
 });
 
 Route::get('Biocell',function(){
+	$agent = new Agent();
+	if($agent->isMobile())
+		return view('/Movil/Tratamientos/Biocell');
+	else
 	return view('Biocell');
 });
 
