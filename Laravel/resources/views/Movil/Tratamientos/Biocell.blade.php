@@ -43,5 +43,18 @@
   </div>
 </div>
 
+<div style="width: 100%;margin-top: 30px;">
+    <img src="Laravel/Recursos/img/Biocel/Biocell Movil2.jpg" width="100%;">
+</div>
+
+<div style="width: 100%;margin-top: 30px;">
+    <img src="Laravel/Recursos/img/Biocel/Biocell Version Movil.jpg" width="100%;">
+</div>
+
+<div style="width: 100%;margin-top: 30px;margin-bottom: 30px;">
+    <img src="Laravel/Recursos/img/Biocel/Biocell Version Movil1.jpg" width="100%;">
+</div>
+
+
 
 @stop
