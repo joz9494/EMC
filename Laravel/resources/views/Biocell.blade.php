@@ -232,7 +232,7 @@
                 </div>
             </div>
         </div>
-        <div class=" row">
+        <div class=" row" style="margin-top: -50px;">
             <div class=" col-6 col-center  conte">
                 <div id="interno">
                     <div id="sin_raton" class="imagen_text">
@@ -256,6 +256,7 @@
                                         <li>Cansancio.</li>
                                     </ul> 
                                 </p>
+
                             </p>
                         </div>
                     </div>

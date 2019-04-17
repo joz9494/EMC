@@ -173,7 +173,7 @@
                 <div class="col-md-6 conte" id="img1">
                     <img id="contentimg" src="Laravel/Recursos/img/Servicios/Elimina-C.png">
                     <div>
-                       <img id="contentimg" src="Laravel/Recursos/img/Servicios/Mejora-A.png"> 
+                       <img id="contentimg" src="Laravel/Recursos/img/Servicios/1.png"> 
                     </div>
                 </div>
         </div>
@@ -185,7 +185,7 @@
                 <div class="col-md-6 conte" id="img2">
                     <img id="contentimg" src="Laravel/Recursos/img/Servicios/Mejora-A.png">
                     <div>
-                        <img id="contentimg" src="Laravel/Recursos/img/Servicios/Servicio2.png">
+                        <img id="contentimg" src="Laravel/Recursos/img/Servicios/2.png">
                     </div>
                 </div>
         </div>
@@ -197,7 +197,7 @@
                 <div class="col-md-6 conte" id="img3">
                     <img id="contentimg" src="Laravel/Recursos/img/Servicios/Elimina--C.png">
                     <div>
-                       <img id="contentimg" src="Laravel/Recursos/img/Servicios/servicio3.png"> 
+                       <img id="contentimg" src="Laravel/Recursos/img/Servicios/3.png"> 
                     </div>
                 </div>
         </div>
