@@ -124,26 +124,35 @@
     #sin_raton{
         line-height: 150%;
         text-align: center;
-        
+        position: relative;
+
+        visibility: visible;
+        opacity: 1;
     }
     #con_raton
     {
-        
+        position: absolute;
         visibility: hidden;
         opacity: 0;
-        transition: visibility 0s, opacity .7s linear;
-        display: none;
+        
+        transition: visibility 0s, opacity 1.7s linear;
+        
     }
     #interno:hover #con_raton
-    {   display: block;
+    {  position: relative;
+
         visibility: visible;
         opacity: 1;
        
     }
     #interno:hover #sin_raton
     {
-        display: none;
-        opacity: 0; 
+       
+        position: absolute;
+        visibility: hidden;
+        opacity: 0;
+        
+        transition: visibility 0s, opacity 1.7s linear;
         
         
     }
